@@ -1,7 +1,7 @@
-/* Loads the latest automatically refreshed NHL/ESPN snapshot. */
+/* Fetch fresh NHL/ESPN data whenever a visitor opens or reloads the dashboard. */
 (async function(){
   const root=document.querySelector('.main'); if(!root)return;
-  const url='data/nhl-data.json';
+  const url='/api/refresh';
   const fmtDate=value=>{if(!value)return 'Time unavailable';const d=new Date(value);return Number.isNaN(d.getTime())?'Time unavailable':d.toLocaleString(undefined,{dateStyle:'medium',timeStyle:'short'});};
   const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   function render(data){
@@ -16,8 +16,8 @@
     panel.innerHTML=`
       <article class="rink-panel">
         <div class="rink-panel-head"><div><div class="rink-panel-title">NHL scoring leaders</div><div class="rink-panel-sub">Current league leaderboard · official NHL stats endpoint</div></div><span class="rink-live-tag">DATA FEED</span></div>
-        ${leaders.length?'<div class="rink-ranking">'+leaders.map((p,i)=>'<div class="rink-ranking-row"><span class="rink-rank">'+(i+1)+'</span><div><div class="name">'+esc(leaderName(p))+'</div><div class="meta">'+esc(p.teamAbbrev||p.team?.abbrev||p.position||'NHL')+'</div></div><div class="points">'+esc(points(p))+'<small>points</small></div></div>').join('')+'</div>':'<p class="rink-disclaimer">The NHL stats feed has not returned data yet. The scheduled refresh will retry.</p>'}
-        <p class="rink-disclaimer">Last refresh: ${esc(fmtDate(data.updatedAt))}. NHL scoring points are not the same as your league's fantasy points.</p>
+        ${leaders.length?'<div class="rink-ranking">'+leaders.map((p,i)=>'<div class="rink-ranking-row"><span class="rink-rank">'+(i+1)+'</span><div><div class="name">'+esc(leaderName(p))+'</div><div class="meta">'+esc(p.teamAbbrev||p.team?.abbrev||p.position||'NHL')+'</div></div><div class="points">'+esc(points(p))+'<small>points</small></div></div>').join('')+'</div>':'<p class="rink-disclaimer">The NHL stats feed has not returned data yet. Try refreshing shortly.</p>'}
+        <p class="rink-disclaimer">Fetched for this page load: ${esc(fmtDate(data.updatedAt))}. NHL scoring points are not the same as your league's fantasy points.</p>
       </article>
       <article class="rink-panel">
         <div class="rink-panel-head"><div><div class="rink-panel-title">Latest hockey news</div><div class="rink-panel-sub">Recent headlines from ESPN's hockey feed</div></div><span class="rink-live-tag">DATA FEED</span></div>
@@ -33,11 +33,11 @@
       </article>`;
   }
   try{
-    const response=await fetch(url+'?v='+Date.now(),{cache:'no-store'});
+    const response=await fetch(url+'?request='+Date.now(),{cache:'no-store',headers:{'Cache-Control':'no-cache'}});
     if(!response.ok)throw new Error('HTTP '+response.status);
     render(await response.json());
   }catch(error){
-    const panel=document.createElement('section');panel.className='rink-panel';panel.innerHTML='<div class="rink-panel-title">Live data feed not connected yet</div><p class="rink-disclaimer">The automatic data snapshot will appear here once the first GitHub Actions refresh succeeds.</p>';root.querySelector('.stats')?.insertAdjacentElement('afterend',panel);
+    const panel=document.createElement('section');panel.className='rink-panel';panel.innerHTML='<div class="rink-panel-title">Live data feed not connected yet</div><p class="rink-disclaimer">The live request could not complete. The API refreshes providers when this page loads; please try again shortly.</p>';root.querySelector('.stats')?.insertAdjacentElement('afterend',panel);
     console.warn('RinkIQ data feed:',error);
   }
 })();
