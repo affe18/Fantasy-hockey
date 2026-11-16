@@ -16,6 +16,7 @@
     @media(max-width:760px){.shell{display:block}.sidebar{position:fixed;z-index:4;bottom:0;left:0;right:0;height:63px;padding:6px 8px;border-right:0;border-top:1px solid var(--line);display:block;background:#091523ed;backdrop-filter:blur(12px)}.brand,.season,.nav-label,.side-bottom{display:none}.nav{height:100%;display:flex;justify-content:space-around;align-items:center}.nav button{width:auto;padding:7px 8px;display:grid;gap:2px;text-align:center;font-size:8px}.nav .icon{width:auto;font-size:16px}.nav button.active{box-shadow:inset 0 -2px var(--green)}.main{padding:18px 15px 85px}.content-grid{grid-template-columns:1fr}.hero{grid-template-columns:1fr;padding:19px}.hero-score{border-left:0;border-top:1px solid #2b4659;padding:14px 0 0}.hero:after{right:10%}.stats{grid-template-columns:repeat(2,1fr)}.greeting{align-items:flex-start}.date-pill{font-size:9px;padding:8px}.topbar{margin-bottom:20px}.player-table th,.player-table td{padding-left:4px;padding-right:4px}.player-table td{font-size:10px}.hide-mobile{display:none}.matchup-row{grid-template-columns:minmax(90px,1fr) auto;gap:8px}.matchup-note{grid-column:1/-1;text-align:left;margin-left:2px}}
     @media(max-width:400px){.tools{grid-template-columns:1fr 1fr}.greeting h1{font-size:24px}.league-btn{font-size:10px}.top-actions{gap:6px}}
   </style>
+  <link rel="stylesheet" href="assets/rinkiq-enhancements.css">
 </head>
 <body>
   <div class="shell">
@@ -90,5 +91,6 @@
     let toastTimer;function toast(msg){const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.classList.remove('show'),2400)}
     document.getElementById('searchBtn').onclick=()=>openModal('player');document.getElementById('notifyBtn').onclick=()=>toast('You’re all caught up on roster alerts.');document.getElementById('leagueBtn').onclick=()=>toast('The Icebreakers · 12-team head-to-head league');document.getElementById('upgradeBtn').onclick=()=>toast('RinkIQ Pro features are coming soon.');document.getElementById('scheduleBtn').onclick=()=>openModal('schedule');document.getElementById('newsBtn').onclick=()=>toast('You’re viewing the latest roster-impacting news.');document.getElementById('matchupBtn').onclick=()=>toast('Matchup breakdown: projected 68% win probability, +4 games advantage.');
   </script>
+  <script src="assets/rinkiq-enhancements.js" defer></script>
 </body>
 </html>
