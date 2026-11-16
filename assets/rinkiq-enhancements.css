@@ -1,0 +1,39 @@
+/* RinkIQ dashboard visual upgrade layer */
+.rink-avatar{width:34px;height:34px;object-fit:cover;border-radius:50%;background:#1a3550;border:1px solid #34536d;flex:none}
+.rink-team-logo{width:22px;height:22px;object-fit:contain;vertical-align:middle;margin-right:5px}
+.rink-rank{display:inline-grid;place-items:center;width:23px;height:23px;border-radius:7px;background:#1b3044;color:#b8d3e8;font:700 10px 'Space Grotesk',sans-serif;margin-right:7px}
+.rink-trend{display:inline-flex;align-items:center;gap:4px;padding:4px 7px;border-radius:99px;font-size:9px;font-weight:700;white-space:nowrap}
+.rink-trend.up{color:#9ce9c5;background:#14372d;border:1px solid #285b48}
+.rink-trend.down{color:#ffaaaa;background:#3a2027;border:1px solid #653540}
+.rink-trend.steady{color:#b7c9db;background:#1a2b3d;border:1px solid #30475d}
+.rink-enhancement-grid{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(260px,.75fr);gap:16px;margin:18px 0}
+.rink-panel{background:var(--panel,#0e1b2b);border:1px solid var(--line,#20334a);border-radius:16px;padding:18px;min-width:0}
+.rink-panel-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:14px}
+.rink-panel-title{font:600 14px 'Space Grotesk',sans-serif}
+.rink-panel-sub{font-size:10px;color:var(--muted,#91a4ba);margin-top:4px}
+.rink-live-tag{font-size:9px;color:#f4d18a;background:#302819;border:1px solid #554832;padding:5px 8px;border-radius:99px;white-space:nowrap}
+.rink-summary{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}
+.rink-summary-item{padding:11px;border:1px solid #263b51;background:#0a1725;border-radius:10px}
+.rink-summary-item small{display:block;color:var(--muted);font-size:9px}
+.rink-summary-item strong{display:block;font:600 19px 'Space Grotesk',sans-serif;margin:5px 0}
+.rink-summary-item span{font-size:9px;color:#9ce9c5}
+.rink-chart-controls{display:flex;gap:5px}
+.rink-chart-controls button{border:1px solid #2a4056;background:#0a1725;color:#a9bed1;border-radius:7px;padding:5px 8px;font-size:9px}
+.rink-chart-controls button[aria-pressed=true]{background:#17372e;color:#a9ebca;border-color:#315b49}
+.rink-chart{width:100%;height:150px;display:block;overflow:visible}
+.rink-chart text{fill:#8195aa;font:9px 'DM Sans',sans-serif}
+.rink-chart .gridline{stroke:#26384c;stroke-dasharray:3 5}
+.rink-chart .area{fill:url(#rinkArea)}
+.rink-chart .line{fill:none;stroke:#73e0b0;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
+.rink-chart .dot{fill:#73e0b0;stroke:#0e1b2b;stroke-width:2}
+.rink-chart-legend{display:flex;justify-content:space-between;color:var(--muted);font-size:9px;margin-top:3px}
+.rink-ranking{display:grid;gap:8px}
+.rink-ranking-row{display:grid;grid-template-columns:auto 34px minmax(0,1fr) auto;align-items:center;gap:8px;padding:8px;border:1px solid #1e3145;border-radius:10px;background:#0b1928}
+.rink-ranking-row .name{font-size:10px;font-weight:700}
+.rink-ranking-row .meta{font-size:9px;color:var(--muted);margin-top:3px}
+.rink-ranking-row .points{font:600 13px 'Space Grotesk',sans-serif;text-align:right}
+.rink-ranking-row .points small{display:block;font:9px 'DM Sans',sans-serif;color:var(--muted);margin-top:2px}
+.rink-headshot{width:34px;height:34px;object-fit:cover;border-radius:50%;background:#1a3550}
+.rink-disclaimer{font-size:9px;color:#8195aa;line-height:1.5;margin:10px 0 0}
+@media(max-width:850px){.rink-enhancement-grid{grid-template-columns:1fr}}
+@media(max-width:520px){.rink-summary{grid-template-columns:1fr 1fr 1fr;gap:5px}.rink-summary-item{padding:8px}.rink-summary-item strong{font-size:16px}.rink-ranking-row{grid-template-columns:auto 30px minmax(0,1fr) auto}.rink-headshot{width:30px;height:30px}}
