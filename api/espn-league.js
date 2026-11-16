@@ -6,7 +6,7 @@ module.exports = async function handler(req, res) {
   try {
     const b = typeof req.body === "string" ? JSON.parse(req.body) : (req.body || {});
     const id = String(b.leagueId || "").trim(), season = Number(b.season || new Date().getFullYear());
-    if (!/^\\d{1,12}$/.test(id)) return res.status(400).json({error:"Enter the numeric ESPN league ID."});
+    if (!/^\d{1,12}$/.test(id)) return res.status(400).json({error:"Enter the numeric ESPN league ID."});
     if (!Number.isInteger(season) || season < 2010 || season > new Date().getFullYear()+1) return res.status(400).json({error:"Invalid season year."});
     if (b.sport && b.sport !== "fhl") return res.status(400).json({error:"Only ESPN Fantasy Hockey is supported currently."});
     const s2=String(b.espnS2||"").trim(), swid=String(b.swid||"").trim();
