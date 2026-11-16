@@ -14,8 +14,8 @@ async function importLeague(){
 }
 function renderResults(){
  const root=$("espnResults");if(!root||!league)return;
- root.innerHTML='<div class="espn-card"><h3>'+esc(league.leagueName)+'</h3><p>'+league.season+' season · '+league.size+' teams · '+esc(league.access)+'</p><div class="espn-tabs"><button data-tab="teams">All teams</button><button data-tab="rosters">Roster comparison</button><button data-tab="scoring">Scoring rules</button><button data-tab="standings">Standings</button><button data-tab="matchups">Matchups</button></div><div id="espnTabContent"></div></div>';
- root.querySelectorAll("[data-tab]").forEach(b=>b.onclick=()=>{root.querySelectorAll("[data-tab]").forEach(x=>x.classList.toggle("active",x===b));renderTab(b.dataset.tab);});renderTab("teams");
+ root.innerHTML='<div class="espn-card"><h3>'+esc(league.leagueName)+'</h3><p>'+league.season+' season · '+league.size+' teams · '+esc(league.access)+'</p><div class="espn-tabs"><button data-tab="teams">All teams</button><button data-tab="rosters">Roster comparison</button><button data-tab="scoring">Scoring rules</button><button data-tab="standings">Standings</button><button data-tab="matchups">Matchups</button></div><div id="espnTabContent"></div><div id="teamEvaluationApp"></div></div>';
+ root.querySelectorAll("[data-tab]").forEach(b=>b.onclick=()=>{root.querySelectorAll("[data-tab]").forEach(x=>x.classList.toggle("active",x===b));renderTab(b.dataset.tab);});renderTab("teams");if(window.RinkIQTeamEval)window.RinkIQTeamEval(league);
 }
 function renderTab(tab){
  const el=$("espnTabContent"),teams=league.teams;
