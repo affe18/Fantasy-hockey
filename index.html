@@ -17,6 +17,7 @@
     @media(max-width:400px){.tools{grid-template-columns:1fr 1fr}.greeting h1{font-size:24px}.league-btn{font-size:10px}.top-actions{gap:6px}}
   </style>
   <link rel="stylesheet" href="assets/rinkiq-enhancements.css">
+  <link rel="stylesheet" href="assets/live-data.css">
 </head>
 <body>
   <div class="shell">
@@ -92,5 +93,6 @@
     document.getElementById('searchBtn').onclick=()=>openModal('player');document.getElementById('notifyBtn').onclick=()=>toast('You’re all caught up on roster alerts.');document.getElementById('leagueBtn').onclick=()=>toast('The Icebreakers · 12-team head-to-head league');document.getElementById('upgradeBtn').onclick=()=>toast('RinkIQ Pro features are coming soon.');document.getElementById('scheduleBtn').onclick=()=>openModal('schedule');document.getElementById('newsBtn').onclick=()=>toast('You’re viewing the latest roster-impacting news.');document.getElementById('matchupBtn').onclick=()=>toast('Matchup breakdown: projected 68% win probability, +4 games advantage.');
   </script>
   <script src="assets/rinkiq-enhancements.js" defer></script>
+  <script src="assets/live-data.js" defer></script>
 </body>
 </html>
