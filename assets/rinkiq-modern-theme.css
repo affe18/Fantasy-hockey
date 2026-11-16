@@ -1,72 +1,72 @@
 /* RinkIQ modern white + red visual system */
 :root{
-  --bg:#f5f6f8!important;--panel:#ffffff!important;--panel2:#fff5f5!important;
+  --bg:#f5f6f8!important;--panel:#ffffff!important;--panel2:#fff3f1!important;
   --line:#e6e8ed!important;--muted:#737b88!important;--text:#20242b!important;
-  --green:#c62835!important;--blue:#526477!important;--yellow:#b7791f!important;
-  --red:#c62835!important;--purple:#8155a6!important;--radius:16px;
+  --green:#E10600!important;--blue:#526477!important;--yellow:#b7791f!important;
+  --red:#E10600!important;--purple:#8155a6!important;--radius:16px;
   color-scheme:light;
 }
 html,body{background:#f5f6f8!important;color:#20242b!important}
 body{background:linear-gradient(180deg,#fff 0,#f5f6f8 360px)!important;color:#20242b!important}
 .sidebar{background:#fff!important;border-color:#e7e8ec!important;box-shadow:4px 0 22px #20242b08}
-.brand-mark{background:linear-gradient(145deg,#e34b55,#a91525)!important;color:#fff!important;box-shadow:0 6px 16px #c628352c}
-.brand-name,.brand-name span{color:#20242b!important}.brand-name span{color:#c62835!important}
+.brand-mark{background:linear-gradient(145deg,#FF2A1A,#B80000)!important;color:#fff!important;box-shadow:0 6px 16px #E106002c}
+.brand-name,.brand-name span{color:#20242b!important}.brand-name span{color:#E10600!important}
 .season,.upgrade,.user{border-color:#ece0e1!important}
 .season{color:#737b88!important}.season b{color:#20242b!important}
 .nav-label{color:#9a6870!important}
 .nav button,.nav a{color:#626b77!important}
-.nav button:hover,.nav a:hover,.nav button.active,.nav a.active{background:#fff0f1!important;color:#b51f2d!important}
-.nav button.active,.nav a.active{box-shadow:inset 3px 0 #c62835!important}
+.nav button:hover,.nav a:hover,.nav button.active,.nav a.active{background:#fff0ed!important;color:#C90000!important}
+.nav button.active,.nav a.active{box-shadow:inset 3px 0 #E10600!important}
 .upgrade{background:linear-gradient(145deg,#fff5f5,#fff)!important}
-.upgrade button,.primary{background:#c62835!important;color:#fff!important;box-shadow:0 5px 12px #c6283522}
-.upgrade button:hover,.primary:hover{background:#a91f2b!important}
-.avatar{background:#fae4e6!important;color:#a91f2b!important}
+.upgrade button,.primary{background:#E10600!important;color:#fff!important;box-shadow:0 5px 12px #E1060022}
+.upgrade button:hover,.primary:hover{background:#B80000!important}
+.avatar{background:#ffe5e2!important;color:#B80000!important}
 .main{color:#20242b!important}
 .crumb,.greeting p,.card-sub,.stat-top,.stat-foot,.season,.user small{color:#737b88!important}
 .crumb b,.player-name,.news-copy b{color:#20242b!important}
-.eyebrow,.text-btn,.tool-card .arrow{color:#c62835!important}
+.eyebrow,.text-btn,.tool-card .arrow{color:#E10600!important}
 .date-pill,.icon-btn,.league-btn,.secondary{background:#fff!important;border-color:#e5e7eb!important;color:#4e5662!important}
-.date-pill i,.league-btn span{background:#c62835!important;color:#c62835!important}
-.hero{background:linear-gradient(115deg,#fff,#fff4f4 70%,#fdebed)!important;border:1px solid #f0d7da!important;box-shadow:0 12px 30px #8d1b2710}
+.date-pill i,.league-btn span{background:#E10600!important;color:#E10600!important}
+.hero{background:linear-gradient(115deg,#fff,#fff1ef 70%,#ffe3df)!important;border:1px solid #f0d7da!important;box-shadow:0 12px 30px #8d1b2710}
 .hero h2,.hero-score strong{color:#20242b!important}
 .hero p,.hero-score small{color:#69727f!important}
 .hero-score{border-color:#f0d7da!important}
-.score-ring{border-color:#c62835!important;border-right-color:#f0b9be!important;color:#20242b!important}
-.hero-score .positive,.good,.trend,.impact-row strong{color:#b51f2d!important}
+.score-ring{border-color:#E10600!important;border-right-color:#f0b9be!important;color:#20242b!important}
+.hero-score .positive,.good,.trend,.impact-row strong{color:#C90000!important}
 .stats .stat,.card,.tool-card,.modal{background:#fff!important;border-color:#e7e8ec!important;box-shadow:0 5px 18px #20242b08}
 .stat strong,.card-title,.tool-card b,.modal-head h3{color:#20242b!important}
-.stat-icon{color:#c62835!important}
+.stat-icon{color:#E10600!important}
 .player-table th{color:#8b929c!important;border-color:#eceef1!important}
 .player-table td,.schedule,.news-item,.matchup-row{border-color:#eef0f2!important;color:#3f4650!important}
-.player-initial,.team-logo,.impact-orb,.tool-card .tool-icon{background:#fae7e9!important;color:#b51f2d!important}
+.player-initial,.team-logo,.impact-orb,.tool-card .tool-icon{background:#ffe5e2!important;color:#C90000!important}
 .player-meta,.match-meta,.news-copy small,.card-sub{color:#858c96!important}
 .trend.down,.warn{color:#b7791f!important}
-.chart-grid{stroke:#e6e8ed!important}.chart-line{stroke:#c62835!important}.chart-area{fill:#c6283518!important}
-.legend-dot{background:#c62835!important}
+.chart-grid{stroke:#e6e8ed!important}.chart-line{stroke:#E10600!important}.chart-area{fill:#E1060018!important}
+.legend-dot{background:#E10600!important}
 .impact-highlight{background:#fff5f5!important;border-color:#f1dadd!important}
-.bar{background:#f0e6e7!important}.bar i{background:#c62835!important}
-.tool-card{background:linear-gradient(145deg,#fff,#fff8f8)!important}
-.tool-card:hover{border-color:#e2aeb3!important;box-shadow:0 10px 24px #c6283512!important}
+.bar{background:#f0e6e7!important}.bar i{background:#E10600!important}
+.tool-card{background:linear-gradient(145deg,#fff,#fff5f3)!important}
+.tool-card:hover{border-color:#e2aeb3!important;box-shadow:0 10px 24px #E1060012!important}
 .modal-backdrop{background:#252a32a8!important}
 .modal{background:#fff!important;border-color:#e7e8ec!important;box-shadow:0 24px 80px #171b2530!important}
 .close{color:#737b88!important}
 .field label{color:#69727f!important}
 .field input,.field select,.search,.matchup-controls select{background:#fff!important;border-color:#dfe2e7!important;color:#20242b!important}
-.field input:focus,.field select:focus,.search:focus{outline:2px solid #c6283530;border-color:#c62835!important}
+.field input:focus,.field select:focus,.search:focus{outline:2px solid #E1060030;border-color:#E10600!important}
 .result{background:#fff4f4!important;border-color:#efcdd1!important;color:#4a3033!important}
 .secondary{border-color:#e0e2e6!important;color:#555d68!important}
 .toast{background:#fff!important;border-color:#e8c6ca!important;color:#9f1d29!important;box-shadow:0 8px 28px #20242b18}
-.matchup-badge{background:#fff0f1!important;border-color:#efcdd1!important;color:#b51f2d!important}
+.matchup-badge{background:#fff0f1!important;border-color:#efcdd1!important;color:#C90000!important}
 .matchup-badge.tough{background:#fff7e9!important;border-color:#f0dfbd!important;color:#956318!important}
 .matchup-badge.neutral{background:#f2f4f7!important;border-color:#e1e5e9!important;color:#586474!important}
 .opp-chip{background:#f1f2f4!important;color:#414954!important}
-.opp-chip.easy{background:#fff0f1!important;color:#b51f2d!important}
+.opp-chip.easy{background:#fff0f1!important;color:#C90000!important}
 .matchup-note,.matchup-footnote{color:#7b838e!important}
 .rink-panel,.trade-side,.trade-settings,.trade-projection,.trade-verdict,.context-card,.forecast,.metric,.matchup,.risk{background:#fff!important;border-color:#e7e8ec!important;color:#303741!important}
 .rink-panel-title,.trade-side h4,.trade-verdict h4,.forecast-title{color:#20242b!important}
 .rink-panel-sub,.trade-muted,.footnote,.trade-footnote,.freshness{color:#7b838e!important}
-.rink-live-tag,.decision{background:#fff0f1!important;border-color:#efcdd1!important;color:#b51f2d!important}
+.rink-live-tag,.decision{background:#fff0f1!important;border-color:#efcdd1!important;color:#C90000!important}
 .trade-player-choice,.trade-selected,.trade-category-row,.trade-player-line{background:#fff!important;border-color:#eceef1!important;color:#303741!important}
-.trade-chip{background:#fff0f1!important;color:#b51f2d!important}
+.trade-chip{background:#fff0f1!important;color:#C90000!important}
 .risk{background:#fff7e9!important;color:#956318!important}
-@media(max-width:760px){.sidebar{background:#fffF!important;border-top-color:#e7e8ec!important;box-shadow:0 -5px 18px #20242b0a}.nav button.active{box-shadow:inset 0 -2px #c62835!important}}
+@media(max-width:760px){.sidebar{background:#fffF!important;border-top-color:#e7e8ec!important;box-shadow:0 -5px 18px #20242b0a}.nav button.active{box-shadow:inset 0 -2px #E10600!important}}
