@@ -67,8 +67,35 @@ async function handler(req,res,env){
  const today=new Date().toISOString().slice(0,10),schedules={},scheduleStatus={};
  const scheduleResults=await mapLimit(requestedTeams,3,async team=>{try{return{team,data:games(await fetchJson(NHL+"/club-schedule-season/"+team+"/now")),ok:true}}catch(error){failures.push(team+" schedule: "+error.message);return{team,data:[],ok:false}}});
  for(const item of scheduleResults){scheduleStatus[item.team]=item.ok;schedules[item.team]=item.data.filter(game=>(game.gameDate||"").slice(0,10)>=today).map(game=>({date:game.gameDate,opponent:(game.awayTeam?.abbrev===item.team?game.homeTeam?.abbrev:game.awayTeam?.abbrev)||"TBD",home:game.homeTeam?.abbrev===item.team,gameState:game.gameState||""}))}
+ // Supplement season-stat rows with every current NHL roster member. Players without
+ // a season stat row remain identifiable, but gamesPlayed stays zero and is not
+ // treated as evidence of fantasy production.
+ const rosterResults=await mapLimit(TEAMS,4,async team=>{
+  try{return {team,data:await fetchJson(NHL+"/roster/"+team+"/current"),ok:true}}
+  catch(error){failures.push(team+" roster: "+error.message);return {team,data:null,ok:false}}
+ });
+ let rosterTeamsLoaded=0,rosterPlayersAdded=0;
+ for(const item of rosterResults){
+  if(!item.ok)continue;
+  rosterTeamsLoaded++;
+  const groups=["forwards","defensemen","goalies"];
+  for(const group of groups){
+   for(const row of (item.data?.[group]||[])){
+    const id=String(row.id||row.playerId||"");
+    const first=typeof row.firstName==="string"?row.firstName:row.firstName?.default;
+    const last=typeof row.lastName==="string"?row.lastName:row.lastName?.default;
+    const name=row.fullName||[first,last].filter(Boolean).join(" ");
+    if(!id||!name)continue;
+    if(!byId.has(id)){
+     const position=row.positionCode||(group==="goalies"?"G":group==="defensemen"?"D":"F");
+     byId.set(id,{id,name,team:item.team,position,stats:{gamesPlayed:0,goals:0,assists:0,points:0,shots:0,hits:0,blockedShots:0,pim:0,plusMinus:0,powerPlayPoints:0,shortHandedPoints:0,gameWinningGoals:0,faceoffWins:0,wins:0,saves:0,goalsAgainst:0,shutouts:0,savePct:0,gaa:0,losses:0,overtimeLosses:0},statsAvailable:false});
+     rosterPlayersAdded++;
+    }
+   }
+  }
+ }
  const players=[...byId.values()];
- return res.status(200).json({updatedAt:new Date().toISOString(),seasonId:season,statSource:"NHL Stats REST",mode:scheduleOnly?"schedules":"players",players,schedules,scheduleStatus,teamsLoaded:[...new Set(players.map(p=>p.team).filter(Boolean))].length,skatersLoaded:dataRows(result("skaterSummary").data).length,goaliesLoaded:dataRows(result("goalieSummary").data).length,statCategoriesLoaded:results.filter(item=>item.ok).map(item=>item.key),failures});
+ return res.status(200).json({updatedAt:new Date().toISOString(),seasonId:season,statSource:"NHL Stats REST",mode:scheduleOnly?"schedules":"players",players,schedules,scheduleStatus,teamsLoaded:[...new Set(players.map(p=>p.team).filter(Boolean))].length,rosterTeamsLoaded,rosterPlayersAdded,skatersLoaded:dataRows(result("skaterSummary").data).length,goaliesLoaded:dataRows(result("goalieSummary").data).length,statCategoriesLoaded:results.filter(item=>item.ok).map(item=>item.key),failures});
 };
 
 
