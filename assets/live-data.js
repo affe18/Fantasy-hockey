@@ -14,10 +14,10 @@
     const injuryRaw=Array.isArray(data.injuries)?data.injuries:[];
     const injuries=injuryRaw.flatMap(group=>Array.isArray(group?.injuries)?group.injuries.map(item=>({...item,team:item.team||group.team||group.displayName||""})):[group]);
     const playerRows=Array.isArray(playerData.players)?playerData.players:[];
-    const playerByName=new Map(playerRows.map(p=>[String(p.name||"").normalize("NFKD").replace(/[\\u0300-\\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]/g,""),p]));
+    const playerByName=new Map(playerRows.map(p=>[String(p.name||"").normalize("NFKD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]/g,""),p]));
     let connectedLeague=null;try{connectedLeague=JSON.parse(localStorage.getItem("rinkIQ.importedLeague.v1")||"null")}catch(_){}
-    const rosterNames=new Set((connectedLeague?.teams||[]).flatMap(t=>t.roster||[]).map(p=>String(p.name||"").normalize("NFKD").replace(/[\\u0300-\\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]/g,"")));
-    const injuryRanked=injuries.map(item=>{const name=item.athlete?.displayName||item.player?.displayName||item.name||item.athlete?.fullName||"";const key=String(name).normalize("NFKD").replace(/[\\u0300-\\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]/g,"");const player=playerByName.get(key);return{item,name,player,points:Number(player?.stats?.points??-1)}}).filter(x=>x.name&&(!rosterNames.size||rosterNames.has(String(x.name).normalize("NFKD").replace(/[\\u0300-\\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]/g,"")))).sort((a,b)=>b.points-a.points);
+    const rosterNames=new Set((connectedLeague?.teams||[]).flatMap(t=>t.roster||[]).map(p=>String(p.name||"").normalize("NFKD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]/g,"")));
+    const injuryRanked=injuries.map(item=>{const name=item.athlete?.displayName||item.player?.displayName||item.name||item.athlete?.fullName||"";const key=String(name).normalize("NFKD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]/g,"");const player=playerByName.get(key);return{item,name,player,points:Number(player?.stats?.points??-1)}}).filter(x=>x.name&&(!connectedLeague||rosterNames.has(String(x.name).normalize("NFKD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]/g,"")))).sort((a,b)=>b.points-a.points);
     const games=(data.schedule||[]).slice(0,6);
     const leaderName=p=>[p.firstName?.default||p.firstName||'',p.lastName?.default||p.lastName||''].filter(Boolean).join(' ')||p.name?.default||p.name||p.skaterFullName||'NHL player';
     const points=p=>p.points??p.pts??p.point??'—';
@@ -33,7 +33,7 @@
       </article>
       <article class="rink-panel">
         <div class="rink-panel-head"><div><div class="rink-panel-title">Injury report</div><div class="rink-panel-sub">Latest available ESPN injury feed</div></div></div>
-        ${injuryRanked.length?injuryRanked.slice(0,rosterNames.size?20:10).map(({item,name,player})=>'<div class="news-item"><i class="news-mark"></i><div class="news-copy"><b>'+esc(name)+'</b><div>'+esc(item.status||item.details?.type||item.shortComment||item.description||'Listed on injury report')+'</div><small>'+esc(item.team?.displayName||item.team?.name||item.team||player?.team||'NHL')+' · '+(player?esc(player.stats?.points||0)+' NHL points':'NHL stats unavailable')+'</small></div></div>').join(''):'<p class="rink-disclaimer">'+(rosterNames.size?'No players from your imported roster appear in the available injury feed.':'No injury entries returned.')+' This does not confirm that every player is healthy.</p>'}
+        ${injuryRanked.length?injuryRanked.slice(0,connectedLeague?20:10).map(({item,name,player})=>'<div class="news-item"><i class="news-mark"></i><div class="news-copy"><b>'+esc(name)+'</b><div>'+esc(item.status||item.details?.type||item.shortComment||item.description||'Listed on injury report')+'</div><small>'+esc(item.team?.displayName||item.team?.name||item.team||player?.team||'NHL')+' · '+(player?esc(player.stats?.points||0)+' NHL points':'NHL stats unavailable')+'</small></div></div>').join(''):'<p class="rink-disclaimer">'+(connectedLeague?'No players from your imported roster appear in the available injury feed.':'No injury entries returned.')+' This does not confirm that every player is healthy.</p>'}
       </article>
       <article class="rink-panel">
         <div class="rink-panel-head"><div><div class="rink-panel-title">NHL games</div><div class="rink-panel-sub">Upcoming / current schedule snapshot</div></div></div>
