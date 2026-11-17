@@ -118,6 +118,7 @@ module.exports = async function handler(req, res) {
           id: player.id ?? null,
           name: [firstName, lastName].filter(Boolean).join(" ") || player.fullName || "Unknown player",
           position: String(player.defaultPositionId || ""),
+          eligibleSlotIds: asArray(player.eligibleSlots).map((slot) => String(slot)),
           proTeamId: player.proTeamId || null,
           injuryStatus: player.injuryStatus || "",
           lineupSlotId: entry.lineupSlotId ?? null,
