@@ -42,3 +42,11 @@
  #tradeAnalyzerApp .trade-toolbar,#tradeAnalyzerApp .trade-sides,#tradeAnalyzerApp .trade-projection-grid,#tradeAnalyzerApp .trade-rating-grid{grid-template-columns:1fr}
  #tradeAnalyzerApp .trade-picker{grid-template-columns:1fr;max-height:220px}
 }
+
+#tradeAnalyzerApp .trade-roster-metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:12px 0}
+#tradeAnalyzerApp .trade-roster-metrics span{display:block;padding:10px;background:#fff7f6;border:1px solid #f0d7d5;border-radius:9px}
+#tradeAnalyzerApp .trade-roster-metrics b{display:block;font-size:17px;color:#20242b}
+#tradeAnalyzerApp .trade-roster-metrics small{display:block;font-size:9px;color:#737b88;margin-top:3px}
+#tradeAnalyzerApp .trade-missed-list{max-height:140px;overflow:auto;border-top:1px solid #eceef1;margin-top:8px;padding-top:6px}
+#tradeAnalyzerApp .trade-missed-list div{font-size:10px;color:#737b88;padding:4px 0}
+@media(max-width:600px){#tradeAnalyzerApp .trade-roster-metrics{grid-template-columns:1fr}}
