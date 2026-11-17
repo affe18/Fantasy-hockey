@@ -45,7 +45,7 @@
       <div><div class="nav-label">WORKSPACE</div><nav class="nav" aria-label="Main navigation">
         <button class="active" data-view="Overview"><span class="icon">▦</span>Overview</button>
         <button data-view="Player Intelligence"><span class="icon">◎</span>Player Intelligence</button>
-        <button id="tradeAnalyzerNav" type="button" data-view="Trade Analyzer" onclick="openModal('trade'); return false;"><span class="icon">⇄</span>Trade Analyzer</button>
+        <button id="tradeAnalyzerNav" type="button" data-view="Trade Analyzer"><span class="icon">⇄</span>Trade Analyzer</button>
         <button data-view="ESPN League"><span class="icon">▤</span>ESPN League Import</button>
         <button data-view="Waiver Wire"><span class="icon">＋</span>Waiver Wire</button>
         <button data-view="Draft Assistant"><span class="icon">✧</span>Draft Assistant</button>
@@ -180,5 +180,37 @@ function openModal(key){const t=templates[key]||templates.player;title.textConte
   <link rel="stylesheet" href="assets/team-evaluation.css">
   <script src="assets/espn-league.js" defer></script>
   <script src="assets/team-evaluation.js" defer></script>
+
+<script>
+(function () {
+  document.addEventListener('click', function (event) {
+    const button = event.target.closest('#tradeAnalyzerNav');
+    if (!button) return;
+    event.preventDefault();
+    event.stopImmediatePropagation();
+    document.querySelectorAll('.nav button').forEach(function (item) {
+      item.classList.toggle('active', item === button);
+    });
+    const crumb = document.getElementById('crumbTitle');
+    if (crumb) crumb.textContent = 'Trade Analyzer';
+    const backdrop = document.getElementById('modalBackdrop');
+    const heading = document.getElementById('modalTitle');
+    const body = document.getElementById('modalBody');
+    if (!backdrop || !heading || !body) {
+      window.alert('Trade Analyzer could not open because the page modal is missing. Please reload the site.');
+      return;
+    }
+    heading.textContent = 'Trade Analyzer';
+    body.innerHTML = '<div id="tradeAnalyzerApp"><p>Opening Trade Analyzer…</p></div>';
+    backdrop.classList.add('open');
+    document.body.style.overflow = 'hidden';
+    if (typeof window.RinkIQOpenTrade === 'function') {
+      window.RinkIQOpenTrade();
+    } else {
+      body.innerHTML = '<div class="trade-error">The Trade Analyzer module did not load. Reload the page; if this continues, the deployed site is missing assets/trade-analyzer.js.</div>';
+    }
+  }, true);
+})();
+</script>
 </body>
 </html>
