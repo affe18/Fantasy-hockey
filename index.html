@@ -159,6 +159,7 @@
  target.classList.add('show');target.innerHTML='Loading current NHL player statistics and schedules…';
  const response=await fetch('/api/trade-data',{cache:'no-store'});if(!response.ok)throw new Error('NHL player feed returned HTTP '+response.status);
  const data=await response.json(),players=Array.isArray(data.players)?data.players:[];
+ const scheduleTeams=[...new Set(players.map(p=>p.team).filter(Boolean))];if(scheduleTeams.length){const scheduleResponse=await fetch('/api/trade-data?schedulesOnly=1&teams='+encodeURIComponent(scheduleTeams.join(',')),{cache:'no-store'});if(scheduleResponse.ok){const scheduleData=await scheduleResponse.json();data.schedules=scheduleData.schedules||{};}}
  const league=(()=>{try{return JSON.parse(localStorage.getItem('rinkIQ.importedLeague.v1')||'null')}catch(_){return null}})();
  const rostered=new Set((league?.teams||[]).flatMap(t=>t.roster||[]).map(p=>String(p.name||'').toLowerCase().replace(/[^a-z0-9]/g,'')));
  const today=new Date().toISOString().slice(0,10),fmt=n=>Number(n||0).toFixed(1),isUpcoming=g=>g.date>today||(g.date===today&&(!g.gameState||["FUT","PRE"].includes(String(g.gameState).toUpperCase())));
