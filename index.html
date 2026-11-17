@@ -123,7 +123,7 @@
         const league=(()=>{try{return JSON.parse(localStorage.getItem('rinkIQ.importedLeague.v1')||'null')}catch(_){return null}})();
         if(!league?.teams?.length){target.innerHTML='<p class="matchup-footnote">Connect your ESPN league to see upcoming games for your roster.</p>';return;}
         const playerResponse=await fetch('/api/trade-data',{cache:'no-store'});if(!playerResponse.ok)throw new Error('NHL player feed HTTP '+playerResponse.status);const playerData=await playerResponse.json();
-        const normalize=value=>String(value||'').normalize('NFKD').replace(/[\\u0300-\\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]/g,'');
+        const normalize=value=>String(value||'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]/g,'');
         const playerByName=new Map((playerData.players||[]).map(p=>[normalize(p.name),p]));
         const teamMap={'1':'NJD','2':'NYI','3':'NYR','4':'PHI','5':'PIT','6':'BOS','7':'BUF','8':'MTL','9':'OTT','10':'TOR','12':'CAR','13':'FLA','14':'TBL','15':'WSH','16':'CHI','17':'DET','18':'NSH','19':'STL','20':'CGY','21':'COL','22':'EDM','23':'VAN','24':'ANA','25':'DAL','26':'LAK','27':'SJS','28':'CBJ','29':'MIN','30':'WPG','52':'UTA','53':'VGK','54':'SEA'};
         const teams=[...new Set(league.teams.flatMap(t=>t.roster||[]).map(p=>playerByName.get(normalize(p.name))?.team||teamMap[String(p.proTeamId)]).filter(Boolean))];
