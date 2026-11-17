@@ -50,3 +50,20 @@
 #tradeAnalyzerApp .trade-missed-list{max-height:140px;overflow:auto;border-top:1px solid #eceef1;margin-top:8px;padding-top:6px}
 #tradeAnalyzerApp .trade-missed-list div{font-size:10px;color:#737b88;padding:4px 0}
 @media(max-width:600px){#tradeAnalyzerApp .trade-roster-metrics{grid-template-columns:1fr}}
+
+/* Refined, consistent trade-builder controls */
+#tradeAnalyzerApp .trade-field select,#tradeAnalyzerApp .trade-field input,#tradeAnalyzerApp .trade-roster-search{border:1px solid #d8e0e9;border-radius:11px;transition:border-color .18s,box-shadow .18s}
+#tradeAnalyzerApp .trade-field select:focus,#tradeAnalyzerApp .trade-field input:focus,#tradeAnalyzerApp .trade-roster-search:focus{outline:none;border-color:#5e9b87;box-shadow:0 0 0 3px #5e9b8720}
+#tradeAnalyzerApp .trade-player-choice,#tradeAnalyzerApp .trade-picked button,#tradeAnalyzerApp .trade-actions button,#tradeAnalyzerApp .trade-no-league button{border-radius:10px;transition:transform .16s,box-shadow .16s,border-color .16s,background .16s}
+#tradeAnalyzerApp .trade-player-choice:hover{transform:translateY(-1px);box-shadow:0 4px 12px #16283a12}
+#tradeAnalyzerApp .trade-actions button:not(.subtle),#tradeAnalyzerApp .trade-no-league button{background:linear-gradient(135deg,#087e62,#10a47d);color:white;box-shadow:0 5px 15px #087e6228;padding:11px 16px}
+#tradeAnalyzerApp .trade-actions button:not(.subtle):hover,#tradeAnalyzerApp .trade-no-league button:hover{filter:brightness(1.07);transform:translateY(-1px);box-shadow:0 8px 20px #087e6238}
+#tradeAnalyzerApp .trade-actions .subtle{background:#f5f7fa;border:1px solid #dce3eb;color:#465365;padding:10px 14px}
+#tradeAnalyzerApp .trade-actions .subtle:hover{background:#edf2f7;border-color:#bdcbd9}
+#tradeAnalyzerApp .trade-picked button{border-color:#e2e8f0;color:#536273}
+#tradeAnalyzerApp .trade-picked button:hover{background:#fff1f0;border-color:#e8b5b0;color:#a52a22}
+#tradeAnalyzerApp .trade-rating-track i{background:linear-gradient(90deg,#0c9b72,#70d9a9)}
+#tradeAnalyzerApp .trade-verdict{background:linear-gradient(120deg,#effaf5,#f1f7fc);border-color:#d5e9df}
+#tradeAnalyzerApp .trade-rating-card{box-shadow:0 5px 18px #142b3e0b}
+#tradeAnalyzerApp .trade-selected{color:#596777}
+#tradeAnalyzerApp .trade-side-head span{font-weight:650;color:#526579}
