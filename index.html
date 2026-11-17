@@ -15,7 +15,22 @@
     @media(max-width:1050px){.shell{grid-template-columns:205px minmax(0,1fr)}.content-grid{grid-template-columns:minmax(0,1.3fr) minmax(260px,.8fr)}.stat{padding:14px}.tools{grid-template-columns:repeat(2,1fr)}}
     @media(max-width:760px){.shell{display:block}.sidebar{position:fixed;z-index:4;bottom:0;left:0;right:0;height:63px;padding:6px 8px;border-right:0;border-top:1px solid var(--line);display:block;background:#091523ed;backdrop-filter:blur(12px)}.brand,.season,.nav-label,.side-bottom{display:none}.nav{height:100%;display:flex;justify-content:space-around;align-items:center}.nav button{width:auto;padding:7px 8px;display:grid;gap:2px;text-align:center;font-size:8px}.nav .icon{width:auto;font-size:16px}.nav button.active{box-shadow:inset 0 -2px var(--green)}.main{padding:18px 15px 85px}.content-grid{grid-template-columns:1fr}.hero{grid-template-columns:1fr;padding:19px}.hero-score{border-left:0;border-top:1px solid #2b4659;padding:14px 0 0}.hero:after{right:10%}.stats{grid-template-columns:repeat(2,1fr)}.greeting{align-items:flex-start}.date-pill{font-size:9px;padding:8px}.topbar{margin-bottom:20px}.player-table th,.player-table td{padding-left:4px;padding-right:4px}.player-table td{font-size:10px}.hide-mobile{display:none}.matchup-row{grid-template-columns:minmax(90px,1fr) auto;gap:8px}.matchup-note{grid-column:1/-1;text-align:left;margin-left:2px}}
     @media(max-width:400px){.tools{grid-template-columns:1fr 1fr}.greeting h1{font-size:24px}.league-btn{font-size:10px}.top-actions{gap:6px}}
-  </style>
+  
+    /* Modern interaction polish */
+    button{transition:transform .16s ease,box-shadow .16s ease,background-color .16s ease,border-color .16s ease,filter .16s ease}
+    button:focus-visible{outline:2px solid var(--blue);outline-offset:3px}
+    button:active{transform:translateY(1px) scale(.985)}
+    .primary,.league-btn,.icon-btn,.text-btn,.secondary,.account-trigger,.tool-card,.nav button{border-radius:11px}
+    .primary{background:linear-gradient(135deg,#8af0c1,#62d7a7);box-shadow:0 5px 16px #73e0b025}
+    .primary:hover{filter:brightness(1.07);box-shadow:0 8px 22px #73e0b040;transform:translateY(-1px)}
+    .icon-btn:hover,.league-btn:hover,.account-trigger:hover,.secondary:hover{border-color:#456783;background:#172c42}
+    .tool-card{box-shadow:0 5px 18px #02091422}
+    .tool-card:hover{box-shadow:0 10px 24px #02091455}
+    .nav button{transition:background .18s ease,color .18s ease,transform .18s ease}
+    .nav button:hover{transform:translateX(2px)}
+    .league-dashboard-metrics>div{box-shadow:0 5px 15px #02091420}
+
+</style>
   <link rel="stylesheet" href="assets/rinkiq-enhancements.css">
   <link rel="stylesheet" href="assets/live-data.css">
   <link rel="stylesheet" href="assets/trade-analyzer.css">
