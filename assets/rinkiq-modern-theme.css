@@ -84,3 +84,32 @@ body{background:linear-gradient(180deg,#fff 0,#f5f6f8 360px)!important;color:#20
 .league-connect-btn:hover{background:#B80000!important;transform:translateY(-1px)}
 .league-onboarding-action small{font-size:10px;color:#737b88;text-align:center}
 @media(max-width:760px){.league-onboarding{align-items:stretch;flex-direction:column;padding:21px;margin-bottom:20px}.league-onboarding-action{align-items:stretch;min-width:0}.league-connect-btn{width:100%}.league-onboarding-action small{text-align:left}}
+
+/* Clutter-free first-visit experience */
+.greeting,.hero,.stats,.content-grid,.tools{display:none!important}
+.sidebar .season,.sidebar .upgrade,.sidebar .user{display:none!important}
+.top-actions .icon-btn,.top-actions .league-btn{display:none!important}
+.topbar{margin-bottom:18px!important;min-height:24px}
+.main{max-width:1320px!important;padding-top:24px!important}
+.league-onboarding{min-height:250px;max-width:100%;padding:clamp(24px,4vw,48px)!important;margin:0!important;gap:30px!important;border-left-width:6px!important;box-shadow:0 12px 34px #20242b0a!important}
+.league-onboarding-copy{max-width:700px}
+.league-onboarding h1{font-size:clamp(30px,4vw,46px)!important;line-height:1.08!important;margin:12px 0!important}
+.league-onboarding p{font-size:14px!important;max-width:570px!important}
+.league-benefits{gap:8px!important;margin-top:20px!important}
+.league-benefits span{background:#fff;border:1px solid #f0d5d2;border-radius:999px;padding:7px 10px;font-size:10px!important}
+.league-benefits span:before{display:none}
+.league-onboarding-action{min-width:230px!important}
+.league-connect-btn{padding:15px 22px!important;font-size:14px!important;border-radius:11px!important}
+.nav-label{font-size:9px!important;letter-spacing:1.4px!important}
+.nav button,.nav a{padding:11px 12px!important;font-size:12px!important}
+.espn-intro{display:none!important}
+.espn-import{gap:10px!important}
+.espn-warning{font-size:10px!important;line-height:1.45!important}
+.espn-card p,.team-eval-head p{margin:4px 0!important}
+@media(max-width:760px){
+ .main{padding:18px 14px 30px!important}
+ .league-onboarding{min-height:0!important;padding:24px!important}
+ .league-onboarding h1{font-size:30px!important}
+ .league-onboarding p{font-size:13px!important}
+ .league-benefits{margin-top:14px!important}
+}
