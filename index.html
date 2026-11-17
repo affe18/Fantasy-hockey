@@ -142,8 +142,8 @@
     }
     function renderIndividualPlayer(p,data,horizon,target){
       const s=p.stats||{},gp=Number(s.gamesPlayed||0),n=k=>Number(s[k]||0),rate=k=>gp?(n(k)/gp).toFixed(2):"—",isGoalie=p.position==="G";
-      const today=new Date();today.setHours(0,0,0,0);
-      const allGames=(data.schedules?.[p.team]||[]).filter(g=>g.date&&new Date(g.date+"T00:00:00")>=today);
+      const todayKey=new Date().toISOString().slice(0,10);
+      const allGames=(data.schedules?.[p.team]||[]).filter(g=>g.date&&(g.date>todayKey||(g.date===todayKey&&(!g.gameState||["FUT","PRE"].includes(String(g.gameState).toUpperCase())))));
       const end=new Date(today);if(horizon!=="season")end.setDate(end.getDate()+Number(horizon));
       const games=horizon==="season"?allGames:allGames.filter(g=>new Date(g.date+"T00:00:00")<=end);
       const metrics=isGoalie?[["Games played",gp],["Wins",n("wins")],["Saves",n("saves")],["GAA",n("gaa")?n("gaa").toFixed(2):"—"],["Save %",n("savePct")?n("savePct").toFixed(3):"—"]]:[["Games played",gp],["Goals",n("goals")],["Assists",n("assists")],["Points",n("points")],["Shots",n("shots")],["PP points",n("powerPlayPoints")]];
@@ -161,8 +161,8 @@
  const data=await response.json(),players=Array.isArray(data.players)?data.players:[];
  const league=(()=>{try{return JSON.parse(localStorage.getItem('rinkIQ.importedLeague.v1')||'null')}catch(_){return null}})();
  const rostered=new Set((league?.teams||[]).flatMap(t=>t.roster||[]).map(p=>String(p.name||'').toLowerCase().replace(/[^a-z0-9]/g,'')));
- const today=new Date().toISOString().slice(0,10),fmt=n=>Number(n||0).toFixed(1);
- const ranked=players.map(p=>{const st=p.stats||{},gp=Number(st.gamesPlayed||0),pts=Number(st.points||0),assists=Number(st.assists||0),goals=Number(st.goals||0),rate=gp?pts/gp:0;const games=(data.schedules?.[p.team]||[]).filter(g=>g.date>=today);const next7=games.filter(g=>new Date(g.date+'T00:00:00')<=new Date(Date.now()+7*86400000)).length;return{...p,gp,pts,assists,goals,rate,games,next7,projected:rate*games.length}}).filter(p=>p.gp>0);
+ const today=new Date().toISOString().slice(0,10),fmt=n=>Number(n||0).toFixed(1),isUpcoming=g=>g.date>today||(g.date===today&&(!g.gameState||["FUT","PRE"].includes(String(g.gameState).toUpperCase())));
+ const ranked=players.map(p=>{const st=p.stats||{},gp=Number(st.gamesPlayed||0),pts=Number(st.points||0),assists=Number(st.assists||0),goals=Number(st.goals||0),rate=gp?pts/gp:0;const games=(data.schedules?.[p.team]||[]).filter(isUpcoming);const next7=games.filter(g=>new Date(g.date+'T00:00:00')<=new Date(Date.now()+7*86400000)).length;return{...p,gp,pts,assists,goals,rate,games,next7,projected:rate*games.length}}).filter(p=>p.gp>0);
  const list=mode==='waiver'?ranked.filter(p=>!rostered.has(String(p.name).toLowerCase().replace(/[^a-z0-9]/g,''))).sort((a,b)=>b.projected-a.projected).slice(0,12):ranked.sort((a,b)=>b.rate-a.rate).slice(0,20);
  const title=mode==='waiver'?'Unrostered NHL players · potential waiver targets':'Live NHL draft board · season scoring pace';
  const intro=mode==='waiver'?'Ranked by points-per-game multiplied by remaining team games. These are unrostered in the imported league; confirm ESPN free-agent eligibility before adding.':'Ranked by current NHL points per game. Use as a starting board, not a forecast or a replacement for your league scoring settings.';
