@@ -125,3 +125,48 @@
  .league-dashboard-metrics strong{font-size:22px!important}
  .league-breakdown-grid{grid-template-columns:1fr}
 }
+
+
+/* Fix connected league dashboard alignment: stack full-width sections */
+.league-onboarding{
+ display:block!important;
+ width:100%!important;
+ max-width:1120px!important;
+ min-width:0!important;
+ margin:0 auto 24px!important;
+ padding:clamp(18px,2.4vw,30px)!important;
+}
+.league-dashboard-head{
+ display:flex!important;
+ width:100%!important;
+ min-width:0!important;
+ flex-direction:row!important;
+ justify-content:space-between!important;
+ align-items:center!important;
+ text-align:left!important;
+ gap:18px!important;
+}
+.league-dashboard-title{display:block!important;flex:1 1 auto!important;min-width:0!important;width:auto!important}
+.league-dashboard-title h2{display:block!important;width:auto!important;max-width:100%!important;white-space:normal!important;word-break:normal!important;overflow-wrap:anywhere!important}
+.league-dashboard-head .eyebrow{display:block!important;white-space:normal!important}
+.league-dashboard-select{display:flex!important;width:100%!important;justify-content:flex-start!important;margin:14px 0 0!important}
+.league-dashboard-metrics{
+ display:grid!important;
+ width:100%!important;
+ max-width:none!important;
+ grid-template-columns:repeat(2,minmax(0,1fr))!important;
+ justify-content:stretch!important;
+}
+.league-dashboard-breakdown{display:block!important;width:100%!important;max-width:none!important;margin:14px 0 0!important}
+.league-breakdown-grid{display:grid!important;width:100%!important;grid-template-columns:repeat(2,minmax(0,1fr))!important}
+.league-breakdown-grid>div{display:flex!important;flex-direction:row!important;justify-content:space-between!important;align-items:center!important;gap:10px!important;min-width:0!important;overflow:hidden!important}
+.league-breakdown-grid span{min-width:0!important;white-space:normal!important;overflow-wrap:anywhere!important}
+.league-breakdown-grid b{flex:0 1 auto!important;min-width:0!important;max-width:60%!important;white-space:normal!important;overflow-wrap:anywhere!important;text-align:right!important;font-size:clamp(11px,1.1vw,14px)!important;line-height:1.25!important}
+@media(max-width:650px){
+ .league-dashboard-head{flex-direction:column!important;align-items:flex-start!important}
+ .league-connected-pill{align-self:flex-start!important}
+ .league-dashboard-select{flex-direction:column!important;align-items:stretch!important}
+ .league-dashboard-select select{width:100%!important;max-width:none!important}
+ .league-dashboard-metrics{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+ .league-breakdown-grid{grid-template-columns:1fr!important}
+}
