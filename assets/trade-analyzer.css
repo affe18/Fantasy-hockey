@@ -74,3 +74,12 @@
 #tradeAnalyzerApp .trade-player-line>div{min-width:0}
 #tradeAnalyzerApp .trade-player-line> b{white-space:nowrap;color:#087e62}
 @media(max-width:600px){#tradeAnalyzerApp .trade-player-line{flex-direction:column}#tradeAnalyzerApp .trade-player-line>b{white-space:normal}}
+
+
+/* Modal scrolling and close-state recovery */
+.modal-backdrop{overflow-y:auto;overscroll-behavior:contain;}
+.modal{max-height:calc(100dvh - 40px);overflow-y:auto;overscroll-behavior:contain;}
+.modal-head{position:sticky;top:-1px;z-index:3;background:#0e1c2c;padding:2px 0 10px;}
+.close{position:relative;z-index:4;min-width:40px;min-height:40px;display:grid;place-items:center;border-radius:9px;cursor:pointer;touch-action:manipulation;}
+.close:hover,.close:focus-visible{background:#1b3045;color:#fff;outline:2px solid #E10600;outline-offset:2px;}
+@media(max-width:760px){.modal-backdrop{place-items:start center;padding:12px;}.modal:has(#tradeAnalyzerApp){max-height:calc(100dvh - 24px);overflow-y:auto;}}
