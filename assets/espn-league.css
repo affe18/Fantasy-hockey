@@ -70,3 +70,26 @@
 .league-dashboard-foot{margin-top:12px}
 .nav button[hidden]{display:none!important}
 @media(max-width:650px){.league-dashboard-head{flex-direction:column}.league-dashboard-select{align-items:flex-start;flex-direction:column;gap:7px}.league-dashboard-select select{width:100%}.league-dashboard-metrics{grid-template-columns:1fr}.league-dashboard-metrics>div{display:grid;grid-template-columns:1fr auto;align-items:center;gap:3px 10px}.league-dashboard-metrics strong{grid-column:2;grid-row:1/3}.league-dashboard-metrics span{grid-column:1}}
+
+/* Modern connected-league dashboard */
+.league-dashboard-head{display:flex;justify-content:space-between;align-items:flex-start;gap:18px}
+.league-dashboard-head h2{font:600 21px 'Space Grotesk',sans-serif;margin:7px 0 5px;color:var(--text)}
+.league-dashboard-head p,.league-dashboard-foot{color:var(--muted);font-size:11px;line-height:1.5;margin:0}
+.league-connected-pill{white-space:nowrap;border:1px solid #285846;background:#102d27;color:#83e6b7;padding:8px 11px;border-radius:20px;font-size:10px;font-weight:700}
+.league-dashboard-select{display:flex;align-items:center;gap:12px;margin-top:16px}
+.league-dashboard-select label,.league-dashboard-metrics small{font-size:9px;letter-spacing:1px;color:var(--muted);font-weight:700}
+.league-dashboard-select select{min-width:220px;max-width:100%;background:#0b1725;border:1px solid var(--line);color:var(--text);padding:10px 13px;border-radius:10px;outline:none}
+.league-dashboard-select select:focus{border-color:var(--green);box-shadow:0 0 0 3px #73e0b022}
+.league-dashboard-metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:15px}
+.league-dashboard-metrics>div{background:linear-gradient(145deg,#12263a,#0b1927);border:1px solid var(--line);border-radius:12px;padding:13px;min-width:0;transition:transform .2s,border-color .2s}
+.league-dashboard-metrics>div:hover{transform:translateY(-2px);border-color:#42647a}
+.league-dashboard-metrics small{display:block}
+.league-dashboard-metrics strong{display:block;font:600 21px 'Space Grotesk',sans-serif;margin:7px 0 3px;color:var(--text);overflow-wrap:anywhere}
+.league-dashboard-metrics span{display:block;font-size:10px;color:var(--muted);line-height:1.4}
+.league-dashboard-breakdown{margin-top:13px;padding:13px 15px;background:#0b1927;border:1px solid var(--line);border-radius:12px}
+.league-breakdown-title{font-size:9px;letter-spacing:1px;font-weight:700;color:var(--muted);margin-bottom:9px}
+.league-breakdown-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.league-breakdown-grid>div{display:flex;justify-content:space-between;gap:8px;font-size:11px;color:var(--muted)}
+.league-breakdown-grid b{color:var(--text);white-space:nowrap}
+.league-dashboard-foot{margin-top:12px}
+@media(max-width:650px){.league-dashboard-head{flex-direction:column}.league-dashboard-select{align-items:flex-start;flex-direction:column;gap:7px}.league-dashboard-select select{width:100%}.league-dashboard-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.league-breakdown-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
