@@ -17,12 +17,20 @@ function renderTab(tab){
 }
 function init(){
  const root=$("espnLeagueApp");if(!root||root.dataset.ready)return;root.dataset.ready="1";
- root.innerHTML='<div class="espn-import"><p class="espn-intro">Add your league directly from your ESPN sign-in. No league ID or password needs to be entered here.</p><div class="espn-connect-steps"><p><b>1.</b> Sign in to ESPN in Chrome and open your Fantasy Hockey league.</p><p><b>2.</b> Click the Fantasy Hockey Inspection extension and choose <b>Add this ESPN league</b>.</p><a href="https://github.com/affe18/Fantasy-hockey/tree/main/espn-connector" target="_blank" rel="noopener">Install the Chrome extension</a></div><div id="espnStatus" class="espn-status">Waiting for your ESPN league to be added…</div><div id="espnResults"></div></div>';
+ root.innerHTML='<div class="espn-import"><div class="espn-connect-head"><div><span class="espn-step-label">CONNECT YOUR LEAGUE</span><h3>Connect ESPN Fantasy Hockey</h3><p>Sign in to ESPN, then bring your league into Fantasy Hockey Inspection.</p></div><a class="espn-login-link" href="https://www.espn.com/fantasy/hockey/" target="_blank" rel="noopener">Open ESPN sign in ↗</a></div><form id="espnImportForm" class="espn-import-form"><label for="espnLeagueUrl">Your ESPN league URL or league ID</label><input id="espnLeagueUrl" name="leagueId" type="text" placeholder="Paste your ESPN Fantasy Hockey league link" autocomplete="url" required><div class="espn-fields"><label for="espnSeason">Season<input id="espnSeason" name="season" type="number" min="2010" max="2027" value="'+new Date().getFullYear()+'"></label></div><button class="espn-button" id="espnImportButton" type="submit">Import my league</button></form><div class="espn-warning"><b>Private league note:</b> ESPN does not offer a public sign-in authorization (OAuth) for third-party fantasy apps. Opening ESPN sign-in cannot grant this website access automatically. This in-site importer currently works with public leagues; private league connection needs an approved ESPN integration. Your ESPN password is never requested or stored here.</div><div id="espnStatus" class="espn-status" role="status" aria-live="polite">Open ESPN to sign in, copy your league page URL, then paste it above.</div><div id="espnResults"></div></div>';
+ const form=$("espnImportForm");
+ form.addEventListener("submit",async e=>{
+  e.preventDefault();const button=$("espnImportButton"),status=$("espnStatus");
+  const leagueId=$("espnLeagueUrl").value.trim(),season=Number($("espnSeason").value);
+  button.disabled=true;button.textContent="Connecting…";status.textContent="Looking up your ESPN league…";
+  try{
+   const response=await fetch("/api/espn-league",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({leagueId,season,sport:"fhl"})});
+   const data=await response.json();if(!response.ok)throw new Error(data.error||"Unable to import this league.");
+   league=data;status.textContent="League imported successfully. Your league data is now available below.";
+   renderResults();window.dispatchEvent(new CustomEvent("rinkiq:league-imported",{detail:league}));
+  }catch(error){status.textContent=error.message+" If this is a private league, this importer cannot access it through ESPN sign-in alone.";}
+  finally{button.disabled=false;button.textContent="Import my league";}
+ });
 }
-window.addEventListener("rinkiq:league-imported",event=>{
- league=event.detail||null;if(!league)return;
- const status=$("espnStatus");if(status)status.textContent="Added "+league.leagueName+" · "+league.teams.length+" teams · "+league.scoring.length+" scoring rules.";
- renderResults();
-});
 const observer=new MutationObserver(init);observer.observe(document.body,{childList:true,subtree:true});init();
 })();
