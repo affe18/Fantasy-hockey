@@ -2,3 +2,43 @@
 .trade-settings{border:1px solid #34506a;background:#0b1826;border-radius:12px;padding:14px}.trade-settings h4{font:600 13px 'Space Grotesk',sans-serif;margin:0 0 7px}.trade-settings h5{font:600 11px 'Space Grotesk',sans-serif;color:#d8e7f3;margin:16px 0 8px}.trade-profile-row{display:flex;align-items:end;gap:8px;flex-wrap:wrap;margin:10px 0}.trade-profile-row .trade-field{flex:1;min-width:150px}.trade-profile-row button{height:36px}.trade-profile-row select{width:100%;background:#091624;border:1px solid #263b51;border-radius:8px;padding:9px;color:var(--text)}.trade-scoring{grid-template-columns:repeat(4,minmax(0,1fr))}.trade-scoring input{min-width:0}@media(max-width:650px){.trade-scoring{grid-template-columns:repeat(2,minmax(0,1fr))}}
 
 .trade-category-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}.trade-category-grid label{display:flex;align-items:center;gap:7px;color:#c7d7e6;font-size:10px}.trade-category-grid input{accent-color:var(--green)}.trade-category-table{display:grid;gap:0}.trade-category-row{display:grid;grid-template-columns:1.4fr .8fr .8fr 1fr;gap:8px;align-items:center;padding:9px 4px;border-bottom:1px solid #20334a;font-size:10px}.trade-category-head{color:var(--muted);font-size:9px;text-transform:uppercase}.trade-category-row strong{color:var(--green)}@media(max-width:650px){.trade-category-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.trade-category-row{grid-template-columns:1.1fr .65fr .65fr .9fr;font-size:9px;gap:4px}}
+
+
+/* Full-width roster-based trade builder */
+.modal:has(#tradeAnalyzerApp){width:min(1120px,96vw)!important;max-height:92vh;overflow:auto;padding:24px}
+#tradeAnalyzerApp .trade-app{gap:14px}
+#tradeAnalyzerApp .trade-intro{font-size:13px;color:#626b77}
+#tradeAnalyzerApp .trade-toolbar{grid-template-columns:1fr 1fr}
+#tradeAnalyzerApp .trade-side{padding:16px}
+#tradeAnalyzerApp .trade-side-head{display:flex;justify-content:space-between;align-items:center;gap:10px}
+#tradeAnalyzerApp .trade-side-head span{font-size:10px;color:#737b88}
+#tradeAnalyzerApp .trade-roster-search{width:100%;margin:4px 0 10px;padding:11px 12px;border:1px solid #dfe2e7;border-radius:9px;background:#fff;color:#20242b;font:inherit}
+#tradeAnalyzerApp .trade-picker{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px;max-height:250px;overflow:auto;padding:2px}
+#tradeAnalyzerApp .trade-player-choice{display:flex;justify-content:space-between;align-items:center;gap:8px;text-align:left;padding:9px 10px;background:#fff;border:1px solid #e6e8ed;color:#20242b}
+#tradeAnalyzerApp .trade-player-choice b{font-size:11px}
+#tradeAnalyzerApp .trade-player-choice span{font-size:9px;color:#737b88;white-space:nowrap}
+#tradeAnalyzerApp .trade-player-choice:hover{border-color:#E10600;background:#fff7f6}
+#tradeAnalyzerApp .trade-selected{border-top:1px solid #eceef1;margin-top:10px;padding-top:10px}
+#tradeAnalyzerApp .trade-picked{display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid #eef0f2;color:#20242b;font-size:11px}
+#tradeAnalyzerApp .trade-picked small{display:block;color:#737b88;font-size:9px;margin-top:3px}
+#tradeAnalyzerApp .trade-picked button{border:1px solid #f0d2d0;background:#fff;color:#b80000;border-radius:7px;padding:5px 8px;font-size:9px}
+#tradeAnalyzerApp .trade-no-league{display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:14px 16px;margin-bottom:4px;border:1px solid #f0d7d5;border-left:4px solid #E10600;border-radius:11px;background:#fff7f6}
+#tradeAnalyzerApp .trade-no-league b{font-size:12px;color:#20242b}
+#tradeAnalyzerApp .trade-no-league span{font-size:11px;color:#626b77;flex:1}
+#tradeAnalyzerApp .trade-no-league button{border:0;background:#E10600;color:#fff;border-radius:8px;padding:9px 12px;font-size:10px;font-weight:700}
+#tradeAnalyzerApp .trade-rating-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+#tradeAnalyzerApp .trade-rating-card{padding:15px;border:1px solid #e6e8ed;border-radius:12px;background:#fff}
+#tradeAnalyzerApp .trade-rating-top{display:flex;justify-content:space-between;align-items:center;gap:12px}
+#tradeAnalyzerApp .trade-rating-top small{display:block;color:#737b88;font-size:9px;font-weight:700;letter-spacing:.6px}
+#tradeAnalyzerApp .trade-rating-top b{display:block;color:#20242b;font-size:27px;margin-top:4px}
+#tradeAnalyzerApp .trade-rating-top span{font-size:11px;color:#626b77}
+#tradeAnalyzerApp .trade-rating-track{height:8px;border-radius:20px;background:#f0eeee;overflow:hidden;margin-top:10px}
+#tradeAnalyzerApp .trade-rating-track i{height:100%;display:block;background:#E10600;border-radius:20px}
+#tradeAnalyzerApp .trade-insight{font-size:11px;line-height:1.5;color:#555e69;margin:7px 0}
+#tradeAnalyzerApp .trade-verdict{background:#fff5f4;border-color:#f0d7d5}
+#tradeAnalyzerApp .trade-settings{background:#fff}
+@media(max-width:760px){
+ .modal:has(#tradeAnalyzerApp){width:100vw!important;max-height:94vh;padding:16px}
+ #tradeAnalyzerApp .trade-toolbar,#tradeAnalyzerApp .trade-sides,#tradeAnalyzerApp .trade-projection-grid,#tradeAnalyzerApp .trade-rating-grid{grid-template-columns:1fr}
+ #tradeAnalyzerApp .trade-picker{grid-template-columns:1fr;max-height:220px}
+}
