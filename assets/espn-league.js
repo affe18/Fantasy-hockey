@@ -10,8 +10,32 @@ function renderTab(tab){
  if(tab==="standings")el.innerHTML='<h4>League standings</h4><table><thead><tr><th>Team</th><th>W</th><th>L</th><th>T</th></tr></thead><tbody>'+teams.map(t=>'<tr><td>'+esc(t.name)+'</td><td>'+(t.record?.wins??"—")+'</td><td>'+(t.record?.losses??"—")+'</td><td>'+(t.record?.ties??"—")+'</td></tr>').join("")+'</tbody></table>';
  if(tab==="matchups")el.innerHTML=league.matchups.length?'<h4>Matchups</h4><div class="espn-matchups">'+league.matchups.map(m=>'<div class="espn-team"><span>Week '+esc(m.week)+': '+esc(teams.find(t=>t.id===m.homeTeamId)?.name||"Team "+m.homeTeamId)+' vs '+esc(teams.find(t=>t.id===m.awayTeamId)?.name||"Team "+m.awayTeamId)+'</span><b>'+esc(m.homeScore??"—")+' – '+esc(m.awayScore??"—")+'</b></div>').join("")+'</div>':'No matchup data was returned.';
 }
+function renderDashboard(){
+ const section=document.querySelector(".league-onboarding");if(!section||!league)return;
+ const teams=Array.isArray(league.teams)?league.teams:[];
+ const selectedId=localStorage.getItem("rinkIQ.selectedTeam.v1")||"";
+ const options=teams.map(t=>'<option value="'+esc(t.id)+'" '+(String(t.id)===selectedId?'selected':'')+'>'+esc(t.name)+'</option>').join("");
+ section.innerHTML='<div class="league-dashboard-head"><div><div class="eyebrow">YOUR FANTASY LEAGUE</div><h2>'+esc(league.leagueName||"Connected ESPN league")+'</h2><p>'+esc(league.season||"Current")+' season · '+teams.length+' teams · Automatically saved in this browser</p></div><div class="league-connected-pill">● ESPN connected</div></div><div class="league-dashboard-select"><label for="rinkiqTeamSelect">YOUR TEAM</label><select id="rinkiqTeamSelect"><option value="">Select your team</option>'+options+'</select></div><div class="league-dashboard-metrics" id="rinkiqLeagueMetrics"><div><small>TEAM RATING</small><strong>—</strong><span>Select your team to calculate</span></div><div><small>LEAGUE RANK</small><strong>—</strong><span>Based on imported fantasy points</span></div><div><small>LEAGUE AVG. POINTS</small><strong>—</strong><span>Season-to-date team total</span></div></div><div class="league-dashboard-foot">Your league reconnects automatically when you return. Team comparisons use ESPN fantasy points returned for this league.</div>';
+ const select=document.getElementById("rinkiqTeamSelect");
+ function update(){
+  const id=select.value;if(!id){document.getElementById("rinkiqLeagueMetrics").innerHTML='<div><small>TEAM RATING</small><strong>—</strong><span>Select your team</span></div><div><small>LEAGUE RANK</small><strong>—</strong><span>Select your team</span></div><div><small>LEAGUE AVG. POINTS</small><strong>—</strong><span>Season-to-date total</span></div>';return;}
+  localStorage.setItem("rinkIQ.selectedTeam.v1",id);
+  const points=t=>{const roster=Array.isArray(t.roster)?t.roster:[];const vals=roster.map(p=>p.fantasyPoints).filter(v=>v!==null&&v!==undefined&&Number.isFinite(Number(v)));return vals.length?vals.reduce((sum,v)=>sum+Number(v),0):null;};
+  const ranked=teams.map(t=>({team:t,total:points(t)})).filter(x=>x.total!==null).sort((x,y)=>y.total-x.total);
+  const chosen=ranked.find(x=>String(x.team.id)===id),avg=ranked.length?ranked.reduce((sum,x)=>sum+x.total,0)/ranked.length:null,rank=ranked.findIndex(x=>String(x.team.id)===id)+1;
+  if(!chosen){document.getElementById("rinkiqLeagueMetrics").innerHTML='<div><small>TEAM RATING</small><strong>N/A</strong><span>ESPN fantasy points unavailable</span></div><div><small>LEAGUE RANK</small><strong>N/A</strong><span>Insufficient scoring data</span></div><div><small>LEAGUE AVG. POINTS</small><strong>'+(avg===null?'N/A':Math.round(avg).toLocaleString())+'</strong><span>Season-to-date total</span></div>';return;}
+  const rating=avg>0?Math.max(1,Math.min(10,5+(chosen.total/avg-1)*5)):null;
+  document.getElementById("rinkiqLeagueMetrics").innerHTML='<div><small>TEAM RATING</small><strong>'+(rating===null?'N/A':rating.toFixed(1)+'/10')+'</strong><span>'+(rating===null?'Not enough data':rating>=5?'Above league average':'Below league average')+'</span></div><div><small>LEAGUE RANK</small><strong>#'+rank+' / '+ranked.length+'</strong><span>By imported season points</span></div><div><small>LEAGUE AVG. POINTS</small><strong>'+Math.round(avg).toLocaleString()+'</strong><span>Your team: '+Math.round(chosen.total).toLocaleString()+' pts</span></div>';
+ }
+ select.addEventListener("change",update);update();
+}
 function acceptLeague(data){
  league=data;
+ try{localStorage.setItem("rinkIQ.importedLeague.v1",JSON.stringify(data));}catch(error){console.warn("Could not save league in this browser:",error);}
+ renderDashboard();
+ const importPanel=$("leagueImportPanel");if(importPanel)importPanel.hidden=true;
+ const connectNav=document.querySelector('.nav button[data-view="ESPN League"]');if(connectNav)connectNav.hidden=true;
+
  const root=$("espnResults");
  root.innerHTML='<div class="espn-card"><h3>'+esc(league.leagueName)+'</h3><p>'+league.season+' season · '+league.size+' teams · Connected directly to ESPN</p><div class="espn-tabs"><button data-tab="teams">All teams</button><button data-tab="rosters">Rosters</button><button data-tab="scoring">Scoring rules</button><button data-tab="standings">Standings</button><button data-tab="matchups">Matchups</button></div><div id="espnTabContent"></div><div id="teamEvaluationApp"></div></div>';
  root.querySelectorAll("[data-tab]").forEach(b=>b.onclick=()=>{root.querySelectorAll("[data-tab]").forEach(x=>x.classList.toggle("active",x===b));renderTab(b.dataset.tab);});
@@ -35,4 +59,5 @@ function init(){
  });
 }
 const observer=new MutationObserver(init);observer.observe(document.body,{childList:true,subtree:true});init();
+try{const saved=JSON.parse(localStorage.getItem("rinkIQ.importedLeague.v1")||"null");if(saved&&Array.isArray(saved.teams)){const waitForApp=()=>{if($("espnLeagueApp")&&$("espnLeagueApp").dataset.ready){acceptLeague(saved);}else requestAnimationFrame(waitForApp);};waitForApp();}}catch(error){console.warn("Saved league could not be restored:",error);}
 })();
