@@ -56,7 +56,7 @@ module.exports=async function handler(req,res){
   ["skaterRealtime",statsUrl("skater","realtime",season)],
   ["faceoffWins",statsUrl("skater","faceoffwins",season)]
  ];
- const results=scheduleOnly?[]:await Promise.all(requests.map(async([key,url])=>{try{return{key,data:await fetchJson(url),ok:true}}catch(error){failures.push(key+": "+error.message);return{key,data:null,ok:false}}}));
+ const results=scheduleOnly?requests.map(([key])=>({key,data:null,ok:false})):await Promise.all(requests.map(async([key,url])=>{try{return{key,data:await fetchJson(url),ok:true}}catch(error){failures.push(key+": "+error.message);return{key,data:null,ok:false}}}));
  const byId=new Map(),extraById=new Map();
  const result=(key)=>results.find(item=>item.key===key);
  for(const row of dataRows(result("skaterSummary").data)){const p=buildPlayer(row,false);if(p)byId.set(p.id,p)}
