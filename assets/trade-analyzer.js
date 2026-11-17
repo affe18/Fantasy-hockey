@@ -58,7 +58,7 @@ function playerRate(p){const live=p.live;if(!live)return null;const x=projection
 function eligible(p,slot){const position=pos(p),ids=(p.eligibleSlotIds||[]).map(String),slotIds={C:"0",LW:"1",RW:"2",D:"3",UTIL:"4",G:"5"};if(ids.length)return ids.includes(slotIds[slot])||(slot==="UTIL"&&position!=="G"&&ids.includes("4"));if(slot==="UTIL")return position!=="G";return position===slot}
 function optimizeRoster(side,exclude=[],include=[]){
  const base=teamRoster(side).filter(p=>!exclude.includes(String(p.id))).concat(include),sl=lineupSlots(),dates=[...new Set(base.flatMap(p=>(schedules[p.team]||[]).map(g=>g.date)).filter(Boolean))].sort();
- const projectedPlayers=base.filter(p=>playerRate(p)!==null).length,unprojectedPlayers=base.length-projectedPlayers,coverage=base.length?projectedPlayers/base.length:0;
+ const projectedPlayers=base.filter(p=>p.live&&scheduleStatus[p.live.team]===true).length,unprojectedPlayers=base.length-projectedPlayers,coverage=base.length?projectedPlayers/base.length:0;
  const gamesByDate={};for(const p of base){const rate=playerRate(p);if(rate===null)continue;for(const g of schedules[p.team]||[]){if(g.date)(gamesByDate[g.date]??=[]).push({p,rate,game:g})}}
  let points=0,missed=0,missedRows=[],positionCounts={C:0,LW:0,RW:0,D:0,G:0};
  dates.forEach(date=>{
