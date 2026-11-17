@@ -1,29 +1,12 @@
-.espn-import{display:grid;gap:13px}.espn-intro,.espn-status{font-size:11px;line-height:1.6;color:var(--muted)}.espn-fields{display:grid;grid-template-columns:1fr 1fr;gap:10px}.espn-fields label{font-size:10px;color:var(--muted)}.espn-fields input{display:block;width:100%;margin-top:6px;background:#091624;border:1px solid #263b51;border-radius:8px;padding:10px;color:var(--text)}.espn-warning{background:#2a2418;border:1px solid #65532c;border-radius:9px;padding:11px;color:#e9d7a6;font-size:10px;line-height:1.6}.espn-import details{font-size:11px;color:#c4d6e7}.espn-import details .espn-fields{margin-top:10px}.espn-button{background:var(--green);color:#07111e;border:0;border-radius:8px;padding:11px 14px;font-weight:700}.espn-card{background:#0b1826;border:1px solid var(--line);border-radius:10px;padding:12px;margin-top:12px}.espn-card h3,.espn-card h4{margin:0 0 8px;font-size:13px}.espn-tabs{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}.espn-tabs button{background:transparent;border:1px solid #2b4058;color:#b7c9db;border-radius:7px;padding:7px 9px;font-size:10px}.espn-tabs button.active{background:#193b34;border-color:#3b735c;color:#b8f0d6}.espn-team{display:flex;justify-content:space-between;gap:8px;padding:8px 0;border-top:1px solid #20334a;font-size:10px}.espn-team-card{background:#101f30;border:1px solid #24384f;border-radius:8px;padding:10px}.espn-roster-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}.espn-player{display:flex;justify-content:space-between;gap:6px;padding:4px 0;font-size:10px;color:#c8d8e7}.espn-player small{color:var(--muted)}.espn-card table{width:100%;border-collapse:collapse;font-size:10px}.espn-card th,.espn-card td{text-align:left;padding:7px 5px;border-bottom:1px solid #20334a}.espn-card th{color:var(--muted)}@media(max-width:600px){.espn-fields,.espn-roster-grid{grid-template-columns:1fr}}
-.espn-url-help{font-size:10px;line-height:1.5;color:#737b88;margin:-5px 0 2px}
-
-/* In-page ESPN connection flow */
-.espn-connect-head{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:4px 0 12px}
-.espn-step-label{font-size:9px;font-weight:800;letter-spacing:1.5px;color:#E10600}
-.espn-connect-head h3{font-size:19px;color:#20242b;margin:7px 0 5px}
-.espn-connect-head p{font-size:12px;color:#737b88;margin:0;line-height:1.5}
-.espn-login-link{display:inline-flex;align-items:center;justify-content:center;white-space:nowrap;background:#fff0ed;border:1px solid #f0c9c5;color:#B80000;border-radius:9px;padding:11px 14px;font-size:11px;font-weight:750;text-decoration:none}
-.espn-login-link:hover{background:#ffe3df}
-.espn-import-form{display:grid;gap:9px;max-width:650px;padding:15px;background:#fafafa;border:1px solid #eceef1;border-radius:12px}
-.espn-import-form>label{font-size:11px;font-weight:700;color:#303741}
-.espn-import-form>input{width:100%;padding:12px;border:1px solid #dfe2e7;border-radius:8px;background:#fff;color:#20242b;font:inherit;font-size:12px}
-.espn-import-form .espn-fields{grid-template-columns:minmax(130px,180px)}
-.espn-import-form .espn-fields input{background:#fff;color:#20242b;border-color:#dfe2e7}
-.espn-import-form .espn-button{justify-self:start;background:#E10600;color:#fff;padding:12px 18px}
+.espn-file-import{display:none!important}
+.espn-import .espn-warning{display:none!important}
+.espn-public-help{max-width:650px;padding:13px 15px;border:1px solid #e5e7eb;border-radius:10px;background:#f8f9fb;color:#424955;font-size:11px;line-height:1.65}
+.espn-public-help p{margin:5px 0 8px;color:#68717e}
+.espn-public-help a{color:#B80000;font-weight:700;text-decoration:none}
+.espn-public-help a:hover{text-decoration:underline}
+.espn-import-form{max-width:650px}
+.espn-import-form>input{box-sizing:border-box}
+.espn-import-form .espn-button{justify-self:stretch;width:100%;cursor:pointer}
 .espn-import-form .espn-button:disabled{opacity:.6;cursor:wait}
-.espn-import .espn-warning{max-width:760px;background:#fff8e9;border:1px solid #efdfb9;color:#76571b;border-radius:10px;padding:12px;font-size:10px;line-height:1.65}
-.espn-import .espn-status{font-size:11px;color:#626b77;padding:4px 0}
-@media(max-width:600px){.espn-connect-head{align-items:stretch;flex-direction:column}.espn-login-link{width:100%}.espn-import-form .espn-button{width:100%}}
-
-
-.espn-file-import{max-width:650px;border:1px dashed #d6dbe2;border-radius:12px;padding:15px;background:#fff;display:grid;gap:8px}
-.espn-file-import h4{margin:0;color:#303741;font-size:13px}
-.espn-file-import p{margin:0;color:#6b7280;font-size:11px;line-height:1.6}
-.espn-file-import small{font-size:10px;color:#818894}
-.espn-file-import input{position:absolute;width:1px;height:1px;opacity:0;pointer-events:none}
-.espn-file-button{justify-self:start;display:inline-flex;padding:10px 13px;border-radius:8px;background:#20242b;color:#fff;font-size:11px;font-weight:700;cursor:pointer}
-.espn-data-preview{white-space:pre-wrap;overflow:auto;max-height:260px;font-size:10px;color:#596273}
+.espn-matchups{display:grid;gap:2px}
+.espn-card p{font-size:11px;color:#737b88}
