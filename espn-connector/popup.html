@@ -1,9 +1,1 @@
-<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Connect ESPN</title><link rel="stylesheet" href="popup.css"></head><body>
-<main><div class="brand"><span>🏒</span><div><b>Fantasy Hockey Inspection</b><small>ESPN account connector</small></div></div>
-<p class="intro">Connect the ESPN account you are already signed into. Your ESPN password is never requested.</p>
-<label for="leagueId">ESPN league ID</label><input id="leagueId" placeholder="e.g. 123456789" inputmode="numeric">
-<label for="season">Season year</label><input id="season" type="number">
-<button id="connect">Connect my ESPN league</button><div id="status" role="status">Open your league in ESPN first, then connect here.</div>
-<p class="privacy">On your click, this extension reads only the ESPN session cookies needed for the import, uses them for this request, and does not save or transmit them anywhere else. Imported league data is sent to your Fantasy Hockey Inspection account/browser.</p>
-</main><script src="popup.js"></script></body></html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Add ESPN league</title><link rel="stylesheet" href="popup.css"></head><body><main><div class="brand"><span>🏒</span><div><b>Fantasy Hockey Inspection</b><small>Connect your ESPN league</small></div></div><p class="intro">Sign in to ESPN in Chrome, open the Fantasy Hockey league you want to add, then click the button below. We’ll import the league from the page you’re viewing.</p><button id="connect">Add this ESPN league</button><button id="openEspn" class="secondary">Sign in to ESPN</button><div id="status" role="status">No ESPN league page detected yet.</div><p class="privacy">Your ESPN password is never requested. The extension uses your existing signed-in browser session to request league data. It does not read or store your session-cookie values.</p></main><script src="popup.js"></script></body></html>
