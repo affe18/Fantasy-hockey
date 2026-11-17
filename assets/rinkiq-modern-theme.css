@@ -129,3 +129,16 @@ body{background:linear-gradient(180deg,#fff 0,#f5f6f8 360px)!important;color:#20
 #rinkLiveFeed .rink-disclaimer{font-size:10px;color:#858c96;line-height:1.5;margin:12px 0 0}
 #rinkLiveFeed .rink-loading{font-size:12px;color:#737b88;padding:18px 0}
 @media(max-width:760px){#rinkLiveFeed{grid-template-columns:1fr!important}#rinkLiveFeed .rink-ranking{grid-template-columns:1fr}#rinkLiveFeed .scoring-leaders-panel{padding:15px!important}}
+
+/* Inline league connection flow */
+.league-import-inline[hidden]{display:none!important}
+.league-import-inline{display:block!important;margin:18px 0 28px;padding:22px;background:#fff;border:1px solid #e6e8ed;border-top:3px solid #E10600;border-radius:16px;box-shadow:0 8px 24px #20242b0a;scroll-margin-top:20px}
+.league-import-inline-head{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:14px}
+.league-import-inline-head h2{font:650 20px 'Space Grotesk',sans-serif;color:#20242b;margin:5px 0 0}
+.league-import-close{border:1px solid #e6e8ed;background:#fff;color:#626b77;border-radius:8px;padding:8px 12px;font-size:11px}
+.league-import-inline .espn-import{max-width:760px}
+.league-import-inline .espn-warning{background:#fff8e9;color:#76571b;border-color:#efdfb9}
+.league-import-inline .espn-fields input{background:#fff;color:#20242b;border-color:#dfe2e7}
+.league-import-inline .espn-import details{color:#626b77}
+.league-import-inline .espn-button{background:#E10600;color:#fff}
+.league-import-inline .espn-status{color:#626b77}
