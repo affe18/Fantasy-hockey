@@ -23,7 +23,14 @@ function render(){
  '<div id="tradeResults" class="trade-results"><div class="trade-loading">Choose players on both sides to build your trade.</div></div>'+
  '<p class="trade-footnote">Trade ratings are estimates based on available season production, remaining team games and your scoring settings. They are decision support, not a guarantee of future performance.</p></div>';
  if(!league||!teams().length){root.querySelector(".trade-app").insertAdjacentHTML("afterbegin",'<div class="trade-no-league"><b>Import your ESPN league first.</b><span>Your team and other managers’ rosters will appear here automatically after a successful import.</span><button id="tradeGoImport">Open league import</button></div>');$("tradeGoImport").onclick=()=>{document.getElementById("modalBackdrop")?.classList.remove("open");const p=$("leagueImportPanel");if(p){p.hidden=false;p.scrollIntoView({behavior:"smooth",block:"start"})}};return}
- const my=$("tradeMyTeam"),other=$("tradeOtherTeam");my.value=String(teams()[0].id);other.value=String(teams()[1]?.id??teams()[0].id);bind();refresh();
+ const my=$("tradeMyTeam"),other=$("tradeOtherTeam");
+ const savedMine=localStorage.getItem("rinkIQ.selectedTeam.v1"),savedPartner=localStorage.getItem("rinkIQ.tradePartnerTeam.v1");
+ const defaultMine=teams().some(t=>String(t.id)===String(savedMine))?String(savedMine):String(teams()[0].id);
+ my.value=defaultMine;
+ const partnerChoices=teams().filter(t=>String(t.id)!==defaultMine);
+ const defaultPartner=partnerChoices.some(t=>String(t.id)===String(savedPartner))?String(savedPartner):String(partnerChoices[0]?.id??defaultMine);
+ other.value=defaultPartner;
+ bind();refresh();
 }
 function team(side){return teams().find(t=>String(t.id)===String($(side==="give"?"tradeMyTeam":"tradeOtherTeam").value))}
 function candidates(side,q=""){const t=team(side),all=roster(t),query=norm(q);return all.filter(p=>!selected[side].includes(String(p.id))&&(!query||norm(p.name).includes(query))).slice(0,100)}
@@ -31,7 +38,8 @@ function picker(side){const el=$(side==="give"?"givePicker":"getPicker"),q=$(sid
 function selectedView(side){const el=$(side==="give"?"giveSelected":"getSelected");const t=team(side);el.innerHTML='<strong>Selected players · '+selected[side].length+'</strong>'+(selected[side].map(id=>{const p=roster(t).find(x=>String(x.id)===String(id));return p?'<div class="trade-picked"><span>'+esc(p.name)+'<small>'+esc(p.position||"")+' · '+esc(p.team||"")+'</small></span><button type="button" data-remove="'+side+'" data-id="'+esc(id)+'">Remove</button></div>':""}).join("")||'<span class="trade-muted">No players added yet.</span>')}
 function refresh(){["give","get"].forEach(s=>{const t=team(s);$(s==="give"?"giveTeamName":"getTeamName").textContent=t?.name||"";selectedView(s);picker(s)})}
 function bind(){
- $("tradeMyTeam").onchange=()=>{selected.give=[];refresh();analyze()};$("tradeOtherTeam").onchange=()=>{selected.get=[];refresh();analyze()};
+ $("tradeMyTeam").onchange=()=>{selected.give=[];try{localStorage.setItem("rinkIQ.selectedTeam.v1",String($("tradeMyTeam").value))}catch(e){}if(String($("tradeOtherTeam").value)===String($("tradeMyTeam").value)){const next=teams().find(t=>String(t.id)!==String($("tradeMyTeam").value));$("tradeOtherTeam").value=String(next?.id??$("tradeMyTeam").value)}try{localStorage.setItem("rinkIQ.tradePartnerTeam.v1",String($("tradeOtherTeam").value))}catch(e){}selected.get=[];refresh();analyze()};
+ $("tradeOtherTeam").onchange=()=>{selected.get=[];try{localStorage.setItem("rinkIQ.tradePartnerTeam.v1",String($("tradeOtherTeam").value))}catch(e){}refresh();analyze()};
  $("giveSearch").oninput=()=>picker("give");$("getSearch").oninput=()=>picker("get");
  $("tradeRange").onchange=e=>{range=e.target.value;analyze()};$("tradeFormat").onchange=e=>{format=e.target.value;analyze()};
  $("tradeAnalyze").onclick=analyze;$("tradeClear").onclick=()=>{selected={give:[],get:[]};refresh();$("tradeResults").innerHTML='<div class="trade-loading">Trade cleared.</div>'};
@@ -95,7 +103,8 @@ function analyze(){
  '<p class="trade-footnote">The lineup simulation assigns each day’s scheduled players to the ESPN starting slots, prioritizing projected fantasy points and specialist positions before UTIL. Bench-overflow estimates count player-games that cannot fit in those slots. Check your ESPN lineup-slot settings and live schedule before making a decision. Goalie and category leagues may need more specialized scoring rules; missing live player matches reduce projection confidence.</p>';
 }
 async function load(){const status=$("tradeLoadStatus");try{const r=await fetch("/api/trade-data",{cache:"no-store"});if(!r.ok)throw new Error("NHL directory HTTP "+r.status);const d=await r.json();directory=d.players||[];schedules=d.schedules||{};if(status)status.textContent=directory.length+" NHL players available for projection.";if(league)refresh()}catch(e){if(status)status.textContent="Live NHL projections unavailable: "+e.message}}
-function init(){const root=$(ROOT);if(!root||root.dataset.ready)return;root.dataset.ready="1";render();load()}
+function init(){const root=$(ROOT);if(!root)return;if(root.dataset.ready){render();return}root.dataset.ready="1";render();load()}
+window.RinkIQOpenTrade=()=>{const root=$(ROOT);if(root)init()};
 const observer=new MutationObserver(()=>{if($(ROOT)&&!$(ROOT).dataset.ready)init()});observer.observe(document.body,{childList:true,subtree:true});init();
 window.addEventListener("rinkiq:league-imported",e=>{league=e.detail;try{localStorage.setItem(LEAGUE_KEY,JSON.stringify(league))}catch(_){}if($(ROOT)){selected={give:[],get:[]};render()}});
 })();
