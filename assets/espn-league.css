@@ -22,3 +22,14 @@
 .espn-import-note a{color:#B80000;font-weight:700;text-decoration:none}
 .espn-import-note a:hover{text-decoration:underline}
 @media(max-width:650px){.espn-import-form{grid-template-columns:1fr}.espn-import-form>label,.espn-import-form>input,.espn-import-form>.espn-button,.espn-import-note{grid-column:1;grid-row:auto}}
+
+.espn-note-heading{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:5px}
+.espn-note-heading>b{margin:0}
+.espn-steps-toggle{flex:none;border:1px solid #e6b8b2;border-radius:7px;background:#fff;color:#B80000;padding:6px 9px;font:inherit;font-size:10px;font-weight:750;cursor:pointer}
+.espn-steps-toggle:hover{background:#fff0ed}
+.espn-import-steps{margin-top:11px;padding-top:10px;border-top:1px solid #f0d2ce}
+.espn-import-steps[hidden]{display:none}
+.espn-import-steps>b{display:block;font-size:10px;color:#303741;margin-bottom:5px}
+.espn-import-steps ol{margin:0;padding-left:18px}
+.espn-import-steps li{margin:5px 0}
+.espn-import-steps p{margin:8px 0 0;color:#6b7280}
