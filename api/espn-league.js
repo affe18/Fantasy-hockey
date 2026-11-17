@@ -6,16 +6,19 @@ module.exports = async function handler(req, res) {
   try {
     const b = typeof req.body === "string" ? JSON.parse(req.body) : (req.body || {});
     const rawLeague = String(b.leagueId || "").trim();
-    let id = rawLeague;
-    if (!/^\d{1,12}$/.test(id)) {
-      try {
-        const parsed = new URL(rawLeague.startsWith("http") ? rawLeague : "https://" + rawLeague);
-        id = parsed.searchParams.get("leagueId") || parsed.searchParams.get("leagueid") || "";
-        if (!id) {
-          const match = parsed.pathname.match(/\/league\/(\d{1,12})(?:\/|$)/i);
-          if (match) id = match[1];
-        }
-      } catch (_) {}
+    // Accept a numeric ID, a copied ESPN URL, or text containing an ESPN URL.
+    // Avoid URL() here: pasted app/deep-link strings can trigger browser/runtime
+    // URL pattern errors before we can return a useful validation message.
+    let id = "";
+    if (/^\\d{1,12}$/.test(rawLeague)) {
+      id = rawLeague;
+    } else {
+      const decoded = (() => { try { return decodeURIComponent(rawLeague); } catch (_) { return rawLeague; } })();
+      const queryMatch = decoded.match(/[?&]leagueId\\s*=\\s*["']?(\\d{1,12})/i)
+        || decoded.match(/\\bleagueId\\s*[:=]\\s*["']?(\\d{1,12})/i);
+      const pathMatch = decoded.match(/\\/league\\/(\\d{1,12})(?:[/?#]|$)/i);
+      const hockeyPathMatch = decoded.match(/\\/(?:hockey|fantasy)\\/(?:league|team)\\/(\\d{1,12})(?:[/?#]|$)/i);
+      id = (queryMatch && queryMatch[1]) || (pathMatch && pathMatch[1]) || (hockeyPathMatch && hockeyPathMatch[1]) || "";
     }
     const season = Number(b.season || new Date().getFullYear());
     if (!/^\d{1,12}$/.test(id)) return res.status(400).json({error:"Paste your ESPN league or team page URL, or enter the league ID. The URL must contain a leagueId value."});
