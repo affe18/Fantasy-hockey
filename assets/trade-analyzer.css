@@ -67,3 +67,10 @@
 #tradeAnalyzerApp .trade-rating-card{box-shadow:0 5px 18px #142b3e0b}
 #tradeAnalyzerApp .trade-selected{color:#596777}
 #tradeAnalyzerApp .trade-side-head span{font-weight:650;color:#526579}
+
+#tradeAnalyzerApp .trade-player-choice{display:flex;flex-direction:column;align-items:flex-start;gap:3px}
+#tradeAnalyzerApp .trade-player-meta{font-size:10px;color:#718096;font-weight:500}
+#tradeAnalyzerApp .trade-player-line{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;padding:10px 0;border-bottom:1px solid #e8edf2;font-size:12px}
+#tradeAnalyzerApp .trade-player-line>div{min-width:0}
+#tradeAnalyzerApp .trade-player-line> b{white-space:nowrap;color:#087e62}
+@media(max-width:600px){#tradeAnalyzerApp .trade-player-line{flex-direction:column}#tradeAnalyzerApp .trade-player-line>b{white-space:normal}}
