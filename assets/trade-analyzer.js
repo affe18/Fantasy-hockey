@@ -38,24 +38,61 @@ function bind(){
  $("tradeScoringToggle").onclick=()=>{$("tradeScoringPanel").hidden=!$("tradeScoringPanel").hidden};
  document.querySelectorAll("[data-score]").forEach(i=>i.onchange=()=>{scoring[i.dataset.score]=Number(i.value)||0;try{localStorage.setItem(SCORING_KEY,JSON.stringify({weights:scoring}))}catch(e){}analyze()});
 }
-function value(side){const t=team(side);return selected[side].map(id=>roster(t).find(p=>String(p.id)===String(id))).filter(Boolean).map(p=>{const x=projection(p.live);const fallback=Number(p.espnPoints||0);return{p,x,projected:x.rate?x[range==="week"?"week":"season"]:fallback}})}
-function scorePair(give,get){const gv=give.reduce((n,x)=>n+x.projected,0),rv=get.reduce((n,x)=>n+x.projected,0);const max=Math.max(gv,rv,1),diff=(rv-gv)/max;const your=Math.max(1,Math.min(10,Math.round(5.5+diff*4.5))),theirs=Math.max(1,Math.min(10,Math.round(5.5-diff*4.5)));return{gv,rv,your,theirs,diff}}
+function pos(p){const n=String(p.position||"");return ({1:"C",2:"LW",3:"RW",4:"D",5:"G",0:"C"})[n]||n.toUpperCase()}
+function slots(){const raw=league?.rosterSlots||{};const out={C:0,LW:0,RW:0,D:0,G:0,UTIL:0};const map={"0":"C","1":"LW","2":"RW","3":"D","4":"UTIL","5":"G"};Object.entries(raw).forEach(([id,count])=>{if(map[id])out[map[id]]+=Number(count)||0});return out}
+function lineupSlots(){const s=slots();return Object.entries(s).flatMap(([k,n])=>Array.from({length:n},()=>k))}
+function teamRoster(side){return roster(team(side))}
+function playerRate(p){const live=p.live;if(live){const x=projection(live);if(x.rate>0)return x.rate}const total=Number(p.espnPoints||0);return total>0?total/Math.max(1,stat(live,"gamesPlayed")||50):0}
+function eligible(p,slot){const position=pos(p);if(slot==="UTIL")return position!=="G";return position===slot}
+function optimizeRoster(side,exclude=[],include=[]){
+ const base=teamRoster(side).filter(p=>!exclude.includes(String(p.id))).concat(include),sl=lineupSlots(),dates=[...new Set(base.flatMap(p=>(schedules[p.team]||[]).map(g=>g.date)).filter(Boolean))].sort();
+ const gamesByDate={};for(const p of base)for(const g of schedules[p.team]||[]){if(g.date) (gamesByDate[g.date]??=[]).push({p,rate:playerRate(p),game:g})}
+ let points=0,missed=0,missedRows=[],positionCounts={C:0,LW:0,RW:0,D:0,G:0};
+ dates.forEach(date=>{
+  const candidates=(gamesByDate[date]||[]).sort((a,b)=>b.rate-a.rate),used=new Set(),filled=new Set();
+  // Fill scarce specialist slots before flexible UTIL slots.
+  const ordered=[...sl].sort((a,b)=>a==="UTIL"?1:b==="UTIL"?-1:0);
+  for(const slot of ordered){let best=null;for(const item of candidates){if(used.has(String(item.p.id))||filled.has(slot)||!eligible(item.p,slot))continue;if(!best||item.rate>best.rate)best=item}if(best){used.add(String(best.p.id));filled.add(slot);points+=best.rate}}
+  candidates.forEach(item=>{if(!used.has(String(item.p.id))){missed+=item.rate;missedRows.push({date,name:item.p.name,position:pos(item.p),rate:item.rate})}});
+ });
+ base.forEach(p=>positionCounts[pos(p)] = (positionCounts[pos(p)]||0)+1);
+ const active=Object.fromEntries(["C","LW","RW","D","G"].map(k=>[k,sl.filter(x=>x===k).length]));
+ const needs=Object.entries(active).filter(([k,n])=>n>0&&positionCounts[k]<n).map(([k,n])=>({position:k,slots:n,rostered:positionCounts[k]}));
+ return{points,missed,missedRows,positionCounts,active,needs,roster:base,dates:dates.length};
+}
+function tradeImpact(side,give,receive){
+ const current=optimizeRoster(side),after=optimizeRoster(side,give.map(x=>String(x.p.id)),receive.map(x=>x.p));
+ const delta=after.points-current.points,missedSaved=current.missed-after.missed;
+ const needPositions=after.needs.map(x=>x.position);
+ const incoming=receive.map(x=>pos(x.p)),filled=needPositions.filter(k=>incoming.includes(k));
+ const counts=after.positionCounts,slots=after.active;
+ const surplus=Object.keys(slots).filter(k=>slots[k]>0&&counts[k]>slots[k]+2);
+ const incomingGames=receive.reduce((n,x)=>n+(x.x.remaining||0),0);
+ const overlap=receive.reduce((n,x)=>n+(schedules[x.p.team]||[]).length,0);
+ return{current,after,delta,missedSaved,filled,surplus,needPositions,incomingGames,overlap};
+}
+function value(side){const t=team(side);return selected[side].map(id=>roster(t).find(p=>String(p.id)===String(id))).filter(Boolean).map(p=>{const live=p.live,x=live?projection(live):{rate:0,remaining:0,week:0,season:0,gp:0};const fallback=Number(p.espnPoints||0);return{p,x,projected:x.rate?x[range==="week"?"week":"season"]:fallback}})}
+function rating(delta,fit,missedSaved){const raw=5+Math.max(-3,Math.min(3,delta/Math.max(8,Math.abs(delta)+35)))*1.45+fit*.65+Math.max(-2,Math.min(2,missedSaved/30));return Math.max(1,Math.min(10,Math.round(raw*10)/10))}
 function analyze(){
  const out=$("tradeResults");if(!out)return;const give=value("give"),get=value("get");
  if(!give.length||!get.length){out.innerHTML='<div class="trade-loading">Add at least one player to each side to calculate both trade ratings.</div>';return}
- const s=scorePair(give,get),fmt=n=>n.toFixed(1),yourLabel=s.your>=8?"Excellent value":s.your>=6?"Favorable":s.your<=3?"Poor value":s.your<=4?"Unfavorable":"Fair value",theirLabel=s.theirs>=8?"Excellent value":s.theirs>=6?"Favorable":s.theirs<=3?"Poor value":s.theirs<=4?"Unfavorable":"Fair value";
- const strengths=(arr)=>arr.map(o=>o.p.name+" ("+fmt(o.projected)+" projected "+(range==="week"?"points this week":"points ROS")+")");
- const yourPros=s.your>=6?["You receive the stronger projected production in this comparison."]:["The players you receive project below the value you are sending out."];
- const yourCons=s.your<=4?["You give up more projected production than you get back."]:["Check roster depth, position needs and player availability before accepting."];
- const theirPros=s.theirs>=6?["The players they receive project favorably against what they send."]:["Their incoming projected production is lower than the outgoing side."];
- const theirCons=s.theirs<=4?["They may be giving up more projected production than they receive."]:["They should consider whether the incoming players fill a roster need."];
- const row=(title,n,desc)=>'<div class="trade-rating-card"><div class="trade-rating-top"><div><small>'+title+'</small><b>'+n+'/10</b></div><span>'+desc+'</span></div><div class="trade-rating-track"><i style="width:'+(n*10)+'%"></i></div></div>';
- out.innerHTML='<div class="trade-verdict"><h4>'+(s.your>s.theirs?"Projected advantage: you":s.theirs>s.your?"Projected advantage: trade partner":"Projected trade: balanced")+'</h4><p>'+yourLabel+' for you and '+theirLabel.toLowerCase()+' for your trade partner, based on '+(range==="week"?"the next 7 days":"remaining scheduled games")+'.</p></div>'+
- '<div class="trade-rating-grid">'+row("YOUR TRADE RATING",s.your,yourLabel)+row("TRADE PARTNER RATING",s.theirs,theirLabel)+'</div>'+
- '<div class="trade-projection-grid"><div class="trade-projection"><small>YOU GIVE</small><strong>'+fmt(s.gv)+'</strong><span>'+give.length+' player(s) · projected fantasy points</span></div><div class="trade-projection"><small>YOU RECEIVE</small><strong>'+fmt(s.rv)+'</strong><span>'+get.length+' player(s) · projected fantasy points</span></div></div>'+
- '<div class="trade-sides"><section class="trade-side"><h4>YOUR SIDE · PROS & CONS</h4><b>Players received</b>'+strengths(get).map(x=>'<p class="trade-insight">+ '+esc(x)+'</p>').join("")+yourPros.concat(yourCons).map((x,i)=>'<p class="trade-insight">'+(i<yourPros.length?"+ ":"− ")+esc(x)+'</p>').join("")+'</section><section class="trade-side"><h4>PARTNER SIDE · PROS & CONS</h4><b>Players received</b>'+strengths(give).map(x=>'<p class="trade-insight">+ '+esc(x)+'</p>').join("")+theirPros.concat(theirCons).map((x,i)=>'<p class="trade-insight">'+(i<theirPros.length?"+ ":"− ")+esc(x)+'</p>').join("")+'</section></div>'+
- '<section class="trade-side"><h4>PLAYER-BY-PLAYER OUTLOOK</h4>'+give.concat(get).map(o=>'<div class="trade-player-line"><span><b>'+esc(o.p.name)+'</b><br><span class="trade-muted">'+esc(o.p.team||"")+' · '+esc(o.p.position||"")+' · '+(o.x.gp||0)+' GP</span></span><span>'+fmt(o.projected)+' pts<br><small class="trade-muted">'+(o.x.remaining||0)+' games remaining</small></span></div>').join("")+'</section>'+
- '<p class="trade-footnote">Scale interpretation: 1–3 = poor value, 4–5 = below fair / close, 6–7 = favorable, 8–10 = excellent. Ratings are mirrored between managers from the same projected-value comparison; they do not measure personal roster needs. Players without a live NHL stats match use ESPN season fantasy points as a fallback.</p>';
+ const mine=tradeImpact("give",give,get),theirs=tradeImpact("get",get,give);
+ const youRating=rating(mine.delta,mine.filled.length,mine.missedSaved),theirRating=rating(theirs.delta,theirs.filled.length,theirs.missedSaved);
+ const fmt=n=>Number(n||0).toFixed(1),label=n=>n>=8?"Excellent fit":n>=6.5?"Good fit":n>=5?"Fair / balanced":n>=3.5?"Risky fit":"Poor fit";
+ const rateCard=(title,n)=>'<div class="trade-rating-card"><div class="trade-rating-top"><div><small>'+title+'</small><b>'+fmt(n)+'/10</b></div><span>'+label(n)+'</span></div><div class="trade-rating-track"><i style="width:'+(n*10)+'%"></i></div></div>';
+ const rosterSummary=(x)=>'<div class="trade-roster-metrics"><span><b>'+fmt(x.after.points)+'</b><small>projected active points</small></span><span><b>'+fmt(x.after.missed)+'</b><small>points lost to bench overflow</small></span><span><b>'+fmt(x.missedSaved)+'</b><small>bench points recovered</small></span></div>';
+ const needsText=(x)=>x.needs.length?x.needs.map(n=>n.position+" needs depth ("+n.rostered+" rostered for "+n.slots+" starting slot(s))").join("; "):"No uncovered starting-position slots detected.";
+ const congestion=(x)=>x.surplus.length?"Possible excess depth at "+x.surplus.join(", ")+".":"No obvious position surplus based on starting slots.";
+ const missedText=(x)=>{const rows=x.after.missedRows.slice(0,8);return '<p class="trade-insight"><b>Bench overflow:</b> '+fmt(x.after.missed)+' projected points from games that cannot fit into the starting lineup across the remaining schedule ('+x.after.missedRows.length+' player-game entries).</p>'+(rows.length?'<div class="trade-missed-list">'+rows.map(r=>'<div>'+esc(r.date)+' · '+esc(r.name)+' ('+esc(r.position)+') · '+fmt(r.rate)+' pts</div>').join("")+'</div>':"")};
+ const pros=(x,n)=>[x.filled.length?"Fills positional needs: "+x.filled.join(", ")+".":"No immediate starting-position shortage is filled.",x.missedSaved>0?"Reduces bench overflow by about "+fmt(x.missedSaved)+" projected points.":"Does not reduce projected bench overflow.",x.delta>=0?"Improves projected active-lineup output.":"Lowers projected active-lineup output."];
+ const rosterNames=arr=>arr.map(x=>'<p class="trade-insight">• '+esc(x.p.name)+' · '+fmt(x.projected)+' projected '+(range==="week"?"points this week":"points ROS")+'</p>').join("");
+ out.innerHTML='<div class="trade-verdict"><h4>'+(youRating>theirRating+.4?"Roster-adjusted edge: you":theirRating>youRating+.4?"Roster-adjusted edge: trade partner":"Roster-adjusted trade: close")+'</h4><p>Ratings include projected scoring, positional depth and how many scheduled games can actually fit into each manager’s starting lineup.</p></div>'+
+ '<div class="trade-rating-grid">'+rateCard("YOUR ROSTER FIT",youRating)+rateCard("PARTNER ROSTER FIT",theirRating)+'</div>'+
+ '<div class="trade-sides"><section class="trade-side"><h4>YOUR ROSTER AFTER TRADE</h4>'+rosterSummary(mine)+'<p class="trade-insight"><b>Position needs:</b> '+esc(needsText(mine.after))+'</p><p class="trade-insight"><b>Depth:</b> '+esc(congestion(mine.after))+'</p><p class="trade-insight"><b>Trade impact:</b> '+fmt(mine.delta)+' projected active points, '+fmt(mine.missedSaved)+' bench points recovered.</p>'+pros(mine,youRating).map(x=>'<p class="trade-insight">+ '+esc(x)+'</p>').join("")+'</section>'+
+ '<section class="trade-side"><h4>PARTNER ROSTER AFTER TRADE</h4>'+rosterSummary(theirs)+'<p class="trade-insight"><b>Position needs:</b> '+esc(needsText(theirs.after))+'</p><p class="trade-insight"><b>Depth:</b> '+esc(congestion(theirs.after))+'</p><p class="trade-insight"><b>Trade impact:</b> '+fmt(theirs.delta)+' projected active points, '+fmt(theirs.missedSaved)+' bench points recovered.</p>'+pros(theirs,theirRating).map(x=>'<p class="trade-insight">+ '+esc(x)+'</p>').join("")+'</section></div>'+
+ '<div class="trade-sides"><section class="trade-side"><h4>YOU RECEIVE</h4>'+rosterNames(get)+'</section><section class="trade-side"><h4>YOU GIVE</h4>'+rosterNames(give)+'</section></div>'+
+ '<div class="trade-sides"><section class="trade-side"><h4>YOUR BENCH OVERFLOW</h4>'+missedText(mine)+'</section><section class="trade-side"><h4>PARTNER BENCH OVERFLOW</h4>'+missedText(theirs)+'</section></div>'+
+ '<p class="trade-footnote">The lineup simulation assigns each day’s scheduled players to the ESPN starting slots, prioritizing projected fantasy points and specialist positions before UTIL. Bench-overflow estimates count player-games that cannot fit in those slots. Check your ESPN lineup-slot settings and live schedule before making a decision. Goalie and category leagues may need more specialized scoring rules; missing live player matches reduce projection confidence.</p>';
 }
 async function load(){const status=$("tradeLoadStatus");try{const r=await fetch("/api/trade-data",{cache:"no-store"});if(!r.ok)throw new Error("NHL directory HTTP "+r.status);const d=await r.json();directory=d.players||[];schedules=d.schedules||{};if(status)status.textContent=directory.length+" NHL players available for projection.";if(league)refresh()}catch(e){if(status)status.textContent="Live NHL projections unavailable: "+e.message}}
 function init(){const root=$(ROOT);if(!root||root.dataset.ready)return;root.dataset.ready="1";render();load()}
