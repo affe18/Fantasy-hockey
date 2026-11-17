@@ -87,3 +87,45 @@
 .trade-pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px}.trade-pros-cons>div{border:1px solid var(--trade-line,#263c52);background:#0b1826;border-radius:9px;padding:12px;min-width:0}.trade-pros-cons>div:first-child{border-color:#285b49}.trade-pros-cons>div:last-child{border-color:#684044}.trade-pros-cons>div>b{display:block;font-size:10px;letter-spacing:.9px;margin-bottom:7px}.trade-pros-cons>div:first-child>b{color:#73e0b0}.trade-pros-cons>div:last-child>b{color:#ff8585}.trade-pros-cons .trade-insight{margin:7px 0;font-size:11px;line-height:1.5}@media(max-width:650px){.trade-pros-cons{grid-template-columns:1fr}}
 
 .trade-load-status{margin:10px 0;padding:9px 11px;border:1px solid #263c52;background:#0b1826;border-radius:8px;color:#9eb3c8;font-size:10px;line-height:1.5}
+
+/* Trade Analyzer rebuild */
+.trade-rebuild{color:var(--text,#edf4fb);padding:4px 2px 18px}
+.ta-heading{display:flex;justify-content:space-between;align-items:flex-start;gap:14px;margin:4px 0 16px}
+.ta-eyebrow{font-size:10px;letter-spacing:1.5px;color:#7ddbb4;font-weight:800}
+.ta-heading h2{font-size:25px;margin:5px 0}.ta-heading p,.ta-footnote,.ta-muted{font-size:12px;color:#9aadc0;line-height:1.55}
+.ta-teambar{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:14px 0}
+.ta-teambar label{display:grid;gap:6px;font-size:10px;letter-spacing:.8px;color:#9aadc0;font-weight:800}
+.ta-teambar select,.ta-side>input{width:100%;min-width:0;background:#091827;color:#f2f6fa;border:1px solid #2a4057;border-radius:8px;padding:11px;font-size:12px}
+.ta-trade-builder{display:grid;grid-template-columns:minmax(0,1fr) 34px minmax(0,1fr);gap:12px;align-items:start}
+.ta-side{min-width:0;background:#0d1b2b;border:1px solid #253b51;border-radius:12px;padding:13px}
+.ta-side-title{display:flex;justify-content:space-between;gap:8px;align-items:center;margin-bottom:10px}
+.ta-side-title span{font-size:11px;font-weight:900;letter-spacing:1px}.ta-side-title b{font-size:11px;color:#9aadc0;text-align:right}
+.ta-picker{display:grid;gap:6px;max-height:270px;overflow:auto;margin-top:9px}
+.ta-player{display:flex;justify-content:space-between;align-items:center;gap:10px;text-align:left;width:100%;padding:9px;background:#12263b;color:#edf4fb;border:1px solid #2b435b;border-radius:8px;cursor:pointer}
+.ta-player:hover{border-color:#70dcb0;background:#173047}
+.ta-player>span:first-child{min-width:0}.ta-player b,.ta-player small{display:block}.ta-player b{font-size:12px}.ta-player small{font-size:10px;color:#9aadc0;margin-top:3px}
+.ta-player-value{font-size:10px;font-weight:800;white-space:nowrap;color:#83dfb8}
+.ta-muted{margin:8px 2px}.ta-trade-arrow{display:grid;place-items:center;min-height:60px;color:#7ddbb4;font-size:25px}
+.ta-selected{margin-top:12px;border-top:1px solid #263d54;padding-top:10px}.ta-selected-title{font-size:10px;color:#a9bbcd;font-weight:800;margin-bottom:7px}
+.ta-picked{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:8px 0;border-bottom:1px solid #20364b}
+.ta-picked b,.ta-picked small{display:block}.ta-picked b{font-size:11px}.ta-picked small{font-size:10px;color:#9aadc0;margin-top:3px}
+.ta-picked button,.ta-secondary{background:#15283b;color:#dce8f2;border:1px solid #334a61;border-radius:7px;padding:8px 10px;font-size:10px;font-weight:800;cursor:pointer}
+.ta-actions{display:flex;gap:9px;margin:15px 0}.ta-primary{background:#72dfb0;color:#092017;border:0;border-radius:8px;padding:11px 16px;font-size:11px;font-weight:900;cursor:pointer}
+.trade-load-status{padding:10px 12px;border:1px solid #31465a;background:#122438;color:#b9c9d8;border-radius:8px;font-size:11px;margin:10px 0}
+.trade-load-status.success{border-color:#27694e;color:#9be4bf}.trade-load-status.error{border-color:#85434b;color:#ffb3b3}
+.ta-results{display:grid;gap:13px}.ta-empty,.ta-no-league{padding:25px;text-align:center;color:#a9bbcd;background:#0d1b2b;border:1px dashed #344c64;border-radius:10px}
+.ta-verdict{display:flex;justify-content:space-between;gap:18px;align-items:center;background:#102338;border:1px solid #2a435a;border-radius:11px;padding:16px}
+.ta-verdict small{font-size:9px;letter-spacing:1px;color:#9aadc0}.ta-verdict h3{font-size:18px;margin:5px 0}.ta-verdict p{font-size:11px;color:#9aadc0;margin:0}
+.ta-verdict-numbers{display:flex;gap:14px}.ta-verdict-numbers span{display:grid;gap:5px;font-size:9px;color:#9aadc0}.ta-verdict-numbers b{font-size:17px}
+.ta-positive{color:#79e0b2!important}.ta-negative{color:#ff9696!important}
+.ta-player-comparison{display:grid;grid-template-columns:1fr 1fr;gap:12px}.ta-player-comparison>section{min-width:0}.ta-player-comparison h3{font-size:13px;margin:5px 0 8px}
+.ta-player-card{background:#0e1d2d;border:1px solid #293f55;border-radius:10px;padding:12px;margin-bottom:8px;min-width:0}
+.ta-player-card-head{display:flex;justify-content:space-between;gap:8px;align-items:flex-start}.ta-player-card-head h4{font-size:13px;margin:0 0 4px}.ta-player-card-head small{display:block;font-size:9px;color:#9aadc0}.ta-player-card-head>b{font-size:17px;color:#7ddbb4;text-align:right}.ta-player-card-head>b small{font-size:8px}
+.ta-stat-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin:10px 0}.ta-stat-grid span{background:#14283c;border-radius:6px;padding:7px}.ta-stat-grid small,.ta-stat-grid b{display:block}.ta-stat-grid small{font-size:8px;color:#9aadc0}.ta-stat-grid b{font-size:12px;margin-top:3px}
+.ta-player-meta{display:flex;justify-content:space-between;gap:8px;padding:6px 0;border-top:1px solid #253a50;font-size:10px}.ta-player-meta span{color:#9aadc0}.ta-player-meta b{text-align:right}
+.ta-manager{background:#0d1b2b;border:1px solid #263d53;border-radius:11px;padding:14px}.ta-manager>header{display:flex;justify-content:space-between;gap:12px;align-items:center}.ta-manager h3{font-size:14px;margin:0}.ta-manager>header span{font-weight:900;font-size:13px}
+.ta-before-after{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin:12px 0}.ta-before-after>div{background:#14283c;border-radius:8px;padding:10px}.ta-before-after small,.ta-before-after b{display:block}.ta-before-after small{font-size:9px;color:#9aadc0}.ta-before-after b{font-size:20px;margin:5px 0}
+.ta-insights{border-top:1px solid #263d53;padding-top:10px}.ta-insights h4{font-size:11px;margin:0 0 7px}.ta-insights p{font-size:11px;line-height:1.5;margin:6px 0;padding:8px 9px;border-radius:7px;background:#14283c}.ta-insights .ta-pro{border-left:3px solid #65d9a7}.ta-insights .ta-con{border-left:3px solid #e77f86}.ta-insights .ta-neutral{border-left:3px solid #d9b96b}
+.ta-footnote{margin-top:14px}
+@media(max-width:720px){.ta-teambar{grid-template-columns:1fr 1fr}.ta-trade-builder{grid-template-columns:1fr}.ta-trade-arrow{min-height:18px;transform:rotate(90deg)}.ta-verdict{display:block}.ta-verdict-numbers{margin-top:12px}.ta-player-comparison{grid-template-columns:1fr}}
+@media(max-width:480px){.ta-teambar{grid-template-columns:1fr}.ta-heading{display:block}.ta-heading .ta-secondary{margin-top:8px}.ta-actions{flex-wrap:wrap}.ta-verdict-numbers{justify-content:space-between}}
