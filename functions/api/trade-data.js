@@ -11,7 +11,7 @@ async function fetchJson(url){
    const error=new Error("Upstream HTTP "+response.status+" for "+url);
    if(response.status!==429&&response.status<500)throw error;
    lastError=error;
-  }catch(error){lastError=error;if(!/429|5\d\d/.test(String(error.message)))throw error}
+  }catch(error){lastError=error;const message=String(error?.message||error);if(!/429|5\d\d|timeout|timed out|abort|network|fetch failed/i.test(message))throw error}
   if(attempt<2)await wait(700*(attempt+1));
  }
  throw lastError||new Error("NHL data request failed");
