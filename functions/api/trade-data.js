@@ -59,10 +59,10 @@ async function handler(req,res,env){
  const results=scheduleOnly?[]:await Promise.all(requests.map(async([key,url])=>{try{return{key,data:await fetchJson(url),ok:true}}catch(error){failures.push(key+": "+error.message);return{key,data:null,ok:false}}}));
  const byId=new Map(),extraById=new Map();
  const result=(key)=>results.find(item=>item.key===key);
- for(const row of dataRows(result("skaterSummary").data)){const p=buildPlayer(row,false);if(p)byId.set(p.id,p)}
- for(const row of dataRows(result("goalieSummary").data)){const p=buildPlayer(row,true);if(p)byId.set(p.id,p)}
- for(const row of dataRows(result("skaterRealtime").data)){const id=String(row.playerId||"");if(id)extraById.set(id,{...(extraById.get(id)||{}),hits:num(row.hits),blockedShots:num(row.blockedShots,row.blocks)})}
- for(const row of dataRows(result("faceoffWins").data)){const id=String(row.playerId||"");if(id)extraById.set(id,{...(extraById.get(id)||{}),faceoffWins:num(row.faceoffWins,row.totalFaceoffWins)})}
+ for(const row of dataRows(result("skaterSummary")?.data)){const p=buildPlayer(row,false);if(p)byId.set(p.id,p)}
+ for(const row of dataRows(result("goalieSummary")?.data)){const p=buildPlayer(row,true);if(p)byId.set(p.id,p)}
+ for(const row of dataRows(result("skaterRealtime")?.data)){const id=String(row.playerId||"");if(id)extraById.set(id,{...(extraById.get(id)||{}),hits:num(row.hits),blockedShots:num(row.blockedShots,row.blocks)})}
+ for(const row of dataRows(result("faceoffWins")?.data)){const id=String(row.playerId||"");if(id)extraById.set(id,{...(extraById.get(id)||{}),faceoffWins:num(row.faceoffWins,row.totalFaceoffWins)})}
  for(const [id,p] of byId){const extra=extraById.get(id)||{};p.stats.hits=extra.hits??p.stats.hits;p.stats.blockedShots=extra.blockedShots??p.stats.blockedShots;p.stats.faceoffWins=extra.faceoffWins??p.stats.faceoffWins}
  const today=new Date().toISOString().slice(0,10),schedules={},scheduleStatus={};
  const scheduleResults=await mapLimit(requestedTeams,4,async team=>{try{const payload=await fetchJson(NHL+"/club-schedule-season/"+team+"/now");const teamGames=games(payload);if(!teamGames.length)throw new Error("NHL returned no schedule games");return{team,data:teamGames,ok:true}}catch(error){failures.push(team+" schedule: "+error.message);return{team,data:[],ok:false}}});
@@ -96,7 +96,7 @@ async function handler(req,res,env){
   }
  }
  const players=[...byId.values()];
- return res.status(200).json({updatedAt:new Date().toISOString(),seasonId:season,statSource:"NHL Stats REST",mode:scheduleOnly?"schedules":"players",players,schedules,scheduleStatus,teamsLoaded:[...new Set(players.map(p=>p.team).filter(Boolean))].length,rosterTeamsLoaded,rosterPlayersAdded,skatersLoaded:dataRows(result("skaterSummary").data).length,goaliesLoaded:dataRows(result("goalieSummary").data).length,statCategoriesLoaded:results.filter(item=>item.ok).map(item=>item.key),failures});
+ return res.status(200).json({updatedAt:new Date().toISOString(),seasonId:season,statSource:"NHL Stats REST",mode:scheduleOnly?"schedules":"players",players,schedules,scheduleStatus,teamsLoaded:[...new Set(players.map(p=>p.team).filter(Boolean))].length,rosterTeamsLoaded,rosterPlayersAdded,skatersLoaded:dataRows(result("skaterSummary")?.data).length,goaliesLoaded:dataRows(result("goalieSummary")?.data).length,statCategoriesLoaded:results.filter(item=>item.ok).map(item=>item.key),failures});
 };
 
 
