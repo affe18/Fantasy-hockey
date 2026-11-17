@@ -23,11 +23,12 @@ async function handler(req,res,env){
  for(const raw of skaters){const p=player(raw,false);if(p)byId.set(p.id,p)}
  for(const raw of goalies){const p=player(raw,true);if(p)byId.set(p.id,p)}
  const teams=[...new Set([...byId.values()].map(p=>p.team).filter(Boolean))];
+ const scheduleStatus={};
  const today=new Date().toISOString().slice(0,10),schedules={};
- const scheduleResults=await Promise.all(TEAMS.map(async team=>{try{return{team,data:games(await get("/club-schedule-season/"+team+"/now"))}}catch(e){failures.push(team+" schedule: "+e.message);return{team,data:[]}}}));
- for(const x of scheduleResults)schedules[x.team]=x.data.filter(g=>(g.gameDate||"").slice(0,10)>=today).map(g=>({date:g.gameDate,opponent:(g.awayTeam?.abbrev===x.team?g.homeTeam?.abbrev:g.awayTeam?.abbrev)||"TBD",home:g.homeTeam?.abbrev===x.team,gameState:g.gameState||""}));
+ const scheduleResults=await Promise.all(TEAMS.map(async team=>{try{return{team,data:games(await get("/club-schedule-season/"+team+"/now")),ok:true}}catch(e){failures.push(team+" schedule: "+e.message);return{team,data:[],ok:false}}}));
+ for(const x of scheduleResults){scheduleStatus[x.team]=x.ok;schedules[x.team]=x.data.filter(g=>(g.gameDate||"").slice(0,10)>=today).map(g=>({date:g.gameDate,opponent:(g.awayTeam?.abbrev===x.team?g.homeTeam?.abbrev:g.awayTeam?.abbrev)||"TBD",home:g.homeTeam?.abbrev===x.team,gameState:g.gameState||""}));}
  const players=[...byId.values()];
- return res.status(200).json({updatedAt:new Date().toISOString(),players,schedules,teamsLoaded:teams.length,skatersLoaded:skaters.length,goaliesLoaded:goalies.length,statCategoriesLoaded:[...(skaterResult.status==="fulfilled"?["skaters"]:[]),...(goalieResult.status==="fulfilled"?["goalies"]:[])],failures});
+ return res.status(200).json({updatedAt:new Date().toISOString(),players,schedules,scheduleStatus,teamsLoaded:teams.length,skatersLoaded:skaters.length,goaliesLoaded:goalies.length,statCategoriesLoaded:[...(skaterResult.status==="fulfilled"?["skaters"]:[]),...(goalieResult.status==="fulfilled"?["goalies"]:[])],failures});
 }
 export async function onRequest({request,env}){
  let body;
