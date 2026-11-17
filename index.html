@@ -98,7 +98,7 @@
       <section class="tools"><button class="tool-card" data-open="player"><span class="arrow">↗</span><div class="tool-icon">◎</div><b>Player analysis</b><p>Compare player value and projections.</p></button><button class="tool-card" data-open="trade"><span class="arrow">↗</span><div class="tool-icon">⇄</div><b>Trade analyzer</b><p>Evaluate both sides of a trade.</p></button><button class="tool-card" data-open="waiver"><span class="arrow">↗</span><div class="tool-icon">＋</div><b>Waiver wire</b><p>Find useful waiver pickups.</p></button><button class="tool-card" data-open="draft"><span class="arrow">↗</span><div class="tool-icon">✧</div><b>Draft assistant</b><p>Plan your draft picks.</p></button></section>
     </main>
   </div>
-  <div class="modal-backdrop" id="modalBackdrop" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal"><div class="modal-head"><h3 id="modalTitle">Trade analyzer</h3><button class="close" id="closeModal" aria-label="Close">×</button></div><div id="modalBody"></div></div></div><div class="toast" id="toast"></div>
+  <div class="modal-backdrop" id="modalBackdrop" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal"><div class="modal-head"><h3 id="modalTitle">Trade analyzer</h3><button type="button" class="close" id="closeModal" aria-label="Close">×</button></div><div id="modalBody"></div></div></div><div class="toast" id="toast"></div>
   <script>
     const modal=document.getElementById('modalBackdrop'),body=document.getElementById('modalBody'),title=document.getElementById('modalTitle');
     const templates={
