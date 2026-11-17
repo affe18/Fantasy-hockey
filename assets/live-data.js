@@ -1,12 +1,14 @@
 /* Fetch fresh NHL/ESPN data whenever a visitor opens or reloads the dashboard. */
 (async function(){
   const root=document.querySelector('.main'); if(!root)return;
+  let initialPanel=document.getElementById('rinkLiveFeed');
+  if(!initialPanel){initialPanel=document.createElement('section');initialPanel.id='rinkLiveFeed';initialPanel.className='rink-enhancement-grid';initialPanel.innerHTML='<article class="rink-panel scoring-leaders-panel"><div class="rink-panel-head"><div><div class="rink-panel-title">NHL scoring leaders</div><div class="rink-panel-sub">Loading current league leaderboard…</div></div><span class="rink-live-tag">LIVE NHL DATA</span></div><div class="rink-loading">Fetching the latest scoring leaders…</div></article>';const onboarding=root.querySelector('.league-onboarding');if(onboarding)onboarding.insertAdjacentElement('afterend',initialPanel);else root.prepend(initialPanel);}
   const url='/api/refresh';
   const fmtDate=value=>{if(!value)return 'Time unavailable';const d=new Date(value);return Number.isNaN(d.getTime())?'Time unavailable':d.toLocaleString(undefined,{dateStyle:'medium',timeStyle:'short'});};
   const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   function render(data){
     let panel=document.getElementById('rinkLiveFeed');
-    if(!panel){panel=document.createElement('section');panel.id='rinkLiveFeed';panel.className='rink-enhancement-grid';const stats=root.querySelector('.stats');if(stats)stats.insertAdjacentElement('afterend',panel);else root.prepend(panel);}
+    if(!panel){panel=initialPanel;}
     const leaders=(data.leaders||[]).slice(0,8);
     const news=(data.news||[]).slice(0,7);
     const injuries=(data.injuries||[]).slice(0,5);
@@ -14,7 +16,7 @@
     const leaderName=p=>[p.firstName?.default||p.firstName||'',p.lastName?.default||p.lastName||''].filter(Boolean).join(' ')||p.name?.default||p.name||p.skaterFullName||'NHL player';
     const points=p=>p.points??p.pts??p.point??'—';
     panel.innerHTML=`
-      <article class="rink-panel">
+      <article class="rink-panel scoring-leaders-panel">
         <div class="rink-panel-head"><div><div class="rink-panel-title">NHL scoring leaders</div><div class="rink-panel-sub">Current league leaderboard · official NHL stats endpoint</div></div><span class="rink-live-tag">DATA FEED</span></div>
         ${leaders.length?'<div class="rink-ranking">'+leaders.map((p,i)=>'<div class="rink-ranking-row"><span class="rink-rank">'+(i+1)+'</span><div><div class="name">'+esc(leaderName(p))+'</div><div class="meta">'+esc(p.teamAbbrev||p.team?.abbrev||p.position||'NHL')+'</div></div><div class="points">'+esc(points(p))+'<small>points</small></div></div>').join('')+'</div>':'<p class="rink-disclaimer">The NHL stats feed has not returned data yet. Try refreshing shortly.</p>'}
         <p class="rink-disclaimer">Fetched for this page load: ${esc(fmtDate(data.updatedAt))}. NHL scoring points are not the same as your league's fantasy points.</p>
@@ -37,7 +39,7 @@
     if(!response.ok)throw new Error('HTTP '+response.status);
     render(await response.json());
   }catch(error){
-    const panel=document.createElement('section');panel.className='rink-panel';panel.innerHTML='<div class="rink-panel-title">Live data feed not connected yet</div><p class="rink-disclaimer">The live request could not complete. The API refreshes providers when this page loads; please try again shortly.</p>';root.querySelector('.stats')?.insertAdjacentElement('afterend',panel);
+    const panel=document.createElement('section');panel.className='rink-panel';panel.innerHTML='<article class="rink-panel scoring-leaders-panel"><div class="rink-panel-title">NHL scoring leaders</div><p class="rink-disclaimer">The live scoring feed could not load. Refresh the page to try again.</p></article>';
     console.warn('RinkIQ data feed:',error);
   }
 })();
