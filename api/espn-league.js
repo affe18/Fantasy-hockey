@@ -5,8 +5,20 @@ module.exports = async function handler(req, res) {
   if (req.method !== "POST") { res.setHeader("Allow", "POST"); return res.status(405).json({error:"Use POST"}); }
   try {
     const b = typeof req.body === "string" ? JSON.parse(req.body) : (req.body || {});
-    const id = String(b.leagueId || "").trim(), season = Number(b.season || new Date().getFullYear());
-    if (!/^\d{1,12}$/.test(id)) return res.status(400).json({error:"Enter the numeric ESPN league ID."});
+    const rawLeague = String(b.leagueId || "").trim();
+    let id = rawLeague;
+    if (!/^\\d{1,12}$/.test(id)) {
+      try {
+        const parsed = new URL(rawLeague.startsWith("http") ? rawLeague : "https://" + rawLeague);
+        id = parsed.searchParams.get("leagueId") || parsed.searchParams.get("leagueid") || "";
+        if (!id) {
+          const match = parsed.pathname.match(/\\/league\\/(\\d{1,12})(?:\\/|$)/i);
+          if (match) id = match[1];
+        }
+      } catch (_) {}
+    }
+    const season = Number(b.season || new Date().getFullYear());
+    if (!/^\\d{1,12}$/.test(id)) return res.status(400).json({error:"Paste your ESPN league or team page URL, or enter the league ID. The URL must contain a leagueId value."});
     if (!Number.isInteger(season) || season < 2010 || season > new Date().getFullYear()+1) return res.status(400).json({error:"Invalid season year."});
     if (b.sport && b.sport !== "fhl") return res.status(400).json({error:"Only ESPN Fantasy Hockey is supported currently."});
     const s2=String(b.espnS2||"").trim(), swid=String(b.swid||"").trim();
