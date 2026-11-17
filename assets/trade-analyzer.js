@@ -38,7 +38,7 @@ function bind(){
  $("tradeScoringToggle").onclick=()=>{$("tradeScoringPanel").hidden=!$("tradeScoringPanel").hidden};
  document.querySelectorAll("[data-score]").forEach(i=>i.onchange=()=>{scoring[i.dataset.score]=Number(i.value)||0;try{localStorage.setItem(SCORING_KEY,JSON.stringify({weights:scoring}))}catch(e){}analyze()});
 }
-function pos(p){const n=String(p.position||"");return ({1:"C",2:"LW",3:"RW",4:"D",5:"G",0:"C"})[n]||n.toUpperCase()}
+function pos(p){const n=String(p.position||"");return ({1:"C",2:"LW",3:"RW",4:"D",5:"G",0:"C",L:"LW",R:"RW",F:"W"})[n.toUpperCase()]||n.toUpperCase()}
 function slots(){const raw=league?.rosterSlots||{};const out={C:0,LW:0,RW:0,D:0,G:0,UTIL:0};const map={"0":"C","1":"LW","2":"RW","3":"D","4":"UTIL","5":"G"};Object.entries(raw).forEach(([id,count])=>{if(map[id])out[map[id]]+=Number(count)||0});return out}
 function lineupSlots(){const s=slots();return Object.entries(s).flatMap(([k,n])=>Array.from({length:n},()=>k))}
 function teamRoster(side){return roster(team(side))}
