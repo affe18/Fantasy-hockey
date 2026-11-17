@@ -113,3 +113,19 @@ body{background:linear-gradient(180deg,#fff 0,#f5f6f8 360px)!important;color:#20
  .league-onboarding p{font-size:13px!important}
  .league-benefits{margin-top:14px!important}
 }
+
+/* Always-visible NHL scoring leaderboard */
+#rinkLiveFeed{display:grid!important;grid-template-columns:minmax(0,1fr) minmax(0,1fr)!important;gap:14px!important;margin:18px 0 26px!important}
+#rinkLiveFeed .scoring-leaders-panel{grid-column:1/-1;background:#fff!important;border:1px solid #e6e8ed!important;border-top:3px solid #E10600!important;border-radius:15px!important;padding:18px 20px!important;box-shadow:0 6px 20px #20242b08!important}
+#rinkLiveFeed .rink-panel-title{font-size:16px!important;color:#20242b!important}
+#rinkLiveFeed .rink-panel-sub{font-size:11px!important;color:#737b88!important}
+#rinkLiveFeed .rink-live-tag{background:#fff0ed!important;color:#B80000!important;border-color:#f0c9c5!important}
+#rinkLiveFeed .rink-ranking{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 22px}
+#rinkLiveFeed .rink-ranking-row{display:grid;grid-template-columns:30px minmax(0,1fr) auto;align-items:center;gap:10px;padding:11px 0;border-bottom:1px solid #eef0f2}
+#rinkLiveFeed .rink-ranking-row .name{font-size:12px;font-weight:700;color:#20242b}
+#rinkLiveFeed .rink-ranking-row .meta{font-size:10px;color:#737b88;margin-top:3px}
+#rinkLiveFeed .rink-ranking-row .points{font-size:17px;font-weight:750;color:#E10600;text-align:right}
+#rinkLiveFeed .rink-ranking-row .points small{display:block;font-size:9px;font-weight:500;color:#737b88}
+#rinkLiveFeed .rink-disclaimer{font-size:10px;color:#858c96;line-height:1.5;margin:12px 0 0}
+#rinkLiveFeed .rink-loading{font-size:12px;color:#737b88;padding:18px 0}
+@media(max-width:760px){#rinkLiveFeed{grid-template-columns:1fr!important}#rinkLiveFeed .rink-ranking{grid-template-columns:1fr}#rinkLiveFeed .scoring-leaders-panel{padding:15px!important}}
