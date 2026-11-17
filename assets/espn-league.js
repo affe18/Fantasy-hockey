@@ -10,7 +10,7 @@ function init(){
 async function importLeague(){
  const status=$("espnStatus"),btn=$("espnImport");const leagueId=$("espnLeagueId").value.trim(),season=$("espnSeason").value,s2=$("espnS2")?.value||"",swid=$("espnSwid")?.value||"";
  if(!leagueId){status.textContent="Enter your ESPN league ID.";return;}btn.disabled=true;status.textContent="Connecting to ESPN and importing league data…";
- try{const r=await fetch("/api/espn-league",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({leagueId,season,sport:"fhl",espnS2:s2,swid})});const d=await r.json();if(!r.ok)throw new Error(d.error||"Import failed");league=d;$("espnS2").value="";$("espnSwid").value="";status.textContent="Imported "+d.teams.length+" teams · "+d.scoring.length+" scoring rules · "+d.matchups.length+" matchup records · "+d.access;renderResults();}catch(e){status.textContent=e.message;}finally{btn.disabled=false;}
+ try{const r=await fetch("/api/espn-league",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({leagueId,season,sport:"fhl",espnS2:s2,swid})});const d=await r.json();if(!r.ok)throw new Error(d.error||"Import failed");league=d;try{localStorage.setItem("rinkIQ.importedLeague.v1",JSON.stringify(d));window.dispatchEvent(new CustomEvent("rinkiq:league-imported",{detail:d}));}catch(e){}$("espnS2").value="";$("espnSwid").value="";status.textContent="Imported "+d.teams.length+" teams · "+d.scoring.length+" scoring rules · "+d.matchups.length+" matchup records · "+d.access;renderResults();}catch(e){status.textContent=e.message;}finally{btn.disabled=false;}
 }
 function renderResults(){
  const root=$("espnResults");if(!root||!league)return;
