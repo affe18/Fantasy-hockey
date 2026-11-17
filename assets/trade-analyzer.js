@@ -47,7 +47,8 @@ function bind(){
  $("tradeScoringToggle").onclick=()=>{$("tradeScoringPanel").hidden=!$("tradeScoringPanel").hidden};
  document.querySelectorAll("[data-score]").forEach(i=>i.onchange=()=>{scoring[i.dataset.score]=Number(i.value)||0;try{localStorage.setItem(SCORING_KEY,JSON.stringify({weights:scoring}))}catch(e){}analyze()});
 }
-function pos(p){const n=String(p.position||"");return ({1:"C",2:"LW",3:"RW",4:"D",5:"G",0:"C",L:"LW",R:"RW",F:"W"})[n.toUpperCase()]||n.toUpperCase()}
+function pos(p){const n=String(p.position||"");return ({1:"C",2:"LW",3:"RW",4:"D",5:"G",6:"G",0:"C",L:"LW",R:"RW",F:"W"})[n.toUpperCase()]||n.toUpperCase()}
+function eligiblePositions(p){const ids=(p.eligibleSlotIds||[]).map(String),map={"0":"C","1":"LW","2":"RW","3":"D","5":"G"};if(ids.length){const found=[...new Set(ids.map(id=>map[id]).filter(Boolean))];if(found.length)return found}return[pos(p)]}
 function slots(){const raw=league?.rosterSlots||{};const out={C:0,LW:0,RW:0,D:0,G:0,UTIL:0};const map={"0":"C","1":"LW","2":"RW","3":"D","4":"UTIL","5":"G"};Object.entries(raw).forEach(([id,count])=>{if(map[id])out[map[id]]+=Number(count)||0});return out}
 function lineupSlots(){const s=slots();return Object.entries(s).flatMap(([k,n])=>Array.from({length:n},()=>k))}
 function teamRoster(side){return roster(team(side))}
@@ -64,7 +65,7 @@ function optimizeRoster(side,exclude=[],include=[]){
   for(const entry of ordered){let best=null;for(const item of candidates){if(used.has(String(item.p.id))||filledSlots.has(entry.index)||!eligible(item.p,entry.slot))continue;if(!best||item.rate>best.rate)best=item}if(best){used.add(String(best.p.id));filledSlots.add(entry.index);points+=best.rate}}
   candidates.forEach(item=>{if(!used.has(String(item.p.id))){missed+=item.rate;missedRows.push({date,name:item.p.name,position:pos(item.p),rate:item.rate})}});
  });
- base.forEach(p=>positionCounts[pos(p)] = (positionCounts[pos(p)]||0)+1);
+ base.forEach(p=>eligiblePositions(p).forEach(k=>{positionCounts[k]=(positionCounts[k]||0)+1}));
  const active=Object.fromEntries(["C","LW","RW","D","G"].map(k=>[k,sl.filter(x=>x===k).length]));
  const needs=Object.entries(active).filter(([k,n])=>n>0&&positionCounts[k]<n).map(([k,n])=>({position:k,slots:n,rostered:positionCounts[k]}));
  return{points,missed,missedRows,positionCounts,active,needs,roster:base,dates:dates.length,coverage,projectedPlayers,unprojectedPlayers};
@@ -73,7 +74,7 @@ function tradeImpact(side,give,receive){
  const current=optimizeRoster(side),after=optimizeRoster(side,give.map(x=>String(x.p.id)),receive.map(x=>x.p));
  const delta=after.points-current.points,missedSaved=current.missed-after.missed;
  const needPositions=after.needs.map(x=>x.position);
- const incoming=receive.map(x=>pos(x.p)),filled=needPositions.filter(k=>incoming.includes(k));
+ const incoming=receive.flatMap(x=>eligiblePositions(x.p)),filled=needPositions.filter(k=>incoming.includes(k));
  const counts=after.positionCounts,slots=after.active;
  const surplus=Object.keys(slots).filter(k=>slots[k]>0&&counts[k]>slots[k]+2);
  const incomingGames=receive.reduce((n,x)=>n+(x.x.remaining||0),0);
@@ -104,7 +105,7 @@ function analyze(){
  '<div class="trade-sides"><section class="trade-side"><h4>YOUR BENCH OVERFLOW</h4>'+missedText(mine)+'</section><section class="trade-side"><h4>PARTNER BENCH OVERFLOW</h4>'+missedText(theirs)+'</section></div>'+
  '<p class="trade-footnote">The lineup simulation assigns each day’s scheduled players to the ESPN starting slots, prioritizing projected fantasy points and specialist positions before UTIL. Bench-overflow estimates count player-games that cannot fit in those slots. Check your ESPN lineup-slot settings and live schedule before making a decision. Goalie and category leagues may need more specialized scoring rules; missing live player matches reduce projection confidence.</p>';
 }
-async function load(){const status=$("tradeLoadStatus");try{const results=await Promise.allSettled([fetch("/api/trade-data",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error("NHL directory HTTP "+r.status);return r.json()}),fetch("/api/refresh",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error("Injury feed HTTP "+r.status);return r.json()})]);if(results[0].status!=="fulfilled")throw results[0].reason;const d=results[0].value;directory=d.players||[];schedules=d.schedules||{};scheduleStatus=d.scheduleStatus||{};const injuryItems=results[1].status==="fulfilled"?(results[1].value.injuries||[]):[];for(const p of directory){const hit=injuryItems.find(i=>norm(i.athlete?.displayName||i.player?.displayName||i.name)===norm(p.name));p.injuryStatus=hit?(hit.status||hit.details||hit.description||"Listed on injury report"):"No matching injury entry (not confirmation of healthy)"}if(status)status.textContent=directory.length+" NHL players loaded · injury feed "+(results[1].status==="fulfilled"?"checked":"unavailable")+" · remaining-season schedules loaded where available.";if(league)refresh()}catch(e){if(status)status.textContent="Live NHL projections unavailable: "+e.message}}
+async function load(){const status=$("tradeLoadStatus");try{const results=await Promise.allSettled([fetch("/api/trade-data",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error("NHL directory HTTP "+r.status);return r.json()}),fetch("/api/refresh",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error("Injury feed HTTP "+r.status);return r.json()})]);if(results[0].status!=="fulfilled")throw results[0].reason;const d=results[0].value;directory=d.players||[];schedules=d.schedules||{};scheduleStatus=d.scheduleStatus||{};const injuryAvailable=results[1].status==="fulfilled"&&results[1].value.sourceStatus?.injuries===true;const injuryItems=injuryAvailable?(results[1].value.injuries||[]):[];for(const p of directory){const hit=injuryItems.find(i=>norm(i.athlete?.displayName||i.player?.displayName||i.name)===norm(p.name));p.injuryStatus=!injuryAvailable?"Injury feed unavailable":hit?(hit.status||hit.details||hit.description||"Listed on injury report"):"No matching injury entry (not confirmation of healthy)"}if(status)status.textContent=directory.length+" NHL players loaded · injury feed "+(injuryAvailable?"available":"unavailable")+" · remaining-season schedules loaded where available.";if(league)refresh()}catch(e){if(status)status.textContent="Live NHL projections unavailable: "+e.message}}
 function init(){const root=$(ROOT);if(!root)return;if(root.dataset.ready){render();return}root.dataset.ready="1";render();load()}
 window.RinkIQOpenTrade=()=>{const root=$(ROOT);if(root)init()};
 const observer=new MutationObserver(()=>{if($(ROOT)&&!$(ROOT).dataset.ready)init()});observer.observe(document.body,{childList:true,subtree:true});init();
