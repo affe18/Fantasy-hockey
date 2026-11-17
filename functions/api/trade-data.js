@@ -70,7 +70,7 @@ async function handler(req,res,env){
  // Supplement season-stat rows with every current NHL roster member. Players without
  // a season stat row remain identifiable, but gamesPlayed stays zero and is not
  // treated as evidence of fantasy production.
- const rosterResults=await mapLimit(TEAMS,4,async team=>{
+ const rosterResults=scheduleOnly?[]:await mapLimit(TEAMS,4,async team=>{
   try{return {team,data:await fetchJson(NHL+"/roster/"+team+"/current"),ok:true}}
   catch(error){failures.push(team+" roster: "+error.message);return {team,data:null,ok:false}}
  });
@@ -84,7 +84,8 @@ async function handler(req,res,env){
     const id=String(row.id||row.playerId||"");
     const first=typeof row.firstName==="string"?row.firstName:row.firstName?.default;
     const last=typeof row.lastName==="string"?row.lastName:row.lastName?.default;
-    const name=row.fullName||[first,last].filter(Boolean).join(" ");
+    const fullName=typeof row.fullName==="string"?row.fullName:row.fullName?.default;
+    const name=fullName||[first,last].filter(Boolean).join(" ");
     if(!id||!name)continue;
     if(!byId.has(id)){
      const position=row.positionCode||(group==="goalies"?"G":group==="defensemen"?"D":"F");
