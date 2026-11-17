@@ -4,7 +4,6 @@
   "version": "1.0.0",
   "description": "Connect your signed-in ESPN Fantasy Hockey league to Fantasy Hockey Inspection without sharing your ESPN password.",
   "permissions": [
-    "cookies",
     "activeTab",
     "scripting"
   ],
