@@ -33,7 +33,7 @@ module.exports = async function handler(req, res) {
     if(s2) headers.Cookie="espn_s2="+s2+"; SWID="+swid;
     const upstream=await fetch(url,{headers,signal:AbortSignal.timeout(20000)});
     const raw=await upstream.text();
-    if(upstream.status===401||upstream.status===403) return res.status(401).json({error:"ESPN denied access. The league may be private, or the session cookies may be invalid/expired."});
+    if(upstream.status===401||upstream.status===403) return res.status(401).json({error:"ESPN says this league is not publicly viewable. Ask your league manager to enable public viewability in League → Settings → Basic Settings → Edit Basic Settings, then try again."});
     if(upstream.status===404) return res.status(404).json({error:"League not found for that season. Check the league ID and season."});
     if(!upstream.ok) return res.status(502).json({error:"ESPN returned HTTP "+upstream.status+"."});
     let d; try { d=JSON.parse(raw); } catch { return res.status(502).json({error:"ESPN did not return JSON; its API may have changed."}); }
