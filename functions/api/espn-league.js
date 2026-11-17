@@ -121,6 +121,7 @@ async function handler(req, res, env) {
           eligibleSlotIds: asArray(player.eligibleSlots).map((slot) => String(slot)),
           proTeamId: player.proTeamId || null,
           injuryStatus: player.injuryStatus || "",
+          injured: !!player.injured,
           lineupSlotId: entry.lineupSlotId ?? null,
           fantasyPoints: finiteNumber(points),
           fantasyPointsSource: playerPoolEntry.totalPoints != null ? "ESPN season total"
