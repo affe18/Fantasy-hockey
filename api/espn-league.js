@@ -20,7 +20,11 @@ module.exports = async function handler(req, res) {
       const hockeyPathMatch = decoded.match(/\/(?:hockey|fantasy)\/(?:league|team)\/(\d{1,12})(?:[/?#]|$)/i);
       id = (queryMatch && queryMatch[1]) || (pathMatch && pathMatch[1]) || (hockeyPathMatch && hockeyPathMatch[1]) || "";
     }
-    const season = Number(b.season || new Date().getFullYear());
+    // ESPN labels an NHL season by the calendar year in which it ends (e.g. 2026-27 is season 2027).
+    // From July onward, default to the following year so in-season imports do not query a stale season.
+    const now = new Date();
+    const defaultSeason = now.getUTCMonth() >= 6 ? now.getUTCFullYear() + 1 : now.getUTCFullYear();
+    const season = Number(b.season || defaultSeason);
     if (!/^\d{1,12}$/.test(id)) return res.status(400).json({error:"Paste your ESPN league or team page URL, or enter the league ID. The URL must contain a leagueId value."});
     if (!Number.isInteger(season) || season < 2010 || season > new Date().getFullYear()+1) return res.status(400).json({error:"Invalid season year."});
     if (b.sport && b.sport !== "fhl") return res.status(400).json({error:"Only ESPN Fantasy Hockey is supported currently."});
