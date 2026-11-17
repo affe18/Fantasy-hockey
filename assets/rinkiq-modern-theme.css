@@ -142,3 +142,97 @@ body{background:linear-gradient(180deg,#fff 0,#f5f6f8 360px)!important;color:#20
 .league-import-inline .espn-import details{color:#626b77}
 .league-import-inline .espn-button{background:#E10600;color:#fff}
 .league-import-inline .espn-status{color:#626b77}
+
+
+/* Black + red visual system */
+:root{
+  --bg:#090a0c!important;--panel:#121417!important;--panel2:#1b1d21!important;
+  --line:#292d33!important;--muted:#969da8!important;--text:#f4f5f7!important;
+  --green:#E10600!important;--blue:#9aa4b2!important;--yellow:#e0a43a!important;
+  --red:#E10600!important;--purple:#a78bca!important;--radius:16px;
+  color-scheme:dark;
+}
+html,body{background:#090a0c!important;color:#f4f5f7!important}
+body{background:linear-gradient(180deg,#111316 0,#090a0c 420px)!important;color:#f4f5f7!important}
+.sidebar{background:#101215!important;border-color:#292d33!important;box-shadow:4px 0 22px #0008}
+.brand-mark{background:linear-gradient(145deg,#ff3028,#b80000)!important;color:#fff!important;box-shadow:0 6px 18px #E1060040}
+.brand-name,.brand-name span{color:#f4f5f7!important}.brand-name span{color:#ff2922!important}
+.season,.upgrade,.user{border-color:#292d33!important}
+.season,.crumb,.greeting p,.card-sub,.stat-top,.stat-foot,.user small{color:#969da8!important}
+.season b,.crumb b,.player-name,.news-copy b,.stat strong,.card-title,.tool-card b,.modal-head h3{color:#f4f5f7!important}
+.nav-label{color:#e16b67!important}
+.nav button,.nav a{color:#b3bac4!important}
+.nav button:hover,.nav a:hover,.nav button.active,.nav a.active{background:#291314!important;color:#ff514b!important}
+.nav button.active,.nav a.active{box-shadow:inset 3px 0 #E10600!important}
+.upgrade{background:linear-gradient(145deg,#1b1516,#121417)!important}
+.upgrade button,.primary{background:#E10600!important;color:#fff!important;box-shadow:0 5px 14px #E1060033}
+.upgrade button:hover,.primary:hover{background:#b80000!important}
+.avatar,.player-initial,.team-logo,.impact-orb,.tool-card .tool-icon{background:#351819!important;color:#ff5a54!important}
+.main{color:#f4f5f7!important}
+.eyebrow,.text-btn,.tool-card .arrow,.hero-score .positive,.good,.trend,.impact-row strong{color:#ff514b!important}
+.date-pill,.icon-btn,.league-btn,.secondary{background:#171a1e!important;border-color:#30353c!important;color:#d4d8de!important}
+.date-pill i,.league-btn span{background:#E10600!important;color:#fff!important}
+.hero{background:linear-gradient(115deg,#17191d,#211416 75%,#351719)!important;border:1px solid #4a2527!important;box-shadow:0 12px 30px #0005}
+.hero h2,.hero-score strong{color:#f4f5f7!important}
+.hero p,.hero-score small{color:#aab1bb!important}
+.hero-score{border-color:#4a2527!important}
+.score-ring{border-color:#E10600!important;border-right-color:#572326!important;color:#f4f5f7!important}
+.stats .stat,.card,.tool-card,.modal{background:#121417!important;border-color:#292d33!important;box-shadow:0 5px 18px #0005}
+.stat-icon{color:#ff514b!important}
+.player-table th{color:#969da8!important;border-color:#292d33!important}
+.player-table td,.schedule,.news-item,.matchup-row{border-color:#292d33!important;color:#d4d8de!important}
+.player-meta,.match-meta,.news-copy small,.card-sub{color:#969da8!important}
+.trend.down,.warn{color:#e0a43a!important}
+.chart-grid{stroke:#30353c!important}.chart-line{stroke:#ff2922!important}.chart-area{fill:#E1060025!important}
+.legend-dot{background:#ff2922!important}
+.impact-highlight{background:#211416!important;border-color:#4a2527!important}
+.bar{background:#303238!important}.bar i{background:#E10600!important}
+.tool-card{background:linear-gradient(145deg,#17191d,#1c1415)!important}
+.tool-card:hover{border-color:#743235!important;box-shadow:0 10px 24px #E106001c!important}
+.modal-backdrop{background:#000c!important}
+.modal{background:#121417!important;border-color:#30353c!important;box-shadow:0 24px 80px #000b!important}
+.close{color:#aab1bb!important}
+.field label{color:#aab1bb!important}
+.field input,.field select,.search,.matchup-controls select{background:#0d0f12!important;border-color:#363b43!important;color:#f4f5f7!important}
+.field input:focus,.field select:focus,.search:focus{outline:2px solid #E1060050;border-color:#E10600!important}
+.result{background:#241416!important;border-color:#603033!important;color:#f0d7d8!important}
+.toast{background:#17191d!important;border-color:#633033!important;color:#ff7771!important;box-shadow:0 8px 28px #0008}
+.matchup-badge{background:#291516!important;border-color:#603033!important;color:#ff6862!important}
+.matchup-badge.tough{background:#2a2115!important;border-color:#5d4825!important;color:#e8bd6b!important}
+.matchup-badge.neutral{background:#1c2025!important;border-color:#353b44!important;color:#b7c0cb!important}
+.opp-chip{background:#252a30!important;color:#d4d8de!important}
+.opp-chip.easy{background:#351819!important;color:#ff6862!important}
+.matchup-note,.matchup-footnote{color:#969da8!important}
+.rink-panel,.trade-side,.trade-settings,.trade-projection,.trade-verdict,.context-card,.forecast,.metric,.matchup,.risk{background:#121417!important;border-color:#292d33!important;color:#d4d8de!important}
+.rink-panel-title,.trade-side h4,.trade-verdict h4,.forecast-title{color:#f4f5f7!important}
+.rink-panel-sub,.trade-muted,.footnote,.trade-footnote,.freshness{color:#969da8!important}
+.rink-live-tag,.decision{background:#291516!important;border-color:#603033!important;color:#ff6862!important}
+.trade-player-choice,.trade-selected,.trade-category-row,.trade-player-line{background:#171a1e!important;border-color:#30353c!important;color:#d4d8de!important}
+.trade-chip{background:#291516!important;color:#ff6862!important}
+.risk{background:#2a2115!important;color:#e8bd6b!important}
+
+/* Dark league import and onboarding */
+.league-onboarding{background:linear-gradient(115deg,#15171a 0%,#211416 72%,#301719)!important;border-color:#492528!important;border-left-color:#E10600!important;box-shadow:0 12px 34px #0006!important}
+.league-onboarding h1{color:#f4f5f7!important}
+.league-onboarding p{color:#b3bac4!important}
+.league-benefits span{color:#ff7771!important}
+.league-benefits span:before{color:#ff2922!important}
+.league-benefits span{background:#191b1f!important;border-color:#492528!important}
+.league-onboarding-action small{color:#969da8!important}
+.league-connect-btn{background:#E10600!important;color:#fff!important;box-shadow:0 7px 18px #E1060040!important}
+.league-connect-btn:hover{background:#b80000!important}
+#rinkLiveFeed .scoring-leaders-panel{background:#121417!important;border-color:#292d33!important;border-top-color:#E10600!important;box-shadow:0 6px 20px #0006!important}
+#rinkLiveFeed .rink-panel-title{color:#f4f5f7!important}
+#rinkLiveFeed .rink-panel-sub,#rinkLiveFeed .rink-ranking-row .meta,#rinkLiveFeed .rink-ranking-row .points small,#rinkLiveFeed .rink-disclaimer{color:#969da8!important}
+#rinkLiveFeed .rink-live-tag{background:#291516!important;color:#ff6862!important;border-color:#603033!important}
+#rinkLiveFeed .rink-ranking-row{border-bottom-color:#292d33!important}
+#rinkLiveFeed .rink-ranking-row .name{color:#f4f5f7!important}
+#rinkLiveFeed .rink-ranking-row .points{color:#ff514b!important}
+.league-import-inline{background:#121417!important;border-color:#292d33!important;border-top-color:#E10600!important;box-shadow:0 8px 24px #0006!important}
+.league-import-inline-head h2{color:#f4f5f7!important}
+.league-import-close{background:#191c20!important;border-color:#363b43!important;color:#c3c9d1!important}
+.league-import-inline .espn-warning{background:#2a2115!important;color:#e8bd6b!important;border-color:#5d4825!important}
+.league-import-inline .espn-fields input{background:#0d0f12!important;color:#f4f5f7!important;border-color:#363b43!important}
+.league-import-inline .espn-import details,.league-import-inline .espn-status{color:#aab1bb!important}
+.league-import-inline .espn-button{background:#E10600!important;color:#fff!important}
+@media(max-width:760px){.sidebar{background:#101215F5!important;border-top-color:#292d33!important;box-shadow:0 -5px 18px #0008}.nav button.active{box-shadow:inset 0 -2px #E10600!important}}
