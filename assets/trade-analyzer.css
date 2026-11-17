@@ -83,3 +83,5 @@
 .close{position:relative;z-index:4;min-width:40px;min-height:40px;display:grid;place-items:center;border-radius:9px;cursor:pointer;touch-action:manipulation;}
 .close:hover,.close:focus-visible{background:#1b3045;color:#fff;outline:2px solid #E10600;outline-offset:2px;}
 @media(max-width:760px){.modal-backdrop{place-items:start center;padding:12px;}.modal:has(#tradeAnalyzerApp){max-height:calc(100dvh - 24px);overflow-y:auto;}}
+
+.trade-pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px}.trade-pros-cons>div{border:1px solid var(--trade-line,#263c52);background:#0b1826;border-radius:9px;padding:12px;min-width:0}.trade-pros-cons>div:first-child{border-color:#285b49}.trade-pros-cons>div:last-child{border-color:#684044}.trade-pros-cons>div>b{display:block;font-size:10px;letter-spacing:.9px;margin-bottom:7px}.trade-pros-cons>div:first-child>b{color:#73e0b0}.trade-pros-cons>div:last-child>b{color:#ff8585}.trade-pros-cons .trade-insight{margin:7px 0;font-size:11px;line-height:1.5}@media(max-width:650px){.trade-pros-cons{grid-template-columns:1fr}}
