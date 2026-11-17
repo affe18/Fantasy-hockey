@@ -10,14 +10,14 @@ module.exports = async function handler(req, res) {
     // Avoid URL() here: pasted app/deep-link strings can trigger browser/runtime
     // URL pattern errors before we can return a useful validation message.
     let id = "";
-    if (/^\\d{1,12}$/.test(rawLeague)) {
+    if (/^\d{1,12}$/.test(rawLeague)) {
       id = rawLeague;
     } else {
       const decoded = (() => { try { return decodeURIComponent(rawLeague); } catch (_) { return rawLeague; } })();
-      const queryMatch = decoded.match(/[?&]leagueId\\s*=\\s*["']?(\\d{1,12})/i)
-        || decoded.match(/\\bleagueId\\s*[:=]\\s*["']?(\\d{1,12})/i);
-      const pathMatch = decoded.match(/\\/league\\/(\\d{1,12})(?:[/?#]|$)/i);
-      const hockeyPathMatch = decoded.match(/\\/(?:hockey|fantasy)\\/(?:league|team)\\/(\\d{1,12})(?:[/?#]|$)/i);
+      const queryMatch = decoded.match(/[?&]leagueId\s*=\s*["']?(\d{1,12})/i)
+        || decoded.match(/\bleagueId\s*[:=]\s*["']?(\d{1,12})/i);
+      const pathMatch = decoded.match(/\/league\/(\d{1,12})(?:[/?#]|$)/i);
+      const hockeyPathMatch = decoded.match(/\/(?:hockey|fantasy)\/(?:league|team)\/(\d{1,12})(?:[/?#]|$)/i);
       id = (queryMatch && queryMatch[1]) || (pathMatch && pathMatch[1]) || (hockeyPathMatch && hockeyPathMatch[1]) || "";
     }
     const season = Number(b.season || new Date().getFullYear());
