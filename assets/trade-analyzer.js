@@ -9,7 +9,7 @@ function stat(p,k){return Number(p?.stats?.[k]||0)}
 function fantasy(p){if(!p)return 0;const keys=p.position==="G"?["wins","saves","goalsAgainst","shutouts","savePct","losses","overtimeLosses"]:["goals","assists","points","shots","hits","blockedShots","pim","plusMinus","powerPlayPoints","shortHandedPoints","gameWinningGoals","faceoffWins"];return keys.reduce((n,k)=>n+stat(p,k)*Number(scoring[k]||0),0)}
 function projection(p){const gp=stat(p,"gamesPlayed"),rate=gp?fantasy(p)/gp:0;const gs=(schedules[p.team]||[]).filter(g=>g.date>=new Date().toISOString().slice(0,10));const weekEnd=new Date();weekEnd.setDate(weekEnd.getDate()+7);const wk=gs.filter(g=>new Date(g.date+"T23:59:59")<=weekEnd).length;return{rate,remaining:gs.length,week:rate*wk,season:rate*gs.length,gamesWeek:wk,gp}}
 function teams(){return league?.teams||[]}
-function roster(team){return(team?.roster||[]).map(p=>{const live=findStats(p);return{...p,team:live?.team||p.proTeamId||"",position:live?.position||p.position||"",stats:live?.stats||{},live,espnPoints:p.fantasyPoints}})}
+function roster(team){return(team?.roster||[]).map(p=>{const live=findStats(p);return{...p,team:live?.team||p.proTeamId||"",position:live?.position||p.position||"",stats:live?.stats||{},injuryStatus:live?.injuryStatus||"Injury status unavailable",live,espnPoints:p.fantasyPoints}})}
 function teamOptions(){return teams().map(t=>'<option value="'+esc(t.id)+'">'+esc(t.name)+'</option>').join("")}
 function render(){
  const root=$(ROOT);if(!root)return;
