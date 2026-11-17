@@ -37,7 +37,7 @@
       <div class="side-bottom"><div class="upgrade"><b>Make your next move count</b><p>Unlock deeper projections and matchup insights for your league.</p><button id="upgradeBtn">Explore RinkIQ Pro ↗</button></div><div class="user"><div class="avatar">JM</div><div><b style="font-size:12px">Jordan Miller</b><small>Fantasy manager</small></div></div></div>
     </aside>
     <main class="main">
-      <header class="topbar"><div class="crumb">Workspace &nbsp;›&nbsp; <b id="crumbTitle">Overview</b></div><div class="top-actions"><button class="icon-btn" id="searchBtn" aria-label="Search">⌕</button><button class="icon-btn" id="notifyBtn" aria-label="Notifications">♧</button><button class="league-btn" id="leagueBtn"><span>●</span> The Icebreakers ▾</button></div></header>
+      <header class="topbar"><div class="crumb">Workspace &nbsp;›&nbsp; <b id="crumbTitle">Overview</b></div><div class="top-actions"><button class="account-trigger" id="accountTrigger" type="button">Sign in / Create account</button><button class="icon-btn" id="searchBtn" aria-label="Search">⌕</button><button class="icon-btn" id="notifyBtn" aria-label="Notifications">♧</button><button class="league-btn" id="leagueBtn"><span>●</span> The Icebreakers ▾</button></div></header>
       <section class="league-onboarding">
         <div class="league-onboarding-copy">
           <div class="eyebrow">START HERE · PERSONALIZE YOUR DASHBOARD</div>
@@ -140,6 +140,8 @@
     let toastTimer;function toast(msg){const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.classList.remove('show'),2400)}
     document.getElementById('searchBtn').onclick=()=>openModal('player');document.getElementById('notifyBtn').onclick=()=>toast('You’re all caught up on roster alerts.');document.getElementById('leagueBtn').onclick=()=>toast('The Icebreakers · 12-team head-to-head league');document.getElementById('upgradeBtn').onclick=()=>toast('RinkIQ Pro features are coming soon.');document.getElementById('scheduleBtn').onclick=()=>openModal('schedule');document.getElementById('newsBtn').onclick=()=>toast('You’re viewing the latest roster-impacting news.');document.getElementById('matchupBtn').onclick=()=>toast('Matchup breakdown: projected 68% win probability, +4 games advantage.');
   </script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
+  <script src="assets/account.js" defer></script>
   <script src="assets/rinkiq-enhancements.js" defer></script>
   <script src="assets/live-data.js" defer></script>
   <script src="assets/trade-analyzer.js" defer></script>
