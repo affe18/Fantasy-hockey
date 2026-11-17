@@ -53,6 +53,13 @@
       <div class="side-bottom"><div class="upgrade"><b>Make your next move count</b><p>Unlock deeper projections and matchup insights for your league.</p><button id="upgradeBtn">Explore RinkIQ Pro ↗</button></div><div class="user"><div class="avatar">JM</div><div><b style="font-size:12px">Jordan Miller</b><small>Fantasy manager</small></div></div></div>
     </aside>
     <main class="main">
+      <section id="playerIntelligencePage" class="player-intel-page" hidden>
+        <div class="player-intel-heading"><div><div class="eyebrow">PLAYER INTELLIGENCE</div><h1>Know what a player brings to your team</h1><p>Explore your ESPN roster or search any NHL player. Stats and projections are separated into NHL production and your league's fantasy scoring.</p></div><button type="button" class="pi-back" id="piBackOverview">← Overview</button></div>
+        <div class="pi-layout">
+          <aside class="pi-roster-panel"><div class="pi-panel-heading"><div><h2>Your roster</h2><p id="piRosterCaption">Connect an ESPN league to load your players.</p></div></div><label class="pi-search-label" for="piRosterFilter">FILTER YOUR ROSTER</label><input id="piRosterFilter" type="search" placeholder="Find a roster player…"><div id="piRosterList" class="pi-roster-list"></div></aside>
+          <section class="pi-main-panel"><div class="pi-search-box"><div><h2>Player report</h2><p>Search by NHL player name</p></div><div class="pi-search-control"><input id="piPlayerSearch" type="search" list="piPlayerSuggestions" placeholder="Search any NHL player…" autocomplete="off"><datalist id="piPlayerSuggestions"></datalist><button type="button" id="piSearchButton">Analyze player</button></div></div><div id="piReport" class="pi-report"><div class="pi-empty"><span>◎</span><h3>Select a roster player or search the NHL</h3><p>You'll get current team, season production, estimated pace, fantasy scoring where available, and a clear roster-fit assessment.</p></div></div></section>
+        </div>
+      </section>
       <header class="topbar"><div class="crumb">Workspace &nbsp;›&nbsp; <b id="crumbTitle">Overview</b></div><div class="top-actions"><button class="account-trigger" id="accountTrigger" type="button">Sign in / Create account</button><button class="icon-btn" id="searchBtn" aria-label="Search">⌕</button><button class="icon-btn" id="notifyBtn" aria-label="Notifications">♧</button><button class="league-btn" id="leagueBtn"><span>●</span> The Icebreakers ▾</button></div></header>
       <section class="league-onboarding">
         <div class="league-onboarding-copy">
@@ -185,6 +192,8 @@ function openModal(key){const t=templates[key]||templates.player;title.textConte
   <link rel="stylesheet" href="assets/team-evaluation.css">
   <script src="assets/espn-league.js" defer></script>
   <script src="assets/team-evaluation.js" defer></script>
+  <link rel="stylesheet" href="assets/player-intelligence.css">
+  <script src="assets/player-intelligence.js" defer></script>
 
 <script>
 (function () {
@@ -215,6 +224,33 @@ function openModal(key){const t=templates[key]||templates.player;title.textConte
       body.innerHTML = '<div class="trade-error">The Trade Analyzer module did not load. Reload the page; if this continues, the deployed site is missing assets/trade-analyzer.js.</div>';
     }
   }, true);
+})();
+</script>
+<script>
+(function(){
+ const page=document.getElementById('playerIntelligencePage');
+ const main=document.querySelector('.main');
+ const topbar=main?.querySelector('.topbar');
+ const nav=document.querySelector('.nav');
+ function showOverview(){
+  page.hidden=true;
+  [...main.children].forEach(el=>{if(el!==topbar&&el!==page)el.hidden=false;});
+  document.getElementById('crumbTitle').textContent='Overview';
+  document.querySelectorAll('.nav button').forEach(b=>b.classList.toggle('active',b.dataset.view==='Overview'));
+ }
+ function showPlayer(){
+  [...main.children].forEach(el=>{if(el!==topbar&&el!==page)el.hidden=true;});
+  page.hidden=false;
+  document.getElementById('crumbTitle').textContent='Player Intelligence';
+  document.querySelectorAll('.nav button').forEach(b=>b.classList.toggle('active',b.dataset.view==='Player Intelligence'));
+  window.RinkIQPlayerIntelligence?.open();
+ }
+ nav?.addEventListener('click',e=>{
+  const b=e.target.closest('button[data-view]');if(!b)return;
+  if(b.dataset.view==='Player Intelligence'){e.preventDefault();e.stopImmediatePropagation();showPlayer();}
+  else if(b.dataset.view==='Overview'){e.preventDefault();e.stopImmediatePropagation();showOverview();}
+ },true);
+ document.getElementById('piBackOverview')?.addEventListener('click',showOverview);
 })();
 </script>
 </body>
