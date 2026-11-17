@@ -48,14 +48,15 @@ module.exports=async function handler(req,res){
  res.setHeader("Cache-Control","public, s-maxage=300, stale-while-revalidate=900");
  res.setHeader("Content-Type","application/json; charset=utf-8");
  if(req.method!=="GET"){res.setHeader("Allow","GET");return res.status(405).json({error:"Method not allowed"})}
- const season=seasonId(),failures=[];
+ const season=seasonId(),failures=[],query=req.query||{},scheduleOnly=String(query.schedulesOnly||"") === "1";
+ const requestedTeams=scheduleOnly?String(query.teams||"").split(",").map(team=>team.trim().toUpperCase()).filter(team=>TEAMS.includes(team)):[];
  const requests=[
   ["skaterSummary",statsUrl("skater","summary",season)],
   ["goalieSummary",statsUrl("goalie","summary",season)],
   ["skaterRealtime",statsUrl("skater","realtime",season)],
   ["faceoffWins",statsUrl("skater","faceoffwins",season)]
  ];
- const results=await Promise.all(requests.map(async([key,url])=>{try{return{key,data:await fetchJson(url),ok:true}}catch(error){failures.push(key+": "+error.message);return{key,data:null,ok:false}}}));
+ const results=scheduleOnly?[]:await Promise.all(requests.map(async([key,url])=>{try{return{key,data:await fetchJson(url),ok:true}}catch(error){failures.push(key+": "+error.message);return{key,data:null,ok:false}}}));
  const byId=new Map(),extraById=new Map();
  const result=(key)=>results.find(item=>item.key===key);
  for(const row of dataRows(result("skaterSummary").data)){const p=buildPlayer(row,false);if(p)byId.set(p.id,p)}
@@ -64,8 +65,8 @@ module.exports=async function handler(req,res){
  for(const row of dataRows(result("faceoffWins").data)){const id=String(row.playerId||"");if(id)extraById.set(id,{...(extraById.get(id)||{}),faceoffWins:num(row.faceoffWins,row.totalFaceoffWins)})}
  for(const [id,p] of byId){const extra=extraById.get(id)||{};p.stats.hits=extra.hits??p.stats.hits;p.stats.blockedShots=extra.blockedShots??p.stats.blockedShots;p.stats.faceoffWins=extra.faceoffWins??p.stats.faceoffWins}
  const today=new Date().toISOString().slice(0,10),schedules={},scheduleStatus={};
- const scheduleResults=await mapLimit(TEAMS,3,async team=>{try{return{team,data:games(await fetchJson(NHL+"/club-schedule-season/"+team+"/now")),ok:true}}catch(error){failures.push(team+" schedule: "+error.message);return{team,data:[],ok:false}}});
+ const scheduleResults=await mapLimit(requestedTeams,3,async team=>{try{return{team,data:games(await fetchJson(NHL+"/club-schedule-season/"+team+"/now")),ok:true}}catch(error){failures.push(team+" schedule: "+error.message);return{team,data:[],ok:false}}});
  for(const item of scheduleResults){scheduleStatus[item.team]=item.ok;schedules[item.team]=item.data.filter(game=>(game.gameDate||"").slice(0,10)>=today).map(game=>({date:game.gameDate,opponent:(game.awayTeam?.abbrev===item.team?game.homeTeam?.abbrev:game.awayTeam?.abbrev)||"TBD",home:game.homeTeam?.abbrev===item.team,gameState:game.gameState||""}))}
  const players=[...byId.values()];
- return res.status(200).json({updatedAt:new Date().toISOString(),seasonId:season,statSource:"NHL Stats REST",players,schedules,scheduleStatus,teamsLoaded:[...new Set(players.map(p=>p.team).filter(Boolean))].length,skatersLoaded:dataRows(result("skaterSummary").data).length,goaliesLoaded:dataRows(result("goalieSummary").data).length,statCategoriesLoaded:results.filter(item=>item.ok).map(item=>item.key),failures});
+ return res.status(200).json({updatedAt:new Date().toISOString(),seasonId:season,statSource:"NHL Stats REST",mode:scheduleOnly?"schedules":"players",players,schedules,scheduleStatus,teamsLoaded:[...new Set(players.map(p=>p.team).filter(Boolean))].length,skatersLoaded:dataRows(result("skaterSummary").data).length,goaliesLoaded:dataRows(result("goalieSummary").data).length,statCategoriesLoaded:results.filter(item=>item.ok).map(item=>item.key),failures});
 };
