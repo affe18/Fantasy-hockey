@@ -63,6 +63,6 @@
       path.setAttribute('d',d);area.setAttribute('d',d+' L496 145 L24 145 Z');
     }));
   }
-  function init(){addTeamLogos();addPlayerPageImages();buildDashboard();}
+  function init(){addTeamLogos();addPlayerPageImages();}
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
 })();
