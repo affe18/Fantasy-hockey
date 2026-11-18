@@ -137,3 +137,15 @@
 #tradeAnalyzerApp .ta-injury-row b{color:#f2e9ed}
 #tradeAnalyzerApp .ta-injury-row span,#tradeAnalyzerApp .ta-injury-row small{color:#c5aeb8;text-align:right}
 #tradeAnalyzerApp .ta-injury-row small{grid-column:1/-1;text-align:left;font-size:9px}
+
+/* Trade comparison metric cards and explicit risk styling */
+#tradeAnalyzerApp .ta-trade-metrics{margin:10px 0 14px}
+#tradeAnalyzerApp .ta-trade-metrics>h3{font-size:12px;margin:0 0 8px}
+#tradeAnalyzerApp .ta-metric-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+#tradeAnalyzerApp .ta-metric-grid>div{background:#14283c;border:1px solid #2b435b;border-radius:9px;padding:11px;min-width:0}
+#tradeAnalyzerApp .ta-metric-grid small,#tradeAnalyzerApp .ta-metric-grid b,#tradeAnalyzerApp .ta-metric-grid span{display:block}
+#tradeAnalyzerApp .ta-metric-grid small{font-size:8px;color:#9aadc0;letter-spacing:.6px}
+#tradeAnalyzerApp .ta-metric-grid b{font-size:19px;margin:5px 0;overflow-wrap:anywhere}
+#tradeAnalyzerApp .ta-metric-grid span{font-size:9px;color:#9aadc0;line-height:1.4}
+#tradeAnalyzerApp .ta-insights .ta-risk{border-left:3px solid #d9b96b;background:#332c20;color:#f1dfb4}
+@media(max-width:720px){#tradeAnalyzerApp .ta-metric-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
