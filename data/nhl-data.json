@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T07:35:13.438636+00:00",
+  "updatedAt": "2026-11-18T08:43:27.665654+00:00",
   "season": "current",
   "sourceStatus": {
     "nhlStats": false,
@@ -12267,6 +12267,13 @@
   ],
   "news": [
     {
+      "headline": "Dallas Stars vs. Vegas Golden Knights: Game Highlights",
+      "description": "Dallas Stars vs. Vegas Golden Knights: Game Highlights",
+      "published": "2026-11-18T07:56:14Z",
+      "url": "https://www.espn.com/video/clip/_/id/50518585/game-highlights",
+      "source": "ESPN"
+    },
+    {
       "headline": "Calgary Flames vs. San Jose Sharks: Game Highlights",
       "description": "Calgary Flames vs. San Jose Sharks: Game Highlights",
       "published": "2026-11-18T05:56:57Z",
@@ -12299,13 +12306,6 @@
       "description": "Matthew Schaefer became the second-youngest defenseman in NHL history to record a hat trick when he scored three goals in the Islanders' rout of Columbus.",
       "published": "2026-11-18T05:02:15Z",
       "url": "https://www.espn.com/nhl/story/_/id/50517556/islanders-schaefer-2nd-youngest-defenseman-hat-trick",
-      "source": "ESPN"
-    },
-    {
-      "headline": "Anaheim Ducks vs. St. Louis Blues: Game Highlights",
-      "description": "Anaheim Ducks vs. St. Louis Blues: Game Highlights",
-      "published": "2026-11-18T04:03:46Z",
-      "url": "https://www.espn.com/video/clip/_/id/50517286/game-highlights",
       "source": "ESPN"
     }
   ],
@@ -21375,22 +21375,6 @@
                   "injury": {
                     "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/4233563/injuries/599476?lang=en&region=us"
                   }
-                },
-                {
-                  "id": "599278",
-                  "type": "news",
-                  "date": "2026-11-11T06:45Z",
-                  "headline": "Makar picked up two assists Tuesday in a 6-3 victory over the Maple Leafs.",
-                  "text": "Makar has five points, including four assists, in his last two games and 12 points (two goals, 10 assists) in his last six games. His 23 points this season put him third on the scoring list for defenders and in a two-way tie for 16th overall among all scorers. Makar also has 21 blocks (18 games) which means he's flirting with his first 100-point  and fifth 100-block season. He continues to cement his legacy as one of the best defenders to ever play the game. His 1.08 point-per-game pace heading into Tuesday was third to Bobby Orr (1.39) and Paul Coffey (1.09).",
-                  "source": "RotoWire"
-                },
-                {
-                  "id": "599211",
-                  "type": "news",
-                  "date": "2026-11-10T17:14Z",
-                  "headline": "Makar (lower body) will play against Toronto on Tuesday, per Corey Masisak of The Denver Post.",
-                  "text": "Makar left Sunday's practice early as a precaution because of a lower-body issue. However, he has declared himself fit to play against the Maple Leafs on Tuesday. Makar has amassed five goals, 21 points, 46 shots on net and 20 blocked shots in 17 appearances this season.",
-                  "source": "RotoWire"
                 }
               ]
             },
@@ -38516,14 +38500,6 @@
                   "headline": "Anderson scored a goal and added an assist in Thursday's 5-2 win over the Bruins.",
                   "text": "The veteran winger gave the Habs a 2-0 lead midway through the first period by banging a rebound past Jeremy Swayman, before setting up Jake Evans for what proved to be the game-winner early in the second. Anderson took a six-game point drought into a Halloween night tilt against the Penguins but has spring to life since, piling up three goals and six points in his last five contests.",
                   "source": "RotoWire"
-                },
-                {
-                  "id": "599202",
-                  "type": "news",
-                  "date": "2026-11-10T15:53Z",
-                  "headline": "Anderson (personal) will suit up for Tuesday's home clash against the Wild, per Eric Engels of Sportsnet.",
-                  "text": "Anderson was absent from Saturday's lineup due to personal reasons, but he's ready to return Tuesday. The 32-year-old winger has been off to a strong start, posting seven goals, 10 points, 33 shots on net, a plus-8 rating, 34 hits and six blocked shots over 16 appearances this season. Given his successful beginning to the season offensively, he's a decent streaming option in deep fantasy leagues that value banger stats.",
-                  "source": "RotoWire"
                 }
               ]
             },
@@ -42793,17 +42769,6 @@
                   "source": "RotoWire",
                   "injury": {
                     "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/4587933/injuries/599427?lang=en&region=us"
-                  }
-                },
-                {
-                  "id": "599248",
-                  "type": "news",
-                  "date": "2026-11-11T03:12Z",
-                  "headline": "day-to-day",
-                  "text": "day-to-day",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/4587933/injuries/599248?lang=en&region=us"
                   }
                 }
               ]
@@ -47723,19 +47688,7 @@
               ]
             },
             "notes": {
-              "items": [
-                {
-                  "id": "599240",
-                  "type": "news",
-                  "date": "2026-11-10T22:13Z",
-                  "headline": "ir",
-                  "text": "ir",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/5334662/injuries/599240?lang=en&region=us"
-                  }
-                }
-              ]
+              "items": []
             },
             "status": {
               "id": "1",
@@ -52581,17 +52534,6 @@
                   "source": "RotoWire",
                   "injury": {
                     "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/2563027/injuries/599312?lang=en&region=us"
-                  }
-                },
-                {
-                  "id": "599249",
-                  "type": "news",
-                  "date": "2026-11-11T03:15Z",
-                  "headline": "day-to-day",
-                  "text": "day-to-day",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/2563027/injuries/599249?lang=en&region=us"
                   }
                 }
               ]
@@ -66400,17 +66342,6 @@
                   "injury": {
                     "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/2993474/injuries/599407?lang=en&region=us"
                   }
-                },
-                {
-                  "id": "599194",
-                  "type": "news",
-                  "date": "2026-11-10T15:34Z",
-                  "headline": "out",
-                  "text": "out",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/2993474/injuries/599194?lang=en&region=us"
-                  }
                 }
               ]
             },
@@ -73025,17 +72956,6 @@
                   "injury": {
                     "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/4874723/injuries/599348?lang=en&region=us"
                   }
-                },
-                {
-                  "id": "599233",
-                  "type": "news",
-                  "date": "2026-11-10T19:46Z",
-                  "headline": "day-to-day",
-                  "text": "day-to-day",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/4874723/injuries/599233?lang=en&region=us"
-                  }
                 }
               ]
             },
@@ -76602,19 +76522,7 @@
               ]
             },
             "notes": {
-              "items": [
-                {
-                  "id": "599237",
-                  "type": "news",
-                  "date": "2026-11-10T20:34Z",
-                  "headline": "out",
-                  "text": "out",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/3652964/injuries/599237?lang=en&region=us"
-                  }
-                }
-              ]
+              "items": []
             },
             "status": {
               "id": "1",
