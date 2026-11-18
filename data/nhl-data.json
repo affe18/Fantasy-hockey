@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T20:39:14.989411+00:00",
+  "updatedAt": "2026-11-18T21:38:05.628811+00:00",
   "season": "current",
   "sourceStatus": {
     "nhlStats": false,
@@ -74,7 +74,7 @@
           },
           {
             "providerId": 3,
-            "value": "1.95"
+            "value": "1.94"
           },
           {
             "providerId": 10,
@@ -109,7 +109,7 @@
           },
           {
             "providerId": 3,
-            "value": "1.89"
+            "value": "1.90"
           },
           {
             "providerId": 10,
@@ -283,7 +283,7 @@
           },
           {
             "providerId": 10,
-            "value": "3.15"
+            "value": "3.20"
           }
         ]
       },
@@ -475,7 +475,7 @@
         "odds": [
           {
             "providerId": 8,
-            "value": "-110"
+            "value": "-111"
           },
           {
             "providerId": 7,
@@ -483,7 +483,7 @@
           },
           {
             "providerId": 9,
-            "value": "-105"
+            "value": "-110"
           },
           {
             "providerId": 6,
@@ -491,7 +491,7 @@
           },
           {
             "providerId": 3,
-            "value": "1.93"
+            "value": "1.92"
           }
         ]
       },
@@ -506,7 +506,7 @@
         "odds": [
           {
             "providerId": 8,
-            "value": "-111"
+            "value": "-110"
           },
           {
             "providerId": 7,
@@ -514,7 +514,7 @@
           },
           {
             "providerId": 9,
-            "value": "-115"
+            "value": "-110"
           },
           {
             "providerId": 6,
@@ -522,7 +522,7 @@
           },
           {
             "providerId": 3,
-            "value": "1.91"
+            "value": "1.92"
           }
         ]
       },
@@ -690,7 +690,7 @@
           },
           {
             "providerId": 3,
-            "value": "1.95"
+            "value": "1.94"
           },
           {
             "providerId": 10,
@@ -725,7 +725,7 @@
           },
           {
             "providerId": 3,
-            "value": "1.89"
+            "value": "1.90"
           },
           {
             "providerId": 10,
@@ -899,7 +899,7 @@
           },
           {
             "providerId": 10,
-            "value": "3.15"
+            "value": "3.20"
           }
         ]
       },
@@ -1091,7 +1091,7 @@
         "odds": [
           {
             "providerId": 8,
-            "value": "-110"
+            "value": "-111"
           },
           {
             "providerId": 7,
@@ -1099,7 +1099,7 @@
           },
           {
             "providerId": 9,
-            "value": "-105"
+            "value": "-110"
           },
           {
             "providerId": 6,
@@ -1107,7 +1107,7 @@
           },
           {
             "providerId": 3,
-            "value": "1.93"
+            "value": "1.92"
           }
         ]
       },
@@ -1122,7 +1122,7 @@
         "odds": [
           {
             "providerId": 8,
-            "value": "-111"
+            "value": "-110"
           },
           {
             "providerId": 7,
@@ -1130,7 +1130,7 @@
           },
           {
             "providerId": 9,
-            "value": "-115"
+            "value": "-110"
           },
           {
             "providerId": 6,
@@ -1138,7 +1138,7 @@
           },
           {
             "providerId": 3,
-            "value": "1.91"
+            "value": "1.92"
           }
         ]
       },
@@ -15212,11 +15212,11 @@
       "displayName": "Dallas Stars",
       "injuries": [
         {
-          "id": "600185",
-          "longComment": "day-to-day",
-          "shortComment": "day-to-day",
-          "status": "Day-To-Day",
-          "date": "2026-11-18T14:37Z",
+          "id": "600225",
+          "longComment": "out",
+          "shortComment": "out",
+          "status": "Out",
+          "date": "2026-11-18T20:37Z",
           "athlete": {
             "firstName": "Tyler",
             "lastName": "Myers",
@@ -15774,6 +15774,17 @@
             "notes": {
               "items": [
                 {
+                  "id": "600225",
+                  "type": "news",
+                  "date": "2026-11-18T20:37Z",
+                  "headline": "out",
+                  "text": "out",
+                  "source": "RotoWire",
+                  "injury": {
+                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/5052/injuries/600225?lang=en&region=us"
+                  }
+                },
+                {
                   "id": "600185",
                   "type": "news",
                   "date": "2026-11-18T14:37Z",
@@ -15843,10 +15854,10 @@
             "state": "basic"
           },
           "type": {
-            "id": "6",
-            "name": "INJURY_STATUS_DAYTODAY",
-            "description": "day-to-day",
-            "abbreviation": "DD"
+            "id": "4",
+            "name": "INJURY_STATUS_OUT",
+            "description": "out",
+            "abbreviation": "O"
           },
           "details": {
             "fantasyStatus": {
