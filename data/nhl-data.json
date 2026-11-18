@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T03:53:22.328986+00:00",
+  "updatedAt": "2026-11-18T04:58:03.050343+00:00",
   "season": "current",
   "sourceStatus": {
     "nhlStats": false,
@@ -1049,9 +1049,9 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/PHI_light.svg"
       },
       "gameCenterLink": "/gamecenter/buf-vs-phi/2026/11/17/2026020337",
-      "threeMinRecap": "/video/buf-at-phi-recap-6408527144112",
+      "threeMinRecap": "/video/buf-at-phi-recap-6408530748112",
       "threeMinRecapFr": "/fr/video/buf-vs-phi-17-11-2026-resume-6408528601112",
-      "condensedGame": "/video/buf-at-phi-condensed-game-6408526951112",
+      "condensedGame": "/video/buf-at-phi-condensed-game-6408531535112",
       "clock": {
         "timeRemaining": "00:00",
         "secondsRemaining": 0,
@@ -2586,7 +2586,7 @@
           "sequenceNumber": 437
         }
       ],
-      "gameState": "FINAL",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "awayTeam": {
         "id": 24,
@@ -2609,6 +2609,9 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/STL_light.svg"
       },
       "gameCenterLink": "/gamecenter/ana-vs-stl/2026/11/17/2026020339",
+      "threeMinRecap": "/video/ana-at-stl-recap-6408531240112",
+      "threeMinRecapFr": "/fr/video/ana-vs-stl-17-11-2026-resume-6408529959112",
+      "condensedGame": "/video/ana-at-stl-condensed-game-6408529960112",
       "clock": {
         "timeRemaining": "00:00",
         "secondsRemaining": 0,
@@ -3210,7 +3213,9 @@
           "awayScore": 6,
           "homeScore": 7,
           "strength": "ev",
+          "highlightClipSharingUrl": "https://nhl.com/video/ana-stl-gauthier-scores-goal-against-jordan-binnington-6408530053112",
           "highlightClipSharingUrlFr": "https://nhl.com/fr/video/ana-stl-gauthier-marque-un-but-contre-jordan-binnington-6408530842112",
+          "highlightClip": 6408530053112,
           "highlightClipFr": 6408530842112,
           "discreteClip": 6408530249112,
           "discreteClipFr": 6408531021112
@@ -3297,7 +3302,7 @@
           "sequenceNumber": 657
         }
       ],
-      "gameState": "FINAL",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "awayTeam": {
         "id": 18,
@@ -3320,6 +3325,9 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/MIN_light.svg"
       },
       "gameCenterLink": "/gamecenter/nsh-vs-min/2026/11/17/2026020340",
+      "threeMinRecap": "/video/nsh-at-min-recap-6408530263112",
+      "threeMinRecapFr": "/fr/video/nsh-vs-min-17-11-2026-resume-6408530848112",
+      "condensedGame": "/video/nsh-at-min-condensed-game-6408530637112",
       "clock": {
         "timeRemaining": "00:00",
         "secondsRemaining": 0,
@@ -3858,7 +3866,7 @@
         },
         "abbrev": "DAL",
         "score": 0,
-        "sog": 6,
+        "sog": 13,
         "logo": "https://assets.nhle.com/logos/nhl/svg/DAL_light.svg"
       },
       "homeTeam": {
@@ -3867,124 +3875,75 @@
           "default": "Golden Knights"
         },
         "abbrev": "VGK",
-        "score": 0,
-        "sog": 7,
+        "score": 1,
+        "sog": 16,
         "logo": "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg"
       },
       "gameCenterLink": "/gamecenter/dal-vs-vgk/2026/11/17/2026020342",
       "clock": {
-        "timeRemaining": "16:03",
-        "secondsRemaining": 963,
+        "timeRemaining": "05:48",
+        "secondsRemaining": 348,
         "running": false,
         "inIntermission": true
       },
       "neutralSite": false,
       "venueTimezone": "US/Pacific",
-      "period": 1,
+      "period": 2,
       "periodDescriptor": {
-        "number": 1,
+        "number": 2,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "teamLeaders": [
+      "goals": [
         {
-          "id": 8480027,
+          "period": 2,
+          "periodDescriptor": {
+            "number": 2,
+            "periodType": "REG",
+            "maxRegulationPeriods": 3
+          },
+          "timeInPeriod": "00:40",
+          "playerId": 8476448,
+          "name": {
+            "default": "W. Karlsson"
+          },
           "firstName": {
-            "default": "Jason"
+            "default": "William"
           },
           "lastName": {
-            "default": "Robertson"
+            "default": "Karlsson"
           },
-          "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DAL/8480027.png",
-          "teamAbbrev": "DAL",
-          "sweaterNumber": 21,
-          "position": "L",
-          "category": "goals",
-          "value": 10
-        },
-        {
-          "id": 8475913,
-          "firstName": {
-            "default": "Mark"
-          },
-          "lastName": {
-            "default": "Stone"
-          },
-          "headshot": "https://assets.nhle.com/mugs/nhl/20262027/VGK/8475913.png",
+          "goalModifier": "none",
+          "assists": [
+            {
+              "playerId": 8484803,
+              "name": {
+                "default": "T. Connelly"
+              },
+              "assistsToDate": 6
+            },
+            {
+              "playerId": 8478468,
+              "name": {
+                "default": "J. Lauzon"
+              },
+              "assistsToDate": 2
+            }
+          ],
+          "mugshot": "https://assets.nhle.com/mugs/nhl/20262027/VGK/8476448.png",
           "teamAbbrev": "VGK",
-          "sweaterNumber": 61,
-          "position": "R",
-          "category": "goals",
-          "value": 11
-        },
-        {
-          "id": 8482740,
-          "firstName": {
-            "default": "Wyatt"
-          },
-          "lastName": {
-            "default": "Johnston"
-          },
-          "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DAL/8482740.png",
-          "teamAbbrev": "DAL",
-          "sweaterNumber": 53,
-          "position": "C",
-          "category": "assists",
-          "value": 13
-        },
-        {
-          "id": 8478483,
-          "firstName": {
-            "default": "Mitch",
-            "cs": "Mitchell",
-            "de": "Mitchell",
-            "es": "Mitchell",
-            "fi": "Mitchell",
-            "sk": "Mitchell",
-            "sv": "Mitchell"
-          },
-          "lastName": {
-            "default": "Marner"
-          },
-          "headshot": "https://assets.nhle.com/mugs/nhl/20262027/VGK/8478483.png",
-          "teamAbbrev": "VGK",
-          "sweaterNumber": 93,
-          "position": "R",
-          "category": "assists",
-          "value": 23
-        },
-        {
-          "id": 8479979,
-          "firstName": {
-            "default": "Jake"
-          },
-          "lastName": {
-            "default": "Oettinger"
-          },
-          "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DAL/8479979.png",
-          "teamAbbrev": "DAL",
-          "sweaterNumber": 29,
-          "position": "G",
-          "category": "wins",
-          "value": 10
-        },
-        {
-          "id": 8478499,
-          "firstName": {
-            "default": "Adin"
-          },
-          "lastName": {
-            "default": "Hill"
-          },
-          "headshot": "https://assets.nhle.com/mugs/nhl/20262027/VGK/8478499.png",
-          "teamAbbrev": "VGK",
-          "sweaterNumber": 33,
-          "position": "G",
-          "category": "wins",
-          "value": 7
+          "goalsToDate": 4,
+          "awayScore": 0,
+          "homeScore": 1,
+          "strength": "ev",
+          "highlightClipSharingUrl": "https://nhl.com/video/dal-vgk-karlsson-scores-goal-against-jake-oettinger-6408532422112",
+          "highlightClipSharingUrlFr": "https://nhl.com/fr/video/dal-vgk-karlsson-marque-un-but-contre-jake-oettinger-6408531043112",
+          "highlightClip": 6408532422112,
+          "highlightClipFr": 6408531043112,
+          "discreteClip": 6408530573112,
+          "discreteClipFr": 6408530770112
         }
-      ],
-      "goals": []
+      ]
     },
     {
       "id": 2026020343,
@@ -4026,8 +3985,8 @@
           "default": "Flames"
         },
         "abbrev": "CGY",
-        "score": 2,
-        "sog": 10,
+        "score": 3,
+        "sog": 23,
         "logo": "https://assets.nhle.com/logos/nhl/svg/CGY_light.svg"
       },
       "homeTeam": {
@@ -4037,39 +3996,23 @@
         },
         "abbrev": "SJS",
         "score": 1,
-        "sog": 7,
+        "sog": 14,
         "logo": "https://assets.nhle.com/logos/nhl/svg/SJS_light.svg"
       },
       "gameCenterLink": "/gamecenter/cgy-vs-sjs/2026/11/17/2026020343",
       "clock": {
-        "timeRemaining": "05:26",
-        "secondsRemaining": 326,
+        "timeRemaining": "17:21",
+        "secondsRemaining": 1041,
         "running": false,
-        "inIntermission": true
+        "inIntermission": false
       },
       "neutralSite": false,
       "venueTimezone": "US/Pacific",
-      "period": 1,
+      "period": 3,
       "periodDescriptor": {
-        "number": 1,
+        "number": 3,
         "periodType": "REG",
         "maxRegulationPeriods": 3
-      },
-      "situation": {
-        "homeTeam": {
-          "abbrev": "SJS",
-          "strength": 4
-        },
-        "awayTeam": {
-          "abbrev": "CGY",
-          "situationDescriptions": [
-            "PP"
-          ],
-          "strength": 5
-        },
-        "situationCode": "1541",
-        "timeRemaining": "01:38",
-        "secondsRemaining": 98
       },
       "goals": [
         {
@@ -4219,6 +4162,58 @@
           "highlightClipFr": 6408530939112,
           "discreteClip": 6408531119112,
           "discreteClipFr": 6408529767112
+        },
+        {
+          "period": 2,
+          "periodDescriptor": {
+            "number": 2,
+            "periodType": "REG",
+            "maxRegulationPeriods": 3
+          },
+          "timeInPeriod": "01:19",
+          "playerId": 8483495,
+          "name": {
+            "default": "S. Nemec",
+            "cs": "Š. Nemec",
+            "sk": "Š. Nemec"
+          },
+          "firstName": {
+            "default": "Simon",
+            "cs": "Šimon",
+            "sk": "Šimon"
+          },
+          "lastName": {
+            "default": "Nemec"
+          },
+          "goalModifier": "none",
+          "assists": [
+            {
+              "playerId": 8483609,
+              "name": {
+                "default": "A. Klapka"
+              },
+              "assistsToDate": 4
+            },
+            {
+              "playerId": 8476458,
+              "name": {
+                "default": "R. Strome"
+              },
+              "assistsToDate": 6
+            }
+          ],
+          "mugshot": "https://assets.nhle.com/mugs/nhl/20262027/CGY/8483495.png",
+          "teamAbbrev": "CGY",
+          "goalsToDate": 1,
+          "awayScore": 3,
+          "homeScore": 1,
+          "strength": "pp",
+          "highlightClipSharingUrl": "https://nhl.com/video/cgy-sjs-nemec-scores-ppg-against-yaroslav-askarov-6408530466112",
+          "highlightClipSharingUrlFr": "https://nhl.com/fr/video/cgy-sjs-nemec-marque-un-but-en-a-n-contre-yaroslav-askarov-6408529585112",
+          "highlightClip": 6408530466112,
+          "highlightClipFr": 6408529585112,
+          "discreteClip": 6408531149112,
+          "discreteClipFr": 6408529884112
         }
       ]
     }
@@ -5263,9 +5258,9 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/PHI_light.svg"
       },
       "gameCenterLink": "/gamecenter/buf-vs-phi/2026/11/17/2026020337",
-      "threeMinRecap": "/video/buf-at-phi-recap-6408527144112",
+      "threeMinRecap": "/video/buf-at-phi-recap-6408530748112",
       "threeMinRecapFr": "/fr/video/buf-vs-phi-17-11-2026-resume-6408528601112",
-      "condensedGame": "/video/buf-at-phi-condensed-game-6408526951112",
+      "condensedGame": "/video/buf-at-phi-condensed-game-6408531535112",
       "clock": {
         "timeRemaining": "00:00",
         "secondsRemaining": 0,
@@ -6800,7 +6795,7 @@
           "sequenceNumber": 437
         }
       ],
-      "gameState": "FINAL",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "awayTeam": {
         "id": 24,
@@ -6823,6 +6818,9 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/STL_light.svg"
       },
       "gameCenterLink": "/gamecenter/ana-vs-stl/2026/11/17/2026020339",
+      "threeMinRecap": "/video/ana-at-stl-recap-6408531240112",
+      "threeMinRecapFr": "/fr/video/ana-vs-stl-17-11-2026-resume-6408529959112",
+      "condensedGame": "/video/ana-at-stl-condensed-game-6408529960112",
       "clock": {
         "timeRemaining": "00:00",
         "secondsRemaining": 0,
@@ -7424,7 +7422,9 @@
           "awayScore": 6,
           "homeScore": 7,
           "strength": "ev",
+          "highlightClipSharingUrl": "https://nhl.com/video/ana-stl-gauthier-scores-goal-against-jordan-binnington-6408530053112",
           "highlightClipSharingUrlFr": "https://nhl.com/fr/video/ana-stl-gauthier-marque-un-but-contre-jordan-binnington-6408530842112",
+          "highlightClip": 6408530053112,
           "highlightClipFr": 6408530842112,
           "discreteClip": 6408530249112,
           "discreteClipFr": 6408531021112
@@ -7511,7 +7511,7 @@
           "sequenceNumber": 657
         }
       ],
-      "gameState": "FINAL",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "awayTeam": {
         "id": 18,
@@ -7534,6 +7534,9 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/MIN_light.svg"
       },
       "gameCenterLink": "/gamecenter/nsh-vs-min/2026/11/17/2026020340",
+      "threeMinRecap": "/video/nsh-at-min-recap-6408530263112",
+      "threeMinRecapFr": "/fr/video/nsh-vs-min-17-11-2026-resume-6408530848112",
+      "condensedGame": "/video/nsh-at-min-condensed-game-6408530637112",
       "clock": {
         "timeRemaining": "00:00",
         "secondsRemaining": 0,
@@ -8072,7 +8075,7 @@
         },
         "abbrev": "DAL",
         "score": 0,
-        "sog": 6,
+        "sog": 13,
         "logo": "https://assets.nhle.com/logos/nhl/svg/DAL_light.svg"
       },
       "homeTeam": {
@@ -8081,124 +8084,75 @@
           "default": "Golden Knights"
         },
         "abbrev": "VGK",
-        "score": 0,
-        "sog": 7,
+        "score": 1,
+        "sog": 16,
         "logo": "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg"
       },
       "gameCenterLink": "/gamecenter/dal-vs-vgk/2026/11/17/2026020342",
       "clock": {
-        "timeRemaining": "16:03",
-        "secondsRemaining": 963,
+        "timeRemaining": "05:48",
+        "secondsRemaining": 348,
         "running": false,
         "inIntermission": true
       },
       "neutralSite": false,
       "venueTimezone": "US/Pacific",
-      "period": 1,
+      "period": 2,
       "periodDescriptor": {
-        "number": 1,
+        "number": 2,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "teamLeaders": [
+      "goals": [
         {
-          "id": 8480027,
+          "period": 2,
+          "periodDescriptor": {
+            "number": 2,
+            "periodType": "REG",
+            "maxRegulationPeriods": 3
+          },
+          "timeInPeriod": "00:40",
+          "playerId": 8476448,
+          "name": {
+            "default": "W. Karlsson"
+          },
           "firstName": {
-            "default": "Jason"
+            "default": "William"
           },
           "lastName": {
-            "default": "Robertson"
+            "default": "Karlsson"
           },
-          "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DAL/8480027.png",
-          "teamAbbrev": "DAL",
-          "sweaterNumber": 21,
-          "position": "L",
-          "category": "goals",
-          "value": 10
-        },
-        {
-          "id": 8475913,
-          "firstName": {
-            "default": "Mark"
-          },
-          "lastName": {
-            "default": "Stone"
-          },
-          "headshot": "https://assets.nhle.com/mugs/nhl/20262027/VGK/8475913.png",
+          "goalModifier": "none",
+          "assists": [
+            {
+              "playerId": 8484803,
+              "name": {
+                "default": "T. Connelly"
+              },
+              "assistsToDate": 6
+            },
+            {
+              "playerId": 8478468,
+              "name": {
+                "default": "J. Lauzon"
+              },
+              "assistsToDate": 2
+            }
+          ],
+          "mugshot": "https://assets.nhle.com/mugs/nhl/20262027/VGK/8476448.png",
           "teamAbbrev": "VGK",
-          "sweaterNumber": 61,
-          "position": "R",
-          "category": "goals",
-          "value": 11
-        },
-        {
-          "id": 8482740,
-          "firstName": {
-            "default": "Wyatt"
-          },
-          "lastName": {
-            "default": "Johnston"
-          },
-          "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DAL/8482740.png",
-          "teamAbbrev": "DAL",
-          "sweaterNumber": 53,
-          "position": "C",
-          "category": "assists",
-          "value": 13
-        },
-        {
-          "id": 8478483,
-          "firstName": {
-            "default": "Mitch",
-            "cs": "Mitchell",
-            "de": "Mitchell",
-            "es": "Mitchell",
-            "fi": "Mitchell",
-            "sk": "Mitchell",
-            "sv": "Mitchell"
-          },
-          "lastName": {
-            "default": "Marner"
-          },
-          "headshot": "https://assets.nhle.com/mugs/nhl/20262027/VGK/8478483.png",
-          "teamAbbrev": "VGK",
-          "sweaterNumber": 93,
-          "position": "R",
-          "category": "assists",
-          "value": 23
-        },
-        {
-          "id": 8479979,
-          "firstName": {
-            "default": "Jake"
-          },
-          "lastName": {
-            "default": "Oettinger"
-          },
-          "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DAL/8479979.png",
-          "teamAbbrev": "DAL",
-          "sweaterNumber": 29,
-          "position": "G",
-          "category": "wins",
-          "value": 10
-        },
-        {
-          "id": 8478499,
-          "firstName": {
-            "default": "Adin"
-          },
-          "lastName": {
-            "default": "Hill"
-          },
-          "headshot": "https://assets.nhle.com/mugs/nhl/20262027/VGK/8478499.png",
-          "teamAbbrev": "VGK",
-          "sweaterNumber": 33,
-          "position": "G",
-          "category": "wins",
-          "value": 7
+          "goalsToDate": 4,
+          "awayScore": 0,
+          "homeScore": 1,
+          "strength": "ev",
+          "highlightClipSharingUrl": "https://nhl.com/video/dal-vgk-karlsson-scores-goal-against-jake-oettinger-6408532422112",
+          "highlightClipSharingUrlFr": "https://nhl.com/fr/video/dal-vgk-karlsson-marque-un-but-contre-jake-oettinger-6408531043112",
+          "highlightClip": 6408532422112,
+          "highlightClipFr": 6408531043112,
+          "discreteClip": 6408530573112,
+          "discreteClipFr": 6408530770112
         }
-      ],
-      "goals": []
+      ]
     },
     {
       "id": 2026020343,
@@ -8240,8 +8194,8 @@
           "default": "Flames"
         },
         "abbrev": "CGY",
-        "score": 2,
-        "sog": 10,
+        "score": 3,
+        "sog": 23,
         "logo": "https://assets.nhle.com/logos/nhl/svg/CGY_light.svg"
       },
       "homeTeam": {
@@ -8251,39 +8205,23 @@
         },
         "abbrev": "SJS",
         "score": 1,
-        "sog": 7,
+        "sog": 14,
         "logo": "https://assets.nhle.com/logos/nhl/svg/SJS_light.svg"
       },
       "gameCenterLink": "/gamecenter/cgy-vs-sjs/2026/11/17/2026020343",
       "clock": {
-        "timeRemaining": "05:26",
-        "secondsRemaining": 326,
+        "timeRemaining": "17:21",
+        "secondsRemaining": 1041,
         "running": false,
-        "inIntermission": true
+        "inIntermission": false
       },
       "neutralSite": false,
       "venueTimezone": "US/Pacific",
-      "period": 1,
+      "period": 3,
       "periodDescriptor": {
-        "number": 1,
+        "number": 3,
         "periodType": "REG",
         "maxRegulationPeriods": 3
-      },
-      "situation": {
-        "homeTeam": {
-          "abbrev": "SJS",
-          "strength": 4
-        },
-        "awayTeam": {
-          "abbrev": "CGY",
-          "situationDescriptions": [
-            "PP"
-          ],
-          "strength": 5
-        },
-        "situationCode": "1541",
-        "timeRemaining": "01:38",
-        "secondsRemaining": 98
       },
       "goals": [
         {
@@ -8433,6 +8371,58 @@
           "highlightClipFr": 6408530939112,
           "discreteClip": 6408531119112,
           "discreteClipFr": 6408529767112
+        },
+        {
+          "period": 2,
+          "periodDescriptor": {
+            "number": 2,
+            "periodType": "REG",
+            "maxRegulationPeriods": 3
+          },
+          "timeInPeriod": "01:19",
+          "playerId": 8483495,
+          "name": {
+            "default": "S. Nemec",
+            "cs": "Š. Nemec",
+            "sk": "Š. Nemec"
+          },
+          "firstName": {
+            "default": "Simon",
+            "cs": "Šimon",
+            "sk": "Šimon"
+          },
+          "lastName": {
+            "default": "Nemec"
+          },
+          "goalModifier": "none",
+          "assists": [
+            {
+              "playerId": 8483609,
+              "name": {
+                "default": "A. Klapka"
+              },
+              "assistsToDate": 4
+            },
+            {
+              "playerId": 8476458,
+              "name": {
+                "default": "R. Strome"
+              },
+              "assistsToDate": 6
+            }
+          ],
+          "mugshot": "https://assets.nhle.com/mugs/nhl/20262027/CGY/8483495.png",
+          "teamAbbrev": "CGY",
+          "goalsToDate": 1,
+          "awayScore": 3,
+          "homeScore": 1,
+          "strength": "pp",
+          "highlightClipSharingUrl": "https://nhl.com/video/cgy-sjs-nemec-scores-ppg-against-yaroslav-askarov-6408530466112",
+          "highlightClipSharingUrlFr": "https://nhl.com/fr/video/cgy-sjs-nemec-marque-un-but-en-a-n-contre-yaroslav-askarov-6408529585112",
+          "highlightClip": 6408530466112,
+          "highlightClipFr": 6408529585112,
+          "discreteClip": 6408531149112,
+          "discreteClipFr": 6408529884112
         }
       ]
     }
@@ -11389,45 +11379,45 @@
   ],
   "news": [
     {
+      "headline": "Which NHL coaches have the most wins in history?",
+      "description": "Scotty Bowman leads all NHL coaches in wins all-time. Find out who else makes the list.",
+      "published": "2026-11-18T04:50:26Z",
+      "url": "https://www.espn.com/nhl/story/_/id/48431082/which-nhl-coaches-most-wins-history",
+      "source": "ESPN"
+    },
+    {
+      "headline": "Islanders' Schaefer becomes 2nd-youngest defenseman with hat trick",
+      "description": "Matthew Schaefer became the second-youngest defenseman in NHL history to record a hat trick when he scored three goals in the Islanders' rout of Columbus.",
+      "published": "2026-11-18T04:45:21Z",
+      "url": "https://www.espn.com/nhl/story/_/id/50517556/islanders-schaefer-2nd-youngest-defenseman-hat-trick",
+      "source": "ESPN"
+    },
+    {
+      "headline": "Anaheim Ducks vs. St. Louis Blues: Game Highlights",
+      "description": "Anaheim Ducks vs. St. Louis Blues: Game Highlights",
+      "published": "2026-11-18T04:03:46Z",
+      "url": "https://www.espn.com/video/clip/_/id/50517286/game-highlights",
+      "source": "ESPN"
+    },
+    {
+      "headline": "Nashville Predators vs. Minnesota Wild: Game Highlights",
+      "description": "Nashville Predators vs. Minnesota Wild: Game Highlights",
+      "published": "2026-11-18T03:57:47Z",
+      "url": "https://www.espn.com/video/clip/_/id/50517219/game-highlights",
+      "source": "ESPN"
+    },
+    {
       "headline": "Blackhawks' Connor Bedard exits with apparent shoulder injury, set for testing",
-      "description": "Connor Bedard left Tuesday night's game with an apparent shoulder injury and is set to undergo additional testing.",
-      "published": "2026-11-18T03:44:59Z",
+      "description": "Connor Bedard left Tuesday night's game because of an apparent shoulder injury and is set to undergo additional testing.",
+      "published": "2026-11-18T04:10:01Z",
       "url": "https://www.espn.com/nhl/story/_/id/50517080/blackhawks-connor-bedard-exits-win-injury",
       "source": "ESPN"
     },
     {
       "headline": "Capitals' Alex Ovechkin sees goal drought hit 14 games, tying longest of career",
       "description": "Capitals star Alex Ovechkin failed to score a goal for the 14th straight game, tying his longest career scoring drought within a season.",
-      "published": "2026-11-18T03:41:31Z",
+      "published": "2026-11-18T04:13:09Z",
       "url": "https://www.espn.com/nhl/story/_/id/50517019/capitals-alex-ovechkin-ties-longest-career-goal-drought-14-games",
-      "source": "ESPN"
-    },
-    {
-      "headline": "Toronto Maple Leafs vs. Chicago Blackhawks: Game Highlights",
-      "description": "Toronto Maple Leafs vs. Chicago Blackhawks: Game Highlights",
-      "published": "2026-11-18T03:26:10Z",
-      "url": "https://www.espn.com/video/clip/_/id/50516916/game-highlights",
-      "source": "ESPN"
-    },
-    {
-      "headline": "Washington Capitals vs. Tampa Bay Lightning: Game Highlights",
-      "description": "Washington Capitals vs. Tampa Bay Lightning: Game Highlights",
-      "published": "2026-11-18T03:25:06Z",
-      "url": "https://www.espn.com/video/clip/_/id/50516905/game-highlights",
-      "source": "ESPN"
-    },
-    {
-      "headline": "Oilers' Connor McDavid runs season-opening points streak to 23 games",
-      "description": "Connor McDavid had a goal and an assist to extend his season-opening points streak to 23 games, and the Oilers continued their sizzling start by beating the rival Panthers 5-2 on Tuesday night.",
-      "published": "2026-11-18T03:48:52Z",
-      "url": "https://www.espn.com/nhl/story/_/id/50516823/oilers-connor-mcdavid-ups-season-opening-points-streak-23-games-tying-wayne-gretzky-4th-longest-all",
-      "source": "ESPN"
-    },
-    {
-      "headline": "Ottawa Senators vs. Winnipeg Jets: Game Highlights",
-      "description": "Ottawa Senators vs. Winnipeg Jets: Game Highlights",
-      "published": "2026-11-18T02:59:18Z",
-      "url": "https://www.espn.com/video/clip/_/id/50516552/game-highlights",
       "source": "ESPN"
     }
   ],
