@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T06:16:41.712571+00:00",
+  "updatedAt": "2026-11-19T07:52:05.371398+00:00",
   "season": "current",
   "sourceStatus": {
     "nhlStats": false,
@@ -676,7 +676,7 @@
           "sequenceNumber": 398
         }
       ],
-      "gameState": "FINAL",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "awayTeam": {
         "id": 21,
@@ -699,7 +699,9 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg"
       },
       "gameCenterLink": "/gamecenter/col-vs-uta/2026/11/18/2026020346",
-      "threeMinRecap": "/video/col-at-uta-recap-6408581341112",
+      "threeMinRecap": "/video/col-at-uta-recap-6408579975112",
+      "threeMinRecapFr": "/fr/video/col-vs-uta-18-11-2026-resume-6408582111112",
+      "condensedGame": "/video/col-at-uta-condensed-game-6408581754112",
       "clock": {
         "timeRemaining": "00:00",
         "secondsRemaining": 0,
@@ -863,21 +865,29 @@
             "maxRegulationPeriods": 3
           },
           "timeInPeriod": "15:01",
-          "playerId": 8475768,
+          "playerId": 8480448,
           "name": {
-            "default": "J. Schwartz"
+            "default": "P. Kelly"
           },
           "firstName": {
-            "default": "Jaden"
+            "default": "Parker"
           },
           "lastName": {
-            "default": "Schwartz"
+            "default": "Kelly"
           },
           "goalModifier": "none",
-          "assists": [],
-          "mugshot": "https://assets.nhle.com/mugs/nhl/20262027/COL/8475768.png",
+          "assists": [
+            {
+              "playerId": 8475768,
+              "name": {
+                "default": "J. Schwartz"
+              },
+              "assistsToDate": 7
+            }
+          ],
+          "mugshot": "https://assets.nhle.com/mugs/nhl/20262027/COL/8480448.png",
           "teamAbbrev": "COL",
-          "goalsToDate": 8,
+          "goalsToDate": 5,
           "awayScore": 1,
           "homeScore": 3,
           "strength": "ev",
@@ -1606,7 +1616,7 @@
           "sequenceNumber": 398
         }
       ],
-      "gameState": "FINAL",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "awayTeam": {
         "id": 21,
@@ -1629,7 +1639,9 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg"
       },
       "gameCenterLink": "/gamecenter/col-vs-uta/2026/11/18/2026020346",
-      "threeMinRecap": "/video/col-at-uta-recap-6408581341112",
+      "threeMinRecap": "/video/col-at-uta-recap-6408579975112",
+      "threeMinRecapFr": "/fr/video/col-vs-uta-18-11-2026-resume-6408582111112",
+      "condensedGame": "/video/col-at-uta-condensed-game-6408581754112",
       "clock": {
         "timeRemaining": "00:00",
         "secondsRemaining": 0,
@@ -1793,21 +1805,29 @@
             "maxRegulationPeriods": 3
           },
           "timeInPeriod": "15:01",
-          "playerId": 8475768,
+          "playerId": 8480448,
           "name": {
-            "default": "J. Schwartz"
+            "default": "P. Kelly"
           },
           "firstName": {
-            "default": "Jaden"
+            "default": "Parker"
           },
           "lastName": {
-            "default": "Schwartz"
+            "default": "Kelly"
           },
           "goalModifier": "none",
-          "assists": [],
-          "mugshot": "https://assets.nhle.com/mugs/nhl/20262027/COL/8475768.png",
+          "assists": [
+            {
+              "playerId": 8475768,
+              "name": {
+                "default": "J. Schwartz"
+              },
+              "assistsToDate": 7
+            }
+          ],
+          "mugshot": "https://assets.nhle.com/mugs/nhl/20262027/COL/8480448.png",
           "teamAbbrev": "COL",
-          "goalsToDate": 8,
+          "goalsToDate": 5,
           "awayScore": 1,
           "homeScore": 3,
           "strength": "ev",
@@ -4821,6 +4841,27 @@
   ],
   "news": [
     {
+      "headline": "Colorado Avalanche vs. Utah Mammoth: Game Highlights",
+      "description": "Colorado Avalanche vs. Utah Mammoth: Game Highlights",
+      "published": "2026-11-19T06:33:47Z",
+      "url": "https://www.espn.com/video/clip/_/id/50528804/game-highlights",
+      "source": "ESPN"
+    },
+    {
+      "headline": "Colorado Avalanche vs. Utah Mammoth: Game Highlights",
+      "description": "Colorado Avalanche vs. Utah Mammoth: Game Highlights",
+      "published": "2026-11-19T06:26:20Z",
+      "url": "https://www.espn.com/video/clip/_/id/50528786/game-highlights",
+      "source": "ESPN"
+    },
+    {
+      "headline": "Mammoth end 6-game slide with 4-1 win over Avalanche",
+      "description": "— Vincent Trocheck scored a goal and assisted another to help the Utah Mammoth beat the Colorado Avalanche 4-1 on Wednesday night and snap a six-game losing streak.",
+      "published": "2026-11-19T06:19:35Z",
+      "url": "http://www.espn.com/nhl/recap?gameId=401892741",
+      "source": "ESPN"
+    },
+    {
       "headline": "Canadiens end power-play drought and hand Connor Hellebuyck his 1st Devils loss with 3-2 victory",
       "description": "— Jake Evans scored the go-ahead goal, captain Nick Suzuki ended his team's long power-play drought and the Montreal Canadiens defeated the New Jersey Devils 3-2 on Wednesday night to halt a two-game skid.",
       "published": "2026-11-19T03:27:35Z",
@@ -4839,27 +4880,6 @@
       "description": "Montreal Canadiens vs. New Jersey Devils: Game Highlights",
       "published": "2026-11-19T03:23:26Z",
       "url": "https://www.espn.com/video/clip/_/id/50527387/game-highlights",
-      "source": "ESPN"
-    },
-    {
-      "headline": "Boston Bruins vs. Detroit Red Wings: Game Highlights",
-      "description": "Boston Bruins vs. Detroit Red Wings: Game Highlights",
-      "published": "2026-11-19T03:20:07Z",
-      "url": "https://www.espn.com/video/clip/_/id/50527340/game-highlights",
-      "source": "ESPN"
-    },
-    {
-      "headline": "Blackhawks star Connor Bedard awaiting test results on injured shoulder",
-      "description": "Connor Bedard will undergo further imaging and consultation on his injured shoulder to determine a course of action, with sources telling ESPN that the Blackhawks captain may have a choice on whether surgery is needed and the timing.",
-      "published": "2026-11-18T19:14:42Z",
-      "url": "https://www.espn.com/nhl/story/_/id/50522884/connor-bedard-awaiting-test-results-injured-shoulder",
-      "source": "ESPN"
-    },
-    {
-      "headline": "Mammoth, Avalanche bring mountain style to Winter Classic uniforms",
-      "description": "A mammoth crest anchors Utah's light blue jersey, while Colorado features a cream jersey with a burgundy \"C\" surrounding a mountain design.",
-      "published": "2026-11-18T17:38:37Z",
-      "url": "https://www.espn.com/nhl/story/_/id/50516521/utah-mammoth-colorado-avalanche-2026-winter-classic-uniforms",
       "source": "ESPN"
     }
   ],
