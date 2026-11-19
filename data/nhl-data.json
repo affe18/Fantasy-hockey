@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T00:37:27.368187+00:00",
+  "updatedAt": "2026-11-19T01:59:47.367589+00:00",
   "season": "current",
   "sourceStatus": {
     "nhlStats": false,
@@ -45,7 +45,7 @@
           }
         }
       ],
-      "gameState": "PRE",
+      "gameState": "LIVE",
       "gameScheduleState": "OK",
       "awayTeam": {
         "id": 6,
@@ -53,34 +53,9 @@
           "default": "Bruins"
         },
         "abbrev": "BOS",
-        "record": "13-7-1",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg",
-        "odds": [
-          {
-            "providerId": 6,
-            "value": "1.92"
-          },
-          {
-            "providerId": 8,
-            "value": "-111"
-          },
-          {
-            "providerId": 7,
-            "value": "-110"
-          },
-          {
-            "providerId": 9,
-            "value": "-110"
-          },
-          {
-            "providerId": 3,
-            "value": "1.92"
-          },
-          {
-            "providerId": 10,
-            "value": "2.40"
-          }
-        ]
+        "score": 2,
+        "sog": 24,
+        "logo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg"
       },
       "homeTeam": {
         "id": 17,
@@ -88,134 +63,165 @@
           "default": "Red Wings"
         },
         "abbrev": "DET",
-        "record": "8-10-3",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg",
-        "odds": [
-          {
-            "providerId": 6,
-            "value": "1.88"
-          },
-          {
-            "providerId": 8,
-            "value": "-111"
-          },
-          {
-            "providerId": 7,
-            "value": "-110"
-          },
-          {
-            "providerId": 9,
-            "value": "-110"
-          },
-          {
-            "providerId": 3,
-            "value": "1.92"
-          },
-          {
-            "providerId": 10,
-            "value": "2.45"
-          }
-        ]
+        "score": 1,
+        "sog": 12,
+        "logo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg"
       },
       "gameCenterLink": "/gamecenter/bos-vs-det/2026/11/18/2026020344",
+      "clock": {
+        "timeRemaining": "07:24",
+        "secondsRemaining": 444,
+        "running": true,
+        "inIntermission": false
+      },
       "neutralSite": false,
       "venueTimezone": "America/Detroit",
-      "ticketsLink": "https://www.ticketmaster.com/event/080064EED7D87FD6?brand=nhl&wt.mc_id=NHL_LEAGUE_DET_SCORES_PG_GM11&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_DET&utm_content=SCORES_PG_GM11",
-      "ticketsLinkFr": "https://www.ticketmaster.com/event/080064EED7D87FD6?brand=nhl&wt.mc_id=NHL_LEAGUE_DET_SCORES_PG_GM11&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_DET&utm_content=SCORES_PG_GM11",
-      "teamLeaders": [
+      "period": 2,
+      "periodDescriptor": {
+        "number": 2,
+        "periodType": "REG",
+        "maxRegulationPeriods": 3
+      },
+      "goals": [
         {
-          "id": 8477956,
-          "firstName": {
-            "default": "David"
+          "period": 1,
+          "periodDescriptor": {
+            "number": 1,
+            "periodType": "REG",
+            "maxRegulationPeriods": 3
           },
-          "lastName": {
-            "default": "Pastrnak",
-            "cs": "Pastrňák",
-            "sk": "Pastrňák"
+          "timeInPeriod": "16:58",
+          "playerId": 8482078,
+          "name": {
+            "default": "L. Raymond"
           },
-          "headshot": "https://assets.nhle.com/mugs/nhl/20262027/BOS/8477956.png",
-          "teamAbbrev": "BOS",
-          "sweaterNumber": 88,
-          "position": "R",
-          "category": "goals",
-          "value": 9
-        },
-        {
-          "id": 8482078,
           "firstName": {
             "default": "Lucas"
           },
           "lastName": {
             "default": "Raymond"
           },
-          "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8482078.png",
+          "goalModifier": "none",
+          "assists": [
+            {
+              "playerId": 8477429,
+              "name": {
+                "default": "A. Copp"
+              },
+              "assistsToDate": 8
+            },
+            {
+              "playerId": 8478434,
+              "name": {
+                "default": "K. Kolesar"
+              },
+              "assistsToDate": 1
+            }
+          ],
+          "mugshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8482078.png",
           "teamAbbrev": "DET",
-          "sweaterNumber": 23,
-          "position": "L",
-          "category": "goals",
-          "value": 8
+          "goalsToDate": 9,
+          "awayScore": 0,
+          "homeScore": 1,
+          "strength": "ev",
+          "highlightClipSharingUrl": "https://nhl.com/video/bos-det-raymond-scores-goal-against-jeremy-swayman-6408573735112",
+          "highlightClipSharingUrlFr": "https://nhl.com/fr/video/bos-det-raymond-marque-un-but-contre-jeremy-swayman-6408573636112",
+          "highlightClip": 6408573735112,
+          "highlightClipFr": 6408573636112,
+          "discreteClip": 6408573634112,
+          "discreteClipFr": 6408572755112
         },
         {
-          "id": 8477956,
+          "period": 2,
+          "periodDescriptor": {
+            "number": 2,
+            "periodType": "REG",
+            "maxRegulationPeriods": 3
+          },
+          "timeInPeriod": "02:49",
+          "playerId": 8482175,
+          "name": {
+            "default": "J. Peterka"
+          },
           "firstName": {
-            "default": "David"
+            "default": "JJ"
           },
           "lastName": {
-            "default": "Pastrnak",
-            "cs": "Pastrňák",
-            "sk": "Pastrňák"
+            "default": "Peterka"
           },
-          "headshot": "https://assets.nhle.com/mugs/nhl/20262027/BOS/8477956.png",
+          "goalModifier": "none",
+          "assists": [
+            {
+              "playerId": 8482511,
+              "name": {
+                "default": "M. Lohrei"
+              },
+              "assistsToDate": 4
+            },
+            {
+              "playerId": 8479999,
+              "name": {
+                "default": "C. Mittelstadt"
+              },
+              "assistsToDate": 6
+            }
+          ],
+          "mugshot": "https://assets.nhle.com/mugs/nhl/20262027/BOS/8482175.png",
           "teamAbbrev": "BOS",
-          "sweaterNumber": 88,
-          "position": "R",
-          "category": "assists",
-          "value": 17
+          "goalsToDate": 6,
+          "awayScore": 1,
+          "homeScore": 1,
+          "strength": "ev",
+          "highlightClipSharingUrl": "https://nhl.com/video/bos-det-peterka-scores-goal-against-daniil-tarasov-6408574269112",
+          "highlightClipSharingUrlFr": "https://nhl.com/fr/video/bos-det-peterka-marque-un-but-contre-daniil-tarasov-6408574363112",
+          "highlightClip": 6408574269112,
+          "highlightClipFr": 6408574363112,
+          "discreteClip": 6408573312112,
+          "discreteClipFr": 6408573097112
         },
         {
-          "id": 8482078,
+          "period": 2,
+          "periodDescriptor": {
+            "number": 2,
+            "periodType": "REG",
+            "maxRegulationPeriods": 3
+          },
+          "timeInPeriod": "11:48",
+          "playerId": 8478401,
+          "name": {
+            "default": "P. Zacha"
+          },
           "firstName": {
-            "default": "Lucas"
+            "default": "Pavel"
           },
           "lastName": {
-            "default": "Raymond"
+            "default": "Zacha"
           },
-          "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8482078.png",
-          "teamAbbrev": "DET",
-          "sweaterNumber": 23,
-          "position": "L",
-          "category": "assists",
-          "value": 13
-        },
-        {
-          "id": 8480280,
-          "firstName": {
-            "default": "Jeremy"
-          },
-          "lastName": {
-            "default": "Swayman"
-          },
-          "headshot": "https://assets.nhle.com/mugs/nhl/20262027/BOS/8480280.png",
+          "goalModifier": "none",
+          "assists": [
+            {
+              "playerId": 8477956,
+              "name": {
+                "default": "D. Pastrnak",
+                "cs": "D. Pastrňák",
+                "sk": "D. Pastrňák"
+              },
+              "assistsToDate": 18
+            },
+            {
+              "playerId": 8479987,
+              "name": {
+                "default": "M. Geekie"
+              },
+              "assistsToDate": 11
+            }
+          ],
+          "mugshot": "https://assets.nhle.com/mugs/nhl/20262027/BOS/8478401.png",
           "teamAbbrev": "BOS",
-          "sweaterNumber": 1,
-          "position": "G",
-          "category": "wins",
-          "value": 9
-        },
-        {
-          "id": 8476434,
-          "firstName": {
-            "default": "John"
-          },
-          "lastName": {
-            "default": "Gibson"
-          },
-          "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8476434.png",
-          "teamAbbrev": "DET",
-          "sweaterNumber": 36,
-          "position": "G",
-          "category": "wins",
-          "value": 4
+          "goalsToDate": 6,
+          "awayScore": 2,
+          "homeScore": 1,
+          "strength": "pp"
         }
       ]
     },
@@ -250,7 +256,7 @@
           "sequenceNumber": 424
         }
       ],
-      "gameState": "PRE",
+      "gameState": "LIVE",
       "gameScheduleState": "OK",
       "awayTeam": {
         "id": 8,
@@ -258,34 +264,9 @@
           "default": "Canadiens"
         },
         "abbrev": "MTL",
-        "record": "12-5-4",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
-        "odds": [
-          {
-            "providerId": 8,
-            "value": "+142"
-          },
-          {
-            "providerId": 7,
-            "value": "+146"
-          },
-          {
-            "providerId": 9,
-            "value": "+142"
-          },
-          {
-            "providerId": 6,
-            "value": "2.37"
-          },
-          {
-            "providerId": 3,
-            "value": "2.39"
-          },
-          {
-            "providerId": 10,
-            "value": "3.10"
-          }
-        ]
+        "score": 2,
+        "sog": 14,
+        "logo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg"
       },
       "homeTeam": {
         "id": 1,
@@ -293,130 +274,203 @@
           "default": "Devils"
         },
         "abbrev": "NJD",
-        "record": "15-6-0",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
-        "odds": [
-          {
-            "providerId": 8,
-            "value": "-174"
-          },
-          {
-            "providerId": 7,
-            "value": "-176"
-          },
-          {
-            "providerId": 9,
-            "value": "-170"
-          },
-          {
-            "providerId": 6,
-            "value": "1.58"
-          },
-          {
-            "providerId": 3,
-            "value": "1.59"
-          },
-          {
-            "providerId": 10,
-            "value": "2.00"
-          }
-        ]
+        "score": 2,
+        "sog": 14,
+        "logo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg"
       },
       "gameCenterLink": "/gamecenter/mtl-vs-njd/2026/11/18/2026020345",
+      "clock": {
+        "timeRemaining": "09:51",
+        "secondsRemaining": 591,
+        "running": false,
+        "inIntermission": false
+      },
       "neutralSite": false,
       "venueTimezone": "US/Eastern",
-      "ticketsLink": "https://www.ticketmaster.com/event/020064F091C59CCF?brand=nhl&wt.mc_id=NHL_LEAGUE_NJD_SCORES_PG_GM12&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_NJD&utm_content=SCORES_PG_GM12",
-      "ticketsLinkFr": "https://www.ticketmaster.com/event/020064F091C59CCF?brand=nhl&wt.mc_id=NHL_LEAGUE_NJD_SCORES_PG_GM12&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_NJD&utm_content=SCORES_PG_GM12",
-      "teamLeaders": [
+      "period": 2,
+      "periodDescriptor": {
+        "number": 2,
+        "periodType": "REG",
+        "maxRegulationPeriods": 3
+      },
+      "goals": [
         {
-          "id": 8481540,
+          "period": 1,
+          "periodDescriptor": {
+            "number": 1,
+            "periodType": "REG",
+            "maxRegulationPeriods": 3
+          },
+          "timeInPeriod": "10:20",
+          "playerId": 8482146,
+          "name": {
+            "default": "L. Evangelista"
+          },
           "firstName": {
-            "default": "Cole"
+            "default": "Luke"
           },
           "lastName": {
-            "default": "Caufield"
+            "default": "Evangelista"
           },
-          "headshot": "https://assets.nhle.com/mugs/nhl/20262027/MTL/8481540.png",
-          "teamAbbrev": "MTL",
-          "sweaterNumber": 13,
-          "position": "R",
-          "category": "goals",
-          "value": 12
-        },
-        {
-          "id": 8481559,
-          "firstName": {
-            "default": "Jack"
-          },
-          "lastName": {
-            "default": "Hughes"
-          },
-          "headshot": "https://assets.nhle.com/mugs/nhl/20262027/NJD/8481559.png",
+          "goalModifier": "none",
+          "assists": [
+            {
+              "playerId": 8478414,
+              "name": {
+                "default": "T. Meier"
+              },
+              "assistsToDate": 6
+            },
+            {
+              "playerId": 8480002,
+              "name": {
+                "default": "N. Hischier"
+              },
+              "assistsToDate": 6
+            }
+          ],
+          "mugshot": "https://assets.nhle.com/mugs/nhl/20262027/NJD/8482146.png",
           "teamAbbrev": "NJD",
-          "sweaterNumber": 86,
-          "position": "C",
-          "category": "goals",
-          "value": 10
+          "goalsToDate": 5,
+          "awayScore": 0,
+          "homeScore": 1,
+          "strength": "ev",
+          "highlightClipSharingUrl": "https://nhl.com/video/mtl-njd-evangelista-scores-goal-against-jacob-fowler-6408572456112",
+          "highlightClipSharingUrlFr": "https://nhl.com/fr/video/mtl-njd-evangelista-marque-un-but-contre-jacob-fowler-6408573528112",
+          "highlightClip": 6408572456112,
+          "highlightClipFr": 6408573528112,
+          "discreteClip": 6408573146112,
+          "discreteClipFr": 6408572061112
         },
         {
-          "id": 8483457,
+          "period": 1,
+          "periodDescriptor": {
+            "number": 1,
+            "periodType": "REG",
+            "maxRegulationPeriods": 3
+          },
+          "timeInPeriod": "11:00",
+          "playerId": 8481618,
+          "name": {
+            "default": "A. Newhook"
+          },
           "firstName": {
-            "default": "Lane"
+            "default": "Alex"
           },
           "lastName": {
-            "default": "Hutson"
+            "default": "Newhook"
           },
-          "headshot": "https://assets.nhle.com/mugs/nhl/20262027/MTL/8483457.png",
+          "goalModifier": "none",
+          "assists": [
+            {
+              "playerId": 8483457,
+              "name": {
+                "default": "L. Hutson"
+              },
+              "assistsToDate": 17
+            }
+          ],
+          "mugshot": "https://assets.nhle.com/mugs/nhl/20262027/MTL/8481618.png",
           "teamAbbrev": "MTL",
-          "sweaterNumber": 48,
-          "position": "D",
-          "category": "assists",
-          "value": 16
+          "goalsToDate": 6,
+          "awayScore": 1,
+          "homeScore": 1,
+          "strength": "ev",
+          "highlightClipSharingUrl": "https://nhl.com/video/mtl-njd-newhook-scores-goal-against-connor-hellebuyck-6408573929112",
+          "highlightClipSharingUrlFr": "https://nhl.com/fr/video/mtl-njd-newhook-marque-un-but-contre-connor-hellebuyck-6408572865112",
+          "highlightClip": 6408573929112,
+          "highlightClipFr": 6408572865112,
+          "discreteClip": 6408573440112,
+          "discreteClipFr": 6408572464112
         },
         {
-          "id": 8481559,
+          "period": 1,
+          "periodDescriptor": {
+            "number": 1,
+            "periodType": "REG",
+            "maxRegulationPeriods": 3
+          },
+          "timeInPeriod": "14:43",
+          "playerId": 8478414,
+          "name": {
+            "default": "T. Meier"
+          },
           "firstName": {
-            "default": "Jack"
+            "default": "Timo"
           },
           "lastName": {
-            "default": "Hughes"
+            "default": "Meier"
           },
-          "headshot": "https://assets.nhle.com/mugs/nhl/20262027/NJD/8481559.png",
+          "goalModifier": "none",
+          "assists": [
+            {
+              "playerId": 8479407,
+              "name": {
+                "default": "J. Bratt"
+              },
+              "assistsToDate": 18
+            }
+          ],
+          "mugshot": "https://assets.nhle.com/mugs/nhl/20262027/NJD/8478414.png",
           "teamAbbrev": "NJD",
-          "sweaterNumber": 86,
-          "position": "C",
-          "category": "assists",
-          "value": 17
+          "goalsToDate": 5,
+          "awayScore": 1,
+          "homeScore": 2,
+          "strength": "ev",
+          "highlightClipSharingUrl": "https://nhl.com/video/mtl-njd-meier-scores-goal-against-jacob-fowler-6408574032112",
+          "highlightClipSharingUrlFr": "https://nhl.com/fr/video/mtl-njd-meier-marque-un-but-contre-jacob-fowler-6408572868112",
+          "highlightClip": 6408574032112,
+          "highlightClipFr": 6408572868112,
+          "discreteClip": 6408573559112,
+          "discreteClipFr": 6408573162112
         },
         {
-          "id": 8484170,
+          "period": 1,
+          "periodDescriptor": {
+            "number": 1,
+            "periodType": "REG",
+            "maxRegulationPeriods": 3
+          },
+          "timeInPeriod": "19:18",
+          "playerId": 8480018,
+          "name": {
+            "default": "N. Suzuki"
+          },
           "firstName": {
-            "default": "Jacob"
+            "default": "Nick"
           },
           "lastName": {
-            "default": "Fowler"
+            "default": "Suzuki"
           },
-          "headshot": "https://assets.nhle.com/mugs/nhl/20262027/MTL/8484170.png",
+          "goalModifier": "none",
+          "assists": [
+            {
+              "playerId": 8483457,
+              "name": {
+                "default": "L. Hutson"
+              },
+              "assistsToDate": 18
+            },
+            {
+              "playerId": 8483515,
+              "name": {
+                "default": "J. Slafkovský"
+              },
+              "assistsToDate": 12
+            }
+          ],
+          "mugshot": "https://assets.nhle.com/mugs/nhl/20262027/MTL/8480018.png",
           "teamAbbrev": "MTL",
-          "sweaterNumber": 32,
-          "position": "G",
-          "category": "wins",
-          "value": 9
-        },
-        {
-          "id": 8476945,
-          "firstName": {
-            "default": "Connor"
-          },
-          "lastName": {
-            "default": "Hellebuyck"
-          },
-          "headshot": "https://assets.nhle.com/mugs/nhl/20262027/NJD/8476945.png",
-          "teamAbbrev": "NJD",
-          "sweaterNumber": 37,
-          "position": "G",
-          "category": "wins",
-          "value": 7
+          "goalsToDate": 9,
+          "awayScore": 2,
+          "homeScore": 2,
+          "strength": "pp",
+          "highlightClipSharingUrl": "https://nhl.com/video/mtl-njd-suzuki-scores-ppg-against-connor-hellebuyck-6408572273112",
+          "highlightClipSharingUrlFr": "https://nhl.com/fr/video/mtl-njd-suzuki-marque-un-but-en-a-n-contre-connor-hellebuyck-6408573654112",
+          "highlightClip": 6408572273112,
+          "highlightClipFr": 6408573654112,
+          "discreteClip": 6408573857112,
+          "discreteClipFr": 6408572583112
         }
       ]
     },
@@ -474,24 +528,24 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
         "odds": [
           {
-            "providerId": 8,
-            "value": "-111"
-          },
-          {
-            "providerId": 7,
-            "value": "-110"
-          },
-          {
-            "providerId": 9,
-            "value": "-110"
+            "providerId": 3,
+            "value": "1.92"
           },
           {
             "providerId": 6,
             "value": "1.88"
           },
           {
-            "providerId": 3,
-            "value": "1.91"
+            "providerId": 9,
+            "value": "-110"
+          },
+          {
+            "providerId": 7,
+            "value": "-110"
+          },
+          {
+            "providerId": 8,
+            "value": "-111"
           }
         ]
       },
@@ -505,7 +559,15 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg",
         "odds": [
           {
-            "providerId": 8,
+            "providerId": 3,
+            "value": "1.92"
+          },
+          {
+            "providerId": 6,
+            "value": "1.92"
+          },
+          {
+            "providerId": 9,
             "value": "-110"
           },
           {
@@ -513,16 +575,8 @@
             "value": "-110"
           },
           {
-            "providerId": 9,
+            "providerId": 8,
             "value": "-110"
-          },
-          {
-            "providerId": 6,
-            "value": "1.92"
-          },
-          {
-            "providerId": 3,
-            "value": "1.93"
           }
         ]
       },
@@ -661,7 +715,7 @@
           }
         }
       ],
-      "gameState": "PRE",
+      "gameState": "LIVE",
       "gameScheduleState": "OK",
       "awayTeam": {
         "id": 6,
@@ -669,34 +723,9 @@
           "default": "Bruins"
         },
         "abbrev": "BOS",
-        "record": "13-7-1",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg",
-        "odds": [
-          {
-            "providerId": 6,
-            "value": "1.92"
-          },
-          {
-            "providerId": 8,
-            "value": "-111"
-          },
-          {
-            "providerId": 7,
-            "value": "-110"
-          },
-          {
-            "providerId": 9,
-            "value": "-110"
-          },
-          {
-            "providerId": 3,
-            "value": "1.92"
-          },
-          {
-            "providerId": 10,
-            "value": "2.40"
-          }
-        ]
+        "score": 2,
+        "sog": 24,
+        "logo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg"
       },
       "homeTeam": {
         "id": 17,
@@ -704,134 +733,165 @@
           "default": "Red Wings"
         },
         "abbrev": "DET",
-        "record": "8-10-3",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg",
-        "odds": [
-          {
-            "providerId": 6,
-            "value": "1.88"
-          },
-          {
-            "providerId": 8,
-            "value": "-111"
-          },
-          {
-            "providerId": 7,
-            "value": "-110"
-          },
-          {
-            "providerId": 9,
-            "value": "-110"
-          },
-          {
-            "providerId": 3,
-            "value": "1.92"
-          },
-          {
-            "providerId": 10,
-            "value": "2.45"
-          }
-        ]
+        "score": 1,
+        "sog": 12,
+        "logo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg"
       },
       "gameCenterLink": "/gamecenter/bos-vs-det/2026/11/18/2026020344",
+      "clock": {
+        "timeRemaining": "07:24",
+        "secondsRemaining": 444,
+        "running": true,
+        "inIntermission": false
+      },
       "neutralSite": false,
       "venueTimezone": "America/Detroit",
-      "ticketsLink": "https://www.ticketmaster.com/event/080064EED7D87FD6?brand=nhl&wt.mc_id=NHL_LEAGUE_DET_SCORES_PG_GM11&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_DET&utm_content=SCORES_PG_GM11",
-      "ticketsLinkFr": "https://www.ticketmaster.com/event/080064EED7D87FD6?brand=nhl&wt.mc_id=NHL_LEAGUE_DET_SCORES_PG_GM11&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_DET&utm_content=SCORES_PG_GM11",
-      "teamLeaders": [
+      "period": 2,
+      "periodDescriptor": {
+        "number": 2,
+        "periodType": "REG",
+        "maxRegulationPeriods": 3
+      },
+      "goals": [
         {
-          "id": 8477956,
-          "firstName": {
-            "default": "David"
+          "period": 1,
+          "periodDescriptor": {
+            "number": 1,
+            "periodType": "REG",
+            "maxRegulationPeriods": 3
           },
-          "lastName": {
-            "default": "Pastrnak",
-            "cs": "Pastrňák",
-            "sk": "Pastrňák"
+          "timeInPeriod": "16:58",
+          "playerId": 8482078,
+          "name": {
+            "default": "L. Raymond"
           },
-          "headshot": "https://assets.nhle.com/mugs/nhl/20262027/BOS/8477956.png",
-          "teamAbbrev": "BOS",
-          "sweaterNumber": 88,
-          "position": "R",
-          "category": "goals",
-          "value": 9
-        },
-        {
-          "id": 8482078,
           "firstName": {
             "default": "Lucas"
           },
           "lastName": {
             "default": "Raymond"
           },
-          "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8482078.png",
+          "goalModifier": "none",
+          "assists": [
+            {
+              "playerId": 8477429,
+              "name": {
+                "default": "A. Copp"
+              },
+              "assistsToDate": 8
+            },
+            {
+              "playerId": 8478434,
+              "name": {
+                "default": "K. Kolesar"
+              },
+              "assistsToDate": 1
+            }
+          ],
+          "mugshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8482078.png",
           "teamAbbrev": "DET",
-          "sweaterNumber": 23,
-          "position": "L",
-          "category": "goals",
-          "value": 8
+          "goalsToDate": 9,
+          "awayScore": 0,
+          "homeScore": 1,
+          "strength": "ev",
+          "highlightClipSharingUrl": "https://nhl.com/video/bos-det-raymond-scores-goal-against-jeremy-swayman-6408573735112",
+          "highlightClipSharingUrlFr": "https://nhl.com/fr/video/bos-det-raymond-marque-un-but-contre-jeremy-swayman-6408573636112",
+          "highlightClip": 6408573735112,
+          "highlightClipFr": 6408573636112,
+          "discreteClip": 6408573634112,
+          "discreteClipFr": 6408572755112
         },
         {
-          "id": 8477956,
+          "period": 2,
+          "periodDescriptor": {
+            "number": 2,
+            "periodType": "REG",
+            "maxRegulationPeriods": 3
+          },
+          "timeInPeriod": "02:49",
+          "playerId": 8482175,
+          "name": {
+            "default": "J. Peterka"
+          },
           "firstName": {
-            "default": "David"
+            "default": "JJ"
           },
           "lastName": {
-            "default": "Pastrnak",
-            "cs": "Pastrňák",
-            "sk": "Pastrňák"
+            "default": "Peterka"
           },
-          "headshot": "https://assets.nhle.com/mugs/nhl/20262027/BOS/8477956.png",
+          "goalModifier": "none",
+          "assists": [
+            {
+              "playerId": 8482511,
+              "name": {
+                "default": "M. Lohrei"
+              },
+              "assistsToDate": 4
+            },
+            {
+              "playerId": 8479999,
+              "name": {
+                "default": "C. Mittelstadt"
+              },
+              "assistsToDate": 6
+            }
+          ],
+          "mugshot": "https://assets.nhle.com/mugs/nhl/20262027/BOS/8482175.png",
           "teamAbbrev": "BOS",
-          "sweaterNumber": 88,
-          "position": "R",
-          "category": "assists",
-          "value": 17
+          "goalsToDate": 6,
+          "awayScore": 1,
+          "homeScore": 1,
+          "strength": "ev",
+          "highlightClipSharingUrl": "https://nhl.com/video/bos-det-peterka-scores-goal-against-daniil-tarasov-6408574269112",
+          "highlightClipSharingUrlFr": "https://nhl.com/fr/video/bos-det-peterka-marque-un-but-contre-daniil-tarasov-6408574363112",
+          "highlightClip": 6408574269112,
+          "highlightClipFr": 6408574363112,
+          "discreteClip": 6408573312112,
+          "discreteClipFr": 6408573097112
         },
         {
-          "id": 8482078,
+          "period": 2,
+          "periodDescriptor": {
+            "number": 2,
+            "periodType": "REG",
+            "maxRegulationPeriods": 3
+          },
+          "timeInPeriod": "11:48",
+          "playerId": 8478401,
+          "name": {
+            "default": "P. Zacha"
+          },
           "firstName": {
-            "default": "Lucas"
+            "default": "Pavel"
           },
           "lastName": {
-            "default": "Raymond"
+            "default": "Zacha"
           },
-          "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8482078.png",
-          "teamAbbrev": "DET",
-          "sweaterNumber": 23,
-          "position": "L",
-          "category": "assists",
-          "value": 13
-        },
-        {
-          "id": 8480280,
-          "firstName": {
-            "default": "Jeremy"
-          },
-          "lastName": {
-            "default": "Swayman"
-          },
-          "headshot": "https://assets.nhle.com/mugs/nhl/20262027/BOS/8480280.png",
+          "goalModifier": "none",
+          "assists": [
+            {
+              "playerId": 8477956,
+              "name": {
+                "default": "D. Pastrnak",
+                "cs": "D. Pastrňák",
+                "sk": "D. Pastrňák"
+              },
+              "assistsToDate": 18
+            },
+            {
+              "playerId": 8479987,
+              "name": {
+                "default": "M. Geekie"
+              },
+              "assistsToDate": 11
+            }
+          ],
+          "mugshot": "https://assets.nhle.com/mugs/nhl/20262027/BOS/8478401.png",
           "teamAbbrev": "BOS",
-          "sweaterNumber": 1,
-          "position": "G",
-          "category": "wins",
-          "value": 9
-        },
-        {
-          "id": 8476434,
-          "firstName": {
-            "default": "John"
-          },
-          "lastName": {
-            "default": "Gibson"
-          },
-          "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8476434.png",
-          "teamAbbrev": "DET",
-          "sweaterNumber": 36,
-          "position": "G",
-          "category": "wins",
-          "value": 4
+          "goalsToDate": 6,
+          "awayScore": 2,
+          "homeScore": 1,
+          "strength": "pp"
         }
       ]
     },
@@ -866,7 +926,7 @@
           "sequenceNumber": 424
         }
       ],
-      "gameState": "PRE",
+      "gameState": "LIVE",
       "gameScheduleState": "OK",
       "awayTeam": {
         "id": 8,
@@ -874,34 +934,9 @@
           "default": "Canadiens"
         },
         "abbrev": "MTL",
-        "record": "12-5-4",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
-        "odds": [
-          {
-            "providerId": 8,
-            "value": "+142"
-          },
-          {
-            "providerId": 7,
-            "value": "+146"
-          },
-          {
-            "providerId": 9,
-            "value": "+142"
-          },
-          {
-            "providerId": 6,
-            "value": "2.37"
-          },
-          {
-            "providerId": 3,
-            "value": "2.39"
-          },
-          {
-            "providerId": 10,
-            "value": "3.10"
-          }
-        ]
+        "score": 2,
+        "sog": 14,
+        "logo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg"
       },
       "homeTeam": {
         "id": 1,
@@ -909,130 +944,203 @@
           "default": "Devils"
         },
         "abbrev": "NJD",
-        "record": "15-6-0",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
-        "odds": [
-          {
-            "providerId": 8,
-            "value": "-174"
-          },
-          {
-            "providerId": 7,
-            "value": "-176"
-          },
-          {
-            "providerId": 9,
-            "value": "-170"
-          },
-          {
-            "providerId": 6,
-            "value": "1.58"
-          },
-          {
-            "providerId": 3,
-            "value": "1.59"
-          },
-          {
-            "providerId": 10,
-            "value": "2.00"
-          }
-        ]
+        "score": 2,
+        "sog": 14,
+        "logo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg"
       },
       "gameCenterLink": "/gamecenter/mtl-vs-njd/2026/11/18/2026020345",
+      "clock": {
+        "timeRemaining": "09:51",
+        "secondsRemaining": 591,
+        "running": false,
+        "inIntermission": false
+      },
       "neutralSite": false,
       "venueTimezone": "US/Eastern",
-      "ticketsLink": "https://www.ticketmaster.com/event/020064F091C59CCF?brand=nhl&wt.mc_id=NHL_LEAGUE_NJD_SCORES_PG_GM12&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_NJD&utm_content=SCORES_PG_GM12",
-      "ticketsLinkFr": "https://www.ticketmaster.com/event/020064F091C59CCF?brand=nhl&wt.mc_id=NHL_LEAGUE_NJD_SCORES_PG_GM12&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_NJD&utm_content=SCORES_PG_GM12",
-      "teamLeaders": [
+      "period": 2,
+      "periodDescriptor": {
+        "number": 2,
+        "periodType": "REG",
+        "maxRegulationPeriods": 3
+      },
+      "goals": [
         {
-          "id": 8481540,
+          "period": 1,
+          "periodDescriptor": {
+            "number": 1,
+            "periodType": "REG",
+            "maxRegulationPeriods": 3
+          },
+          "timeInPeriod": "10:20",
+          "playerId": 8482146,
+          "name": {
+            "default": "L. Evangelista"
+          },
           "firstName": {
-            "default": "Cole"
+            "default": "Luke"
           },
           "lastName": {
-            "default": "Caufield"
+            "default": "Evangelista"
           },
-          "headshot": "https://assets.nhle.com/mugs/nhl/20262027/MTL/8481540.png",
-          "teamAbbrev": "MTL",
-          "sweaterNumber": 13,
-          "position": "R",
-          "category": "goals",
-          "value": 12
-        },
-        {
-          "id": 8481559,
-          "firstName": {
-            "default": "Jack"
-          },
-          "lastName": {
-            "default": "Hughes"
-          },
-          "headshot": "https://assets.nhle.com/mugs/nhl/20262027/NJD/8481559.png",
+          "goalModifier": "none",
+          "assists": [
+            {
+              "playerId": 8478414,
+              "name": {
+                "default": "T. Meier"
+              },
+              "assistsToDate": 6
+            },
+            {
+              "playerId": 8480002,
+              "name": {
+                "default": "N. Hischier"
+              },
+              "assistsToDate": 6
+            }
+          ],
+          "mugshot": "https://assets.nhle.com/mugs/nhl/20262027/NJD/8482146.png",
           "teamAbbrev": "NJD",
-          "sweaterNumber": 86,
-          "position": "C",
-          "category": "goals",
-          "value": 10
+          "goalsToDate": 5,
+          "awayScore": 0,
+          "homeScore": 1,
+          "strength": "ev",
+          "highlightClipSharingUrl": "https://nhl.com/video/mtl-njd-evangelista-scores-goal-against-jacob-fowler-6408572456112",
+          "highlightClipSharingUrlFr": "https://nhl.com/fr/video/mtl-njd-evangelista-marque-un-but-contre-jacob-fowler-6408573528112",
+          "highlightClip": 6408572456112,
+          "highlightClipFr": 6408573528112,
+          "discreteClip": 6408573146112,
+          "discreteClipFr": 6408572061112
         },
         {
-          "id": 8483457,
+          "period": 1,
+          "periodDescriptor": {
+            "number": 1,
+            "periodType": "REG",
+            "maxRegulationPeriods": 3
+          },
+          "timeInPeriod": "11:00",
+          "playerId": 8481618,
+          "name": {
+            "default": "A. Newhook"
+          },
           "firstName": {
-            "default": "Lane"
+            "default": "Alex"
           },
           "lastName": {
-            "default": "Hutson"
+            "default": "Newhook"
           },
-          "headshot": "https://assets.nhle.com/mugs/nhl/20262027/MTL/8483457.png",
+          "goalModifier": "none",
+          "assists": [
+            {
+              "playerId": 8483457,
+              "name": {
+                "default": "L. Hutson"
+              },
+              "assistsToDate": 17
+            }
+          ],
+          "mugshot": "https://assets.nhle.com/mugs/nhl/20262027/MTL/8481618.png",
           "teamAbbrev": "MTL",
-          "sweaterNumber": 48,
-          "position": "D",
-          "category": "assists",
-          "value": 16
+          "goalsToDate": 6,
+          "awayScore": 1,
+          "homeScore": 1,
+          "strength": "ev",
+          "highlightClipSharingUrl": "https://nhl.com/video/mtl-njd-newhook-scores-goal-against-connor-hellebuyck-6408573929112",
+          "highlightClipSharingUrlFr": "https://nhl.com/fr/video/mtl-njd-newhook-marque-un-but-contre-connor-hellebuyck-6408572865112",
+          "highlightClip": 6408573929112,
+          "highlightClipFr": 6408572865112,
+          "discreteClip": 6408573440112,
+          "discreteClipFr": 6408572464112
         },
         {
-          "id": 8481559,
+          "period": 1,
+          "periodDescriptor": {
+            "number": 1,
+            "periodType": "REG",
+            "maxRegulationPeriods": 3
+          },
+          "timeInPeriod": "14:43",
+          "playerId": 8478414,
+          "name": {
+            "default": "T. Meier"
+          },
           "firstName": {
-            "default": "Jack"
+            "default": "Timo"
           },
           "lastName": {
-            "default": "Hughes"
+            "default": "Meier"
           },
-          "headshot": "https://assets.nhle.com/mugs/nhl/20262027/NJD/8481559.png",
+          "goalModifier": "none",
+          "assists": [
+            {
+              "playerId": 8479407,
+              "name": {
+                "default": "J. Bratt"
+              },
+              "assistsToDate": 18
+            }
+          ],
+          "mugshot": "https://assets.nhle.com/mugs/nhl/20262027/NJD/8478414.png",
           "teamAbbrev": "NJD",
-          "sweaterNumber": 86,
-          "position": "C",
-          "category": "assists",
-          "value": 17
+          "goalsToDate": 5,
+          "awayScore": 1,
+          "homeScore": 2,
+          "strength": "ev",
+          "highlightClipSharingUrl": "https://nhl.com/video/mtl-njd-meier-scores-goal-against-jacob-fowler-6408574032112",
+          "highlightClipSharingUrlFr": "https://nhl.com/fr/video/mtl-njd-meier-marque-un-but-contre-jacob-fowler-6408572868112",
+          "highlightClip": 6408574032112,
+          "highlightClipFr": 6408572868112,
+          "discreteClip": 6408573559112,
+          "discreteClipFr": 6408573162112
         },
         {
-          "id": 8484170,
+          "period": 1,
+          "periodDescriptor": {
+            "number": 1,
+            "periodType": "REG",
+            "maxRegulationPeriods": 3
+          },
+          "timeInPeriod": "19:18",
+          "playerId": 8480018,
+          "name": {
+            "default": "N. Suzuki"
+          },
           "firstName": {
-            "default": "Jacob"
+            "default": "Nick"
           },
           "lastName": {
-            "default": "Fowler"
+            "default": "Suzuki"
           },
-          "headshot": "https://assets.nhle.com/mugs/nhl/20262027/MTL/8484170.png",
+          "goalModifier": "none",
+          "assists": [
+            {
+              "playerId": 8483457,
+              "name": {
+                "default": "L. Hutson"
+              },
+              "assistsToDate": 18
+            },
+            {
+              "playerId": 8483515,
+              "name": {
+                "default": "J. Slafkovský"
+              },
+              "assistsToDate": 12
+            }
+          ],
+          "mugshot": "https://assets.nhle.com/mugs/nhl/20262027/MTL/8480018.png",
           "teamAbbrev": "MTL",
-          "sweaterNumber": 32,
-          "position": "G",
-          "category": "wins",
-          "value": 9
-        },
-        {
-          "id": 8476945,
-          "firstName": {
-            "default": "Connor"
-          },
-          "lastName": {
-            "default": "Hellebuyck"
-          },
-          "headshot": "https://assets.nhle.com/mugs/nhl/20262027/NJD/8476945.png",
-          "teamAbbrev": "NJD",
-          "sweaterNumber": 37,
-          "position": "G",
-          "category": "wins",
-          "value": 7
+          "goalsToDate": 9,
+          "awayScore": 2,
+          "homeScore": 2,
+          "strength": "pp",
+          "highlightClipSharingUrl": "https://nhl.com/video/mtl-njd-suzuki-scores-ppg-against-connor-hellebuyck-6408572273112",
+          "highlightClipSharingUrlFr": "https://nhl.com/fr/video/mtl-njd-suzuki-marque-un-but-en-a-n-contre-connor-hellebuyck-6408573654112",
+          "highlightClip": 6408572273112,
+          "highlightClipFr": 6408573654112,
+          "discreteClip": 6408573857112,
+          "discreteClipFr": 6408572583112
         }
       ]
     },
@@ -1090,24 +1198,24 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
         "odds": [
           {
-            "providerId": 8,
-            "value": "-111"
-          },
-          {
-            "providerId": 7,
-            "value": "-110"
-          },
-          {
-            "providerId": 9,
-            "value": "-110"
+            "providerId": 3,
+            "value": "1.92"
           },
           {
             "providerId": 6,
             "value": "1.88"
           },
           {
-            "providerId": 3,
-            "value": "1.91"
+            "providerId": 9,
+            "value": "-110"
+          },
+          {
+            "providerId": 7,
+            "value": "-110"
+          },
+          {
+            "providerId": 8,
+            "value": "-111"
           }
         ]
       },
@@ -1121,7 +1229,15 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg",
         "odds": [
           {
-            "providerId": 8,
+            "providerId": 3,
+            "value": "1.92"
+          },
+          {
+            "providerId": 6,
+            "value": "1.92"
+          },
+          {
+            "providerId": 9,
             "value": "-110"
           },
           {
@@ -1129,16 +1245,8 @@
             "value": "-110"
           },
           {
-            "providerId": 9,
+            "providerId": 8,
             "value": "-110"
-          },
-          {
-            "providerId": 6,
-            "value": "1.92"
-          },
-          {
-            "providerId": 3,
-            "value": "1.93"
           }
         ]
       },
