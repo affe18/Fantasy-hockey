@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T12:29:02.391730+00:00",
+  "updatedAt": "2026-11-19T13:51:50.277956+00:00",
   "season": "current",
   "sourceStatus": {
     "nhlStats": false,
@@ -4841,6 +4841,13 @@
   ],
   "news": [
     {
+      "headline": "Wysh List: Ovechkin, the Sharks and the NHL's other biggest disappointments of 2026-27",
+      "description": "This NHL season has been filled with memorable moments and outstanding achievements. These do not make that list.",
+      "published": "2026-11-19T13:13:12Z",
+      "url": "https://www.espn.com/nhl/story/_/id/50523931/nhl-2026-27-wysh-list-disappointments-players-stats-teams-ovechkin-sharks",
+      "source": "ESPN"
+    },
+    {
       "headline": "NHL Tonight: Guide to all 12 games on another packed Thursday",
       "description": "Find game previews, betting intel, broadcast information, stats and highlights here.",
       "published": "2026-11-19T11:10:45Z",
@@ -4873,13 +4880,6 @@
       "description": "Colorado Avalanche vs. Utah Mammoth: Game Highlights",
       "published": "2026-11-19T06:26:20Z",
       "url": "https://www.espn.com/video/clip/_/id/50528786/game-highlights",
-      "source": "ESPN"
-    },
-    {
-      "headline": "Mammoth end 6-game slide with 4-1 win over Avalanche",
-      "description": "— Vincent Trocheck scored a goal and assisted another to help the Utah Mammoth beat the Colorado Avalanche 4-1 on Wednesday night and snap a six-game losing streak.",
-      "published": "2026-11-19T06:19:35Z",
-      "url": "http://www.espn.com/nhl/recap?gameId=401892741",
       "source": "ESPN"
     }
   ],
@@ -26197,11 +26197,11 @@
       "displayName": "Los Angeles Kings",
       "injuries": [
         {
-          "id": "600191",
-          "longComment": "day-to-day",
-          "shortComment": "day-to-day",
-          "status": "Day-To-Day",
-          "date": "2026-11-18T14:37Z",
+          "id": "600272",
+          "longComment": "out",
+          "shortComment": "out",
+          "status": "Out",
+          "date": "2026-11-19T13:02Z",
           "athlete": {
             "firstName": "Artemi",
             "lastName": "Panarin",
@@ -26759,6 +26759,17 @@
             "notes": {
               "items": [
                 {
+                  "id": "600272",
+                  "type": "news",
+                  "date": "2026-11-19T13:02Z",
+                  "headline": "out",
+                  "text": "out",
+                  "source": "RotoWire",
+                  "injury": {
+                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/3891952/injuries/600272?lang=en&region=us"
+                  }
+                },
+                {
                   "id": "600191",
                   "type": "news",
                   "date": "2026-11-18T14:37Z",
@@ -26817,18 +26828,18 @@
             "state": "basic"
           },
           "type": {
-            "id": "6",
-            "name": "INJURY_STATUS_DAYTODAY",
-            "description": "day-to-day",
-            "abbreviation": "DD"
+            "id": "4",
+            "name": "INJURY_STATUS_OUT",
+            "description": "out",
+            "abbreviation": "O"
           },
           "details": {
             "fantasyStatus": {
-              "description": "Day-To-Day",
-              "abbreviation": "Day-To-Day"
+              "description": "OUT",
+              "abbreviation": "OUT"
             },
             "type": "Personal",
-            "returnDate": "2026-11-19"
+            "returnDate": "2026-11-23"
           }
         },
         {
@@ -50601,7 +50612,7 @@
               "abbreviation": "IR"
             },
             "type": "Chest",
-            "returnDate": "2026-11-19"
+            "returnDate": "2026-11-21"
           }
         },
         {
@@ -57868,7 +57879,7 @@
               "abbreviation": "IR"
             },
             "type": "Lower Body",
-            "returnDate": "2026-11-19"
+            "returnDate": "2026-11-27"
           }
         },
         {
@@ -66260,7 +66271,7 @@
               "abbreviation": "IR"
             },
             "type": "Undisclosed",
-            "returnDate": "2026-11-19"
+            "returnDate": "2026-11-22"
           }
         },
         {
