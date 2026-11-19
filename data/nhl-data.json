@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T02:54:31.053337+00:00",
+  "updatedAt": "2026-11-19T03:55:31.106255+00:00",
   "season": "current",
   "sourceStatus": {
     "nhlStats": false,
@@ -45,7 +45,7 @@
           }
         }
       ],
-      "gameState": "LIVE",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "awayTeam": {
         "id": 6,
@@ -53,8 +53,8 @@
           "default": "Bruins"
         },
         "abbrev": "BOS",
-        "score": 3,
-        "sog": 30,
+        "score": 4,
+        "sog": 31,
         "logo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg"
       },
       "homeTeam": {
@@ -64,14 +64,17 @@
         },
         "abbrev": "DET",
         "score": 1,
-        "sog": 19,
+        "sog": 21,
         "logo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg"
       },
       "gameCenterLink": "/gamecenter/bos-vs-det/2026/11/18/2026020344",
+      "threeMinRecap": "/video/bos-at-det-recap-6408575122112",
+      "threeMinRecapFr": "/fr/video/bos-vs-det-18-11-2026-resume-6408575906112",
+      "condensedGame": "/video/bos-at-det-condensed-game-6408575230112",
       "clock": {
-        "timeRemaining": "06:54",
-        "secondsRemaining": 414,
-        "running": true,
+        "timeRemaining": "00:00",
+        "secondsRemaining": 0,
+        "running": false,
         "inIntermission": false
       },
       "neutralSite": false,
@@ -81,6 +84,9 @@
         "number": 3,
         "periodType": "REG",
         "maxRegulationPeriods": 3
+      },
+      "gameOutcome": {
+        "lastPeriodType": "REG"
       },
       "goals": [
         {
@@ -280,6 +286,47 @@
           "highlightClipFr": 6408574208112,
           "discreteClip": 6408574683112,
           "discreteClipFr": 6408574600112
+        },
+        {
+          "period": 3,
+          "periodDescriptor": {
+            "number": 3,
+            "periodType": "REG",
+            "maxRegulationPeriods": 3
+          },
+          "timeInPeriod": "19:05",
+          "playerId": 8479999,
+          "name": {
+            "default": "C. Mittelstadt"
+          },
+          "firstName": {
+            "default": "Casey"
+          },
+          "lastName": {
+            "default": "Mittelstadt"
+          },
+          "goalModifier": "empty-net",
+          "assists": [
+            {
+              "playerId": 8478401,
+              "name": {
+                "default": "P. Zacha"
+              },
+              "assistsToDate": 11
+            }
+          ],
+          "mugshot": "https://assets.nhle.com/mugs/nhl/20262027/BOS/8479999.png",
+          "teamAbbrev": "BOS",
+          "goalsToDate": 8,
+          "awayScore": 4,
+          "homeScore": 1,
+          "strength": "ev",
+          "highlightClipSharingUrl": "https://nhl.com/video/bos-det-mittelstadt-scores-empty-net-goal-6408575613112",
+          "highlightClipSharingUrlFr": "https://nhl.com/fr/video/bos-det-mittelstadt-bos-marque-un-but-dans-un-filet-desert-6408576690112",
+          "highlightClip": 6408575613112,
+          "highlightClipFr": 6408576690112,
+          "discreteClip": 6408576873112,
+          "discreteClipFr": 6408576398112
         }
       ]
     },
@@ -314,7 +361,7 @@
           "sequenceNumber": 424
         }
       ],
-      "gameState": "LIVE",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "awayTeam": {
         "id": 8,
@@ -323,7 +370,7 @@
         },
         "abbrev": "MTL",
         "score": 3,
-        "sog": 25,
+        "sog": 28,
         "logo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg"
       },
       "homeTeam": {
@@ -333,14 +380,18 @@
         },
         "abbrev": "NJD",
         "score": 2,
-        "sog": 23,
+        "sog": 30,
         "logo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg"
       },
       "gameCenterLink": "/gamecenter/mtl-vs-njd/2026/11/18/2026020345",
+      "threeMinRecap": "/video/mtl-at-njd-recap-6408575338112",
+      "threeMinRecapFr": "/fr/video/mtl-vs-njd-18-11-2026-resume-6408576231112",
+      "condensedGame": "/video/mtl-at-njd-condensed-game-6408577465112",
+      "condensedGameFr": "/fr/video/match-condense-canadiens-devils-18-11-2026-6408575239112",
       "clock": {
-        "timeRemaining": "10:32",
-        "secondsRemaining": 632,
-        "running": true,
+        "timeRemaining": "00:00",
+        "secondsRemaining": 0,
+        "running": false,
         "inIntermission": false
       },
       "neutralSite": false,
@@ -351,21 +402,8 @@
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "situation": {
-        "homeTeam": {
-          "abbrev": "NJD",
-          "situationDescriptions": [
-            "PP"
-          ],
-          "strength": 5
-        },
-        "awayTeam": {
-          "abbrev": "MTL",
-          "strength": 4
-        },
-        "situationCode": "1451",
-        "timeRemaining": "00:31",
-        "secondsRemaining": 31
+      "gameOutcome": {
+        "lastPeriodType": "REG"
       },
       "goals": [
         {
@@ -586,7 +624,13 @@
           "goalsToDate": 4,
           "awayScore": 3,
           "homeScore": 2,
-          "strength": "ev"
+          "strength": "ev",
+          "highlightClipSharingUrl": "https://nhl.com/video/mtl-njd-evans-scores-goal-against-connor-hellebuyck-6408574691112",
+          "highlightClipSharingUrlFr": "https://nhl.com/fr/video/mtl-njd-evans-marque-un-but-contre-connor-hellebuyck-6408576767112",
+          "highlightClip": 6408574691112,
+          "highlightClipFr": 6408576767112,
+          "discreteClip": 6408574615112,
+          "discreteClipFr": 6408574214112
         }
       ]
     },
@@ -632,7 +676,7 @@
           "sequenceNumber": 398
         }
       ],
-      "gameState": "PRE",
+      "gameState": "LIVE",
       "gameScheduleState": "OK",
       "awayTeam": {
         "id": 21,
@@ -640,30 +684,9 @@
           "default": "Avalanche"
         },
         "abbrev": "COL",
-        "record": "12-6-3",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
-        "odds": [
-          {
-            "providerId": 3,
-            "value": "1.92"
-          },
-          {
-            "providerId": 6,
-            "value": "1.88"
-          },
-          {
-            "providerId": 9,
-            "value": "-110"
-          },
-          {
-            "providerId": 7,
-            "value": "-105"
-          },
-          {
-            "providerId": 8,
-            "value": "-111"
-          }
-        ]
+        "score": 0,
+        "sog": 12,
+        "logo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg"
       },
       "homeTeam": {
         "id": 68,
@@ -671,36 +694,41 @@
           "default": "Mammoth"
         },
         "abbrev": "UTA",
-        "record": "10-9-3",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg",
-        "odds": [
-          {
-            "providerId": 3,
-            "value": "1.92"
-          },
-          {
-            "providerId": 6,
-            "value": "1.92"
-          },
-          {
-            "providerId": 9,
-            "value": "-110"
-          },
-          {
-            "providerId": 7,
-            "value": "-114"
-          },
-          {
-            "providerId": 8,
-            "value": "-110"
-          }
-        ]
+        "score": 0,
+        "sog": 10,
+        "logo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg"
       },
       "gameCenterLink": "/gamecenter/col-vs-uta/2026/11/18/2026020346",
+      "clock": {
+        "timeRemaining": "01:52",
+        "secondsRemaining": 112,
+        "running": true,
+        "inIntermission": false
+      },
       "neutralSite": false,
       "venueTimezone": "America/Denver",
-      "ticketsLink": "https://seatgeek.com/utah-mammoth-tickets/7-18-2026-salt-lake-city-utah-delta-center-1/nhl/18242289?wid=league-web-score",
-      "ticketsLinkFr": "https://seatgeek.com/utah-mammoth-tickets/7-18-2026-salt-lake-city-utah-delta-center-1/nhl/18242289?wid=league-web-score",
+      "period": 1,
+      "periodDescriptor": {
+        "number": 1,
+        "periodType": "REG",
+        "maxRegulationPeriods": 3
+      },
+      "situation": {
+        "homeTeam": {
+          "abbrev": "UTA",
+          "situationDescriptions": [
+            "PP"
+          ],
+          "strength": 5
+        },
+        "awayTeam": {
+          "abbrev": "COL",
+          "strength": 4
+        },
+        "situationCode": "1451",
+        "timeRemaining": "01:17",
+        "secondsRemaining": 77
+      },
       "teamLeaders": [
         {
           "id": 8477476,
@@ -792,7 +820,8 @@
           "category": "wins",
           "value": 6
         }
-      ]
+      ],
+      "goals": []
     }
   ],
   "scores": [
@@ -831,7 +860,7 @@
           }
         }
       ],
-      "gameState": "LIVE",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "awayTeam": {
         "id": 6,
@@ -839,8 +868,8 @@
           "default": "Bruins"
         },
         "abbrev": "BOS",
-        "score": 3,
-        "sog": 30,
+        "score": 4,
+        "sog": 31,
         "logo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg"
       },
       "homeTeam": {
@@ -850,14 +879,17 @@
         },
         "abbrev": "DET",
         "score": 1,
-        "sog": 19,
+        "sog": 21,
         "logo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg"
       },
       "gameCenterLink": "/gamecenter/bos-vs-det/2026/11/18/2026020344",
+      "threeMinRecap": "/video/bos-at-det-recap-6408575122112",
+      "threeMinRecapFr": "/fr/video/bos-vs-det-18-11-2026-resume-6408575906112",
+      "condensedGame": "/video/bos-at-det-condensed-game-6408575230112",
       "clock": {
-        "timeRemaining": "06:54",
-        "secondsRemaining": 414,
-        "running": true,
+        "timeRemaining": "00:00",
+        "secondsRemaining": 0,
+        "running": false,
         "inIntermission": false
       },
       "neutralSite": false,
@@ -867,6 +899,9 @@
         "number": 3,
         "periodType": "REG",
         "maxRegulationPeriods": 3
+      },
+      "gameOutcome": {
+        "lastPeriodType": "REG"
       },
       "goals": [
         {
@@ -1066,6 +1101,47 @@
           "highlightClipFr": 6408574208112,
           "discreteClip": 6408574683112,
           "discreteClipFr": 6408574600112
+        },
+        {
+          "period": 3,
+          "periodDescriptor": {
+            "number": 3,
+            "periodType": "REG",
+            "maxRegulationPeriods": 3
+          },
+          "timeInPeriod": "19:05",
+          "playerId": 8479999,
+          "name": {
+            "default": "C. Mittelstadt"
+          },
+          "firstName": {
+            "default": "Casey"
+          },
+          "lastName": {
+            "default": "Mittelstadt"
+          },
+          "goalModifier": "empty-net",
+          "assists": [
+            {
+              "playerId": 8478401,
+              "name": {
+                "default": "P. Zacha"
+              },
+              "assistsToDate": 11
+            }
+          ],
+          "mugshot": "https://assets.nhle.com/mugs/nhl/20262027/BOS/8479999.png",
+          "teamAbbrev": "BOS",
+          "goalsToDate": 8,
+          "awayScore": 4,
+          "homeScore": 1,
+          "strength": "ev",
+          "highlightClipSharingUrl": "https://nhl.com/video/bos-det-mittelstadt-scores-empty-net-goal-6408575613112",
+          "highlightClipSharingUrlFr": "https://nhl.com/fr/video/bos-det-mittelstadt-bos-marque-un-but-dans-un-filet-desert-6408576690112",
+          "highlightClip": 6408575613112,
+          "highlightClipFr": 6408576690112,
+          "discreteClip": 6408576873112,
+          "discreteClipFr": 6408576398112
         }
       ]
     },
@@ -1100,7 +1176,7 @@
           "sequenceNumber": 424
         }
       ],
-      "gameState": "LIVE",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "awayTeam": {
         "id": 8,
@@ -1109,7 +1185,7 @@
         },
         "abbrev": "MTL",
         "score": 3,
-        "sog": 25,
+        "sog": 28,
         "logo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg"
       },
       "homeTeam": {
@@ -1119,14 +1195,18 @@
         },
         "abbrev": "NJD",
         "score": 2,
-        "sog": 23,
+        "sog": 30,
         "logo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg"
       },
       "gameCenterLink": "/gamecenter/mtl-vs-njd/2026/11/18/2026020345",
+      "threeMinRecap": "/video/mtl-at-njd-recap-6408575338112",
+      "threeMinRecapFr": "/fr/video/mtl-vs-njd-18-11-2026-resume-6408576231112",
+      "condensedGame": "/video/mtl-at-njd-condensed-game-6408577465112",
+      "condensedGameFr": "/fr/video/match-condense-canadiens-devils-18-11-2026-6408575239112",
       "clock": {
-        "timeRemaining": "10:32",
-        "secondsRemaining": 632,
-        "running": true,
+        "timeRemaining": "00:00",
+        "secondsRemaining": 0,
+        "running": false,
         "inIntermission": false
       },
       "neutralSite": false,
@@ -1137,21 +1217,8 @@
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "situation": {
-        "homeTeam": {
-          "abbrev": "NJD",
-          "situationDescriptions": [
-            "PP"
-          ],
-          "strength": 5
-        },
-        "awayTeam": {
-          "abbrev": "MTL",
-          "strength": 4
-        },
-        "situationCode": "1451",
-        "timeRemaining": "00:31",
-        "secondsRemaining": 31
+      "gameOutcome": {
+        "lastPeriodType": "REG"
       },
       "goals": [
         {
@@ -1372,7 +1439,13 @@
           "goalsToDate": 4,
           "awayScore": 3,
           "homeScore": 2,
-          "strength": "ev"
+          "strength": "ev",
+          "highlightClipSharingUrl": "https://nhl.com/video/mtl-njd-evans-scores-goal-against-connor-hellebuyck-6408574691112",
+          "highlightClipSharingUrlFr": "https://nhl.com/fr/video/mtl-njd-evans-marque-un-but-contre-connor-hellebuyck-6408576767112",
+          "highlightClip": 6408574691112,
+          "highlightClipFr": 6408576767112,
+          "discreteClip": 6408574615112,
+          "discreteClipFr": 6408574214112
         }
       ]
     },
@@ -1418,7 +1491,7 @@
           "sequenceNumber": 398
         }
       ],
-      "gameState": "PRE",
+      "gameState": "LIVE",
       "gameScheduleState": "OK",
       "awayTeam": {
         "id": 21,
@@ -1426,30 +1499,9 @@
           "default": "Avalanche"
         },
         "abbrev": "COL",
-        "record": "12-6-3",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
-        "odds": [
-          {
-            "providerId": 3,
-            "value": "1.92"
-          },
-          {
-            "providerId": 6,
-            "value": "1.88"
-          },
-          {
-            "providerId": 9,
-            "value": "-110"
-          },
-          {
-            "providerId": 7,
-            "value": "-105"
-          },
-          {
-            "providerId": 8,
-            "value": "-111"
-          }
-        ]
+        "score": 0,
+        "sog": 12,
+        "logo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg"
       },
       "homeTeam": {
         "id": 68,
@@ -1457,36 +1509,41 @@
           "default": "Mammoth"
         },
         "abbrev": "UTA",
-        "record": "10-9-3",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg",
-        "odds": [
-          {
-            "providerId": 3,
-            "value": "1.92"
-          },
-          {
-            "providerId": 6,
-            "value": "1.92"
-          },
-          {
-            "providerId": 9,
-            "value": "-110"
-          },
-          {
-            "providerId": 7,
-            "value": "-114"
-          },
-          {
-            "providerId": 8,
-            "value": "-110"
-          }
-        ]
+        "score": 0,
+        "sog": 10,
+        "logo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg"
       },
       "gameCenterLink": "/gamecenter/col-vs-uta/2026/11/18/2026020346",
+      "clock": {
+        "timeRemaining": "01:52",
+        "secondsRemaining": 112,
+        "running": true,
+        "inIntermission": false
+      },
       "neutralSite": false,
       "venueTimezone": "America/Denver",
-      "ticketsLink": "https://seatgeek.com/utah-mammoth-tickets/7-18-2026-salt-lake-city-utah-delta-center-1/nhl/18242289?wid=league-web-score",
-      "ticketsLinkFr": "https://seatgeek.com/utah-mammoth-tickets/7-18-2026-salt-lake-city-utah-delta-center-1/nhl/18242289?wid=league-web-score",
+      "period": 1,
+      "periodDescriptor": {
+        "number": 1,
+        "periodType": "REG",
+        "maxRegulationPeriods": 3
+      },
+      "situation": {
+        "homeTeam": {
+          "abbrev": "UTA",
+          "situationDescriptions": [
+            "PP"
+          ],
+          "strength": 5
+        },
+        "awayTeam": {
+          "abbrev": "COL",
+          "strength": 4
+        },
+        "situationCode": "1451",
+        "timeRemaining": "01:17",
+        "secondsRemaining": 77
+      },
       "teamLeaders": [
         {
           "id": 8477476,
@@ -1578,7 +1635,8 @@
           "category": "wins",
           "value": 6
         }
-      ]
+      ],
+      "goals": []
     }
   ],
   "standings": [
@@ -1862,16 +1920,16 @@
     {
       "conferenceAbbrev": "E",
       "conferenceHomeSequence": 1,
-      "conferenceL10Sequence": 3,
+      "conferenceL10Sequence": 2,
       "conferenceName": "Eastern",
-      "conferenceRoadSequence": 7,
+      "conferenceRoadSequence": 8,
       "conferenceSequence": 2,
       "date": "2026-11-18",
       "divisionAbbrev": "A",
       "divisionHomeSequence": 1,
       "divisionL10Sequence": 1,
       "divisionName": "Atlantic",
-      "divisionRoadSequence": 4,
+      "divisionRoadSequence": 5,
       "divisionSequence": 1,
       "gameTypeId": 2,
       "gamesPlayed": 21,
@@ -1903,8 +1961,8 @@
       "l10Ties": 0,
       "l10Wins": 7,
       "leagueHomeSequence": 1,
-      "leagueL10Sequence": 5,
-      "leagueRoadSequence": 14,
+      "leagueL10Sequence": 4,
+      "leagueRoadSequence": 15,
       "leagueSequence": 4,
       "losses": 5,
       "otLosses": 2,
@@ -1953,103 +2011,11 @@
     },
     {
       "conferenceAbbrev": "E",
-      "conferenceHomeSequence": 3,
-      "conferenceL10Sequence": 2,
-      "conferenceName": "Eastern",
-      "conferenceRoadSequence": 5,
-      "conferenceSequence": 3,
-      "date": "2026-11-18",
-      "divisionAbbrev": "M",
-      "divisionHomeSequence": 2,
-      "divisionL10Sequence": 2,
-      "divisionName": "Metropolitan",
-      "divisionRoadSequence": 2,
-      "divisionSequence": 2,
-      "gameTypeId": 2,
-      "gamesPlayed": 21,
-      "goalDifferential": 19,
-      "goalDifferentialPctg": 0.904762,
-      "goalAgainst": 61,
-      "goalFor": 80,
-      "goalsForPctg": 3.809524,
-      "homeGamesPlayed": 11,
-      "homeGoalDifferential": 16,
-      "homeGoalsAgainst": 27,
-      "homeGoalsFor": 43,
-      "homeLosses": 2,
-      "homeOtLosses": 0,
-      "homePoints": 18,
-      "homeRegulationPlusOtWins": 8,
-      "homeRegulationWins": 6,
-      "homeTies": 0,
-      "homeWins": 9,
-      "l10GamesPlayed": 10,
-      "l10GoalDifferential": 15,
-      "l10GoalsAgainst": 29,
-      "l10GoalsFor": 44,
-      "l10Losses": 2,
-      "l10OtLosses": 0,
-      "l10Points": 16,
-      "l10RegulationPlusOtWins": 7,
-      "l10RegulationWins": 5,
-      "l10Ties": 0,
-      "l10Wins": 8,
-      "leagueHomeSequence": 3,
-      "leagueL10Sequence": 4,
-      "leagueRoadSequence": 12,
-      "leagueSequence": 5,
-      "losses": 6,
-      "otLosses": 0,
-      "placeName": {
-        "default": "New Jersey"
-      },
-      "pointPctg": 0.714286,
-      "points": 30,
-      "regulationPlusOtWinPctg": 0.666667,
-      "regulationPlusOtWins": 14,
-      "regulationWinPctg": 0.47619,
-      "regulationWins": 10,
-      "roadGamesPlayed": 10,
-      "roadGoalDifferential": 3,
-      "roadGoalsAgainst": 34,
-      "roadGoalsFor": 37,
-      "roadLosses": 4,
-      "roadOtLosses": 0,
-      "roadPoints": 12,
-      "roadRegulationPlusOtWins": 6,
-      "roadRegulationWins": 4,
-      "roadTies": 0,
-      "roadWins": 6,
-      "seasonId": 20262027,
-      "shootoutLosses": 0,
-      "shootoutWins": 1,
-      "streakCode": "W",
-      "streakCount": 2,
-      "teamName": {
-        "default": "New Jersey Devils",
-        "fr": "Devils du New Jersey"
-      },
-      "teamCommonName": {
-        "default": "Devils"
-      },
-      "teamAbbrev": {
-        "default": "NJD"
-      },
-      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
-      "teamLogoDark": "https://assets.nhle.com/logos/nhl/svg/NJD_dark.svg",
-      "ties": 0,
-      "waiversSequence": 28,
-      "wildcardSequence": 0,
-      "winPctg": 0.714286,
-      "wins": 15
-    },
-    {
-      "conferenceAbbrev": "E",
       "conferenceHomeSequence": 6,
-      "conferenceL10Sequence": 5,
+      "conferenceL10Sequence": 4,
       "conferenceName": "Eastern",
       "conferenceRoadSequence": 4,
-      "conferenceSequence": 4,
+      "conferenceSequence": 3,
       "date": "2026-11-18",
       "divisionAbbrev": "A",
       "divisionHomeSequence": 3,
@@ -2087,9 +2053,9 @@
       "l10Ties": 0,
       "l10Wins": 6,
       "leagueHomeSequence": 10,
-      "leagueL10Sequence": 8,
+      "leagueL10Sequence": 7,
       "leagueRoadSequence": 6,
-      "leagueSequence": 6,
+      "leagueSequence": 5,
       "losses": 6,
       "otLosses": 2,
       "placeName": {
@@ -2131,10 +2097,194 @@
       "teamLogo": "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
       "teamLogoDark": "https://assets.nhle.com/logos/nhl/svg/OTT_dark.svg",
       "ties": 0,
-      "waiversSequence": 27,
+      "waiversSequence": 28,
       "wildcardSequence": 0,
       "winPctg": 0.636364,
       "wins": 14
+    },
+    {
+      "conferenceAbbrev": "E",
+      "conferenceHomeSequence": 3,
+      "conferenceL10Sequence": 5,
+      "conferenceName": "Eastern",
+      "conferenceRoadSequence": 6,
+      "conferenceSequence": 4,
+      "date": "2026-11-18",
+      "divisionAbbrev": "M",
+      "divisionHomeSequence": 2,
+      "divisionL10Sequence": 2,
+      "divisionName": "Metropolitan",
+      "divisionRoadSequence": 2,
+      "divisionSequence": 2,
+      "gameTypeId": 2,
+      "gamesPlayed": 22,
+      "goalDifferential": 18,
+      "goalDifferentialPctg": 0.818182,
+      "goalAgainst": 64,
+      "goalFor": 82,
+      "goalsForPctg": 3.727273,
+      "homeGamesPlayed": 12,
+      "homeGoalDifferential": 15,
+      "homeGoalsAgainst": 30,
+      "homeGoalsFor": 45,
+      "homeLosses": 3,
+      "homeOtLosses": 0,
+      "homePoints": 18,
+      "homeRegulationPlusOtWins": 8,
+      "homeRegulationWins": 6,
+      "homeTies": 0,
+      "homeWins": 9,
+      "l10GamesPlayed": 10,
+      "l10GoalDifferential": 10,
+      "l10GoalsAgainst": 31,
+      "l10GoalsFor": 41,
+      "l10Losses": 3,
+      "l10OtLosses": 0,
+      "l10Points": 14,
+      "l10RegulationPlusOtWins": 6,
+      "l10RegulationWins": 4,
+      "l10Ties": 0,
+      "l10Wins": 7,
+      "leagueHomeSequence": 3,
+      "leagueL10Sequence": 8,
+      "leagueRoadSequence": 13,
+      "leagueSequence": 6,
+      "losses": 7,
+      "otLosses": 0,
+      "placeName": {
+        "default": "New Jersey"
+      },
+      "pointPctg": 0.681818,
+      "points": 30,
+      "regulationPlusOtWinPctg": 0.636364,
+      "regulationPlusOtWins": 14,
+      "regulationWinPctg": 0.454545,
+      "regulationWins": 10,
+      "roadGamesPlayed": 10,
+      "roadGoalDifferential": 3,
+      "roadGoalsAgainst": 34,
+      "roadGoalsFor": 37,
+      "roadLosses": 4,
+      "roadOtLosses": 0,
+      "roadPoints": 12,
+      "roadRegulationPlusOtWins": 6,
+      "roadRegulationWins": 4,
+      "roadTies": 0,
+      "roadWins": 6,
+      "seasonId": 20262027,
+      "shootoutLosses": 0,
+      "shootoutWins": 1,
+      "streakCode": "L",
+      "streakCount": 1,
+      "teamName": {
+        "default": "New Jersey Devils",
+        "fr": "Devils du New Jersey"
+      },
+      "teamCommonName": {
+        "default": "Devils"
+      },
+      "teamAbbrev": {
+        "default": "NJD"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
+      "teamLogoDark": "https://assets.nhle.com/logos/nhl/svg/NJD_dark.svg",
+      "ties": 0,
+      "waiversSequence": 27,
+      "wildcardSequence": 0,
+      "winPctg": 0.681818,
+      "wins": 15
+    },
+    {
+      "conferenceAbbrev": "E",
+      "conferenceHomeSequence": 8,
+      "conferenceL10Sequence": 3,
+      "conferenceName": "Eastern",
+      "conferenceRoadSequence": 2,
+      "conferenceSequence": 5,
+      "date": "2026-11-18",
+      "divisionAbbrev": "A",
+      "divisionHomeSequence": 4,
+      "divisionL10Sequence": 2,
+      "divisionName": "Atlantic",
+      "divisionRoadSequence": 1,
+      "divisionSequence": 3,
+      "gameTypeId": 2,
+      "gamesPlayed": 22,
+      "goalDifferential": 6,
+      "goalDifferentialPctg": 0.272727,
+      "goalAgainst": 66,
+      "goalFor": 72,
+      "goalsForPctg": 3.272727,
+      "homeGamesPlayed": 11,
+      "homeGoalDifferential": -6,
+      "homeGoalsAgainst": 40,
+      "homeGoalsFor": 34,
+      "homeLosses": 3,
+      "homeOtLosses": 3,
+      "homePoints": 13,
+      "homeRegulationPlusOtWins": 3,
+      "homeRegulationWins": 1,
+      "homeTies": 0,
+      "homeWins": 5,
+      "l10GamesPlayed": 10,
+      "l10GoalDifferential": 4,
+      "l10GoalsAgainst": 30,
+      "l10GoalsFor": 34,
+      "l10Losses": 2,
+      "l10OtLosses": 2,
+      "l10Points": 14,
+      "l10RegulationPlusOtWins": 6,
+      "l10RegulationWins": 5,
+      "l10Ties": 0,
+      "l10Wins": 6,
+      "leagueHomeSequence": 15,
+      "leagueL10Sequence": 6,
+      "leagueRoadSequence": 4,
+      "leagueSequence": 7,
+      "losses": 5,
+      "otLosses": 4,
+      "placeName": {
+        "default": "Montréal"
+      },
+      "pointPctg": 0.681818,
+      "points": 30,
+      "regulationPlusOtWinPctg": 0.5,
+      "regulationPlusOtWins": 11,
+      "regulationWinPctg": 0.409091,
+      "regulationWins": 9,
+      "roadGamesPlayed": 11,
+      "roadGoalDifferential": 12,
+      "roadGoalsAgainst": 26,
+      "roadGoalsFor": 38,
+      "roadLosses": 2,
+      "roadOtLosses": 1,
+      "roadPoints": 17,
+      "roadRegulationPlusOtWins": 8,
+      "roadRegulationWins": 8,
+      "roadTies": 0,
+      "roadWins": 8,
+      "seasonId": 20262027,
+      "shootoutLosses": 0,
+      "shootoutWins": 2,
+      "streakCode": "W",
+      "streakCount": 1,
+      "teamName": {
+        "default": "Montréal Canadiens",
+        "fr": "Canadiens de Montréal"
+      },
+      "teamCommonName": {
+        "default": "Canadiens"
+      },
+      "teamAbbrev": {
+        "default": "MTL"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
+      "teamLogoDark": "https://assets.nhle.com/logos/nhl/svg/MTL_dark.svg",
+      "ties": 0,
+      "waiversSequence": 26,
+      "wildcardSequence": 0,
+      "winPctg": 0.590909,
+      "wins": 13
     },
     {
       "conferenceAbbrev": "W",
@@ -2182,7 +2332,7 @@
       "leagueHomeSequence": 8,
       "leagueL10Sequence": 10,
       "leagueRoadSequence": 7,
-      "leagueSequence": 7,
+      "leagueSequence": 8,
       "losses": 6,
       "otLosses": 4,
       "placeName": {
@@ -2223,10 +2373,102 @@
       "teamLogo": "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg",
       "teamLogoDark": "https://assets.nhle.com/logos/nhl/svg/VGK_dark.svg",
       "ties": 0,
-      "waiversSequence": 24,
+      "waiversSequence": 23,
       "wildcardSequence": 0,
       "winPctg": 0.565217,
       "wins": 13
+    },
+    {
+      "conferenceAbbrev": "E",
+      "conferenceHomeSequence": 4,
+      "conferenceL10Sequence": 11,
+      "conferenceName": "Eastern",
+      "conferenceRoadSequence": 5,
+      "conferenceSequence": 6,
+      "date": "2026-11-18",
+      "divisionAbbrev": "A",
+      "divisionHomeSequence": 2,
+      "divisionL10Sequence": 5,
+      "divisionName": "Atlantic",
+      "divisionRoadSequence": 4,
+      "divisionSequence": 4,
+      "gameTypeId": 2,
+      "gamesPlayed": 22,
+      "goalDifferential": 20,
+      "goalDifferentialPctg": 0.909091,
+      "goalAgainst": 56,
+      "goalFor": 76,
+      "goalsForPctg": 3.454545,
+      "homeGamesPlayed": 12,
+      "homeGoalDifferential": 12,
+      "homeGoalsAgainst": 31,
+      "homeGoalsFor": 43,
+      "homeLosses": 4,
+      "homeOtLosses": 0,
+      "homePoints": 16,
+      "homeRegulationPlusOtWins": 7,
+      "homeRegulationWins": 6,
+      "homeTies": 0,
+      "homeWins": 8,
+      "l10GamesPlayed": 10,
+      "l10GoalDifferential": -2,
+      "l10GoalsAgainst": 30,
+      "l10GoalsFor": 28,
+      "l10Losses": 5,
+      "l10OtLosses": 0,
+      "l10Points": 10,
+      "l10RegulationPlusOtWins": 4,
+      "l10RegulationWins": 3,
+      "l10Ties": 0,
+      "l10Wins": 5,
+      "leagueHomeSequence": 5,
+      "leagueL10Sequence": 21,
+      "leagueRoadSequence": 9,
+      "leagueSequence": 9,
+      "losses": 7,
+      "otLosses": 1,
+      "placeName": {
+        "default": "Boston"
+      },
+      "pointPctg": 0.659091,
+      "points": 29,
+      "regulationPlusOtWinPctg": 0.590909,
+      "regulationPlusOtWins": 13,
+      "regulationWinPctg": 0.5,
+      "regulationWins": 11,
+      "roadGamesPlayed": 10,
+      "roadGoalDifferential": 8,
+      "roadGoalsAgainst": 25,
+      "roadGoalsFor": 33,
+      "roadLosses": 3,
+      "roadOtLosses": 1,
+      "roadPoints": 13,
+      "roadRegulationPlusOtWins": 6,
+      "roadRegulationWins": 5,
+      "roadTies": 0,
+      "roadWins": 6,
+      "seasonId": 20262027,
+      "shootoutLosses": 0,
+      "shootoutWins": 1,
+      "streakCode": "W",
+      "streakCount": 1,
+      "teamName": {
+        "default": "Boston Bruins",
+        "fr": "Bruins de Boston"
+      },
+      "teamCommonName": {
+        "default": "Bruins"
+      },
+      "teamAbbrev": {
+        "default": "BOS"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg",
+      "teamLogoDark": "https://assets.nhle.com/logos/nhl/svg/BOS_dark.svg",
+      "ties": 0,
+      "waiversSequence": 24,
+      "wildcardSequence": 1,
+      "winPctg": 0.636364,
+      "wins": 14
     },
     {
       "conferenceAbbrev": "W",
@@ -2273,8 +2515,8 @@
       "l10Wins": 6,
       "leagueHomeSequence": 7,
       "leagueL10Sequence": 11,
-      "leagueRoadSequence": 11,
-      "leagueSequence": 8,
+      "leagueRoadSequence": 12,
+      "leagueSequence": 10,
       "losses": 6,
       "otLosses": 2,
       "placeName": {
@@ -2315,102 +2557,10 @@
       "teamLogo": "https://assets.nhle.com/logos/nhl/svg/DAL_light.svg",
       "teamLogoDark": "https://assets.nhle.com/logos/nhl/svg/DAL_dark.svg",
       "ties": 0,
-      "waiversSequence": 26,
+      "waiversSequence": 25,
       "wildcardSequence": 0,
       "winPctg": 0.619048,
       "wins": 13
-    },
-    {
-      "conferenceAbbrev": "E",
-      "conferenceHomeSequence": 8,
-      "conferenceL10Sequence": 4,
-      "conferenceName": "Eastern",
-      "conferenceRoadSequence": 3,
-      "conferenceSequence": 5,
-      "date": "2026-11-18",
-      "divisionAbbrev": "A",
-      "divisionHomeSequence": 4,
-      "divisionL10Sequence": 2,
-      "divisionName": "Atlantic",
-      "divisionRoadSequence": 2,
-      "divisionSequence": 3,
-      "gameTypeId": 2,
-      "gamesPlayed": 21,
-      "goalDifferential": 5,
-      "goalDifferentialPctg": 0.238095,
-      "goalAgainst": 64,
-      "goalFor": 69,
-      "goalsForPctg": 3.285714,
-      "homeGamesPlayed": 11,
-      "homeGoalDifferential": -6,
-      "homeGoalsAgainst": 40,
-      "homeGoalsFor": 34,
-      "homeLosses": 3,
-      "homeOtLosses": 3,
-      "homePoints": 13,
-      "homeRegulationPlusOtWins": 3,
-      "homeRegulationWins": 1,
-      "homeTies": 0,
-      "homeWins": 5,
-      "l10GamesPlayed": 10,
-      "l10GoalDifferential": 5,
-      "l10GoalsAgainst": 28,
-      "l10GoalsFor": 33,
-      "l10Losses": 2,
-      "l10OtLosses": 2,
-      "l10Points": 14,
-      "l10RegulationPlusOtWins": 6,
-      "l10RegulationWins": 5,
-      "l10Ties": 0,
-      "l10Wins": 6,
-      "leagueHomeSequence": 15,
-      "leagueL10Sequence": 7,
-      "leagueRoadSequence": 5,
-      "leagueSequence": 9,
-      "losses": 5,
-      "otLosses": 4,
-      "placeName": {
-        "default": "Montréal"
-      },
-      "pointPctg": 0.666667,
-      "points": 28,
-      "regulationPlusOtWinPctg": 0.47619,
-      "regulationPlusOtWins": 10,
-      "regulationWinPctg": 0.380952,
-      "regulationWins": 8,
-      "roadGamesPlayed": 10,
-      "roadGoalDifferential": 11,
-      "roadGoalsAgainst": 24,
-      "roadGoalsFor": 35,
-      "roadLosses": 2,
-      "roadOtLosses": 1,
-      "roadPoints": 15,
-      "roadRegulationPlusOtWins": 7,
-      "roadRegulationWins": 7,
-      "roadTies": 0,
-      "roadWins": 7,
-      "seasonId": 20262027,
-      "shootoutLosses": 0,
-      "shootoutWins": 2,
-      "streakCode": "L",
-      "streakCount": 2,
-      "teamName": {
-        "default": "Montréal Canadiens",
-        "fr": "Canadiens de Montréal"
-      },
-      "teamCommonName": {
-        "default": "Canadiens"
-      },
-      "teamAbbrev": {
-        "default": "MTL"
-      },
-      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
-      "teamLogoDark": "https://assets.nhle.com/logos/nhl/svg/MTL_dark.svg",
-      "ties": 0,
-      "waiversSequence": 25,
-      "wildcardSequence": 0,
-      "winPctg": 0.571429,
-      "wins": 12
     },
     {
       "conferenceAbbrev": "W",
@@ -2456,9 +2606,9 @@
       "l10Ties": 0,
       "l10Wins": 6,
       "leagueHomeSequence": 4,
-      "leagueL10Sequence": 6,
+      "leagueL10Sequence": 5,
       "leagueRoadSequence": 18,
-      "leagueSequence": 10,
+      "leagueSequence": 11,
       "losses": 6,
       "otLosses": 3,
       "placeName": {
@@ -2499,102 +2649,10 @@
       "teamLogo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
       "teamLogoDark": "https://assets.nhle.com/logos/nhl/svg/COL_dark.svg",
       "ties": 0,
-      "waiversSequence": 23,
+      "waiversSequence": 22,
       "wildcardSequence": 0,
       "winPctg": 0.571429,
       "wins": 12
-    },
-    {
-      "conferenceAbbrev": "E",
-      "conferenceHomeSequence": 4,
-      "conferenceL10Sequence": 11,
-      "conferenceName": "Eastern",
-      "conferenceRoadSequence": 9,
-      "conferenceSequence": 6,
-      "date": "2026-11-18",
-      "divisionAbbrev": "A",
-      "divisionHomeSequence": 2,
-      "divisionL10Sequence": 5,
-      "divisionName": "Atlantic",
-      "divisionRoadSequence": 6,
-      "divisionSequence": 4,
-      "gameTypeId": 2,
-      "gamesPlayed": 21,
-      "goalDifferential": 17,
-      "goalDifferentialPctg": 0.809524,
-      "goalAgainst": 55,
-      "goalFor": 72,
-      "goalsForPctg": 3.428571,
-      "homeGamesPlayed": 12,
-      "homeGoalDifferential": 12,
-      "homeGoalsAgainst": 31,
-      "homeGoalsFor": 43,
-      "homeLosses": 4,
-      "homeOtLosses": 0,
-      "homePoints": 16,
-      "homeRegulationPlusOtWins": 7,
-      "homeRegulationWins": 6,
-      "homeTies": 0,
-      "homeWins": 8,
-      "l10GamesPlayed": 10,
-      "l10GoalDifferential": -3,
-      "l10GoalsAgainst": 33,
-      "l10GoalsFor": 30,
-      "l10Losses": 5,
-      "l10OtLosses": 0,
-      "l10Points": 10,
-      "l10RegulationPlusOtWins": 4,
-      "l10RegulationWins": 3,
-      "l10Ties": 0,
-      "l10Wins": 5,
-      "leagueHomeSequence": 5,
-      "leagueL10Sequence": 21,
-      "leagueRoadSequence": 17,
-      "leagueSequence": 11,
-      "losses": 7,
-      "otLosses": 1,
-      "placeName": {
-        "default": "Boston"
-      },
-      "pointPctg": 0.642857,
-      "points": 27,
-      "regulationPlusOtWinPctg": 0.571429,
-      "regulationPlusOtWins": 12,
-      "regulationWinPctg": 0.47619,
-      "regulationWins": 10,
-      "roadGamesPlayed": 9,
-      "roadGoalDifferential": 5,
-      "roadGoalsAgainst": 24,
-      "roadGoalsFor": 29,
-      "roadLosses": 3,
-      "roadOtLosses": 1,
-      "roadPoints": 11,
-      "roadRegulationPlusOtWins": 5,
-      "roadRegulationWins": 4,
-      "roadTies": 0,
-      "roadWins": 5,
-      "seasonId": 20262027,
-      "shootoutLosses": 0,
-      "shootoutWins": 1,
-      "streakCode": "L",
-      "streakCount": 3,
-      "teamName": {
-        "default": "Boston Bruins",
-        "fr": "Bruins de Boston"
-      },
-      "teamCommonName": {
-        "default": "Bruins"
-      },
-      "teamAbbrev": {
-        "default": "BOS"
-      },
-      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg",
-      "teamLogoDark": "https://assets.nhle.com/logos/nhl/svg/BOS_dark.svg",
-      "ties": 0,
-      "waiversSequence": 22,
-      "wildcardSequence": 1,
-      "winPctg": 0.619048,
-      "wins": 13
     },
     {
       "conferenceAbbrev": "E",
@@ -2733,7 +2791,7 @@
       "l10Wins": 7,
       "leagueHomeSequence": 12,
       "leagueL10Sequence": 9,
-      "leagueRoadSequence": 9,
+      "leagueRoadSequence": 10,
       "leagueSequence": 13,
       "losses": 6,
       "otLosses": 5,
@@ -2785,14 +2843,14 @@
       "conferenceHomeSequence": 12,
       "conferenceL10Sequence": 8,
       "conferenceName": "Eastern",
-      "conferenceRoadSequence": 2,
+      "conferenceRoadSequence": 3,
       "conferenceSequence": 8,
       "date": "2026-11-18",
       "divisionAbbrev": "A",
       "divisionHomeSequence": 5,
       "divisionL10Sequence": 4,
       "divisionName": "Atlantic",
-      "divisionRoadSequence": 1,
+      "divisionRoadSequence": 2,
       "divisionSequence": 5,
       "gameTypeId": 2,
       "gamesPlayed": 23,
@@ -2825,7 +2883,7 @@
       "l10Wins": 5,
       "leagueHomeSequence": 23,
       "leagueL10Sequence": 16,
-      "leagueRoadSequence": 4,
+      "leagueRoadSequence": 5,
       "leagueSequence": 14,
       "losses": 8,
       "otLosses": 3,
@@ -2878,7 +2936,7 @@
       "conferenceHomeSequence": 9,
       "conferenceL10Sequence": 7,
       "conferenceName": "Eastern",
-      "conferenceRoadSequence": 6,
+      "conferenceRoadSequence": 7,
       "conferenceSequence": 9,
       "date": "2026-11-18",
       "divisionAbbrev": "M",
@@ -2918,7 +2976,7 @@
       "l10Wins": 5,
       "leagueHomeSequence": 17,
       "leagueL10Sequence": 15,
-      "leagueRoadSequence": 13,
+      "leagueRoadSequence": 14,
       "leagueSequence": 15,
       "losses": 6,
       "otLosses": 4,
@@ -3008,7 +3066,7 @@
       "l10RegulationWins": 6,
       "l10Ties": 0,
       "l10Wins": 6,
-      "leagueHomeSequence": 28,
+      "leagueHomeSequence": 27,
       "leagueL10Sequence": 12,
       "leagueRoadSequence": 8,
       "leagueSequence": 16,
@@ -3101,8 +3159,8 @@
       "l10Ties": 0,
       "l10Wins": 2,
       "leagueHomeSequence": 25,
-      "leagueL10Sequence": 28,
-      "leagueRoadSequence": 10,
+      "leagueL10Sequence": 27,
+      "leagueRoadSequence": 11,
       "leagueSequence": 17,
       "losses": 9,
       "otLosses": 3,
@@ -3194,7 +3252,7 @@
       "l10Wins": 6,
       "leagueHomeSequence": 20,
       "leagueL10Sequence": 14,
-      "leagueRoadSequence": 15,
+      "leagueRoadSequence": 16,
       "leagueSequence": 18,
       "losses": 9,
       "otLosses": 3,
@@ -3377,7 +3435,7 @@
       "l10Ties": 0,
       "l10Wins": 3,
       "leagueHomeSequence": 22,
-      "leagueL10Sequence": 29,
+      "leagueL10Sequence": 28,
       "leagueRoadSequence": 19,
       "leagueSequence": 20,
       "losses": 12,
@@ -3614,14 +3672,14 @@
       "conferenceHomeSequence": 16,
       "conferenceL10Sequence": 12,
       "conferenceName": "Eastern",
-      "conferenceRoadSequence": 8,
+      "conferenceRoadSequence": 9,
       "conferenceSequence": 11,
       "date": "2026-11-18",
       "divisionAbbrev": "A",
       "divisionHomeSequence": 8,
       "divisionL10Sequence": 6,
       "divisionName": "Atlantic",
-      "divisionRoadSequence": 5,
+      "divisionRoadSequence": 6,
       "divisionSequence": 6,
       "gameTypeId": 2,
       "gamesPlayed": 21,
@@ -3654,7 +3712,7 @@
       "l10Wins": 4,
       "leagueHomeSequence": 30,
       "leagueL10Sequence": 22,
-      "leagueRoadSequence": 16,
+      "leagueRoadSequence": 17,
       "leagueSequence": 23,
       "losses": 9,
       "otLosses": 4,
@@ -3838,7 +3896,7 @@
       "l10Ties": 0,
       "l10Wins": 4,
       "leagueHomeSequence": 24,
-      "leagueL10Sequence": 26,
+      "leagueL10Sequence": 25,
       "leagueRoadSequence": 23,
       "leagueSequence": 25,
       "losses": 8,
@@ -3901,17 +3959,17 @@
       "divisionRoadSequence": 7,
       "divisionSequence": 7,
       "gameTypeId": 2,
-      "gamesPlayed": 21,
-      "goalDifferential": -7,
-      "goalDifferentialPctg": -0.333333,
-      "goalAgainst": 64,
-      "goalFor": 57,
-      "goalsForPctg": 2.714286,
-      "homeGamesPlayed": 10,
-      "homeGoalDifferential": -2,
-      "homeGoalsAgainst": 31,
-      "homeGoalsFor": 29,
-      "homeLosses": 5,
+      "gamesPlayed": 22,
+      "goalDifferential": -10,
+      "goalDifferentialPctg": -0.454545,
+      "goalAgainst": 68,
+      "goalFor": 58,
+      "goalsForPctg": 2.636364,
+      "homeGamesPlayed": 11,
+      "homeGoalDifferential": -5,
+      "homeGoalsAgainst": 35,
+      "homeGoalsFor": 30,
+      "homeLosses": 6,
       "homeOtLosses": 1,
       "homePoints": 9,
       "homeRegulationPlusOtWins": 3,
@@ -3919,30 +3977,30 @@
       "homeTies": 0,
       "homeWins": 4,
       "l10GamesPlayed": 10,
-      "l10GoalDifferential": -2,
-      "l10GoalsAgainst": 30,
-      "l10GoalsFor": 28,
-      "l10Losses": 6,
+      "l10GoalDifferential": -6,
+      "l10GoalsAgainst": 31,
+      "l10GoalsFor": 25,
+      "l10Losses": 7,
       "l10OtLosses": 0,
-      "l10Points": 8,
+      "l10Points": 6,
       "l10RegulationPlusOtWins": 3,
       "l10RegulationWins": 3,
       "l10Ties": 0,
-      "l10Wins": 4,
-      "leagueHomeSequence": 27,
-      "leagueL10Sequence": 25,
+      "l10Wins": 3,
+      "leagueHomeSequence": 28,
+      "leagueL10Sequence": 29,
       "leagueRoadSequence": 21,
       "leagueSequence": 26,
-      "losses": 10,
+      "losses": 11,
       "otLosses": 3,
       "placeName": {
         "default": "Detroit"
       },
-      "pointPctg": 0.452381,
+      "pointPctg": 0.431818,
       "points": 19,
-      "regulationPlusOtWinPctg": 0.285714,
+      "regulationPlusOtWinPctg": 0.272727,
       "regulationPlusOtWins": 6,
-      "regulationWinPctg": 0.285714,
+      "regulationWinPctg": 0.272727,
       "regulationWins": 6,
       "roadGamesPlayed": 11,
       "roadGoalDifferential": -5,
@@ -3958,7 +4016,7 @@
       "seasonId": 20262027,
       "shootoutLosses": 2,
       "shootoutWins": 2,
-      "streakCode": "W",
+      "streakCode": "L",
       "streakCount": 1,
       "teamName": {
         "default": "Detroit Red Wings",
@@ -3975,7 +4033,7 @@
       "ties": 0,
       "waiversSequence": 8,
       "wildcardSequence": 7,
-      "winPctg": 0.380952,
+      "winPctg": 0.363636,
       "wins": 8
     },
     {
@@ -4390,7 +4448,7 @@
       "l10Ties": 0,
       "l10Wins": 3,
       "leagueHomeSequence": 16,
-      "leagueL10Sequence": 27,
+      "leagueL10Sequence": 26,
       "leagueRoadSequence": 32,
       "leagueSequence": 31,
       "losses": 13,
@@ -4533,6 +4591,34 @@
   ],
   "news": [
     {
+      "headline": "Canadiens end power-play drought and hand Connor Hellebuyck his 1st Devils loss with 3-2 victory",
+      "description": "— Jake Evans scored the go-ahead goal, captain Nick Suzuki ended his team's long power-play drought and the Montreal Canadiens defeated the New Jersey Devils 3-2 on Wednesday night to halt a two-game skid.",
+      "published": "2026-11-19T03:27:35Z",
+      "url": "http://www.espn.com/nhl/recap?gameId=401892740",
+      "source": "ESPN"
+    },
+    {
+      "headline": "Bruins beat Red Wings 4-1, spoil Detroit's Centennial celebration game",
+      "description": "— David Pastrnak had a goal and an assist as the Boston Bruins beat Detroit 4-1 on Wednesday night and spoiled the Red Wings' Centennial celebration game.",
+      "published": "2026-11-19T03:26:35Z",
+      "url": "http://www.espn.com/nhl/recap?gameId=401892739",
+      "source": "ESPN"
+    },
+    {
+      "headline": "Montreal Canadiens vs. New Jersey Devils: Game Highlights",
+      "description": "Montreal Canadiens vs. New Jersey Devils: Game Highlights",
+      "published": "2026-11-19T03:23:26Z",
+      "url": "https://www.espn.com/video/clip/_/id/50527387/game-highlights",
+      "source": "ESPN"
+    },
+    {
+      "headline": "Boston Bruins vs. Detroit Red Wings: Game Highlights",
+      "description": "Boston Bruins vs. Detroit Red Wings: Game Highlights",
+      "published": "2026-11-19T03:20:07Z",
+      "url": "https://www.espn.com/video/clip/_/id/50527340/game-highlights",
+      "source": "ESPN"
+    },
+    {
       "headline": "Blackhawks star Connor Bedard awaiting test results on injured shoulder",
       "description": "Connor Bedard will undergo further imaging and consultation on his injured shoulder to determine a course of action, with sources telling ESPN that the Blackhawks captain may have a choice on whether surgery is needed and the timing.",
       "published": "2026-11-18T19:14:42Z",
@@ -4544,34 +4630,6 @@
       "description": "A mammoth crest anchors Utah's light blue jersey, while Colorado features a cream jersey with a burgundy \"C\" surrounding a mountain design.",
       "published": "2026-11-18T17:38:37Z",
       "url": "https://www.espn.com/nhl/story/_/id/50516521/utah-mammoth-colorado-avalanche-2026-winter-classic-uniforms",
-      "source": "ESPN"
-    },
-    {
-      "headline": "Boston College to retire late Johnny Gaudreau's No. 13 jersey",
-      "description": "The Boston College men's hockey team will retire the late Johnny Gaudreau's No. 13 on Feb. 12 ahead of its game against UConn at Kelley Rink.",
-      "published": "2026-11-18T19:20:36Z",
-      "url": "https://www.espn.com/nhl/story/_/id/50521835/boston-college-retire-late-johnny-gaudreau-no-13",
-      "source": "ESPN"
-    },
-    {
-      "headline": "Bruins bring 3-game losing streak into matchup with the Red Wings",
-      "description": "Boston Bruins (13-7-1, in the Atlantic Division) vs. Detroit Red Wings (8-10-3, in the Atlantic Division)",
-      "published": "2026-11-18T15:19:33Z",
-      "url": "http://www.espn.com/nhl/preview?gameId=401892739",
-      "source": "ESPN"
-    },
-    {
-      "headline": "Senators bring 3-game win streak into matchup against the Flyers",
-      "description": "Philadelphia Flyers (7-11-6, in the Metropolitan Division) vs. Ottawa Senators (14-6-2, in the Atlantic Division)",
-      "published": "2026-11-18T15:19:32Z",
-      "url": "http://www.espn.com/nhl/preview?gameId=401892743",
-      "source": "ESPN"
-    },
-    {
-      "headline": "Golden Knights bring 3-game losing streak into matchup against the Stars",
-      "description": "Dallas Stars (13-6-2, in the Central Division) vs. Vegas Golden Knights (13-6-4, in the Pacific Division)",
-      "published": "2026-11-18T15:19:31Z",
-      "url": "http://www.espn.com/nhl/preview?gameId=401892753",
       "source": "ESPN"
     }
   ],
@@ -17443,596 +17501,6 @@
             "side": "Not Specified",
             "returnDate": "2026-11-22"
           }
-        },
-        {
-          "id": "595599",
-          "longComment": "The Stars placed Duchene on long-term injured reserve just before the start of the 2026-27 campaign. It remains unclear when he will return, but his new timeline could keep him out until at least mid-January. Duchene posted 16 goals, 45 points and 89 shots on net in 57 regular-season appearances for Dallas in 2025-26.",
-          "shortComment": "Duchene will be out for approximately three months after undergoing surgery to repair a core injury, the team announced Monday.",
-          "status": "Injured Reserve",
-          "date": "2026-10-12T16:46Z",
-          "athlete": {
-            "firstName": "Matt",
-            "lastName": "Duchene",
-            "displayName": "Matt Duchene",
-            "shortName": "M. Duchene",
-            "links": [
-              {
-                "language": "en-US",
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nhl/player/_/id/5161",
-                "text": "Player Card",
-                "shortText": "Player Card",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "stats",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nhl/player/stats/_/id/5161/matt-duchene",
-                "text": "Stats",
-                "shortText": "Stats",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "stats",
-                  "sportscenter",
-                  "app",
-                  "athlete"
-                ],
-                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:5161&section=stats",
-                "text": "Stats",
-                "shortText": "Stats",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "splits",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nhl/player/splits/_/id/5161/matt-duchene",
-                "text": "Splits",
-                "shortText": "Splits",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "gamelog",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nhl/player/gamelog/_/id/5161/matt-duchene",
-                "text": "Game Log",
-                "shortText": "Game Log",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "gamelog",
-                  "sportscenter",
-                  "app",
-                  "athlete"
-                ],
-                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:5161&section=gamelog",
-                "text": "Game Log",
-                "shortText": "Game Log",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "news",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nhl/player/news/_/id/5161/matt-duchene",
-                "text": "News",
-                "shortText": "News",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "news",
-                  "sportscenter",
-                  "app",
-                  "athlete"
-                ],
-                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:5161&section=news",
-                "text": "News",
-                "shortText": "News",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bio",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nhl/player/bio/_/id/5161/matt-duchene",
-                "text": "Bio",
-                "shortText": "Bio",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bio",
-                  "sportscenter",
-                  "app",
-                  "athlete"
-                ],
-                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:5161&section=bio",
-                "text": "Bio",
-                "shortText": "Bio",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "overview",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nhl/player/_/id/5161/matt-duchene",
-                "text": "Overview",
-                "shortText": "Overview",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "overview",
-                  "sportscenter",
-                  "app",
-                  "athlete"
-                ],
-                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:5161",
-                "text": "Overview",
-                "shortText": "Overview",
-                "isExternal": false,
-                "isPremium": false
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nhl/players/full/5161.png",
-              "alt": "Matt Duchene"
-            },
-            "position": {
-              "id": "1",
-              "name": "Center",
-              "displayName": "Center",
-              "abbreviation": "C",
-              "leaf": true
-            },
-            "team": {
-              "id": "9",
-              "uid": "s:70~l:90~t:9",
-              "slug": "dallas-stars",
-              "name": "Stars",
-              "abbreviation": "DAL",
-              "displayName": "Dallas Stars",
-              "logos": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500/dal.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2024-07-02T15:51Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500-dark/dal.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "dark"
-                  ],
-                  "lastUpdated": "2023-08-31T21:20Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/dal.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard"
-                  ],
-                  "lastUpdated": "2024-07-02T15:51Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500-dark/scoreboard/dal.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard",
-                    "dark"
-                  ],
-                  "lastUpdated": "2023-08-31T21:19Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/165c24ec-4c6b-36f2-b276-3169cf6ab8f7/logos/primary_logo_on_white_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_white_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/165c24ec-4c6b-36f2-b276-3169cf6ab8f7/logos/primary_logo_on_black_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_black_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/165c24ec-4c6b-36f2-b276-3169cf6ab8f7/logos/primary_logo_on_primary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_primary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/165c24ec-4c6b-36f2-b276-3169cf6ab8f7/logos/primary_logo_on_secondary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_secondary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/165c24ec-4c6b-36f2-b276-3169cf6ab8f7/logos/primary_logo_black.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_black"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/165c24ec-4c6b-36f2-b276-3169cf6ab8f7/logos/primary_logo_white.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_white"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/165c24ec-4c6b-36f2-b276-3169cf6ab8f7/logos/secondary_logo_on_white_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_white_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/165c24ec-4c6b-36f2-b276-3169cf6ab8f7/logos/secondary_logo_on_black_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_black_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/165c24ec-4c6b-36f2-b276-3169cf6ab8f7/logos/secondary_logo_on_primary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_primary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/165c24ec-4c6b-36f2-b276-3169cf6ab8f7/logos/secondary_logo_on_secondary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_secondary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/165c24ec-4c6b-36f2-b276-3169cf6ab8f7/logos/secondary_logo_black.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_black"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/165c24ec-4c6b-36f2-b276-3169cf6ab8f7/logos/secondary_logo_white.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_white"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                }
-              ],
-              "links": [
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "clubhouse",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/_/name/dal/dallas-stars",
-                  "text": "Clubhouse",
-                  "shortText": "Clubhouse",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "clubhouse",
-                    "mobile",
-                    "team"
-                  ],
-                  "href": "https://m.espn.com/nhl/clubhouse?teamId=9",
-                  "text": "Clubhouse",
-                  "shortText": "Clubhouse",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "roster",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/roster/_/name/dal/dallas-stars",
-                  "text": "Roster",
-                  "shortText": "Roster",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "roster",
-                    "sportscenter",
-                    "app",
-                    "team"
-                  ],
-                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:9&section=roster",
-                  "text": "Roster",
-                  "shortText": "Roster",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "stats",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/stats/_/name/dal/dallas-stars",
-                  "text": "Statistics",
-                  "shortText": "Statistics",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "stats",
-                    "sportscenter",
-                    "app",
-                    "team"
-                  ],
-                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:9&section=stats",
-                  "text": "Statistics",
-                  "shortText": "Statistics",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "schedule",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/schedule/_/name/dal",
-                  "text": "Schedule",
-                  "shortText": "Schedule",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "schedule",
-                    "sportscenter",
-                    "app",
-                    "team"
-                  ],
-                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:9&section=scores",
-                  "text": "Schedule",
-                  "shortText": "Schedule",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "photos",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/photos/_/name/dal",
-                  "text": "photos",
-                  "shortText": "photos",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "tickets",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.vividseats.com/dallas-stars-tickets--sports-nhl-hockey/performer/216?wsUser=717",
-                  "text": "Tickets",
-                  "shortText": "Tickets",
-                  "isExternal": true,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "transactions",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/transactions/_/name/dal",
-                  "text": "Transactions",
-                  "shortText": "Transactions",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "injuries",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/injuries/_/name/dal",
-                  "text": "Injuries",
-                  "shortText": "Injuries",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "depthchart",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/line-combo/_/name/dal",
-                  "text": "Line Combo",
-                  "shortText": "Line Combo",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "depthchart",
-                    "sportscenter",
-                    "app",
-                    "team"
-                  ],
-                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:9&section=depthchart",
-                  "text": "Line Combo",
-                  "shortText": "Line Combo",
-                  "isExternal": false,
-                  "isPremium": false
-                }
-              ]
-            },
-            "notes": {
-              "items": []
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "source": {
-            "id": "1",
-            "description": "basic/manual",
-            "state": "basic"
-          },
-          "type": {
-            "id": "5",
-            "name": "INJURY_STATUS_IR",
-            "description": "Injured Reserve",
-            "abbreviation": "IR"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "IR-LT",
-              "abbreviation": "IR-LT"
-            },
-            "type": "Abdomen",
-            "returnDate": "2027-01-12"
-          }
         }
       ]
     },
@@ -27733,11 +27201,11 @@
       "displayName": "Montreal Canadiens",
       "injuries": [
         {
-          "id": "600230",
-          "longComment": "day-to-day",
-          "shortComment": "day-to-day",
+          "id": "600231",
+          "longComment": "It's not clear what caused Bolduc to exit the contest. The 23-year-old forward should be considered day-to-day ahead of Thursday's game versus the Hurricanes unless the team provides an update saying otherwise.",
+          "shortComment": "Bolduc (undisclosed) left Wednesday's game versus the Devils and is undergoing an evaluation for his injury, Eric Engels of Sportsnet reports.",
           "status": "Day-To-Day",
-          "date": "2026-11-19T02:50Z",
+          "date": "2026-11-19T02:51Z",
           "athlete": {
             "firstName": "Zack",
             "lastName": "Bolduc",
@@ -28294,6 +27762,17 @@
             },
             "notes": {
               "items": [
+                {
+                  "id": "600231",
+                  "type": "news",
+                  "date": "2026-11-19T02:51Z",
+                  "headline": "Bolduc (undisclosed) left Wednesday's game versus the Devils and is undergoing an evaluation for his injury, Eric Engels of Sportsnet reports.",
+                  "text": "It's not clear what caused Bolduc to exit the contest. The 23-year-old forward should be considered day-to-day ahead of Thursday's game versus the Hurricanes unless the team provides an update saying otherwise.",
+                  "source": "RotoWire",
+                  "injury": {
+                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/4874734/injuries/600231?lang=en&region=us"
+                  }
+                },
                 {
                   "id": "600230",
                   "type": "news",
