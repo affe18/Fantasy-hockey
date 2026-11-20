@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T17:42:50.673505+00:00",
+  "updatedAt": "2026-11-20T18:42:19.434145+00:00",
   "season": "current",
   "sourceStatus": {
     "nhlStats": false,
@@ -57502,6 +57502,616 @@
       "displayName": "St. Louis Blues",
       "injuries": [
         {
+          "id": "600436",
+          "longComment": "out",
+          "shortComment": "out",
+          "status": "Out",
+          "date": "2026-11-20T18:15Z",
+          "athlete": {
+            "firstName": "Connor",
+            "lastName": "McMichael",
+            "displayName": "Connor McMichael",
+            "shortName": "C. McMichael",
+            "links": [
+              {
+                "language": "en-US",
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nhl/player/_/id/4565246",
+                "text": "Player Card",
+                "shortText": "Player Card",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "stats",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nhl/player/stats/_/id/4565246/connor-mcmichael",
+                "text": "Stats",
+                "shortText": "Stats",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "stats",
+                  "sportscenter",
+                  "app",
+                  "athlete"
+                ],
+                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4565246&section=stats",
+                "text": "Stats",
+                "shortText": "Stats",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "splits",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nhl/player/splits/_/id/4565246/connor-mcmichael",
+                "text": "Splits",
+                "shortText": "Splits",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "gamelog",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nhl/player/gamelog/_/id/4565246/connor-mcmichael",
+                "text": "Game Log",
+                "shortText": "Game Log",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "gamelog",
+                  "sportscenter",
+                  "app",
+                  "athlete"
+                ],
+                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4565246&section=gamelog",
+                "text": "Game Log",
+                "shortText": "Game Log",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "news",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nhl/player/news/_/id/4565246/connor-mcmichael",
+                "text": "News",
+                "shortText": "News",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "news",
+                  "sportscenter",
+                  "app",
+                  "athlete"
+                ],
+                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4565246&section=news",
+                "text": "News",
+                "shortText": "News",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "bio",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nhl/player/bio/_/id/4565246/connor-mcmichael",
+                "text": "Bio",
+                "shortText": "Bio",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "bio",
+                  "sportscenter",
+                  "app",
+                  "athlete"
+                ],
+                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4565246&section=bio",
+                "text": "Bio",
+                "shortText": "Bio",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "overview",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nhl/player/_/id/4565246/connor-mcmichael",
+                "text": "Overview",
+                "shortText": "Overview",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "overview",
+                  "sportscenter",
+                  "app",
+                  "athlete"
+                ],
+                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4565246",
+                "text": "Overview",
+                "shortText": "Overview",
+                "isExternal": false,
+                "isPremium": false
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nhl/players/full/4565246.png",
+              "alt": "Connor McMichael"
+            },
+            "position": {
+              "id": "2",
+              "name": "Left Wing",
+              "displayName": "Left Wing",
+              "abbreviation": "LW",
+              "leaf": true
+            },
+            "team": {
+              "id": "19",
+              "uid": "s:70~l:90~t:19",
+              "slug": "st-louis-blues",
+              "name": "Blues",
+              "abbreviation": "STL",
+              "displayName": "St. Louis Blues",
+              "logos": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500/stl.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2025-09-25T18:13Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500-dark/stl.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "dark"
+                  ],
+                  "lastUpdated": "2025-09-25T18:11Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/stl.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard"
+                  ],
+                  "lastUpdated": "2025-09-25T18:13Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500-dark/scoreboard/stl.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard",
+                    "dark"
+                  ],
+                  "lastUpdated": "2025-09-25T18:12Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/primary_logo_on_white_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_white_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/primary_logo_on_black_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_black_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/primary_logo_on_primary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_primary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/primary_logo_on_secondary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_secondary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/primary_logo_black.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_black"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/primary_logo_white.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_white"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/secondary_logo_on_white_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_white_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/secondary_logo_on_black_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_black_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/secondary_logo_on_primary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_primary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/secondary_logo_on_secondary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_secondary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/secondary_logo_black.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_black"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/secondary_logo_white.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_white"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                }
+              ],
+              "links": [
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/_/name/stl/st-louis-blues",
+                  "text": "Clubhouse",
+                  "shortText": "Clubhouse",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "clubhouse",
+                    "mobile",
+                    "team"
+                  ],
+                  "href": "https://m.espn.com/nhl/clubhouse?teamId=19",
+                  "text": "Clubhouse",
+                  "shortText": "Clubhouse",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "roster",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/roster/_/name/stl/st-louis-blues",
+                  "text": "Roster",
+                  "shortText": "Roster",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "roster",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:19&section=roster",
+                  "text": "Roster",
+                  "shortText": "Roster",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "stats",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/stats/_/name/stl/st-louis-blues",
+                  "text": "Statistics",
+                  "shortText": "Statistics",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "stats",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:19&section=stats",
+                  "text": "Statistics",
+                  "shortText": "Statistics",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "schedule",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/schedule/_/name/stl",
+                  "text": "Schedule",
+                  "shortText": "Schedule",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "schedule",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:19&section=scores",
+                  "text": "Schedule",
+                  "shortText": "Schedule",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "photos",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/photos/_/name/stl",
+                  "text": "photos",
+                  "shortText": "photos",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "tickets",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.vividseats.com/st-louis-blues-tickets--sports-nhl-hockey/performer/806?wsUser=717",
+                  "text": "Tickets",
+                  "shortText": "Tickets",
+                  "isExternal": true,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "transactions",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/transactions/_/name/stl",
+                  "text": "Transactions",
+                  "shortText": "Transactions",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "injuries",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/injuries/_/name/stl",
+                  "text": "Injuries",
+                  "shortText": "Injuries",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "depthchart",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/line-combo/_/name/stl",
+                  "text": "Line Combo",
+                  "shortText": "Line Combo",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "depthchart",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:19&section=depthchart",
+                  "text": "Line Combo",
+                  "shortText": "Line Combo",
+                  "isExternal": false,
+                  "isPremium": false
+                }
+              ]
+            },
+            "notes": {
+              "items": [
+                {
+                  "id": "600436",
+                  "type": "news",
+                  "date": "2026-11-20T18:15Z",
+                  "headline": "out",
+                  "text": "out",
+                  "source": "RotoWire",
+                  "injury": {
+                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/4565246/injuries/600436?lang=en&region=us"
+                  }
+                },
+                {
+                  "id": "600137",
+                  "type": "news",
+                  "date": "2026-11-18T06:12Z",
+                  "headline": "McMichael scored a goal on five shots in Tuesday's 8-6 win over the Ducks.",
+                  "text": "McMichael hadn't scored since Oct. 8 versus the Sharks. He earned just five assists over 16 outings during the goal drought, taking the shine off what was a positive start to the season. The 25-year-old forward is now at three goals, seven assists, 32 shots on net, 13 hits and a minus-12 rating through 21 appearances on the year. He'll likely continue to play in a top-six role, though he'll need more consistency to avoid getting dropped down the lineup.",
+                  "source": "RotoWire"
+                }
+              ]
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "source": {
+            "id": "1",
+            "description": "basic/manual",
+            "state": "basic"
+          },
+          "type": {
+            "id": "4",
+            "name": "INJURY_STATUS_OUT",
+            "description": "out",
+            "abbreviation": "O"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "OUT",
+              "abbreviation": "OUT"
+            },
+            "type": "Undisclosed",
+            "returnDate": "2026-11-22"
+          }
+        },
+        {
           "id": "600404",
           "longComment": "day-to-day",
           "shortComment": "day-to-day",
@@ -61868,16 +62478,16 @@
       "displayName": "Toronto Maple Leafs",
       "injuries": [
         {
-          "id": "599407",
-          "longComment": "ir",
-          "shortComment": "ir",
+          "id": "600435",
+          "longComment": "Marchenko's recovery timeline hasn't been updated by the team yet, but this would seem to be a positive development. Whenever the 26-year-old winger does get back into the lineup, it figures to be in a top-six role, perhaps even the first line alongside Auston Matthews. Prior to getting hurt, Marchenko was producing offensively, notching six goals and eight assists in 14 contests, including eight power-play points.",
+          "shortComment": "Marchenko (lower body) was on the ice with his teammates for Friday's optional skate, Lance Hornby of The Toronto Sun reports.",
           "status": "Injured Reserve",
-          "date": "2026-11-12T15:24Z",
+          "date": "2026-11-20T17:49Z",
           "athlete": {
-            "firstName": "Colton",
-            "lastName": "Sissons",
-            "displayName": "Colton Sissons",
-            "shortName": "C. Sissons",
+            "firstName": "Kirill",
+            "lastName": "Marchenko",
+            "displayName": "Kirill Marchenko",
+            "shortName": "K. Marchenko",
             "links": [
               {
                 "language": "en-US",
@@ -61886,7 +62496,7 @@
                   "desktop",
                   "athlete"
                 ],
-                "href": "https://www.espn.com/nhl/player/_/id/2993474",
+                "href": "https://www.espn.com/nhl/player/_/id/4587996",
                 "text": "Player Card",
                 "shortText": "Player Card",
                 "isExternal": false,
@@ -61899,7 +62509,7 @@
                   "desktop",
                   "athlete"
                 ],
-                "href": "https://www.espn.com/nhl/player/stats/_/id/2993474/colton-sissons",
+                "href": "https://www.espn.com/nhl/player/stats/_/id/4587996/kirill-marchenko",
                 "text": "Stats",
                 "shortText": "Stats",
                 "isExternal": false,
@@ -61913,7 +62523,7 @@
                   "app",
                   "athlete"
                 ],
-                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:2993474&section=stats",
+                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4587996&section=stats",
                 "text": "Stats",
                 "shortText": "Stats",
                 "isExternal": false,
@@ -61926,7 +62536,7 @@
                   "desktop",
                   "athlete"
                 ],
-                "href": "https://www.espn.com/nhl/player/splits/_/id/2993474/colton-sissons",
+                "href": "https://www.espn.com/nhl/player/splits/_/id/4587996/kirill-marchenko",
                 "text": "Splits",
                 "shortText": "Splits",
                 "isExternal": false,
@@ -61939,7 +62549,7 @@
                   "desktop",
                   "athlete"
                 ],
-                "href": "https://www.espn.com/nhl/player/gamelog/_/id/2993474/colton-sissons",
+                "href": "https://www.espn.com/nhl/player/gamelog/_/id/4587996/kirill-marchenko",
                 "text": "Game Log",
                 "shortText": "Game Log",
                 "isExternal": false,
@@ -61953,7 +62563,7 @@
                   "app",
                   "athlete"
                 ],
-                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:2993474&section=gamelog",
+                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4587996&section=gamelog",
                 "text": "Game Log",
                 "shortText": "Game Log",
                 "isExternal": false,
@@ -61966,7 +62576,7 @@
                   "desktop",
                   "athlete"
                 ],
-                "href": "https://www.espn.com/nhl/player/news/_/id/2993474/colton-sissons",
+                "href": "https://www.espn.com/nhl/player/news/_/id/4587996/kirill-marchenko",
                 "text": "News",
                 "shortText": "News",
                 "isExternal": false,
@@ -61980,7 +62590,7 @@
                   "app",
                   "athlete"
                 ],
-                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:2993474&section=news",
+                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4587996&section=news",
                 "text": "News",
                 "shortText": "News",
                 "isExternal": false,
@@ -61993,7 +62603,7 @@
                   "desktop",
                   "athlete"
                 ],
-                "href": "https://www.espn.com/nhl/player/bio/_/id/2993474/colton-sissons",
+                "href": "https://www.espn.com/nhl/player/bio/_/id/4587996/kirill-marchenko",
                 "text": "Bio",
                 "shortText": "Bio",
                 "isExternal": false,
@@ -62007,7 +62617,7 @@
                   "app",
                   "athlete"
                 ],
-                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:2993474&section=bio",
+                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4587996&section=bio",
                 "text": "Bio",
                 "shortText": "Bio",
                 "isExternal": false,
@@ -62020,7 +62630,7 @@
                   "desktop",
                   "athlete"
                 ],
-                "href": "https://www.espn.com/nhl/player/_/id/2993474/colton-sissons",
+                "href": "https://www.espn.com/nhl/player/_/id/4587996/kirill-marchenko",
                 "text": "Overview",
                 "shortText": "Overview",
                 "isExternal": false,
@@ -62034,7 +62644,7 @@
                   "app",
                   "athlete"
                 ],
-                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:2993474",
+                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4587996",
                 "text": "Overview",
                 "shortText": "Overview",
                 "isExternal": false,
@@ -62042,14 +62652,14 @@
               }
             ],
             "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nhl/players/full/2993474.png",
-              "alt": "Colton Sissons"
+              "href": "https://a.espncdn.com/i/headshots/nhl/players/full/4587996.png",
+              "alt": "Kirill Marchenko"
             },
             "position": {
-              "id": "1",
-              "name": "Center",
-              "displayName": "Center",
-              "abbreviation": "C",
+              "id": "3",
+              "name": "Right Wing",
+              "displayName": "Right Wing",
+              "abbreviation": "RW",
               "leaf": true
             },
             "team": {
@@ -62428,7 +63038,19 @@
               ]
             },
             "notes": {
-              "items": []
+              "items": [
+                {
+                  "id": "600435",
+                  "type": "news",
+                  "date": "2026-11-20T17:49Z",
+                  "headline": "Marchenko (lower body) was on the ice with his teammates for Friday's optional skate, Lance Hornby of The Toronto Sun reports.",
+                  "text": "Marchenko's recovery timeline hasn't been updated by the team yet, but this would seem to be a positive development. Whenever the 26-year-old winger does get back into the lineup, it figures to be in a top-six role, perhaps even the first line alongside Auston Matthews. Prior to getting hurt, Marchenko was producing offensively, notching six goals and eight assists in 14 contests, including eight power-play points.",
+                  "source": "RotoWire",
+                  "injury": {
+                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/4587996/injuries/600435?lang=en&region=us"
+                  }
+                }
+              ]
             },
             "status": {
               "id": "1",
@@ -62458,16 +63080,16 @@
           }
         },
         {
-          "id": "597716",
+          "id": "599407",
           "longComment": "ir",
           "shortComment": "ir",
           "status": "Injured Reserve",
-          "date": "2026-10-29T17:28Z",
+          "date": "2026-11-12T15:24Z",
           "athlete": {
-            "firstName": "Kirill",
-            "lastName": "Marchenko",
-            "displayName": "Kirill Marchenko",
-            "shortName": "K. Marchenko",
+            "firstName": "Colton",
+            "lastName": "Sissons",
+            "displayName": "Colton Sissons",
+            "shortName": "C. Sissons",
             "links": [
               {
                 "language": "en-US",
@@ -62476,7 +63098,7 @@
                   "desktop",
                   "athlete"
                 ],
-                "href": "https://www.espn.com/nhl/player/_/id/4587996",
+                "href": "https://www.espn.com/nhl/player/_/id/2993474",
                 "text": "Player Card",
                 "shortText": "Player Card",
                 "isExternal": false,
@@ -62489,7 +63111,7 @@
                   "desktop",
                   "athlete"
                 ],
-                "href": "https://www.espn.com/nhl/player/stats/_/id/4587996/kirill-marchenko",
+                "href": "https://www.espn.com/nhl/player/stats/_/id/2993474/colton-sissons",
                 "text": "Stats",
                 "shortText": "Stats",
                 "isExternal": false,
@@ -62503,7 +63125,7 @@
                   "app",
                   "athlete"
                 ],
-                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4587996&section=stats",
+                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:2993474&section=stats",
                 "text": "Stats",
                 "shortText": "Stats",
                 "isExternal": false,
@@ -62516,7 +63138,7 @@
                   "desktop",
                   "athlete"
                 ],
-                "href": "https://www.espn.com/nhl/player/splits/_/id/4587996/kirill-marchenko",
+                "href": "https://www.espn.com/nhl/player/splits/_/id/2993474/colton-sissons",
                 "text": "Splits",
                 "shortText": "Splits",
                 "isExternal": false,
@@ -62529,7 +63151,7 @@
                   "desktop",
                   "athlete"
                 ],
-                "href": "https://www.espn.com/nhl/player/gamelog/_/id/4587996/kirill-marchenko",
+                "href": "https://www.espn.com/nhl/player/gamelog/_/id/2993474/colton-sissons",
                 "text": "Game Log",
                 "shortText": "Game Log",
                 "isExternal": false,
@@ -62543,7 +63165,7 @@
                   "app",
                   "athlete"
                 ],
-                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4587996&section=gamelog",
+                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:2993474&section=gamelog",
                 "text": "Game Log",
                 "shortText": "Game Log",
                 "isExternal": false,
@@ -62556,7 +63178,7 @@
                   "desktop",
                   "athlete"
                 ],
-                "href": "https://www.espn.com/nhl/player/news/_/id/4587996/kirill-marchenko",
+                "href": "https://www.espn.com/nhl/player/news/_/id/2993474/colton-sissons",
                 "text": "News",
                 "shortText": "News",
                 "isExternal": false,
@@ -62570,7 +63192,7 @@
                   "app",
                   "athlete"
                 ],
-                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4587996&section=news",
+                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:2993474&section=news",
                 "text": "News",
                 "shortText": "News",
                 "isExternal": false,
@@ -62583,7 +63205,7 @@
                   "desktop",
                   "athlete"
                 ],
-                "href": "https://www.espn.com/nhl/player/bio/_/id/4587996/kirill-marchenko",
+                "href": "https://www.espn.com/nhl/player/bio/_/id/2993474/colton-sissons",
                 "text": "Bio",
                 "shortText": "Bio",
                 "isExternal": false,
@@ -62597,7 +63219,7 @@
                   "app",
                   "athlete"
                 ],
-                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4587996&section=bio",
+                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:2993474&section=bio",
                 "text": "Bio",
                 "shortText": "Bio",
                 "isExternal": false,
@@ -62610,7 +63232,7 @@
                   "desktop",
                   "athlete"
                 ],
-                "href": "https://www.espn.com/nhl/player/_/id/4587996/kirill-marchenko",
+                "href": "https://www.espn.com/nhl/player/_/id/2993474/colton-sissons",
                 "text": "Overview",
                 "shortText": "Overview",
                 "isExternal": false,
@@ -62624,7 +63246,7 @@
                   "app",
                   "athlete"
                 ],
-                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4587996",
+                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:2993474",
                 "text": "Overview",
                 "shortText": "Overview",
                 "isExternal": false,
@@ -62632,14 +63254,14 @@
               }
             ],
             "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nhl/players/full/4587996.png",
-              "alt": "Kirill Marchenko"
+              "href": "https://a.espncdn.com/i/headshots/nhl/players/full/2993474.png",
+              "alt": "Colton Sissons"
             },
             "position": {
-              "id": "3",
-              "name": "Right Wing",
-              "displayName": "Right Wing",
-              "abbreviation": "RW",
+              "id": "1",
+              "name": "Center",
+              "displayName": "Center",
+              "abbreviation": "C",
               "leaf": true
             },
             "team": {
@@ -67189,11 +67811,11 @@
       "displayName": "Utah Mammoth",
       "injuries": [
         {
-          "id": "600213",
-          "longComment": "Guenther has spent the past week on injured reserve due to his upper-body injury, but it was encouraging to see him return to the ice Wednesday. It's not yet clear when he'll be able to return to game action, but he'll presumably need to shed his non-contact sweater before he's in consideration to do so. However, Wednesday's activity suggests that he could return around the early estimate of his return timetable.",
-          "shortComment": "Guenther (upper body) was on the ice for Wednesday's optional morning skate in a non-contact sweater, Brogan Houston of the Deseret News reports.",
+          "id": "600437",
+          "longComment": "Guenther participated in Wednesday's optional morning skate in a non-contact sweater, and it was encouraging to see him cleared for full contact a few days later. It's not yet clear whether he'll be able to suit up Saturday against Anaheim, but he appears to be trending toward a return in the near future.",
+          "shortComment": "Guenther (upper body) skated in a regular sweater during Friday's practice session, Brogan Houston of the Deseret News reports.",
           "status": "Injured Reserve",
-          "date": "2026-11-18T18:29Z",
+          "date": "2026-11-20T18:26Z",
           "athlete": {
             "firstName": "Dylan",
             "lastName": "Guenther",
@@ -67751,6 +68373,17 @@
             "notes": {
               "items": [
                 {
+                  "id": "600437",
+                  "type": "news",
+                  "date": "2026-11-20T18:26Z",
+                  "headline": "Guenther (upper body) skated in a regular sweater during Friday's practice session, Brogan Houston of the Deseret News reports.",
+                  "text": "Guenther participated in Wednesday's optional morning skate in a non-contact sweater, and it was encouraging to see him cleared for full contact a few days later. It's not yet clear whether he'll be able to suit up Saturday against Anaheim, but he appears to be trending toward a return in the near future.",
+                  "source": "RotoWire",
+                  "injury": {
+                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/4874723/injuries/600437?lang=en&region=us"
+                  }
+                },
+                {
                   "id": "600213",
                   "type": "news",
                   "date": "2026-11-18T18:29Z",
@@ -67787,7 +68420,7 @@
               "abbreviation": "IR"
             },
             "type": "Upper Body",
-            "returnDate": "2026-11-27"
+            "returnDate": "2026-11-21"
           }
         },
         {
