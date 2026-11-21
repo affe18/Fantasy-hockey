@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T07:02:22.077454+00:00",
+  "updatedAt": "2026-11-21T08:22:01.432854+00:00",
   "season": "current",
   "sourceStatus": {
     "nhlStats": false,
@@ -74,7 +74,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "2.51"
+            "value": "2.53"
           },
           {
             "providerId": 6,
@@ -94,7 +94,7 @@
           },
           {
             "providerId": 10,
-            "value": "3.35"
+            "value": "3.40"
           }
         ]
       },
@@ -109,7 +109,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "1.54"
+            "value": "1.53"
           },
           {
             "providerId": 6,
@@ -129,7 +129,7 @@
           },
           {
             "providerId": 10,
-            "value": "1.93"
+            "value": "1.90"
           }
         ]
       },
@@ -1338,7 +1338,7 @@
           },
           {
             "providerId": 8,
-            "value": "+137"
+            "value": "+138"
           },
           {
             "providerId": 10,
@@ -1373,7 +1373,7 @@
           },
           {
             "providerId": 8,
-            "value": "-168"
+            "value": "-169"
           },
           {
             "providerId": 10,
@@ -1960,11 +1960,11 @@
           },
           {
             "providerId": 9,
-            "value": "-130"
+            "value": "-135"
           },
           {
             "providerId": 8,
-            "value": "-134"
+            "value": "-135"
           },
           {
             "providerId": 10,
@@ -1995,11 +1995,11 @@
           },
           {
             "providerId": 9,
-            "value": "+110"
+            "value": "+114"
           },
           {
             "providerId": 8,
-            "value": "+110"
+            "value": "+111"
           },
           {
             "providerId": 10,
@@ -2999,7 +2999,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "2.51"
+            "value": "2.53"
           },
           {
             "providerId": 6,
@@ -3019,7 +3019,7 @@
           },
           {
             "providerId": 10,
-            "value": "3.35"
+            "value": "3.40"
           }
         ]
       },
@@ -3034,7 +3034,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "1.54"
+            "value": "1.53"
           },
           {
             "providerId": 6,
@@ -3054,7 +3054,7 @@
           },
           {
             "providerId": 10,
-            "value": "1.93"
+            "value": "1.90"
           }
         ]
       },
@@ -4263,7 +4263,7 @@
           },
           {
             "providerId": 8,
-            "value": "+137"
+            "value": "+138"
           },
           {
             "providerId": 10,
@@ -4298,7 +4298,7 @@
           },
           {
             "providerId": 8,
-            "value": "-168"
+            "value": "-169"
           },
           {
             "providerId": 10,
@@ -4885,11 +4885,11 @@
           },
           {
             "providerId": 9,
-            "value": "-130"
+            "value": "-135"
           },
           {
             "providerId": 8,
-            "value": "-134"
+            "value": "-135"
           },
           {
             "providerId": 10,
@@ -4920,11 +4920,11 @@
           },
           {
             "providerId": 9,
-            "value": "+110"
+            "value": "+114"
           },
           {
             "providerId": 8,
-            "value": "+110"
+            "value": "+111"
           },
           {
             "providerId": 10,
@@ -13011,17 +13011,6 @@
                   "injury": {
                     "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/2562606/injuries/600037?lang=en&region=us"
                   }
-                },
-                {
-                  "id": "599579",
-                  "type": "news",
-                  "date": "2026-11-13T17:38Z",
-                  "headline": "Huberdeau (hip) won't travel with the Flames during their upcoming three-game road trip, Pat Steinberg of QR Calgary 770 AM reports Friday.",
-                  "text": "Huberdeau has missed the start of the regular season while continuing to recover from a hip injury that also sidelined him for the end of the 2025-26 campaign. He's been skating in a regular sweater recently and appears to be getting closer to returning to game action, but he'll be unavailable for at least three more matchups. The Flames return home to face the Wild on Thursday, but it's not yet clear whether Huberdeau will be in the mix to suit up for that game.",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/2562606/injuries/599579?lang=en&region=us"
-                  }
                 }
               ]
             },
@@ -16110,14 +16099,6 @@
                   "injury": {
                     "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/5136614/injuries/600242?lang=en&region=us"
                   }
-                },
-                {
-                  "id": "599568",
-                  "type": "news",
-                  "date": "2026-11-13T15:18Z",
-                  "headline": "Brindley was recalled from AHL Colorado on Friday.",
-                  "text": "While the decision to bring Brindley up from the minors could be a precautionary move ahead of a two-game road trip, it could also be an indication that Nathan MacKinnon (lower body) won't be an option versus the Canadiens on Saturday. For his part, Brindley will likely only see the ice if MacKinnon or another forward is ruled out; otherwise, Brindley will sit in the press box as a healthy scratch.",
-                  "source": "RotoWire"
                 }
               ]
             },
@@ -19779,28 +19760,6 @@
                   "injury": {
                     "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/3041996/injuries/599669?lang=en&region=us"
                   }
-                },
-                {
-                  "id": "599583",
-                  "type": "news",
-                  "date": "2026-11-13T18:25Z",
-                  "headline": "Monahan (upper body) is still being evaluated but hasn't been ruled out against the Flyers on Saturday, Brian Hedger of The Columbus Dispatch reports.",
-                  "text": "Officially, Monahan was deemed day-to-day ahead of Saturday's contest, so there is still a chance he can play. The veteran center has scored a goal since Opening Night against the Sabres on Oct. 1, a stretch of 16 games, but he has managed four helpers over his last seven contests. If Monahan were to be unavailable versus Philadelphia, Charlie Coyle would likely move into a top-six role.",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/3041996/injuries/599583?lang=en&region=us"
-                  }
-                },
-                {
-                  "id": "599551",
-                  "type": "news",
-                  "date": "2026-11-13T14:11Z",
-                  "headline": "day-to-day",
-                  "text": "day-to-day",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/3041996/injuries/599551?lang=en&region=us"
-                  }
                 }
               ]
             },
@@ -22296,17 +22255,6 @@
                   "source": "RotoWire",
                   "injury": {
                     "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/5080162/injuries/599658?lang=en&region=us"
-                  }
-                },
-                {
-                  "id": "599581",
-                  "type": "news",
-                  "date": "2026-11-13T17:41Z",
-                  "headline": "Head coach Glen Gulutzan said Friday that Bichsel (lower body) will be out for \"a couple weeks,\" Stars TV host Brien Rea reports.",
-                  "text": "Bichsel exited Thursday's matchup against the Jets in the first period due to a lower-body injury, and the Stars indicated after the game that the 22-year-old was expected to miss the team's back-to-back set over the weekend. However, he's slated to miss even more time than that, and he'll likely be unavailable until at least late November. Kyle Burroughs will be recalled from AHL Texas to provide additional depth for Dallas, while it seems possible that Bichsel will wind up on injured reserve at some point.",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/5080162/injuries/599581?lang=en&region=us"
                   }
                 }
               ]
@@ -30277,14 +30225,6 @@
                   "injury": {
                     "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/3096186/injuries/600290?lang=en&region=us"
                   }
-                },
-                {
-                  "id": "599536",
-                  "type": "news",
-                  "date": "2026-11-13T08:06Z",
-                  "headline": "Moore scored a goal on five shots in Thursday's 5-2 loss to the Islanders.",
-                  "text": "Moore ended a four-game goal drought with his tally. The 31-year-old winger is up to three goals, six points, 35 shots and a minus-4 rating over 17 appearances this season. He's playing in a third-line role and has featured on the power play, but until the results are better, he's safe to leave off fantasy rosters.",
-                  "source": "RotoWire"
                 }
               ]
             },
@@ -34672,14 +34612,6 @@
                   "injury": {
                     "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/2976851/injuries/599680?lang=en&region=us"
                   }
-                },
-                {
-                  "id": "599600",
-                  "type": "news",
-                  "date": "2026-11-13T19:10Z",
-                  "headline": "Matheson notched an assist, three blocked shots and a plus-3 rating in Thursday's 5-2 win over the Bruins.",
-                  "text": "Matheson had missed six games due to a lower-body injury. He's already had two stints on the shelf this season, which is a risk with his defensive playing style. He's done fine when healthy, racking up a goal, four assists, 16 shots on net, 16 blocked shots and a plus-4 rating over nine outings. Matheson should see top-four minutes when in the lineup, giving him potential to be helpful as a depth defenseman in fantasy.",
-                  "source": "RotoWire"
                 }
               ]
             },
@@ -35293,14 +35225,6 @@
                   "injury": {
                     "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/3069687/injuries/599874?lang=en&region=us"
                   }
-                },
-                {
-                  "id": "599554",
-                  "type": "news",
-                  "date": "2026-11-13T14:47Z",
-                  "headline": "Anderson scored a goal and added an assist in Thursday's 5-2 win over the Bruins.",
-                  "text": "The veteran winger gave the Habs a 2-0 lead midway through the first period by banging a rebound past Jeremy Swayman, before setting up Jake Evans for what proved to be the game-winner early in the second. Anderson took a six-game point drought into a Halloween night tilt against the Penguins but has spring to life since, piling up three goals and six points in his last five contests.",
-                  "source": "RotoWire"
                 }
               ]
             },
@@ -39494,28 +39418,6 @@
                   "injury": {
                     "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/4587933/injuries/600044?lang=en&region=us"
                   }
-                },
-                {
-                  "id": "599592",
-                  "type": "news",
-                  "date": "2026-11-13T18:44Z",
-                  "headline": "The Devils placed Kovacevic (ankle) on injured reserve Friday, retroactive to Nov. 10.",
-                  "text": "Kovacevic sustained an injury Tuesday against Winnipeg, and while the extent of the issue wasn't initially known, it's now been revealed that he's dealing with an ankle injury that will force him to miss time. It's not yet clear when he'll be able to return to action, but Vladislav Kolyachonok could see increased playing time in Kovacevic's absence, while Anton Silaev was also called up from AHL Utica on Friday.",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/4587933/injuries/599592?lang=en&region=us"
-                  }
-                },
-                {
-                  "id": "599588",
-                  "type": "news",
-                  "date": "2026-11-13T18:42Z",
-                  "headline": "ir",
-                  "text": "ir",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/4587933/injuries/599588?lang=en&region=us"
-                  }
                 }
               ]
             },
@@ -40109,19 +40011,7 @@
               ]
             },
             "notes": {
-              "items": [
-                {
-                  "id": "599621",
-                  "type": "news",
-                  "date": "2026-11-13T23:49Z",
-                  "headline": "Casey (knee) was moved to long-term injured reserve on Friday, per PuckPedia.",
-                  "text": "Casey began the season on non-roster injured reserve due to knee surgery. This move to LTIR doesn't change his timeline -- he's already missed enough time to be eligible to return. He was slated to miss 6-8 weeks, so don't expect him to be ready until late November at the earliest.",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/5080212/injuries/599621?lang=en&region=us"
-                  }
-                }
-              ]
+              "items": []
             },
             "status": {
               "id": "1",
@@ -42607,14 +42497,6 @@
                   "injury": {
                     "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/3042095/injuries/600419?lang=en&region=us"
                   }
-                },
-                {
-                  "id": "599644",
-                  "type": "news",
-                  "date": "2026-11-14T06:58Z",
-                  "headline": "Bjorkstrand scored a power-play goal in Friday's 5-1 win over the Canucks.",
-                  "text": "Bjorkstrand is still in a bottom-six role, but his power-play time has helped prop up his offense. He has four points over seven outings in November, and two of those points have come with a man advantage. The veteran winger is at seven goals, four assists, 30 shots on net, 13 hits and a plus-1 rating over 21 games.",
-                  "source": "RotoWire"
                 }
               ]
             },
@@ -70536,17 +70418,6 @@
                   "injury": {
                     "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/3114770/injuries/599694?lang=en&region=us"
                   }
-                },
-                {
-                  "id": "599545",
-                  "type": "news",
-                  "date": "2026-11-13T13:57Z",
-                  "headline": "day-to-day",
-                  "text": "day-to-day",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/3114770/injuries/599545?lang=en&region=us"
-                  }
                 }
               ]
             },
@@ -72937,19 +72808,7 @@
               ]
             },
             "notes": {
-              "items": [
-                {
-                  "id": "599618",
-                  "type": "news",
-                  "date": "2026-11-13T22:59Z",
-                  "headline": "ir",
-                  "text": "ir",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/3942866/injuries/599618?lang=en&region=us"
-                  }
-                }
-              ]
+              "items": []
             },
             "status": {
               "id": "1",
@@ -75939,28 +75798,6 @@
                   "injury": {
                     "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/2590861/injuries/600284?lang=en&region=us"
                   }
-                },
-                {
-                  "id": "599577",
-                  "type": "news",
-                  "date": "2026-11-13T16:34Z",
-                  "headline": "ir",
-                  "text": "ir",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/2590861/injuries/599577?lang=en&region=us"
-                  }
-                },
-                {
-                  "id": "599578",
-                  "type": "news",
-                  "date": "2026-11-13T16:33Z",
-                  "headline": "DeMelo (lower body) was placed on injured reserve Friday.",
-                  "text": "DeMelo was deemed week-to-week after exiting Thursday's game against the Stars due to his lower-body injury, so it isn't particularly surprising to see him land on injured reserve. Haydn Fleury is a candidate to return to the lineup in DeMelo's absence, while Henry Thrun was called up from AHL Manitoba to provide additional depth.",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/2590861/injuries/599578?lang=en&region=us"
-                  }
                 }
               ]
             },
@@ -76573,50 +76410,6 @@
                   "source": "RotoWire",
                   "injury": {
                     "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/4874731/injuries/599841?lang=en&region=us"
-                  }
-                },
-                {
-                  "id": "599607",
-                  "type": "news",
-                  "date": "2026-11-13T19:26Z",
-                  "headline": "out",
-                  "text": "out",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/4874731/injuries/599607?lang=en&region=us"
-                  }
-                },
-                {
-                  "id": "599610",
-                  "type": "news",
-                  "date": "2026-11-13T19:25Z",
-                  "headline": "Rosen (undisclosed) has been ruled out for Saturday's game against the Blackhawks, Ken Wiebe of The Winnipeg Free Press reports.",
-                  "text": "Rosen didn't practice Friday due to an undisclosed injury, and he'll be unavailable for at least one matchup. Nino Niederreiter will take his place in the lineup against Chicago, while Rosen's next opportunity to suit up will be Tuesday against Ottawa, though it isn't yet clear whether he'll be able to do so.",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/4874731/injuries/599610?lang=en&region=us"
-                  }
-                },
-                {
-                  "id": "599598",
-                  "type": "news",
-                  "date": "2026-11-13T19:09Z",
-                  "headline": "day-to-day",
-                  "text": "day-to-day",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/4874731/injuries/599598?lang=en&region=us"
-                  }
-                },
-                {
-                  "id": "599599",
-                  "type": "news",
-                  "date": "2026-11-13T19:08Z",
-                  "headline": "Rosen was not on the ice Friday due to an undisclosed injury, Ken Wiebe of The Winnipeg Free Press reports.",
-                  "text": "Rosen is currently stuck in an eight-game pointless streak and has scored just once in 19 appearances this year. With the 23-year-old winger questionable to play versus Chicago on Saturday, Nino Niederreiter would be expected to step into the lineup should Rosen miss out.",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/4874731/injuries/599599?lang=en&region=us"
                   }
                 }
               ]
