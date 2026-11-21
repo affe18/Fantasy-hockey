@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T04:53:31.126292+00:00",
+  "updatedAt": "2026-11-21T05:53:27.660550+00:00",
   "season": "current",
   "sourceStatus": {
     "nhlStats": false,
@@ -70,7 +70,33 @@
         },
         "abbrev": "EDM",
         "record": "17-4-3",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "2.50"
+          },
+          {
+            "providerId": 6,
+            "value": "2.70"
+          },
+          {
+            "providerId": 7,
+            "value": "+152"
+          },
+          {
+            "providerId": 9,
+            "value": "+150"
+          },
+          {
+            "providerId": 8,
+            "value": "+151"
+          },
+          {
+            "providerId": 10,
+            "value": "3.35"
+          }
+        ]
       },
       "homeTeam": {
         "id": 12,
@@ -79,7 +105,33 @@
         },
         "abbrev": "CAR",
         "record": "16-3-3",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "1.52"
+          },
+          {
+            "providerId": 6,
+            "value": "1.46"
+          },
+          {
+            "providerId": 7,
+            "value": "-184"
+          },
+          {
+            "providerId": 9,
+            "value": "-180"
+          },
+          {
+            "providerId": 8,
+            "value": "-187"
+          },
+          {
+            "providerId": 10,
+            "value": "1.93"
+          }
+        ]
       },
       "gameCenterLink": "/gamecenter/edm-vs-car/2026/11/21/2026020359",
       "neutralSite": false,
@@ -235,7 +287,33 @@
         },
         "abbrev": "CHI",
         "record": "6-14-2",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/CHI_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/CHI_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "2.27"
+          },
+          {
+            "providerId": 6,
+            "value": "2.25"
+          },
+          {
+            "providerId": 7,
+            "value": "+138"
+          },
+          {
+            "providerId": 9,
+            "value": "+136"
+          },
+          {
+            "providerId": 8,
+            "value": "+135"
+          },
+          {
+            "providerId": 10,
+            "value": "3.05"
+          }
+        ]
       },
       "homeTeam": {
         "id": 20,
@@ -244,7 +322,33 @@
         },
         "abbrev": "CGY",
         "record": "10-12-1",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/CGY_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/CGY_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "1.62"
+          },
+          {
+            "providerId": 6,
+            "value": "1.64"
+          },
+          {
+            "providerId": 7,
+            "value": "-166"
+          },
+          {
+            "providerId": 9,
+            "value": "-162"
+          },
+          {
+            "providerId": 8,
+            "value": "-164"
+          },
+          {
+            "providerId": 10,
+            "value": "2.10"
+          }
+        ]
       },
       "gameCenterLink": "/gamecenter/chi-vs-cgy/2026/11/21/2026020360",
       "neutralSite": false,
@@ -380,7 +484,33 @@
         },
         "abbrev": "BUF",
         "record": "9-9-4",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/BUF_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/BUF_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "2.22"
+          },
+          {
+            "providerId": 6,
+            "value": "2.18"
+          },
+          {
+            "providerId": 7,
+            "value": "+130"
+          },
+          {
+            "providerId": 9,
+            "value": "+130"
+          },
+          {
+            "providerId": 8,
+            "value": "+128"
+          },
+          {
+            "providerId": 10,
+            "value": "3.00"
+          }
+        ]
       },
       "homeTeam": {
         "id": 13,
@@ -389,7 +519,33 @@
         },
         "abbrev": "FLA",
         "record": "12-8-3",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "1.65"
+          },
+          {
+            "providerId": 6,
+            "value": "1.68"
+          },
+          {
+            "providerId": 7,
+            "value": "-156"
+          },
+          {
+            "providerId": 9,
+            "value": "-155"
+          },
+          {
+            "providerId": 8,
+            "value": "-156"
+          },
+          {
+            "providerId": 10,
+            "value": "2.10"
+          }
+        ]
       },
       "gameCenterLink": "/gamecenter/buf-vs-fla/2026/11/21/2026020361",
       "neutralSite": false,
@@ -525,7 +681,33 @@
         },
         "abbrev": "PIT",
         "record": "7-12-2",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "2.11"
+          },
+          {
+            "providerId": 6,
+            "value": "1.81"
+          },
+          {
+            "providerId": 7,
+            "value": "+114"
+          },
+          {
+            "providerId": 9,
+            "value": "+114"
+          },
+          {
+            "providerId": 8,
+            "value": "+114"
+          },
+          {
+            "providerId": 10,
+            "value": "2.80"
+          }
+        ]
       },
       "homeTeam": {
         "id": 18,
@@ -534,7 +716,33 @@
         },
         "abbrev": "NSH",
         "record": "11-6-5",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "1.71"
+          },
+          {
+            "providerId": 6,
+            "value": "2.00"
+          },
+          {
+            "providerId": 7,
+            "value": "-137"
+          },
+          {
+            "providerId": 9,
+            "value": "-135"
+          },
+          {
+            "providerId": 8,
+            "value": "-139"
+          },
+          {
+            "providerId": 10,
+            "value": "2.20"
+          }
+        ]
       },
       "gameCenterLink": "/gamecenter/pit-vs-nsh/2026/11/21/2026020362",
       "neutralSite": false,
@@ -672,7 +880,33 @@
         },
         "abbrev": "WSH",
         "record": "10-10-0",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "2.01"
+          },
+          {
+            "providerId": 6,
+            "value": "1.85"
+          },
+          {
+            "providerId": 7,
+            "value": "+100"
+          },
+          {
+            "providerId": 9,
+            "value": "+100"
+          },
+          {
+            "providerId": 8,
+            "value": "-100"
+          },
+          {
+            "providerId": 10,
+            "value": "2.60"
+          }
+        ]
       },
       "homeTeam": {
         "id": 6,
@@ -681,7 +915,33 @@
         },
         "abbrev": "BOS",
         "record": "14-7-1",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "1.78"
+          },
+          {
+            "providerId": 6,
+            "value": "1.95"
+          },
+          {
+            "providerId": 7,
+            "value": "-120"
+          },
+          {
+            "providerId": 9,
+            "value": "-120"
+          },
+          {
+            "providerId": 8,
+            "value": "-122"
+          },
+          {
+            "providerId": 10,
+            "value": "2.35"
+          }
+        ]
       },
       "gameCenterLink": "/gamecenter/wsh-vs-bos/2026/11/21/2026020363",
       "neutralSite": false,
@@ -834,7 +1094,33 @@
         },
         "abbrev": "CBJ",
         "record": "8-12-0",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "1.99"
+          },
+          {
+            "providerId": 6,
+            "value": "1.80"
+          },
+          {
+            "providerId": 7,
+            "value": "+104"
+          },
+          {
+            "providerId": 9,
+            "value": "+102"
+          },
+          {
+            "providerId": 8,
+            "value": "+101"
+          },
+          {
+            "providerId": 10,
+            "value": "2.65"
+          }
+        ]
       },
       "homeTeam": {
         "id": 10,
@@ -843,7 +1129,33 @@
         },
         "abbrev": "TOR",
         "record": "8-13-3",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "1.80"
+          },
+          {
+            "providerId": 6,
+            "value": "2.00"
+          },
+          {
+            "providerId": 7,
+            "value": "-125"
+          },
+          {
+            "providerId": 9,
+            "value": "-122"
+          },
+          {
+            "providerId": 8,
+            "value": "-123"
+          },
+          {
+            "providerId": 10,
+            "value": "2.35"
+          }
+        ]
       },
       "gameCenterLink": "/gamecenter/cbj-vs-tor/2026/11/21/2026020364",
       "neutralSite": false,
@@ -1006,7 +1318,33 @@
         },
         "abbrev": "PHI",
         "record": "8-11-6",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/PHI_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/PHI_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "2.34"
+          },
+          {
+            "providerId": 6,
+            "value": "2.25"
+          },
+          {
+            "providerId": 7,
+            "value": "+134"
+          },
+          {
+            "providerId": 9,
+            "value": "+140"
+          },
+          {
+            "providerId": 8,
+            "value": "+137"
+          },
+          {
+            "providerId": 10,
+            "value": "3.15"
+          }
+        ]
       },
       "homeTeam": {
         "id": 8,
@@ -1015,7 +1353,33 @@
         },
         "abbrev": "MTL",
         "record": "14-5-4",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "1.59"
+          },
+          {
+            "providerId": 6,
+            "value": "1.64"
+          },
+          {
+            "providerId": 7,
+            "value": "-162"
+          },
+          {
+            "providerId": 9,
+            "value": "-166"
+          },
+          {
+            "providerId": 8,
+            "value": "-168"
+          },
+          {
+            "providerId": 10,
+            "value": "2.03"
+          }
+        ]
       },
       "gameCenterLink": "/gamecenter/phi-vs-mtl/2026/11/21/2026020365",
       "neutralSite": false,
@@ -1171,7 +1535,33 @@
         },
         "abbrev": "LAK",
         "record": "7-11-2",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "2.43"
+          },
+          {
+            "providerId": 6,
+            "value": "2.34"
+          },
+          {
+            "providerId": 7,
+            "value": "+146"
+          },
+          {
+            "providerId": 9,
+            "value": "+145"
+          },
+          {
+            "providerId": 8,
+            "value": "+144"
+          },
+          {
+            "providerId": 10,
+            "value": "3.30"
+          }
+        ]
       },
       "homeTeam": {
         "id": 9,
@@ -1181,7 +1571,33 @@
         },
         "abbrev": "OTT",
         "record": "14-6-3",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "1.54"
+          },
+          {
+            "providerId": 6,
+            "value": "1.60"
+          },
+          {
+            "providerId": 7,
+            "value": "-178"
+          },
+          {
+            "providerId": 9,
+            "value": "-175"
+          },
+          {
+            "providerId": 8,
+            "value": "-178"
+          },
+          {
+            "providerId": 10,
+            "value": "1.97"
+          }
+        ]
       },
       "gameCenterLink": "/gamecenter/lak-vs-ott/2026/11/21/2026020366",
       "neutralSite": false,
@@ -1321,7 +1737,33 @@
         },
         "abbrev": "NYI",
         "record": "10-6-5",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/NYI_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/NYI_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "1.82"
+          },
+          {
+            "providerId": 6,
+            "value": "1.98"
+          },
+          {
+            "providerId": 7,
+            "value": "-120"
+          },
+          {
+            "providerId": 9,
+            "value": "-118"
+          },
+          {
+            "providerId": 8,
+            "value": "-120"
+          },
+          {
+            "providerId": 10,
+            "value": "2.40"
+          }
+        ]
       },
       "homeTeam": {
         "id": 17,
@@ -1330,7 +1772,33 @@
         },
         "abbrev": "DET",
         "record": "8-11-3",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "1.96"
+          },
+          {
+            "providerId": 6,
+            "value": "1.82"
+          },
+          {
+            "providerId": 7,
+            "value": "+100"
+          },
+          {
+            "providerId": 9,
+            "value": "-102"
+          },
+          {
+            "providerId": 8,
+            "value": "-102"
+          },
+          {
+            "providerId": 10,
+            "value": "2.60"
+          }
+        ]
       },
       "gameCenterLink": "/gamecenter/nyi-vs-det/2026/11/21/2026020367",
       "neutralSite": false,
@@ -1476,7 +1944,33 @@
         },
         "abbrev": "NJD",
         "record": "15-7-0",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "1.76"
+          },
+          {
+            "providerId": 6,
+            "value": "1.76"
+          },
+          {
+            "providerId": 7,
+            "value": "-134"
+          },
+          {
+            "providerId": 9,
+            "value": "-130"
+          },
+          {
+            "providerId": 8,
+            "value": "-133"
+          },
+          {
+            "providerId": 10,
+            "value": "2.25"
+          }
+        ]
       },
       "homeTeam": {
         "id": 19,
@@ -1485,7 +1979,33 @@
         },
         "abbrev": "STL",
         "record": "11-9-2",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/STL_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/STL_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "2.04"
+          },
+          {
+            "providerId": 6,
+            "value": "2.07"
+          },
+          {
+            "providerId": 7,
+            "value": "+112"
+          },
+          {
+            "providerId": 9,
+            "value": "+110"
+          },
+          {
+            "providerId": 8,
+            "value": "+109"
+          },
+          {
+            "providerId": 10,
+            "value": "2.75"
+          }
+        ]
       },
       "gameCenterLink": "/gamecenter/njd-vs-stl/2026/11/21/2026020368",
       "neutralSite": false,
@@ -1626,7 +2146,33 @@
         },
         "abbrev": "VGK",
         "record": "13-6-5",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "1.70"
+          },
+          {
+            "providerId": 6,
+            "value": "1.72"
+          },
+          {
+            "providerId": 7,
+            "value": "-142"
+          },
+          {
+            "providerId": 9,
+            "value": "-135"
+          },
+          {
+            "providerId": 8,
+            "value": "-139"
+          },
+          {
+            "providerId": 10,
+            "value": "2.20"
+          }
+        ]
       },
       "homeTeam": {
         "id": 52,
@@ -1635,7 +2181,33 @@
         },
         "abbrev": "WPG",
         "record": "11-9-3",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "2.14"
+          },
+          {
+            "providerId": 6,
+            "value": "2.12"
+          },
+          {
+            "providerId": 7,
+            "value": "+118"
+          },
+          {
+            "providerId": 9,
+            "value": "+114"
+          },
+          {
+            "providerId": 8,
+            "value": "+114"
+          },
+          {
+            "providerId": 10,
+            "value": "2.80"
+          }
+        ]
       },
       "gameCenterLink": "/gamecenter/vgk-vs-wpg/2026/11/21/2026020369",
       "neutralSite": false,
@@ -1791,7 +2363,29 @@
         },
         "abbrev": "ANA",
         "record": "11-11-1",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "2.31"
+          },
+          {
+            "providerId": 6,
+            "value": "1.60"
+          },
+          {
+            "providerId": 7,
+            "value": "+140"
+          },
+          {
+            "providerId": 9,
+            "value": "+136"
+          },
+          {
+            "providerId": 8,
+            "value": "+136"
+          }
+        ]
       },
       "homeTeam": {
         "id": 68,
@@ -1800,7 +2394,29 @@
         },
         "abbrev": "UTA",
         "record": "11-9-3",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "1.60"
+          },
+          {
+            "providerId": 6,
+            "value": "2.34"
+          },
+          {
+            "providerId": 7,
+            "value": "-170"
+          },
+          {
+            "providerId": 9,
+            "value": "-162"
+          },
+          {
+            "providerId": 8,
+            "value": "-166"
+          }
+        ]
       },
       "gameCenterLink": "/gamecenter/ana-vs-uta/2026/11/21/2026020370",
       "neutralSite": false,
@@ -1952,7 +2568,33 @@
         },
         "abbrev": "MIN",
         "record": "17-3-4",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/MIN_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/MIN_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "1.32"
+          },
+          {
+            "providerId": 6,
+            "value": "1.33"
+          },
+          {
+            "providerId": 7,
+            "value": "-295"
+          },
+          {
+            "providerId": 9,
+            "value": "-298"
+          },
+          {
+            "providerId": 8,
+            "value": "-303"
+          },
+          {
+            "providerId": 10,
+            "value": "1.65"
+          }
+        ]
       },
       "homeTeam": {
         "id": 23,
@@ -1961,7 +2603,33 @@
         },
         "abbrev": "VAN",
         "record": "5-18-1",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "3.30"
+          },
+          {
+            "providerId": 6,
+            "value": "3.34"
+          },
+          {
+            "providerId": 7,
+            "value": "+235"
+          },
+          {
+            "providerId": 9,
+            "value": "+240"
+          },
+          {
+            "providerId": 8,
+            "value": "+238"
+          },
+          {
+            "providerId": 10,
+            "value": "4.60"
+          }
+        ]
       },
       "gameCenterLink": "/gamecenter/min-vs-van/2026/11/21/2026020371",
       "neutralSite": false,
@@ -2104,7 +2772,33 @@
         },
         "abbrev": "SEA",
         "record": "10-8-1",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "1.95"
+          },
+          {
+            "providerId": 6,
+            "value": "1.85"
+          },
+          {
+            "providerId": 7,
+            "value": "-102"
+          },
+          {
+            "providerId": 9,
+            "value": "-102"
+          },
+          {
+            "providerId": 8,
+            "value": "-103"
+          },
+          {
+            "providerId": 10,
+            "value": "2.55"
+          }
+        ]
       },
       "homeTeam": {
         "id": 28,
@@ -2113,7 +2807,33 @@
         },
         "abbrev": "SJS",
         "record": "10-12-2",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/SJS_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/SJS_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "1.83"
+          },
+          {
+            "providerId": 6,
+            "value": "1.95"
+          },
+          {
+            "providerId": 7,
+            "value": "-118"
+          },
+          {
+            "providerId": 9,
+            "value": "-118"
+          },
+          {
+            "providerId": 8,
+            "value": "-119"
+          },
+          {
+            "providerId": 10,
+            "value": "2.40"
+          }
+        ]
       },
       "gameCenterLink": "/gamecenter/sea-vs-sjs/2026/11/21/2026020372",
       "neutralSite": false,
@@ -2275,7 +2995,33 @@
         },
         "abbrev": "EDM",
         "record": "17-4-3",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "2.50"
+          },
+          {
+            "providerId": 6,
+            "value": "2.70"
+          },
+          {
+            "providerId": 7,
+            "value": "+152"
+          },
+          {
+            "providerId": 9,
+            "value": "+150"
+          },
+          {
+            "providerId": 8,
+            "value": "+151"
+          },
+          {
+            "providerId": 10,
+            "value": "3.35"
+          }
+        ]
       },
       "homeTeam": {
         "id": 12,
@@ -2284,7 +3030,33 @@
         },
         "abbrev": "CAR",
         "record": "16-3-3",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "1.52"
+          },
+          {
+            "providerId": 6,
+            "value": "1.46"
+          },
+          {
+            "providerId": 7,
+            "value": "-184"
+          },
+          {
+            "providerId": 9,
+            "value": "-180"
+          },
+          {
+            "providerId": 8,
+            "value": "-187"
+          },
+          {
+            "providerId": 10,
+            "value": "1.93"
+          }
+        ]
       },
       "gameCenterLink": "/gamecenter/edm-vs-car/2026/11/21/2026020359",
       "neutralSite": false,
@@ -2440,7 +3212,33 @@
         },
         "abbrev": "CHI",
         "record": "6-14-2",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/CHI_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/CHI_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "2.27"
+          },
+          {
+            "providerId": 6,
+            "value": "2.25"
+          },
+          {
+            "providerId": 7,
+            "value": "+138"
+          },
+          {
+            "providerId": 9,
+            "value": "+136"
+          },
+          {
+            "providerId": 8,
+            "value": "+135"
+          },
+          {
+            "providerId": 10,
+            "value": "3.05"
+          }
+        ]
       },
       "homeTeam": {
         "id": 20,
@@ -2449,7 +3247,33 @@
         },
         "abbrev": "CGY",
         "record": "10-12-1",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/CGY_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/CGY_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "1.62"
+          },
+          {
+            "providerId": 6,
+            "value": "1.64"
+          },
+          {
+            "providerId": 7,
+            "value": "-166"
+          },
+          {
+            "providerId": 9,
+            "value": "-162"
+          },
+          {
+            "providerId": 8,
+            "value": "-164"
+          },
+          {
+            "providerId": 10,
+            "value": "2.10"
+          }
+        ]
       },
       "gameCenterLink": "/gamecenter/chi-vs-cgy/2026/11/21/2026020360",
       "neutralSite": false,
@@ -2585,7 +3409,33 @@
         },
         "abbrev": "BUF",
         "record": "9-9-4",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/BUF_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/BUF_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "2.22"
+          },
+          {
+            "providerId": 6,
+            "value": "2.18"
+          },
+          {
+            "providerId": 7,
+            "value": "+130"
+          },
+          {
+            "providerId": 9,
+            "value": "+130"
+          },
+          {
+            "providerId": 8,
+            "value": "+128"
+          },
+          {
+            "providerId": 10,
+            "value": "3.00"
+          }
+        ]
       },
       "homeTeam": {
         "id": 13,
@@ -2594,7 +3444,33 @@
         },
         "abbrev": "FLA",
         "record": "12-8-3",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "1.65"
+          },
+          {
+            "providerId": 6,
+            "value": "1.68"
+          },
+          {
+            "providerId": 7,
+            "value": "-156"
+          },
+          {
+            "providerId": 9,
+            "value": "-155"
+          },
+          {
+            "providerId": 8,
+            "value": "-156"
+          },
+          {
+            "providerId": 10,
+            "value": "2.10"
+          }
+        ]
       },
       "gameCenterLink": "/gamecenter/buf-vs-fla/2026/11/21/2026020361",
       "neutralSite": false,
@@ -2730,7 +3606,33 @@
         },
         "abbrev": "PIT",
         "record": "7-12-2",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "2.11"
+          },
+          {
+            "providerId": 6,
+            "value": "1.81"
+          },
+          {
+            "providerId": 7,
+            "value": "+114"
+          },
+          {
+            "providerId": 9,
+            "value": "+114"
+          },
+          {
+            "providerId": 8,
+            "value": "+114"
+          },
+          {
+            "providerId": 10,
+            "value": "2.80"
+          }
+        ]
       },
       "homeTeam": {
         "id": 18,
@@ -2739,7 +3641,33 @@
         },
         "abbrev": "NSH",
         "record": "11-6-5",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "1.71"
+          },
+          {
+            "providerId": 6,
+            "value": "2.00"
+          },
+          {
+            "providerId": 7,
+            "value": "-137"
+          },
+          {
+            "providerId": 9,
+            "value": "-135"
+          },
+          {
+            "providerId": 8,
+            "value": "-139"
+          },
+          {
+            "providerId": 10,
+            "value": "2.20"
+          }
+        ]
       },
       "gameCenterLink": "/gamecenter/pit-vs-nsh/2026/11/21/2026020362",
       "neutralSite": false,
@@ -2877,7 +3805,33 @@
         },
         "abbrev": "WSH",
         "record": "10-10-0",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "2.01"
+          },
+          {
+            "providerId": 6,
+            "value": "1.85"
+          },
+          {
+            "providerId": 7,
+            "value": "+100"
+          },
+          {
+            "providerId": 9,
+            "value": "+100"
+          },
+          {
+            "providerId": 8,
+            "value": "-100"
+          },
+          {
+            "providerId": 10,
+            "value": "2.60"
+          }
+        ]
       },
       "homeTeam": {
         "id": 6,
@@ -2886,7 +3840,33 @@
         },
         "abbrev": "BOS",
         "record": "14-7-1",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "1.78"
+          },
+          {
+            "providerId": 6,
+            "value": "1.95"
+          },
+          {
+            "providerId": 7,
+            "value": "-120"
+          },
+          {
+            "providerId": 9,
+            "value": "-120"
+          },
+          {
+            "providerId": 8,
+            "value": "-122"
+          },
+          {
+            "providerId": 10,
+            "value": "2.35"
+          }
+        ]
       },
       "gameCenterLink": "/gamecenter/wsh-vs-bos/2026/11/21/2026020363",
       "neutralSite": false,
@@ -3039,7 +4019,33 @@
         },
         "abbrev": "CBJ",
         "record": "8-12-0",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "1.99"
+          },
+          {
+            "providerId": 6,
+            "value": "1.80"
+          },
+          {
+            "providerId": 7,
+            "value": "+104"
+          },
+          {
+            "providerId": 9,
+            "value": "+102"
+          },
+          {
+            "providerId": 8,
+            "value": "+101"
+          },
+          {
+            "providerId": 10,
+            "value": "2.65"
+          }
+        ]
       },
       "homeTeam": {
         "id": 10,
@@ -3048,7 +4054,33 @@
         },
         "abbrev": "TOR",
         "record": "8-13-3",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "1.80"
+          },
+          {
+            "providerId": 6,
+            "value": "2.00"
+          },
+          {
+            "providerId": 7,
+            "value": "-125"
+          },
+          {
+            "providerId": 9,
+            "value": "-122"
+          },
+          {
+            "providerId": 8,
+            "value": "-123"
+          },
+          {
+            "providerId": 10,
+            "value": "2.35"
+          }
+        ]
       },
       "gameCenterLink": "/gamecenter/cbj-vs-tor/2026/11/21/2026020364",
       "neutralSite": false,
@@ -3211,7 +4243,33 @@
         },
         "abbrev": "PHI",
         "record": "8-11-6",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/PHI_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/PHI_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "2.34"
+          },
+          {
+            "providerId": 6,
+            "value": "2.25"
+          },
+          {
+            "providerId": 7,
+            "value": "+134"
+          },
+          {
+            "providerId": 9,
+            "value": "+140"
+          },
+          {
+            "providerId": 8,
+            "value": "+137"
+          },
+          {
+            "providerId": 10,
+            "value": "3.15"
+          }
+        ]
       },
       "homeTeam": {
         "id": 8,
@@ -3220,7 +4278,33 @@
         },
         "abbrev": "MTL",
         "record": "14-5-4",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "1.59"
+          },
+          {
+            "providerId": 6,
+            "value": "1.64"
+          },
+          {
+            "providerId": 7,
+            "value": "-162"
+          },
+          {
+            "providerId": 9,
+            "value": "-166"
+          },
+          {
+            "providerId": 8,
+            "value": "-168"
+          },
+          {
+            "providerId": 10,
+            "value": "2.03"
+          }
+        ]
       },
       "gameCenterLink": "/gamecenter/phi-vs-mtl/2026/11/21/2026020365",
       "neutralSite": false,
@@ -3376,7 +4460,33 @@
         },
         "abbrev": "LAK",
         "record": "7-11-2",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "2.43"
+          },
+          {
+            "providerId": 6,
+            "value": "2.34"
+          },
+          {
+            "providerId": 7,
+            "value": "+146"
+          },
+          {
+            "providerId": 9,
+            "value": "+145"
+          },
+          {
+            "providerId": 8,
+            "value": "+144"
+          },
+          {
+            "providerId": 10,
+            "value": "3.30"
+          }
+        ]
       },
       "homeTeam": {
         "id": 9,
@@ -3386,7 +4496,33 @@
         },
         "abbrev": "OTT",
         "record": "14-6-3",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "1.54"
+          },
+          {
+            "providerId": 6,
+            "value": "1.60"
+          },
+          {
+            "providerId": 7,
+            "value": "-178"
+          },
+          {
+            "providerId": 9,
+            "value": "-175"
+          },
+          {
+            "providerId": 8,
+            "value": "-178"
+          },
+          {
+            "providerId": 10,
+            "value": "1.97"
+          }
+        ]
       },
       "gameCenterLink": "/gamecenter/lak-vs-ott/2026/11/21/2026020366",
       "neutralSite": false,
@@ -3526,7 +4662,33 @@
         },
         "abbrev": "NYI",
         "record": "10-6-5",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/NYI_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/NYI_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "1.82"
+          },
+          {
+            "providerId": 6,
+            "value": "1.98"
+          },
+          {
+            "providerId": 7,
+            "value": "-120"
+          },
+          {
+            "providerId": 9,
+            "value": "-118"
+          },
+          {
+            "providerId": 8,
+            "value": "-120"
+          },
+          {
+            "providerId": 10,
+            "value": "2.40"
+          }
+        ]
       },
       "homeTeam": {
         "id": 17,
@@ -3535,7 +4697,33 @@
         },
         "abbrev": "DET",
         "record": "8-11-3",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "1.96"
+          },
+          {
+            "providerId": 6,
+            "value": "1.82"
+          },
+          {
+            "providerId": 7,
+            "value": "+100"
+          },
+          {
+            "providerId": 9,
+            "value": "-102"
+          },
+          {
+            "providerId": 8,
+            "value": "-102"
+          },
+          {
+            "providerId": 10,
+            "value": "2.60"
+          }
+        ]
       },
       "gameCenterLink": "/gamecenter/nyi-vs-det/2026/11/21/2026020367",
       "neutralSite": false,
@@ -3681,7 +4869,33 @@
         },
         "abbrev": "NJD",
         "record": "15-7-0",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "1.76"
+          },
+          {
+            "providerId": 6,
+            "value": "1.76"
+          },
+          {
+            "providerId": 7,
+            "value": "-134"
+          },
+          {
+            "providerId": 9,
+            "value": "-130"
+          },
+          {
+            "providerId": 8,
+            "value": "-133"
+          },
+          {
+            "providerId": 10,
+            "value": "2.25"
+          }
+        ]
       },
       "homeTeam": {
         "id": 19,
@@ -3690,7 +4904,33 @@
         },
         "abbrev": "STL",
         "record": "11-9-2",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/STL_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/STL_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "2.04"
+          },
+          {
+            "providerId": 6,
+            "value": "2.07"
+          },
+          {
+            "providerId": 7,
+            "value": "+112"
+          },
+          {
+            "providerId": 9,
+            "value": "+110"
+          },
+          {
+            "providerId": 8,
+            "value": "+109"
+          },
+          {
+            "providerId": 10,
+            "value": "2.75"
+          }
+        ]
       },
       "gameCenterLink": "/gamecenter/njd-vs-stl/2026/11/21/2026020368",
       "neutralSite": false,
@@ -3831,7 +5071,33 @@
         },
         "abbrev": "VGK",
         "record": "13-6-5",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "1.70"
+          },
+          {
+            "providerId": 6,
+            "value": "1.72"
+          },
+          {
+            "providerId": 7,
+            "value": "-142"
+          },
+          {
+            "providerId": 9,
+            "value": "-135"
+          },
+          {
+            "providerId": 8,
+            "value": "-139"
+          },
+          {
+            "providerId": 10,
+            "value": "2.20"
+          }
+        ]
       },
       "homeTeam": {
         "id": 52,
@@ -3840,7 +5106,33 @@
         },
         "abbrev": "WPG",
         "record": "11-9-3",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "2.14"
+          },
+          {
+            "providerId": 6,
+            "value": "2.12"
+          },
+          {
+            "providerId": 7,
+            "value": "+118"
+          },
+          {
+            "providerId": 9,
+            "value": "+114"
+          },
+          {
+            "providerId": 8,
+            "value": "+114"
+          },
+          {
+            "providerId": 10,
+            "value": "2.80"
+          }
+        ]
       },
       "gameCenterLink": "/gamecenter/vgk-vs-wpg/2026/11/21/2026020369",
       "neutralSite": false,
@@ -3996,7 +5288,29 @@
         },
         "abbrev": "ANA",
         "record": "11-11-1",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "2.31"
+          },
+          {
+            "providerId": 6,
+            "value": "1.60"
+          },
+          {
+            "providerId": 7,
+            "value": "+140"
+          },
+          {
+            "providerId": 9,
+            "value": "+136"
+          },
+          {
+            "providerId": 8,
+            "value": "+136"
+          }
+        ]
       },
       "homeTeam": {
         "id": 68,
@@ -4005,7 +5319,29 @@
         },
         "abbrev": "UTA",
         "record": "11-9-3",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "1.60"
+          },
+          {
+            "providerId": 6,
+            "value": "2.34"
+          },
+          {
+            "providerId": 7,
+            "value": "-170"
+          },
+          {
+            "providerId": 9,
+            "value": "-162"
+          },
+          {
+            "providerId": 8,
+            "value": "-166"
+          }
+        ]
       },
       "gameCenterLink": "/gamecenter/ana-vs-uta/2026/11/21/2026020370",
       "neutralSite": false,
@@ -4157,7 +5493,33 @@
         },
         "abbrev": "MIN",
         "record": "17-3-4",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/MIN_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/MIN_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "1.32"
+          },
+          {
+            "providerId": 6,
+            "value": "1.33"
+          },
+          {
+            "providerId": 7,
+            "value": "-295"
+          },
+          {
+            "providerId": 9,
+            "value": "-298"
+          },
+          {
+            "providerId": 8,
+            "value": "-303"
+          },
+          {
+            "providerId": 10,
+            "value": "1.65"
+          }
+        ]
       },
       "homeTeam": {
         "id": 23,
@@ -4166,7 +5528,33 @@
         },
         "abbrev": "VAN",
         "record": "5-18-1",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "3.30"
+          },
+          {
+            "providerId": 6,
+            "value": "3.34"
+          },
+          {
+            "providerId": 7,
+            "value": "+235"
+          },
+          {
+            "providerId": 9,
+            "value": "+240"
+          },
+          {
+            "providerId": 8,
+            "value": "+238"
+          },
+          {
+            "providerId": 10,
+            "value": "4.60"
+          }
+        ]
       },
       "gameCenterLink": "/gamecenter/min-vs-van/2026/11/21/2026020371",
       "neutralSite": false,
@@ -4309,7 +5697,33 @@
         },
         "abbrev": "SEA",
         "record": "10-8-1",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "1.95"
+          },
+          {
+            "providerId": 6,
+            "value": "1.85"
+          },
+          {
+            "providerId": 7,
+            "value": "-102"
+          },
+          {
+            "providerId": 9,
+            "value": "-102"
+          },
+          {
+            "providerId": 8,
+            "value": "-103"
+          },
+          {
+            "providerId": 10,
+            "value": "2.55"
+          }
+        ]
       },
       "homeTeam": {
         "id": 28,
@@ -4318,7 +5732,33 @@
         },
         "abbrev": "SJS",
         "record": "10-12-2",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/SJS_light.svg"
+        "logo": "https://assets.nhle.com/logos/nhl/svg/SJS_light.svg",
+        "odds": [
+          {
+            "providerId": 3,
+            "value": "1.83"
+          },
+          {
+            "providerId": 6,
+            "value": "1.95"
+          },
+          {
+            "providerId": 7,
+            "value": "-118"
+          },
+          {
+            "providerId": 9,
+            "value": "-118"
+          },
+          {
+            "providerId": 8,
+            "value": "-119"
+          },
+          {
+            "providerId": 10,
+            "value": "2.40"
+          }
+        ]
       },
       "gameCenterLink": "/gamecenter/sea-vs-sjs/2026/11/21/2026020372",
       "neutralSite": false,
