@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T18:12:24.883892+00:00",
+  "updatedAt": "2026-11-22T19:12:45.433518+00:00",
   "season": "current",
   "sourceStatus": {
     "nhlStats": false,
@@ -86,8 +86,8 @@
           "default": "Hurricanes"
         },
         "abbrev": "CAR",
-        "score": 1,
-        "sog": 8,
+        "score": 2,
+        "sog": 18,
         "logo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg"
       },
       "homeTeam": {
@@ -97,21 +97,21 @@
         },
         "abbrev": "NYR",
         "score": 1,
-        "sog": 14,
+        "sog": 19,
         "logo": "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg"
       },
       "gameCenterLink": "/gamecenter/car-vs-nyr/2026/11/22/2026020373",
       "clock": {
-        "timeRemaining": "02:57",
-        "secondsRemaining": 177,
+        "timeRemaining": "02:37",
+        "secondsRemaining": 157,
         "running": false,
         "inIntermission": false
       },
       "neutralSite": false,
       "venueTimezone": "America/New_York",
-      "period": 1,
+      "period": 2,
       "periodDescriptor": {
-        "number": 1,
+        "number": 2,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
@@ -150,7 +150,12 @@
           "awayScore": 1,
           "homeScore": 0,
           "strength": "sh",
-          "discreteClip": 6408738901112
+          "highlightClipSharingUrl": "https://nhl.com/video/car-nyr-robinson-scores-shg-against-dylan-garand-6408739019112",
+          "highlightClipSharingUrlFr": "https://nhl.com/fr/video/car-nyr-robinson-marque-un-but-en-i-n-contre-dylan-garand-6408739606112",
+          "highlightClip": 6408739019112,
+          "highlightClipFr": 6408739606112,
+          "discreteClip": 6408738901112,
+          "discreteClipFr": 6408739709112
         },
         {
           "period": 1,
@@ -192,7 +197,58 @@
           "goalsToDate": 6,
           "awayScore": 1,
           "homeScore": 1,
-          "strength": "pp"
+          "strength": "pp",
+          "highlightClipSharingUrl": "https://nhl.com/video/car-nyr-zibanejad-scores-ppg-against-brandon-bussi-6408738824112",
+          "highlightClip": 6408738824112,
+          "discreteClip": 6408740478112,
+          "discreteClipFr": 6408738413112
+        },
+        {
+          "period": 2,
+          "periodDescriptor": {
+            "number": 2,
+            "periodType": "REG",
+            "maxRegulationPeriods": 3
+          },
+          "timeInPeriod": "13:13",
+          "playerId": 8482809,
+          "name": {
+            "default": "J. Blake"
+          },
+          "firstName": {
+            "default": "Jackson"
+          },
+          "lastName": {
+            "default": "Blake"
+          },
+          "goalModifier": "none",
+          "assists": [
+            {
+              "playerId": 8475791,
+              "name": {
+                "default": "T. Hall"
+              },
+              "assistsToDate": 6
+            },
+            {
+              "playerId": 8482702,
+              "name": {
+                "default": "L. Stankoven"
+              },
+              "assistsToDate": 13
+            }
+          ],
+          "mugshot": "https://assets.nhle.com/mugs/nhl/20262027/CAR/8482809.png",
+          "teamAbbrev": "CAR",
+          "goalsToDate": 7,
+          "awayScore": 2,
+          "homeScore": 1,
+          "strength": "ev",
+          "highlightClipSharingUrl": "https://nhl.com/video/car-nyr-blake-scores-goal-against-dylan-garand-6408739651112",
+          "highlightClip": 6408739651112,
+          "highlightClipFr": 6408738949112,
+          "discreteClip": 6408741391112,
+          "discreteClipFr": 6408739650112
         }
       ]
     },
@@ -271,7 +327,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "2.77"
+            "value": "2.81"
           },
           {
             "providerId": 6,
@@ -279,7 +335,7 @@
           },
           {
             "providerId": 8,
-            "value": "+176"
+            "value": "+177"
           },
           {
             "providerId": 9,
@@ -306,7 +362,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "1.45"
+            "value": "1.44"
           },
           {
             "providerId": 6,
@@ -314,7 +370,7 @@
           },
           {
             "providerId": 8,
-            "value": "-219"
+            "value": "-220"
           },
           {
             "providerId": 9,
@@ -711,7 +767,7 @@
           },
           {
             "providerId": 3,
-            "value": "2.87"
+            "value": "2.90"
           },
           {
             "providerId": 7,
@@ -719,11 +775,11 @@
           },
           {
             "providerId": 8,
-            "value": "+189"
+            "value": "+191"
           },
           {
             "providerId": 6,
-            "value": "2.80"
+            "value": "2.95"
           },
           {
             "providerId": 10,
@@ -754,11 +810,11 @@
           },
           {
             "providerId": 8,
-            "value": "-238"
+            "value": "-240"
           },
           {
             "providerId": 6,
-            "value": "1.44"
+            "value": "1.40"
           },
           {
             "providerId": 10,
@@ -954,7 +1010,7 @@
           },
           {
             "providerId": 8,
-            "value": "-106"
+            "value": "-105"
           },
           {
             "providerId": 6,
@@ -1142,8 +1198,8 @@
           "default": "Hurricanes"
         },
         "abbrev": "CAR",
-        "score": 1,
-        "sog": 8,
+        "score": 2,
+        "sog": 18,
         "logo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg"
       },
       "homeTeam": {
@@ -1153,21 +1209,21 @@
         },
         "abbrev": "NYR",
         "score": 1,
-        "sog": 14,
+        "sog": 19,
         "logo": "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg"
       },
       "gameCenterLink": "/gamecenter/car-vs-nyr/2026/11/22/2026020373",
       "clock": {
-        "timeRemaining": "02:57",
-        "secondsRemaining": 177,
+        "timeRemaining": "02:37",
+        "secondsRemaining": 157,
         "running": false,
         "inIntermission": false
       },
       "neutralSite": false,
       "venueTimezone": "America/New_York",
-      "period": 1,
+      "period": 2,
       "periodDescriptor": {
-        "number": 1,
+        "number": 2,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
@@ -1206,7 +1262,12 @@
           "awayScore": 1,
           "homeScore": 0,
           "strength": "sh",
-          "discreteClip": 6408738901112
+          "highlightClipSharingUrl": "https://nhl.com/video/car-nyr-robinson-scores-shg-against-dylan-garand-6408739019112",
+          "highlightClipSharingUrlFr": "https://nhl.com/fr/video/car-nyr-robinson-marque-un-but-en-i-n-contre-dylan-garand-6408739606112",
+          "highlightClip": 6408739019112,
+          "highlightClipFr": 6408739606112,
+          "discreteClip": 6408738901112,
+          "discreteClipFr": 6408739709112
         },
         {
           "period": 1,
@@ -1248,7 +1309,58 @@
           "goalsToDate": 6,
           "awayScore": 1,
           "homeScore": 1,
-          "strength": "pp"
+          "strength": "pp",
+          "highlightClipSharingUrl": "https://nhl.com/video/car-nyr-zibanejad-scores-ppg-against-brandon-bussi-6408738824112",
+          "highlightClip": 6408738824112,
+          "discreteClip": 6408740478112,
+          "discreteClipFr": 6408738413112
+        },
+        {
+          "period": 2,
+          "periodDescriptor": {
+            "number": 2,
+            "periodType": "REG",
+            "maxRegulationPeriods": 3
+          },
+          "timeInPeriod": "13:13",
+          "playerId": 8482809,
+          "name": {
+            "default": "J. Blake"
+          },
+          "firstName": {
+            "default": "Jackson"
+          },
+          "lastName": {
+            "default": "Blake"
+          },
+          "goalModifier": "none",
+          "assists": [
+            {
+              "playerId": 8475791,
+              "name": {
+                "default": "T. Hall"
+              },
+              "assistsToDate": 6
+            },
+            {
+              "playerId": 8482702,
+              "name": {
+                "default": "L. Stankoven"
+              },
+              "assistsToDate": 13
+            }
+          ],
+          "mugshot": "https://assets.nhle.com/mugs/nhl/20262027/CAR/8482809.png",
+          "teamAbbrev": "CAR",
+          "goalsToDate": 7,
+          "awayScore": 2,
+          "homeScore": 1,
+          "strength": "ev",
+          "highlightClipSharingUrl": "https://nhl.com/video/car-nyr-blake-scores-goal-against-dylan-garand-6408739651112",
+          "highlightClip": 6408739651112,
+          "highlightClipFr": 6408738949112,
+          "discreteClip": 6408741391112,
+          "discreteClipFr": 6408739650112
         }
       ]
     },
@@ -1327,7 +1439,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "2.77"
+            "value": "2.81"
           },
           {
             "providerId": 6,
@@ -1335,7 +1447,7 @@
           },
           {
             "providerId": 8,
-            "value": "+176"
+            "value": "+177"
           },
           {
             "providerId": 9,
@@ -1362,7 +1474,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "1.45"
+            "value": "1.44"
           },
           {
             "providerId": 6,
@@ -1370,7 +1482,7 @@
           },
           {
             "providerId": 8,
-            "value": "-219"
+            "value": "-220"
           },
           {
             "providerId": 9,
@@ -1767,7 +1879,7 @@
           },
           {
             "providerId": 3,
-            "value": "2.87"
+            "value": "2.90"
           },
           {
             "providerId": 7,
@@ -1775,11 +1887,11 @@
           },
           {
             "providerId": 8,
-            "value": "+189"
+            "value": "+191"
           },
           {
             "providerId": 6,
-            "value": "2.80"
+            "value": "2.95"
           },
           {
             "providerId": 10,
@@ -1810,11 +1922,11 @@
           },
           {
             "providerId": 8,
-            "value": "-238"
+            "value": "-240"
           },
           {
             "providerId": 6,
-            "value": "1.44"
+            "value": "1.40"
           },
           {
             "providerId": 10,
@@ -2010,7 +2122,7 @@
           },
           {
             "providerId": 8,
-            "value": "-106"
+            "value": "-105"
           },
           {
             "providerId": 6,
@@ -8754,7 +8866,7 @@
               "abbreviation": "IR"
             },
             "type": "Upper Body",
-            "returnDate": "2026-12-01"
+            "returnDate": "2026-12-06"
           }
         },
         {
@@ -12392,7 +12504,7 @@
               "description": "OUT",
               "abbreviation": "OUT"
             },
-            "type": "Undisclosed",
+            "type": "Lower Body",
             "returnDate": "2026-11-25"
           }
         }
@@ -12402,6 +12514,627 @@
       "id": "4",
       "displayName": "Chicago Blackhawks",
       "injuries": [
+        {
+          "id": "600738",
+          "longComment": "Kaiser won't be eligible to return until Chicago hosts Minnesota on Nov. 29. He has contributed two goals, five assists, 19 shots on net, 30 blocked shots and 20 hits in 23 appearances this season. With Kaiser unavailable, Kevin Korchinski will likely play against Vancouver on Sunday.",
+          "shortComment": "Kaiser was suspended for three games by the NHL Department of Player Safety on Sunday for an illegal check to the head against Calgary's Martin Pospisil (upper body) on Saturday.",
+          "status": "Suspension",
+          "date": "2026-11-22T18:51Z",
+          "athlete": {
+            "firstName": "Wyatt",
+            "lastName": "Kaiser",
+            "displayName": "Wyatt Kaiser",
+            "shortName": "W. Kaiser",
+            "links": [
+              {
+                "language": "en-US",
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nhl/player/_/id/4697717",
+                "text": "Player Card",
+                "shortText": "Player Card",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "stats",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nhl/player/stats/_/id/4697717/wyatt-kaiser",
+                "text": "Stats",
+                "shortText": "Stats",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "stats",
+                  "sportscenter",
+                  "app",
+                  "athlete"
+                ],
+                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4697717&section=stats",
+                "text": "Stats",
+                "shortText": "Stats",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "splits",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nhl/player/splits/_/id/4697717/wyatt-kaiser",
+                "text": "Splits",
+                "shortText": "Splits",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "gamelog",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nhl/player/gamelog/_/id/4697717/wyatt-kaiser",
+                "text": "Game Log",
+                "shortText": "Game Log",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "gamelog",
+                  "sportscenter",
+                  "app",
+                  "athlete"
+                ],
+                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4697717&section=gamelog",
+                "text": "Game Log",
+                "shortText": "Game Log",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "news",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nhl/player/news/_/id/4697717/wyatt-kaiser",
+                "text": "News",
+                "shortText": "News",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "news",
+                  "sportscenter",
+                  "app",
+                  "athlete"
+                ],
+                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4697717&section=news",
+                "text": "News",
+                "shortText": "News",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "bio",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nhl/player/bio/_/id/4697717/wyatt-kaiser",
+                "text": "Bio",
+                "shortText": "Bio",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "bio",
+                  "sportscenter",
+                  "app",
+                  "athlete"
+                ],
+                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4697717&section=bio",
+                "text": "Bio",
+                "shortText": "Bio",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "overview",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nhl/player/_/id/4697717/wyatt-kaiser",
+                "text": "Overview",
+                "shortText": "Overview",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "overview",
+                  "sportscenter",
+                  "app",
+                  "athlete"
+                ],
+                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4697717",
+                "text": "Overview",
+                "shortText": "Overview",
+                "isExternal": false,
+                "isPremium": false
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nhl/players/full/4697717.png",
+              "alt": "Wyatt Kaiser"
+            },
+            "position": {
+              "id": "4",
+              "name": "Defense",
+              "displayName": "Defense",
+              "abbreviation": "D",
+              "leaf": true
+            },
+            "team": {
+              "id": "4",
+              "uid": "s:70~l:90~t:4",
+              "slug": "chicago-blackhawks",
+              "name": "Blackhawks",
+              "abbreviation": "CHI",
+              "displayName": "Chicago Blackhawks",
+              "logos": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500/chi.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2024-07-02T15:51Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500-dark/chi.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "dark"
+                  ],
+                  "lastUpdated": "2024-07-02T15:46Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/chi.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard"
+                  ],
+                  "lastUpdated": "2024-07-02T15:51Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500-dark/scoreboard/chi.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard",
+                    "dark"
+                  ],
+                  "lastUpdated": "2024-07-02T15:46Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/e1595aca-83a9-f0b3-5621-0ef78e76d097/logos/primary_logo_on_white_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_white_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/e1595aca-83a9-f0b3-5621-0ef78e76d097/logos/primary_logo_on_black_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_black_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/e1595aca-83a9-f0b3-5621-0ef78e76d097/logos/primary_logo_on_primary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_primary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/e1595aca-83a9-f0b3-5621-0ef78e76d097/logos/primary_logo_on_secondary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_secondary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/e1595aca-83a9-f0b3-5621-0ef78e76d097/logos/primary_logo_black.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_black"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/e1595aca-83a9-f0b3-5621-0ef78e76d097/logos/primary_logo_white.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_white"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/e1595aca-83a9-f0b3-5621-0ef78e76d097/logos/secondary_logo_on_white_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_white_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/e1595aca-83a9-f0b3-5621-0ef78e76d097/logos/secondary_logo_on_black_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_black_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/e1595aca-83a9-f0b3-5621-0ef78e76d097/logos/secondary_logo_on_primary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_primary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/e1595aca-83a9-f0b3-5621-0ef78e76d097/logos/secondary_logo_on_secondary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_secondary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/e1595aca-83a9-f0b3-5621-0ef78e76d097/logos/secondary_logo_black.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_black"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/e1595aca-83a9-f0b3-5621-0ef78e76d097/logos/secondary_logo_white.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_white"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                }
+              ],
+              "links": [
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/_/name/chi/chicago-blackhawks",
+                  "text": "Clubhouse",
+                  "shortText": "Clubhouse",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "clubhouse",
+                    "mobile",
+                    "team"
+                  ],
+                  "href": "https://m.espn.com/nhl/clubhouse?teamId=4",
+                  "text": "Clubhouse",
+                  "shortText": "Clubhouse",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "roster",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/roster/_/name/chi/chicago-blackhawks",
+                  "text": "Roster",
+                  "shortText": "Roster",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "roster",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:4&section=roster",
+                  "text": "Roster",
+                  "shortText": "Roster",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "stats",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/stats/_/name/chi/chicago-blackhawks",
+                  "text": "Statistics",
+                  "shortText": "Statistics",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "stats",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:4&section=stats",
+                  "text": "Statistics",
+                  "shortText": "Statistics",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "schedule",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/schedule/_/name/chi",
+                  "text": "Schedule",
+                  "shortText": "Schedule",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "schedule",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:4&section=scores",
+                  "text": "Schedule",
+                  "shortText": "Schedule",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "photos",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/photos/_/name/chi",
+                  "text": "photos",
+                  "shortText": "photos",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "tickets",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.vividseats.com/chicago-blackhawks-tickets--sports-nhl-hockey/performer/160?wsUser=717",
+                  "text": "Tickets",
+                  "shortText": "Tickets",
+                  "isExternal": true,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "transactions",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/transactions/_/name/chi",
+                  "text": "Transactions",
+                  "shortText": "Transactions",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "injuries",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/injuries/_/name/chi",
+                  "text": "Injuries",
+                  "shortText": "Injuries",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "depthchart",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/line-combo/_/name/chi",
+                  "text": "Line Combo",
+                  "shortText": "Line Combo",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "depthchart",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:4&section=depthchart",
+                  "text": "Line Combo",
+                  "shortText": "Line Combo",
+                  "isExternal": false,
+                  "isPremium": false
+                }
+              ]
+            },
+            "notes": {
+              "items": [
+                {
+                  "id": "600738",
+                  "type": "news",
+                  "date": "2026-11-22T18:51Z",
+                  "headline": "Kaiser was suspended for three games by the NHL Department of Player Safety on Sunday for an illegal check to the head against Calgary's Martin Pospisil (upper body) on Saturday.",
+                  "text": "Kaiser won't be eligible to return until Chicago hosts Minnesota on Nov. 29. He has contributed two goals, five assists, 19 shots on net, 30 blocked shots and 20 hits in 23 appearances this season. With Kaiser unavailable, Kevin Korchinski will likely play against Vancouver on Sunday.",
+                  "source": "RotoWire",
+                  "injury": {
+                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/4697717/injuries/600738?lang=en&region=us"
+                  }
+                },
+                {
+                  "id": "600734",
+                  "type": "news",
+                  "date": "2026-11-22T18:46Z",
+                  "headline": "suspension",
+                  "text": "suspension",
+                  "source": "RotoWire",
+                  "injury": {
+                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/4697717/injuries/600734?lang=en&region=us"
+                  }
+                },
+                {
+                  "id": "600588",
+                  "type": "news",
+                  "date": "2026-11-22T03:06Z",
+                  "headline": "Kaiser will have a hearing Sunday in regards to his illegal check to the head of Martin Pospisil in Saturday's game versus the Flames.",
+                  "text": "Kaiser is set for a phone hearing, indicating a suspension of five games or less. The defenseman is likely looking at some missed time, while will open the door for Kevin Korchinski to get some playing time.",
+                  "source": "RotoWire"
+                }
+              ]
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "source": {
+            "id": "1",
+            "description": "basic/manual",
+            "state": "basic"
+          },
+          "type": {
+            "id": "17",
+            "name": "INJURY_STATUS_SUSPENSION",
+            "description": "Suspension",
+            "abbreviation": "SUSP"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "OUT",
+              "abbreviation": "OUT"
+            },
+            "type": "Suspension",
+            "returnDate": "2026-11-29"
+          }
+        },
         {
           "id": "600690",
           "longComment": "Chicago recalled Dominic Toninato from AHL Rockford in a corresponding move. Bedard is poised to undergo shoulder surgery, and a timeline for his return will be revealed after the procedure. In 15 appearances this season, he has registered seven goals, 18 points, 44 shots on net, 12 hits and seven blocked shots.",
@@ -27216,7 +27949,7 @@
             },
             "type": "Knee",
             "side": "Left",
-            "returnDate": "2026-11-27"
+            "returnDate": "2026-11-25"
           }
         },
         {
@@ -27820,7 +28553,7 @@
             "type": "Neck",
             "detail": "Surgery",
             "side": "Not Specified",
-            "returnDate": "2026-11-28"
+            "returnDate": "2026-12-12"
           }
         }
       ]
