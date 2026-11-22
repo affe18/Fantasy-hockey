@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T20:57:55.772585+00:00",
+  "updatedAt": "2026-11-22T21:42:34.770996+00:00",
   "season": "current",
   "sourceStatus": {
     "nhlStats": false,
@@ -502,7 +502,7 @@
           "sequenceNumber": 405
         }
       ],
-      "gameState": "FUT",
+      "gameState": "PRE",
       "gameScheduleState": "OK",
       "awayTeam": {
         "id": 7,
@@ -515,19 +515,19 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "2.81"
+            "value": "2.67"
           },
           {
             "providerId": 6,
-            "value": "2.64"
+            "value": "2.45"
           },
           {
             "providerId": 8,
-            "value": "+177"
+            "value": "+172"
           },
           {
             "providerId": 9,
-            "value": "+180"
+            "value": "+170"
           },
           {
             "providerId": 7,
@@ -550,19 +550,19 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "1.44"
-          },
-          {
-            "providerId": 6,
             "value": "1.48"
           },
           {
+            "providerId": 6,
+            "value": "1.55"
+          },
+          {
             "providerId": 8,
-            "value": "-220"
+            "value": "-211"
           },
           {
             "providerId": 9,
-            "value": "-218"
+            "value": "-205"
           },
           {
             "providerId": 7,
@@ -759,7 +759,7 @@
           },
           {
             "providerId": 3,
-            "value": "2.04"
+            "value": "2.01"
           },
           {
             "providerId": 10,
@@ -794,7 +794,7 @@
           },
           {
             "providerId": 3,
-            "value": "1.81"
+            "value": "1.83"
           },
           {
             "providerId": 10,
@@ -955,7 +955,7 @@
           },
           {
             "providerId": 3,
-            "value": "2.83"
+            "value": "2.87"
           },
           {
             "providerId": 7,
@@ -990,7 +990,7 @@
           },
           {
             "providerId": 3,
-            "value": "1.43"
+            "value": "1.42"
           },
           {
             "providerId": 7,
@@ -1151,7 +1151,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "1.88"
+            "value": "1.89"
           },
           {
             "providerId": 9,
@@ -1186,7 +1186,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "1.96"
+            "value": "1.94"
           },
           {
             "providerId": 9,
@@ -1802,7 +1802,7 @@
           "sequenceNumber": 405
         }
       ],
-      "gameState": "FUT",
+      "gameState": "PRE",
       "gameScheduleState": "OK",
       "awayTeam": {
         "id": 7,
@@ -1815,19 +1815,19 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "2.81"
+            "value": "2.67"
           },
           {
             "providerId": 6,
-            "value": "2.64"
+            "value": "2.45"
           },
           {
             "providerId": 8,
-            "value": "+177"
+            "value": "+172"
           },
           {
             "providerId": 9,
-            "value": "+180"
+            "value": "+170"
           },
           {
             "providerId": 7,
@@ -1850,19 +1850,19 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "1.44"
-          },
-          {
-            "providerId": 6,
             "value": "1.48"
           },
           {
+            "providerId": 6,
+            "value": "1.55"
+          },
+          {
             "providerId": 8,
-            "value": "-220"
+            "value": "-211"
           },
           {
             "providerId": 9,
-            "value": "-218"
+            "value": "-205"
           },
           {
             "providerId": 7,
@@ -2059,7 +2059,7 @@
           },
           {
             "providerId": 3,
-            "value": "2.04"
+            "value": "2.01"
           },
           {
             "providerId": 10,
@@ -2094,7 +2094,7 @@
           },
           {
             "providerId": 3,
-            "value": "1.81"
+            "value": "1.83"
           },
           {
             "providerId": 10,
@@ -2255,7 +2255,7 @@
           },
           {
             "providerId": 3,
-            "value": "2.83"
+            "value": "2.87"
           },
           {
             "providerId": 7,
@@ -2290,7 +2290,7 @@
           },
           {
             "providerId": 3,
-            "value": "1.43"
+            "value": "1.42"
           },
           {
             "providerId": 7,
@@ -2451,7 +2451,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "1.88"
+            "value": "1.89"
           },
           {
             "providerId": 9,
@@ -2486,7 +2486,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "1.96"
+            "value": "1.94"
           },
           {
             "providerId": 9,
@@ -5609,11 +5609,11 @@
       "displayName": "Anaheim Ducks",
       "injuries": [
         {
-          "id": "600597",
-          "longComment": "day-to-day",
-          "shortComment": "day-to-day",
+          "id": "600773",
+          "longComment": "Carlsson didn't participate in Sunday's practice after getting injured in Saturday's 3-2 loss to Utah. He might not be available for Monday's matchup against Seattle. Carlsson has registered seven goals, 29 points and 41 shots on net in 24 outings this season.",
+          "shortComment": "Carlsson (upper body) is day-to-day, according to Eric Stephens of The Athletic on Sunday.",
           "status": "Day-To-Day",
-          "date": "2026-11-22T04:05Z",
+          "date": "2026-11-22T21:11Z",
           "athlete": {
             "firstName": "Leo",
             "lastName": "Carlsson",
@@ -6170,6 +6170,17 @@
             },
             "notes": {
               "items": [
+                {
+                  "id": "600773",
+                  "type": "news",
+                  "date": "2026-11-22T21:11Z",
+                  "headline": "Carlsson (upper body) is day-to-day, according to Eric Stephens of The Athletic on Sunday.",
+                  "text": "Carlsson didn't participate in Sunday's practice after getting injured in Saturday's 3-2 loss to Utah. He might not be available for Monday's matchup against Seattle. Carlsson has registered seven goals, 29 points and 41 shots on net in 24 outings this season.",
+                  "source": "RotoWire",
+                  "injury": {
+                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/5149153/injuries/600773?lang=en&region=us"
+                  }
+                },
                 {
                   "id": "600597",
                   "type": "news",
@@ -13485,10 +13496,10 @@
               ]
             },
             "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
+              "id": "5",
+              "name": "Suspended",
+              "type": "suspended",
+              "abbreviation": "Suspended"
             }
           },
           "source": {
@@ -21570,6 +21581,596 @@
             },
             "type": "Lower Body",
             "returnDate": "2026-11-27"
+          }
+        },
+        {
+          "id": "595599",
+          "longComment": "The Stars placed Duchene on long-term injured reserve just before the start of the 2026-27 campaign. It remains unclear when he will return, but his new timeline could keep him out until at least mid-January. Duchene posted 16 goals, 45 points and 89 shots on net in 57 regular-season appearances for Dallas in 2025-26.",
+          "shortComment": "Duchene will be out for approximately three months after undergoing surgery to repair a core injury, the team announced Monday.",
+          "status": "Injured Reserve",
+          "date": "2026-10-12T16:46Z",
+          "athlete": {
+            "firstName": "Matt",
+            "lastName": "Duchene",
+            "displayName": "Matt Duchene",
+            "shortName": "M. Duchene",
+            "links": [
+              {
+                "language": "en-US",
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nhl/player/_/id/5161",
+                "text": "Player Card",
+                "shortText": "Player Card",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "stats",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nhl/player/stats/_/id/5161/matt-duchene",
+                "text": "Stats",
+                "shortText": "Stats",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "stats",
+                  "sportscenter",
+                  "app",
+                  "athlete"
+                ],
+                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:5161&section=stats",
+                "text": "Stats",
+                "shortText": "Stats",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "splits",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nhl/player/splits/_/id/5161/matt-duchene",
+                "text": "Splits",
+                "shortText": "Splits",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "gamelog",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nhl/player/gamelog/_/id/5161/matt-duchene",
+                "text": "Game Log",
+                "shortText": "Game Log",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "gamelog",
+                  "sportscenter",
+                  "app",
+                  "athlete"
+                ],
+                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:5161&section=gamelog",
+                "text": "Game Log",
+                "shortText": "Game Log",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "news",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nhl/player/news/_/id/5161/matt-duchene",
+                "text": "News",
+                "shortText": "News",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "news",
+                  "sportscenter",
+                  "app",
+                  "athlete"
+                ],
+                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:5161&section=news",
+                "text": "News",
+                "shortText": "News",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "bio",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nhl/player/bio/_/id/5161/matt-duchene",
+                "text": "Bio",
+                "shortText": "Bio",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "bio",
+                  "sportscenter",
+                  "app",
+                  "athlete"
+                ],
+                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:5161&section=bio",
+                "text": "Bio",
+                "shortText": "Bio",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "overview",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nhl/player/_/id/5161/matt-duchene",
+                "text": "Overview",
+                "shortText": "Overview",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "overview",
+                  "sportscenter",
+                  "app",
+                  "athlete"
+                ],
+                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:5161",
+                "text": "Overview",
+                "shortText": "Overview",
+                "isExternal": false,
+                "isPremium": false
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nhl/players/full/5161.png",
+              "alt": "Matt Duchene"
+            },
+            "position": {
+              "id": "1",
+              "name": "Center",
+              "displayName": "Center",
+              "abbreviation": "C",
+              "leaf": true
+            },
+            "team": {
+              "id": "9",
+              "uid": "s:70~l:90~t:9",
+              "slug": "dallas-stars",
+              "name": "Stars",
+              "abbreviation": "DAL",
+              "displayName": "Dallas Stars",
+              "logos": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500/dal.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2024-07-02T15:51Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500-dark/dal.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "dark"
+                  ],
+                  "lastUpdated": "2023-08-31T21:20Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/dal.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard"
+                  ],
+                  "lastUpdated": "2024-07-02T15:51Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500-dark/scoreboard/dal.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard",
+                    "dark"
+                  ],
+                  "lastUpdated": "2023-08-31T21:19Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/165c24ec-4c6b-36f2-b276-3169cf6ab8f7/logos/primary_logo_on_white_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_white_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/165c24ec-4c6b-36f2-b276-3169cf6ab8f7/logos/primary_logo_on_black_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_black_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/165c24ec-4c6b-36f2-b276-3169cf6ab8f7/logos/primary_logo_on_primary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_primary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/165c24ec-4c6b-36f2-b276-3169cf6ab8f7/logos/primary_logo_on_secondary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_secondary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/165c24ec-4c6b-36f2-b276-3169cf6ab8f7/logos/primary_logo_black.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_black"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/165c24ec-4c6b-36f2-b276-3169cf6ab8f7/logos/primary_logo_white.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_white"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/165c24ec-4c6b-36f2-b276-3169cf6ab8f7/logos/secondary_logo_on_white_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_white_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/165c24ec-4c6b-36f2-b276-3169cf6ab8f7/logos/secondary_logo_on_black_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_black_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/165c24ec-4c6b-36f2-b276-3169cf6ab8f7/logos/secondary_logo_on_primary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_primary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/165c24ec-4c6b-36f2-b276-3169cf6ab8f7/logos/secondary_logo_on_secondary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_secondary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/165c24ec-4c6b-36f2-b276-3169cf6ab8f7/logos/secondary_logo_black.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_black"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/165c24ec-4c6b-36f2-b276-3169cf6ab8f7/logos/secondary_logo_white.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_white"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                }
+              ],
+              "links": [
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/_/name/dal/dallas-stars",
+                  "text": "Clubhouse",
+                  "shortText": "Clubhouse",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "clubhouse",
+                    "mobile",
+                    "team"
+                  ],
+                  "href": "https://m.espn.com/nhl/clubhouse?teamId=9",
+                  "text": "Clubhouse",
+                  "shortText": "Clubhouse",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "roster",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/roster/_/name/dal/dallas-stars",
+                  "text": "Roster",
+                  "shortText": "Roster",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "roster",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:9&section=roster",
+                  "text": "Roster",
+                  "shortText": "Roster",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "stats",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/stats/_/name/dal/dallas-stars",
+                  "text": "Statistics",
+                  "shortText": "Statistics",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "stats",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:9&section=stats",
+                  "text": "Statistics",
+                  "shortText": "Statistics",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "schedule",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/schedule/_/name/dal",
+                  "text": "Schedule",
+                  "shortText": "Schedule",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "schedule",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:9&section=scores",
+                  "text": "Schedule",
+                  "shortText": "Schedule",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "photos",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/photos/_/name/dal",
+                  "text": "photos",
+                  "shortText": "photos",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "tickets",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.vividseats.com/dallas-stars-tickets--sports-nhl-hockey/performer/216?wsUser=717",
+                  "text": "Tickets",
+                  "shortText": "Tickets",
+                  "isExternal": true,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "transactions",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/transactions/_/name/dal",
+                  "text": "Transactions",
+                  "shortText": "Transactions",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "injuries",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/injuries/_/name/dal",
+                  "text": "Injuries",
+                  "shortText": "Injuries",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "depthchart",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/line-combo/_/name/dal",
+                  "text": "Line Combo",
+                  "shortText": "Line Combo",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "depthchart",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:9&section=depthchart",
+                  "text": "Line Combo",
+                  "shortText": "Line Combo",
+                  "isExternal": false,
+                  "isPremium": false
+                }
+              ]
+            },
+            "notes": {
+              "items": []
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "source": {
+            "id": "1",
+            "description": "basic/manual",
+            "state": "basic"
+          },
+          "type": {
+            "id": "5",
+            "name": "INJURY_STATUS_IR",
+            "description": "Injured Reserve",
+            "abbreviation": "IR"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "IR-LT",
+              "abbreviation": "IR-LT"
+            },
+            "type": "Abdomen",
+            "returnDate": "2027-01-12"
           }
         }
       ]
@@ -56961,11 +57562,11 @@
       "displayName": "Tampa Bay Lightning",
       "injuries": [
         {
-          "id": "600771",
-          "longComment": "out",
-          "shortComment": "out",
+          "id": "600772",
+          "longComment": "Girgensons will miss his second straight game, but he might be ready to return against Carolina on Wednesday. He has contributed one goal, three assists, 26 shots on net, 15 blocked shots and 56 hits in 18 appearances this season.",
+          "shortComment": "Girgensons (upper body) won't play against Buffalo on Sunday, per Benjamin Pierce of the Lightning's official site.",
           "status": "Out",
-          "date": "2026-11-22T20:50Z",
+          "date": "2026-11-22T20:52Z",
           "athlete": {
             "firstName": "Zemgus",
             "lastName": "Girgensons",
@@ -57522,6 +58123,17 @@
             },
             "notes": {
               "items": [
+                {
+                  "id": "600772",
+                  "type": "news",
+                  "date": "2026-11-22T20:52Z",
+                  "headline": "Girgensons (upper body) won't play against Buffalo on Sunday, per Benjamin Pierce of the Lightning's official site.",
+                  "text": "Girgensons will miss his second straight game, but he might be ready to return against Carolina on Wednesday. He has contributed one goal, three assists, 26 shots on net, 15 blocked shots and 56 hits in 18 appearances this season.",
+                  "source": "RotoWire",
+                  "injury": {
+                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/2968829/injuries/600772?lang=en&region=us"
+                  }
+                },
                 {
                   "id": "600771",
                   "type": "news",
