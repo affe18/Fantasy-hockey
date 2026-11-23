@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T02:55:11.879197+00:00",
+  "updatedAt": "2026-11-23T04:00:00.396735+00:00",
   "season": "current",
   "sourceStatus": {
     "nhlStats": false,
@@ -965,7 +965,7 @@
           "sequenceNumber": 437
         }
       ],
-      "gameState": "CRIT",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "awayTeam": {
         "id": 22,
@@ -983,11 +983,14 @@
           "default": "Blues"
         },
         "abbrev": "STL",
-        "score": 4,
+        "score": 5,
         "sog": 27,
         "logo": "https://assets.nhle.com/logos/nhl/svg/STL_light.svg"
       },
       "gameCenterLink": "/gamecenter/edm-vs-stl/2026/11/22/2026020375",
+      "threeMinRecap": "/video/edm-at-stl-recap-6408751698112",
+      "threeMinRecapFr": "/fr/video/edm-vs-stl-22-11-2026-resume-6408749933112",
+      "condensedGame": "/video/edm-at-stl-condensed-game-6408751495112",
       "clock": {
         "timeRemaining": "00:00",
         "secondsRemaining": 0,
@@ -1001,6 +1004,9 @@
         "number": 5,
         "periodType": "SO",
         "maxRegulationPeriods": 3
+      },
+      "gameOutcome": {
+        "lastPeriodType": "SO"
       },
       "goals": [
         {
@@ -1371,6 +1377,38 @@
           "highlightClipFr": 6408748734112,
           "discreteClip": 6408750391112,
           "discreteClipFr": 6408749826112
+        },
+        {
+          "period": 5,
+          "periodDescriptor": {
+            "number": 5,
+            "periodType": "SO",
+            "maxRegulationPeriods": 3
+          },
+          "timeInPeriod": "00:00",
+          "playerId": 8482745,
+          "name": {
+            "default": "M. McTavish"
+          },
+          "firstName": {
+            "default": "Mason"
+          },
+          "lastName": {
+            "default": "McTavish"
+          },
+          "goalModifier": "none",
+          "assists": [],
+          "mugshot": "https://assets.nhle.com/mugs/nhl/20262027/STL/8482745.png",
+          "teamAbbrev": "STL",
+          "awayScore": 4,
+          "homeScore": 5,
+          "strength": "ev",
+          "highlightClipSharingUrl": "https://nhl.com/video/mctavish-scores-shootout-winner-against-oilers-6408751390112",
+          "highlightClipSharingUrlFr": "https://nhl.com/fr/video/mctavish-marque-le-but-decisif-en-tir-de-barrage-contre-d-edmonton-6408751687112",
+          "highlightClip": 6408751390112,
+          "highlightClipFr": 6408751687112,
+          "discreteClip": 6408751106112,
+          "discreteClipFr": 6408751389112
         }
       ]
     },
@@ -1412,7 +1450,7 @@
           "sequenceNumber": 397
         }
       ],
-      "gameState": "FINAL",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "awayTeam": {
         "id": 5,
@@ -1438,6 +1476,7 @@
       "threeMinRecap": "/video/pit-at-dal-recap-6408749632112",
       "threeMinRecapFr": "/fr/video/pit-vs-dal-22-11-2026-resume-6408748953112",
       "condensedGame": "/video/pit-at-dal-condensed-game-6408751095112",
+      "condensedGameFr": "/fr/video/match-condense-penguins-stars-22-11-2026-6408750998112",
       "clock": {
         "timeRemaining": "00:00",
         "secondsRemaining": 0,
@@ -1534,7 +1573,7 @@
           "sequenceNumber": 267
         }
       ],
-      "gameState": "LIVE",
+      "gameState": "FINAL",
       "gameScheduleState": "OK",
       "awayTeam": {
         "id": 16,
@@ -1542,8 +1581,8 @@
           "default": "Blackhawks"
         },
         "abbrev": "CHI",
-        "score": 5,
-        "sog": 20,
+        "score": 6,
+        "sog": 30,
         "logo": "https://assets.nhle.com/logos/nhl/svg/CHI_light.svg"
       },
       "homeTeam": {
@@ -1553,23 +1592,26 @@
         },
         "abbrev": "VAN",
         "score": 3,
-        "sog": 20,
+        "sog": 25,
         "logo": "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg"
       },
       "gameCenterLink": "/gamecenter/chi-vs-van/2026/11/22/2026020377",
       "clock": {
-        "timeRemaining": "14:06",
-        "secondsRemaining": 846,
+        "timeRemaining": "00:00",
+        "secondsRemaining": 0,
         "running": false,
-        "inIntermission": true
+        "inIntermission": false
       },
       "neutralSite": false,
       "venueTimezone": "America/Vancouver",
-      "period": 2,
+      "period": 3,
       "periodDescriptor": {
-        "number": 2,
+        "number": 3,
         "periodType": "REG",
         "maxRegulationPeriods": 3
+      },
+      "gameOutcome": {
+        "lastPeriodType": "REG"
       },
       "goals": [
         {
@@ -1927,7 +1969,62 @@
           "goalsToDate": 8,
           "awayScore": 5,
           "homeScore": 3,
-          "strength": "ev"
+          "strength": "ev",
+          "highlightClipSharingUrl": "https://nhl.com/video/chi-van-debrusk-scores-goal-against-drew-commesso-6408749455112",
+          "highlightClipSharingUrlFr": "https://nhl.com/fr/video/chi-van-debrusk-marque-un-but-contre-drew-commesso-6408750815112",
+          "highlightClip": 6408749455112,
+          "highlightClipFr": 6408750815112,
+          "discreteClip": 6408750022112,
+          "discreteClipFr": 6408751101112
+        },
+        {
+          "period": 3,
+          "periodDescriptor": {
+            "number": 3,
+            "periodType": "REG",
+            "maxRegulationPeriods": 3
+          },
+          "timeInPeriod": "11:07",
+          "playerId": 8484390,
+          "name": {
+            "default": "R. Kantserov"
+          },
+          "firstName": {
+            "default": "Roman"
+          },
+          "lastName": {
+            "default": "Kantserov"
+          },
+          "goalModifier": "none",
+          "assists": [
+            {
+              "playerId": 8477479,
+              "name": {
+                "default": "T. Bertuzzi"
+              },
+              "assistsToDate": 8
+            },
+            {
+              "playerId": 8474141,
+              "name": {
+                "default": "P. Kane"
+              },
+              "assistsToDate": 15
+            }
+          ],
+          "mugshot": "https://assets.nhle.com/mugs/nhl/20262027/CHI/8484390.png",
+          "teamAbbrev": "CHI",
+          "goalsToDate": 13,
+          "goalInGame": 3,
+          "awayScore": 6,
+          "homeScore": 3,
+          "strength": "pp",
+          "highlightClipSharingUrl": "https://nhl.com/video/chi-van-kantserov-scores-ppg-against-kevin-lankinen-6408750134112",
+          "highlightClipSharingUrlFr": "https://nhl.com/fr/video/chi-van-kantserov-marque-un-but-en-a-n-contre-kevin-lankinen-6408750632112",
+          "highlightClip": 6408750134112,
+          "highlightClipFr": 6408750632112,
+          "discreteClip": 6408750848112,
+          "discreteClipFr": 6408749059112
         }
       ]
     }
@@ -2888,7 +2985,7 @@
           "sequenceNumber": 437
         }
       ],
-      "gameState": "CRIT",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "awayTeam": {
         "id": 22,
@@ -2906,11 +3003,14 @@
           "default": "Blues"
         },
         "abbrev": "STL",
-        "score": 4,
+        "score": 5,
         "sog": 27,
         "logo": "https://assets.nhle.com/logos/nhl/svg/STL_light.svg"
       },
       "gameCenterLink": "/gamecenter/edm-vs-stl/2026/11/22/2026020375",
+      "threeMinRecap": "/video/edm-at-stl-recap-6408751698112",
+      "threeMinRecapFr": "/fr/video/edm-vs-stl-22-11-2026-resume-6408749933112",
+      "condensedGame": "/video/edm-at-stl-condensed-game-6408751495112",
       "clock": {
         "timeRemaining": "00:00",
         "secondsRemaining": 0,
@@ -2924,6 +3024,9 @@
         "number": 5,
         "periodType": "SO",
         "maxRegulationPeriods": 3
+      },
+      "gameOutcome": {
+        "lastPeriodType": "SO"
       },
       "goals": [
         {
@@ -3294,6 +3397,38 @@
           "highlightClipFr": 6408748734112,
           "discreteClip": 6408750391112,
           "discreteClipFr": 6408749826112
+        },
+        {
+          "period": 5,
+          "periodDescriptor": {
+            "number": 5,
+            "periodType": "SO",
+            "maxRegulationPeriods": 3
+          },
+          "timeInPeriod": "00:00",
+          "playerId": 8482745,
+          "name": {
+            "default": "M. McTavish"
+          },
+          "firstName": {
+            "default": "Mason"
+          },
+          "lastName": {
+            "default": "McTavish"
+          },
+          "goalModifier": "none",
+          "assists": [],
+          "mugshot": "https://assets.nhle.com/mugs/nhl/20262027/STL/8482745.png",
+          "teamAbbrev": "STL",
+          "awayScore": 4,
+          "homeScore": 5,
+          "strength": "ev",
+          "highlightClipSharingUrl": "https://nhl.com/video/mctavish-scores-shootout-winner-against-oilers-6408751390112",
+          "highlightClipSharingUrlFr": "https://nhl.com/fr/video/mctavish-marque-le-but-decisif-en-tir-de-barrage-contre-d-edmonton-6408751687112",
+          "highlightClip": 6408751390112,
+          "highlightClipFr": 6408751687112,
+          "discreteClip": 6408751106112,
+          "discreteClipFr": 6408751389112
         }
       ]
     },
@@ -3335,7 +3470,7 @@
           "sequenceNumber": 397
         }
       ],
-      "gameState": "FINAL",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "awayTeam": {
         "id": 5,
@@ -3361,6 +3496,7 @@
       "threeMinRecap": "/video/pit-at-dal-recap-6408749632112",
       "threeMinRecapFr": "/fr/video/pit-vs-dal-22-11-2026-resume-6408748953112",
       "condensedGame": "/video/pit-at-dal-condensed-game-6408751095112",
+      "condensedGameFr": "/fr/video/match-condense-penguins-stars-22-11-2026-6408750998112",
       "clock": {
         "timeRemaining": "00:00",
         "secondsRemaining": 0,
@@ -3457,7 +3593,7 @@
           "sequenceNumber": 267
         }
       ],
-      "gameState": "LIVE",
+      "gameState": "FINAL",
       "gameScheduleState": "OK",
       "awayTeam": {
         "id": 16,
@@ -3465,8 +3601,8 @@
           "default": "Blackhawks"
         },
         "abbrev": "CHI",
-        "score": 5,
-        "sog": 20,
+        "score": 6,
+        "sog": 30,
         "logo": "https://assets.nhle.com/logos/nhl/svg/CHI_light.svg"
       },
       "homeTeam": {
@@ -3476,23 +3612,26 @@
         },
         "abbrev": "VAN",
         "score": 3,
-        "sog": 20,
+        "sog": 25,
         "logo": "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg"
       },
       "gameCenterLink": "/gamecenter/chi-vs-van/2026/11/22/2026020377",
       "clock": {
-        "timeRemaining": "14:06",
-        "secondsRemaining": 846,
+        "timeRemaining": "00:00",
+        "secondsRemaining": 0,
         "running": false,
-        "inIntermission": true
+        "inIntermission": false
       },
       "neutralSite": false,
       "venueTimezone": "America/Vancouver",
-      "period": 2,
+      "period": 3,
       "periodDescriptor": {
-        "number": 2,
+        "number": 3,
         "periodType": "REG",
         "maxRegulationPeriods": 3
+      },
+      "gameOutcome": {
+        "lastPeriodType": "REG"
       },
       "goals": [
         {
@@ -3850,7 +3989,62 @@
           "goalsToDate": 8,
           "awayScore": 5,
           "homeScore": 3,
-          "strength": "ev"
+          "strength": "ev",
+          "highlightClipSharingUrl": "https://nhl.com/video/chi-van-debrusk-scores-goal-against-drew-commesso-6408749455112",
+          "highlightClipSharingUrlFr": "https://nhl.com/fr/video/chi-van-debrusk-marque-un-but-contre-drew-commesso-6408750815112",
+          "highlightClip": 6408749455112,
+          "highlightClipFr": 6408750815112,
+          "discreteClip": 6408750022112,
+          "discreteClipFr": 6408751101112
+        },
+        {
+          "period": 3,
+          "periodDescriptor": {
+            "number": 3,
+            "periodType": "REG",
+            "maxRegulationPeriods": 3
+          },
+          "timeInPeriod": "11:07",
+          "playerId": 8484390,
+          "name": {
+            "default": "R. Kantserov"
+          },
+          "firstName": {
+            "default": "Roman"
+          },
+          "lastName": {
+            "default": "Kantserov"
+          },
+          "goalModifier": "none",
+          "assists": [
+            {
+              "playerId": 8477479,
+              "name": {
+                "default": "T. Bertuzzi"
+              },
+              "assistsToDate": 8
+            },
+            {
+              "playerId": 8474141,
+              "name": {
+                "default": "P. Kane"
+              },
+              "assistsToDate": 15
+            }
+          ],
+          "mugshot": "https://assets.nhle.com/mugs/nhl/20262027/CHI/8484390.png",
+          "teamAbbrev": "CHI",
+          "goalsToDate": 13,
+          "goalInGame": 3,
+          "awayScore": 6,
+          "homeScore": 3,
+          "strength": "pp",
+          "highlightClipSharingUrl": "https://nhl.com/video/chi-van-kantserov-scores-ppg-against-kevin-lankinen-6408750134112",
+          "highlightClipSharingUrlFr": "https://nhl.com/fr/video/chi-van-kantserov-marque-un-but-en-a-n-contre-kevin-lankinen-6408750632112",
+          "highlightClip": 6408750134112,
+          "highlightClipFr": 6408750632112,
+          "discreteClip": 6408750848112,
+          "discreteClipFr": 6408749059112
         }
       ]
     }
@@ -4043,7 +4237,7 @@
     },
     {
       "conferenceAbbrev": "W",
-      "conferenceHomeSequence": 5,
+      "conferenceHomeSequence": 6,
       "conferenceL10Sequence": 7,
       "conferenceName": "Western",
       "conferenceRoadSequence": 2,
@@ -4056,12 +4250,12 @@
       "divisionRoadSequence": 1,
       "divisionSequence": 1,
       "gameTypeId": 2,
-      "gamesPlayed": 25,
-      "goalDifferential": 25,
-      "goalDifferentialPctg": 1.0,
-      "goalAgainst": 72,
-      "goalFor": 97,
-      "goalsForPctg": 3.88,
+      "gamesPlayed": 26,
+      "goalDifferential": 24,
+      "goalDifferentialPctg": 0.923077,
+      "goalAgainst": 77,
+      "goalFor": 101,
+      "goalsForPctg": 3.884615,
       "homeGamesPlayed": 12,
       "homeGoalDifferential": 3,
       "homeGoalsAgainst": 40,
@@ -4075,8 +4269,8 @@
       "homeWins": 7,
       "l10GamesPlayed": 10,
       "l10GoalDifferential": 5,
-      "l10GoalsAgainst": 28,
-      "l10GoalsFor": 33,
+      "l10GoalsAgainst": 29,
+      "l10GoalsFor": 34,
       "l10Losses": 3,
       "l10OtLosses": 1,
       "l10Points": 13,
@@ -4084,37 +4278,37 @@
       "l10RegulationWins": 5,
       "l10Ties": 0,
       "l10Wins": 6,
-      "leagueHomeSequence": 11,
+      "leagueHomeSequence": 12,
       "leagueL10Sequence": 11,
       "leagueRoadSequence": 2,
       "leagueSequence": 3,
       "losses": 5,
-      "otLosses": 3,
+      "otLosses": 4,
       "placeName": {
         "default": "Edmonton"
       },
-      "pointPctg": 0.74,
-      "points": 37,
-      "regulationPlusOtWinPctg": 0.64,
+      "pointPctg": 0.730769,
+      "points": 38,
+      "regulationPlusOtWinPctg": 0.615385,
       "regulationPlusOtWins": 16,
-      "regulationWinPctg": 0.56,
+      "regulationWinPctg": 0.538462,
       "regulationWins": 14,
-      "roadGamesPlayed": 13,
-      "roadGoalDifferential": 22,
-      "roadGoalsAgainst": 32,
-      "roadGoalsFor": 54,
+      "roadGamesPlayed": 14,
+      "roadGoalDifferential": 21,
+      "roadGoalsAgainst": 37,
+      "roadGoalsFor": 58,
       "roadLosses": 2,
-      "roadOtLosses": 1,
-      "roadPoints": 21,
+      "roadOtLosses": 2,
+      "roadPoints": 22,
       "roadRegulationPlusOtWins": 10,
       "roadRegulationWins": 10,
       "roadTies": 0,
       "roadWins": 10,
       "seasonId": 20262027,
-      "shootoutLosses": 2,
+      "shootoutLosses": 3,
       "shootoutWins": 1,
-      "streakCode": "L",
-      "streakCount": 2,
+      "streakCode": "OT",
+      "streakCount": 1,
       "teamName": {
         "default": "Edmonton Oilers",
         "fr": "Oilers d'Edmonton"
@@ -4130,7 +4324,7 @@
       "ties": 0,
       "waiversSequence": 30,
       "wildcardSequence": 0,
-      "winPctg": 0.68,
+      "winPctg": 0.653846,
       "wins": 17
     },
     {
@@ -4228,7 +4422,7 @@
     },
     {
       "conferenceAbbrev": "W",
-      "conferenceHomeSequence": 3,
+      "conferenceHomeSequence": 4,
       "conferenceL10Sequence": 6,
       "conferenceName": "Western",
       "conferenceRoadSequence": 3,
@@ -4269,7 +4463,7 @@
       "l10RegulationWins": 4,
       "l10Ties": 0,
       "l10Wins": 5,
-      "leagueHomeSequence": 9,
+      "leagueHomeSequence": 10,
       "leagueL10Sequence": 10,
       "leagueRoadSequence": 6,
       "leagueSequence": 5,
@@ -4872,14 +5066,14 @@
     },
     {
       "conferenceAbbrev": "W",
-      "conferenceHomeSequence": 4,
+      "conferenceHomeSequence": 5,
       "conferenceL10Sequence": 3,
       "conferenceName": "Western",
       "conferenceRoadSequence": 6,
       "conferenceSequence": 6,
       "date": "2026-11-22",
       "divisionAbbrev": "C",
-      "divisionHomeSequence": 3,
+      "divisionHomeSequence": 4,
       "divisionL10Sequence": 3,
       "divisionName": "Central",
       "divisionRoadSequence": 3,
@@ -4913,7 +5107,7 @@
       "l10RegulationWins": 5,
       "l10Ties": 0,
       "l10Wins": 8,
-      "leagueHomeSequence": 10,
+      "leagueHomeSequence": 11,
       "leagueL10Sequence": 5,
       "leagueRoadSequence": 13,
       "leagueSequence": 12,
@@ -5056,6 +5250,98 @@
       "wins": 13
     },
     {
+      "conferenceAbbrev": "W",
+      "conferenceHomeSequence": 3,
+      "conferenceL10Sequence": 8,
+      "conferenceName": "Western",
+      "conferenceRoadSequence": 11,
+      "conferenceSequence": 7,
+      "date": "2026-11-22",
+      "divisionAbbrev": "C",
+      "divisionHomeSequence": 3,
+      "divisionL10Sequence": 6,
+      "divisionName": "Central",
+      "divisionRoadSequence": 7,
+      "divisionSequence": 5,
+      "gameTypeId": 2,
+      "gamesPlayed": 24,
+      "goalDifferential": 5,
+      "goalDifferentialPctg": 0.208333,
+      "goalAgainst": 77,
+      "goalFor": 82,
+      "goalsForPctg": 3.416667,
+      "homeGamesPlayed": 12,
+      "homeGoalDifferential": 7,
+      "homeGoalsAgainst": 38,
+      "homeGoalsFor": 45,
+      "homeLosses": 3,
+      "homeOtLosses": 1,
+      "homePoints": 17,
+      "homeRegulationPlusOtWins": 7,
+      "homeRegulationWins": 7,
+      "homeTies": 0,
+      "homeWins": 8,
+      "l10GamesPlayed": 10,
+      "l10GoalDifferential": 3,
+      "l10GoalsAgainst": 35,
+      "l10GoalsFor": 38,
+      "l10Losses": 3,
+      "l10OtLosses": 1,
+      "l10Points": 13,
+      "l10RegulationPlusOtWins": 4,
+      "l10RegulationWins": 4,
+      "l10Ties": 0,
+      "l10Wins": 6,
+      "leagueHomeSequence": 9,
+      "leagueL10Sequence": 13,
+      "leagueRoadSequence": 21,
+      "leagueSequence": 14,
+      "losses": 9,
+      "otLosses": 2,
+      "placeName": {
+        "default": "St. Louis"
+      },
+      "pointPctg": 0.583333,
+      "points": 28,
+      "regulationPlusOtWinPctg": 0.458333,
+      "regulationPlusOtWins": 11,
+      "regulationWinPctg": 0.458333,
+      "regulationWins": 11,
+      "roadGamesPlayed": 12,
+      "roadGoalDifferential": -2,
+      "roadGoalsAgainst": 39,
+      "roadGoalsFor": 37,
+      "roadLosses": 6,
+      "roadOtLosses": 1,
+      "roadPoints": 11,
+      "roadRegulationPlusOtWins": 4,
+      "roadRegulationWins": 4,
+      "roadTies": 0,
+      "roadWins": 5,
+      "seasonId": 20262027,
+      "shootoutLosses": 0,
+      "shootoutWins": 2,
+      "streakCode": "W",
+      "streakCount": 4,
+      "teamName": {
+        "default": "St. Louis Blues",
+        "fr": "Blues de St. Louis"
+      },
+      "teamCommonName": {
+        "default": "Blues"
+      },
+      "teamAbbrev": {
+        "default": "STL"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/STL_light.svg",
+      "teamLogoDark": "https://assets.nhle.com/logos/nhl/svg/STL_dark.svg",
+      "ties": 0,
+      "waiversSequence": 17,
+      "wildcardSequence": 2,
+      "winPctg": 0.541667,
+      "wins": 13
+    },
+    {
       "conferenceAbbrev": "E",
       "conferenceHomeSequence": 10,
       "conferenceL10Sequence": 5,
@@ -5099,9 +5385,9 @@
       "l10Ties": 0,
       "l10Wins": 5,
       "leagueHomeSequence": 22,
-      "leagueL10Sequence": 13,
+      "leagueL10Sequence": 12,
       "leagueRoadSequence": 9,
-      "leagueSequence": 14,
+      "leagueSequence": 15,
       "losses": 6,
       "otLosses": 5,
       "placeName": {
@@ -5193,7 +5479,7 @@
       "leagueHomeSequence": 4,
       "leagueL10Sequence": 14,
       "leagueRoadSequence": 26,
-      "leagueSequence": 15,
+      "leagueSequence": 16,
       "losses": 9,
       "otLosses": 1,
       "placeName": {
@@ -5245,14 +5531,14 @@
       "conferenceL10Sequence": 11,
       "conferenceName": "Western",
       "conferenceRoadSequence": 7,
-      "conferenceSequence": 7,
+      "conferenceSequence": 8,
       "date": "2026-11-22",
       "divisionAbbrev": "C",
       "divisionHomeSequence": 6,
       "divisionL10Sequence": 7,
       "divisionName": "Central",
       "divisionRoadSequence": 4,
-      "divisionSequence": 5,
+      "divisionSequence": 6,
       "gameTypeId": 2,
       "gamesPlayed": 24,
       "goalDifferential": -1,
@@ -5285,7 +5571,7 @@
       "leagueHomeSequence": 14,
       "leagueL10Sequence": 21,
       "leagueRoadSequence": 14,
-      "leagueSequence": 16,
+      "leagueSequence": 17,
       "losses": 9,
       "otLosses": 3,
       "placeName": {
@@ -5327,100 +5613,8 @@
       "teamLogoDark": "https://assets.nhle.com/logos/nhl/svg/UTA_dark.svg",
       "ties": 0,
       "waiversSequence": 16,
-      "wildcardSequence": 2,
-      "winPctg": 0.5,
-      "wins": 12
-    },
-    {
-      "conferenceAbbrev": "W",
-      "conferenceHomeSequence": 6,
-      "conferenceL10Sequence": 8,
-      "conferenceName": "Western",
-      "conferenceRoadSequence": 11,
-      "conferenceSequence": 8,
-      "date": "2026-11-22",
-      "divisionAbbrev": "C",
-      "divisionHomeSequence": 4,
-      "divisionL10Sequence": 6,
-      "divisionName": "Central",
-      "divisionRoadSequence": 7,
-      "divisionSequence": 6,
-      "gameTypeId": 2,
-      "gamesPlayed": 23,
-      "goalDifferential": 4,
-      "goalDifferentialPctg": 0.173913,
-      "goalAgainst": 73,
-      "goalFor": 77,
-      "goalsForPctg": 3.347826,
-      "homeGamesPlayed": 11,
-      "homeGoalDifferential": 6,
-      "homeGoalsAgainst": 34,
-      "homeGoalsFor": 40,
-      "homeLosses": 3,
-      "homeOtLosses": 1,
-      "homePoints": 15,
-      "homeRegulationPlusOtWins": 7,
-      "homeRegulationWins": 7,
-      "homeTies": 0,
-      "homeWins": 7,
-      "l10GamesPlayed": 10,
-      "l10GoalDifferential": 3,
-      "l10GoalsAgainst": 35,
-      "l10GoalsFor": 38,
-      "l10Losses": 3,
-      "l10OtLosses": 1,
-      "l10Points": 13,
-      "l10RegulationPlusOtWins": 5,
-      "l10RegulationWins": 5,
-      "l10Ties": 0,
-      "l10Wins": 6,
-      "leagueHomeSequence": 12,
-      "leagueL10Sequence": 12,
-      "leagueRoadSequence": 21,
-      "leagueSequence": 17,
-      "losses": 9,
-      "otLosses": 2,
-      "placeName": {
-        "default": "St. Louis"
-      },
-      "pointPctg": 0.565217,
-      "points": 26,
-      "regulationPlusOtWinPctg": 0.478261,
-      "regulationPlusOtWins": 11,
-      "regulationWinPctg": 0.478261,
-      "regulationWins": 11,
-      "roadGamesPlayed": 12,
-      "roadGoalDifferential": -2,
-      "roadGoalsAgainst": 39,
-      "roadGoalsFor": 37,
-      "roadLosses": 6,
-      "roadOtLosses": 1,
-      "roadPoints": 11,
-      "roadRegulationPlusOtWins": 4,
-      "roadRegulationWins": 4,
-      "roadTies": 0,
-      "roadWins": 5,
-      "seasonId": 20262027,
-      "shootoutLosses": 0,
-      "shootoutWins": 1,
-      "streakCode": "W",
-      "streakCount": 3,
-      "teamName": {
-        "default": "St. Louis Blues",
-        "fr": "Blues de St. Louis"
-      },
-      "teamCommonName": {
-        "default": "Blues"
-      },
-      "teamAbbrev": {
-        "default": "STL"
-      },
-      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/STL_light.svg",
-      "teamLogoDark": "https://assets.nhle.com/logos/nhl/svg/STL_dark.svg",
-      "ties": 0,
-      "waiversSequence": 17,
       "wildcardSequence": 3,
-      "winPctg": 0.521739,
+      "winPctg": 0.5,
       "wins": 12
     },
     {
@@ -5610,7 +5804,7 @@
     {
       "conferenceAbbrev": "W",
       "conferenceHomeSequence": 12,
-      "conferenceL10Sequence": 12,
+      "conferenceL10Sequence": 13,
       "conferenceName": "Western",
       "conferenceRoadSequence": 12,
       "conferenceSequence": 10,
@@ -5651,7 +5845,7 @@
       "l10Ties": 0,
       "l10Wins": 4,
       "leagueHomeSequence": 20,
-      "leagueL10Sequence": 22,
+      "leagueL10Sequence": 23,
       "leagueRoadSequence": 22,
       "leagueSequence": 20,
       "losses": 12,
@@ -5979,7 +6173,7 @@
     {
       "conferenceAbbrev": "W",
       "conferenceHomeSequence": 13,
-      "conferenceL10Sequence": 13,
+      "conferenceL10Sequence": 14,
       "conferenceName": "Western",
       "conferenceRoadSequence": 13,
       "conferenceSequence": 13,
@@ -6020,7 +6214,7 @@
       "l10Ties": 0,
       "l10Wins": 4,
       "leagueHomeSequence": 23,
-      "leagueL10Sequence": 23,
+      "leagueL10Sequence": 24,
       "leagueRoadSequence": 25,
       "leagueSequence": 24,
       "losses": 9,
@@ -6388,7 +6582,7 @@
       "l10Ties": 0,
       "l10Wins": 4,
       "leagueHomeSequence": 24,
-      "leagueL10Sequence": 24,
+      "leagueL10Sequence": 25,
       "leagueRoadSequence": 31,
       "leagueSequence": 28,
       "losses": 12,
@@ -6438,11 +6632,103 @@
     },
     {
       "conferenceAbbrev": "W",
+      "conferenceHomeSequence": 11,
+      "conferenceL10Sequence": 12,
+      "conferenceName": "Western",
+      "conferenceRoadSequence": 16,
+      "conferenceSequence": 14,
+      "date": "2026-11-22",
+      "divisionAbbrev": "C",
+      "divisionHomeSequence": 8,
+      "divisionL10Sequence": 8,
+      "divisionName": "Central",
+      "divisionRoadSequence": 8,
+      "divisionSequence": 8,
+      "gameTypeId": 2,
+      "gamesPlayed": 24,
+      "goalDifferential": -32,
+      "goalDifferentialPctg": -1.333333,
+      "goalAgainst": 96,
+      "goalFor": 64,
+      "goalsForPctg": 2.666667,
+      "homeGamesPlayed": 13,
+      "homeGoalDifferential": -7,
+      "homeGoalsAgainst": 44,
+      "homeGoalsFor": 37,
+      "homeLosses": 6,
+      "homeOtLosses": 1,
+      "homePoints": 13,
+      "homeRegulationPlusOtWins": 6,
+      "homeRegulationWins": 4,
+      "homeTies": 0,
+      "homeWins": 6,
+      "l10GamesPlayed": 10,
+      "l10GoalDifferential": -10,
+      "l10GoalsAgainst": 43,
+      "l10GoalsFor": 33,
+      "l10Losses": 5,
+      "l10OtLosses": 1,
+      "l10Points": 9,
+      "l10RegulationPlusOtWins": 4,
+      "l10RegulationWins": 2,
+      "l10Ties": 0,
+      "l10Wins": 4,
+      "leagueHomeSequence": 19,
+      "leagueL10Sequence": 22,
+      "leagueRoadSequence": 32,
+      "leagueSequence": 29,
+      "losses": 14,
+      "otLosses": 2,
+      "placeName": {
+        "default": "Chicago"
+      },
+      "pointPctg": 0.375,
+      "points": 18,
+      "regulationPlusOtWinPctg": 0.333333,
+      "regulationPlusOtWins": 8,
+      "regulationWinPctg": 0.208333,
+      "regulationWins": 5,
+      "roadGamesPlayed": 11,
+      "roadGoalDifferential": -25,
+      "roadGoalsAgainst": 52,
+      "roadGoalsFor": 27,
+      "roadLosses": 8,
+      "roadOtLosses": 1,
+      "roadPoints": 5,
+      "roadRegulationPlusOtWins": 2,
+      "roadRegulationWins": 1,
+      "roadTies": 0,
+      "roadWins": 2,
+      "seasonId": 20262027,
+      "shootoutLosses": 1,
+      "shootoutWins": 0,
+      "streakCode": "W",
+      "streakCount": 2,
+      "teamName": {
+        "default": "Chicago Blackhawks",
+        "fr": "Blackhawks de Chicago"
+      },
+      "teamCommonName": {
+        "default": "Blackhawks"
+      },
+      "teamAbbrev": {
+        "default": "CHI"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/CHI_light.svg",
+      "teamLogoDark": "https://assets.nhle.com/logos/nhl/svg/CHI_dark.svg",
+      "ties": 0,
+      "waiversSequence": 3,
+      "wildcardSequence": 8,
+      "winPctg": 0.333333,
+      "wins": 8
+    },
+    {
+      "conferenceAbbrev": "W",
       "conferenceHomeSequence": 15,
-      "conferenceL10Sequence": 14,
+      "conferenceL10Sequence": 15,
       "conferenceName": "Western",
       "conferenceRoadSequence": 8,
-      "conferenceSequence": 14,
+      "conferenceSequence": 15,
       "date": "2026-11-22",
       "divisionAbbrev": "P",
       "divisionHomeSequence": 7,
@@ -6480,9 +6766,9 @@
       "l10Ties": 0,
       "l10Wins": 4,
       "leagueHomeSequence": 31,
-      "leagueL10Sequence": 25,
+      "leagueL10Sequence": 26,
       "leagueRoadSequence": 18,
-      "leagueSequence": 29,
+      "leagueSequence": 30,
       "losses": 12,
       "otLosses": 2,
       "placeName": {
@@ -6524,100 +6810,8 @@
       "teamLogoDark": "https://assets.nhle.com/logos/nhl/svg/LAK_dark.svg",
       "ties": 0,
       "waiversSequence": 5,
-      "wildcardSequence": 8,
-      "winPctg": 0.333333,
-      "wins": 7
-    },
-    {
-      "conferenceAbbrev": "W",
-      "conferenceHomeSequence": 11,
-      "conferenceL10Sequence": 15,
-      "conferenceName": "Western",
-      "conferenceRoadSequence": 16,
-      "conferenceSequence": 15,
-      "date": "2026-11-22",
-      "divisionAbbrev": "C",
-      "divisionHomeSequence": 8,
-      "divisionL10Sequence": 8,
-      "divisionName": "Central",
-      "divisionRoadSequence": 8,
-      "divisionSequence": 8,
-      "gameTypeId": 2,
-      "gamesPlayed": 23,
-      "goalDifferential": -35,
-      "goalDifferentialPctg": -1.521739,
-      "goalAgainst": 93,
-      "goalFor": 58,
-      "goalsForPctg": 2.521739,
-      "homeGamesPlayed": 13,
-      "homeGoalDifferential": -7,
-      "homeGoalsAgainst": 44,
-      "homeGoalsFor": 37,
-      "homeLosses": 6,
-      "homeOtLosses": 1,
-      "homePoints": 13,
-      "homeRegulationPlusOtWins": 6,
-      "homeRegulationWins": 4,
-      "homeTies": 0,
-      "homeWins": 6,
-      "l10GamesPlayed": 10,
-      "l10GoalDifferential": -14,
-      "l10GoalsAgainst": 45,
-      "l10GoalsFor": 31,
-      "l10Losses": 5,
-      "l10OtLosses": 2,
-      "l10Points": 8,
-      "l10RegulationPlusOtWins": 3,
-      "l10RegulationWins": 1,
-      "l10Ties": 0,
-      "l10Wins": 3,
-      "leagueHomeSequence": 19,
-      "leagueL10Sequence": 26,
-      "leagueRoadSequence": 32,
-      "leagueSequence": 30,
-      "losses": 14,
-      "otLosses": 2,
-      "placeName": {
-        "default": "Chicago"
-      },
-      "pointPctg": 0.347826,
-      "points": 16,
-      "regulationPlusOtWinPctg": 0.304348,
-      "regulationPlusOtWins": 7,
-      "regulationWinPctg": 0.173913,
-      "regulationWins": 4,
-      "roadGamesPlayed": 10,
-      "roadGoalDifferential": -28,
-      "roadGoalsAgainst": 49,
-      "roadGoalsFor": 21,
-      "roadLosses": 8,
-      "roadOtLosses": 1,
-      "roadPoints": 3,
-      "roadRegulationPlusOtWins": 1,
-      "roadRegulationWins": 0,
-      "roadTies": 0,
-      "roadWins": 1,
-      "seasonId": 20262027,
-      "shootoutLosses": 1,
-      "shootoutWins": 0,
-      "streakCode": "W",
-      "streakCount": 1,
-      "teamName": {
-        "default": "Chicago Blackhawks",
-        "fr": "Blackhawks de Chicago"
-      },
-      "teamCommonName": {
-        "default": "Blackhawks"
-      },
-      "teamAbbrev": {
-        "default": "CHI"
-      },
-      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/CHI_light.svg",
-      "teamLogoDark": "https://assets.nhle.com/logos/nhl/svg/CHI_dark.svg",
-      "ties": 0,
-      "waiversSequence": 3,
       "wildcardSequence": 9,
-      "winPctg": 0.304348,
+      "winPctg": 0.333333,
       "wins": 7
     },
     {
@@ -6727,17 +6921,17 @@
       "divisionRoadSequence": 8,
       "divisionSequence": 8,
       "gameTypeId": 2,
-      "gamesPlayed": 25,
-      "goalDifferential": -37,
-      "goalDifferentialPctg": -1.48,
-      "goalAgainst": 108,
-      "goalFor": 71,
-      "goalsForPctg": 2.84,
-      "homeGamesPlayed": 11,
-      "homeGoalDifferential": -16,
-      "homeGoalsAgainst": 48,
-      "homeGoalsFor": 32,
-      "homeLosses": 9,
+      "gamesPlayed": 26,
+      "goalDifferential": -40,
+      "goalDifferentialPctg": -1.538462,
+      "goalAgainst": 114,
+      "goalFor": 74,
+      "goalsForPctg": 2.846154,
+      "homeGamesPlayed": 12,
+      "homeGoalDifferential": -19,
+      "homeGoalsAgainst": 54,
+      "homeGoalsFor": 35,
+      "homeLosses": 10,
       "homeOtLosses": 0,
       "homePoints": 4,
       "homeRegulationPlusOtWins": 1,
@@ -6745,9 +6939,9 @@
       "homeTies": 0,
       "homeWins": 2,
       "l10GamesPlayed": 10,
-      "l10GoalDifferential": -14,
-      "l10GoalsAgainst": 40,
-      "l10GoalsFor": 26,
+      "l10GoalDifferential": -15,
+      "l10GoalsAgainst": 42,
+      "l10GoalsFor": 27,
       "l10Losses": 7,
       "l10OtLosses": 0,
       "l10Points": 6,
@@ -6759,16 +6953,16 @@
       "leagueL10Sequence": 29,
       "leagueRoadSequence": 28,
       "leagueSequence": 32,
-      "losses": 18,
+      "losses": 19,
       "otLosses": 1,
       "placeName": {
         "default": "Vancouver"
       },
-      "pointPctg": 0.26,
+      "pointPctg": 0.25,
       "points": 13,
-      "regulationPlusOtWinPctg": 0.2,
+      "regulationPlusOtWinPctg": 0.192308,
       "regulationPlusOtWins": 5,
-      "regulationWinPctg": 0.12,
+      "regulationWinPctg": 0.115385,
       "regulationWins": 3,
       "roadGamesPlayed": 14,
       "roadGoalDifferential": -21,
@@ -6784,7 +6978,7 @@
       "seasonId": 20262027,
       "shootoutLosses": 0,
       "shootoutWins": 1,
-      "streakCode": "W",
+      "streakCode": "L",
       "streakCount": 1,
       "teamName": {
         "default": "Vancouver Canucks",
@@ -6801,11 +6995,32 @@
       "ties": 0,
       "waiversSequence": 1,
       "wildcardSequence": 10,
-      "winPctg": 0.24,
+      "winPctg": 0.230769,
       "wins": 6
     }
   ],
   "news": [
+    {
+      "headline": "Blues rally from late 3-goal deficit and beat Oilers 5-4 in shootout for 4th straight win",
+      "description": "— The surging St. Louis Blues overcame a three-goal deficit in the final 10 minutes of regulation for the first time in franchise history and then beat the Edmonton Oilers in a shootout for a dramatic 5-4 victory on Sunday night for their fourth...",
+      "published": "2026-11-23T03:52:32Z",
+      "url": "http://www.espn.com/nhl/recap?gameId=401892770",
+      "source": "ESPN"
+    },
+    {
+      "headline": "Edmonton Oilers vs. St. Louis Blues: Game Highlights",
+      "description": "Edmonton Oilers vs. St. Louis Blues: Game Highlights",
+      "published": "2026-11-23T03:15:12Z",
+      "url": "https://www.espn.com/video/clip/_/id/50569205/game-highlights",
+      "source": "ESPN"
+    },
+    {
+      "headline": "Jake Oettinger stops 33 shots for league-best fifth shutout in Stars' 1-0 win over Penguins",
+      "description": "— Jake Oettinger stopped a season-high 34 shots and had his NHL-leading fifth shutout of the season, Joel Kiviranta scored a second-period goal and the Dallas Stars beat the Pittsburgh Penguins 1-0 on Sunday night for their fifth straight win.",
+      "published": "2026-11-23T03:13:32Z",
+      "url": "http://www.espn.com/nhl/recap?gameId=401892771",
+      "source": "ESPN"
+    },
     {
       "headline": "Pittsburgh Penguins vs. Dallas Stars: Game Highlights",
       "description": "Pittsburgh Penguins vs. Dallas Stars: Game Highlights",
@@ -6816,7 +7031,7 @@
     {
       "headline": "Dylan Larkin, who requested to be traded by Detroit, dealt to Montreal",
       "description": "Former Detroit Red Wings captain Dylan Larkin was moved to the Montreal Canadiens in a blockbuster deal on Sunday.",
-      "published": "2026-11-23T02:53:25Z",
+      "published": "2026-11-23T03:14:52Z",
       "url": "https://www.espn.com/nhl/story/_/id/50568711/red-wings-trade-star-forward-dylan-larkin-canadiens",
       "source": "ESPN"
     },
@@ -6825,27 +7040,6 @@
       "description": "— Tage Thompson scored twice, Zach Benson had a goal and two assists and Ukka-Pekka Luukkonen finished with 29 saves and the Buffalo Sabres beat the Tampa Bay Lightning 6-2 on Sunday.",
       "published": "2026-11-23T00:52:33Z",
       "url": "http://www.espn.com/nhl/recap?gameId=401892769",
-      "source": "ESPN"
-    },
-    {
-      "headline": "Buffalo Sabres vs. Tampa Bay Lightning: Game Highlights",
-      "description": "Buffalo Sabres vs. Tampa Bay Lightning: Game Highlights",
-      "published": "2026-11-23T00:47:52Z",
-      "url": "https://www.espn.com/video/clip/_/id/50567595/game-highlights",
-      "source": "ESPN"
-    },
-    {
-      "headline": "Which NHL coaches have the most wins in history?",
-      "description": "Scotty Bowman leads all NHL coaches in wins all-time. Find out who else makes the list.",
-      "published": "2026-11-23T00:36:10Z",
-      "url": "https://www.espn.com/nhl/story/_/id/48431082/which-nhl-coaches-most-wins-history",
-      "source": "ESPN"
-    },
-    {
-      "headline": "Bussi makes 25 saves and Hurricanes down Rangers 5-2",
-      "description": "— Jackson Blake put Carolina ahead to stay midway through the second period and Brandon Bussi made 25 saves and the Carolina Hurricanes defeated the New York Rangers 5-2 on Sunday.",
-      "published": "2026-11-22T20:36:33Z",
-      "url": "http://www.espn.com/nhl/recap?gameId=401892768",
       "source": "ESPN"
     }
   ],
