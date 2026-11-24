@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T22:30:01.501028+00:00",
+  "updatedAt": "2026-11-24T23:26:50.787043+00:00",
   "season": "current",
   "sourceStatus": {
     "nhlStats": false,
@@ -81,7 +81,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "1.82"
+            "value": "1.83"
           },
           {
             "providerId": 6,
@@ -89,7 +89,7 @@
           },
           {
             "providerId": 7,
-            "value": "-120"
+            "value": "-122"
           },
           {
             "providerId": 9,
@@ -101,7 +101,7 @@
           },
           {
             "providerId": 10,
-            "value": "2.35"
+            "value": "2.40"
           }
         ]
       },
@@ -116,7 +116,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "2.03"
+            "value": "2.01"
           },
           {
             "providerId": 6,
@@ -124,7 +124,7 @@
           },
           {
             "providerId": 7,
-            "value": "+100"
+            "value": "+102"
           },
           {
             "providerId": 9,
@@ -132,11 +132,11 @@
           },
           {
             "providerId": 8,
-            "value": "+100"
+            "value": "+101"
           },
           {
             "providerId": 10,
-            "value": "2.60"
+            "value": "2.55"
           }
         ]
       },
@@ -317,7 +317,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "1.82"
+            "value": "1.83"
           },
           {
             "providerId": 6,
@@ -325,7 +325,7 @@
           },
           {
             "providerId": 7,
-            "value": "-120"
+            "value": "-122"
           },
           {
             "providerId": 9,
@@ -337,7 +337,7 @@
           },
           {
             "providerId": 10,
-            "value": "2.35"
+            "value": "2.40"
           }
         ]
       },
@@ -352,7 +352,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "2.03"
+            "value": "2.01"
           },
           {
             "providerId": 6,
@@ -360,7 +360,7 @@
           },
           {
             "providerId": 7,
-            "value": "+100"
+            "value": "+102"
           },
           {
             "providerId": 9,
@@ -368,11 +368,11 @@
           },
           {
             "providerId": 8,
-            "value": "+100"
+            "value": "+101"
           },
           {
             "providerId": 10,
-            "value": "2.60"
+            "value": "2.55"
           }
         ]
       },
@@ -53064,11 +53064,11 @@
       "displayName": "St. Louis Blues",
       "injuries": [
         {
-          "id": "600983",
-          "longComment": "McMichael skated before Tuesday's practice, but he didn't join his teammates for the main on-ice session. He will likely miss his third straight game with a lower-body injury. He has contributed three goals, 11 points, 32 shots on net and 15 hits in 22 appearances this season.",
-          "shortComment": "McMichael (lower body) isn't expected to play against the Islanders on Wednesday, according to Lou Korac of NHL.com.",
-          "status": "Out",
-          "date": "2026-11-24T18:41Z",
+          "id": "600997",
+          "longComment": "ir",
+          "shortComment": "ir",
+          "status": "Injured Reserve",
+          "date": "2026-11-24T22:30Z",
           "athlete": {
             "firstName": "Connor",
             "lastName": "McMichael",
@@ -53626,6 +53626,17 @@
             "notes": {
               "items": [
                 {
+                  "id": "600997",
+                  "type": "news",
+                  "date": "2026-11-24T22:30Z",
+                  "headline": "ir",
+                  "text": "ir",
+                  "source": "RotoWire",
+                  "injury": {
+                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/4565246/injuries/600997?lang=en&region=us"
+                  }
+                },
+                {
                   "id": "600983",
                   "type": "news",
                   "date": "2026-11-24T18:41Z",
@@ -53714,26 +53725,26 @@
             "state": "basic"
           },
           "type": {
-            "id": "4",
-            "name": "INJURY_STATUS_OUT",
-            "description": "out",
-            "abbreviation": "O"
+            "id": "5",
+            "name": "INJURY_STATUS_IR",
+            "description": "Injured Reserve",
+            "abbreviation": "IR"
           },
           "details": {
             "fantasyStatus": {
-              "description": "OUT",
-              "abbreviation": "OUT"
+              "description": "IR",
+              "abbreviation": "IR"
             },
             "type": "Lower Body",
             "returnDate": "2026-11-27"
           }
         },
         {
-          "id": "600982",
-          "longComment": "day-to-day",
-          "shortComment": "day-to-day",
-          "status": "Day-To-Day",
-          "date": "2026-11-24T18:41Z",
+          "id": "600996",
+          "longComment": "ir",
+          "shortComment": "ir",
+          "status": "Injured Reserve",
+          "date": "2026-11-24T22:25Z",
           "athlete": {
             "firstName": "Brandon",
             "lastName": "Carlo",
@@ -54291,6 +54302,17 @@
             "notes": {
               "items": [
                 {
+                  "id": "600996",
+                  "type": "news",
+                  "date": "2026-11-24T22:25Z",
+                  "headline": "ir",
+                  "text": "ir",
+                  "source": "RotoWire",
+                  "injury": {
+                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/3904175/injuries/600996?lang=en&region=us"
+                  }
+                },
+                {
                   "id": "600982",
                   "type": "news",
                   "date": "2026-11-24T18:41Z",
@@ -54324,17 +54346,17 @@
             "state": "basic"
           },
           "type": {
-            "id": "6",
-            "name": "INJURY_STATUS_DAYTODAY",
-            "description": "day-to-day",
-            "abbreviation": "DD"
+            "id": "5",
+            "name": "INJURY_STATUS_IR",
+            "description": "Injured Reserve",
+            "abbreviation": "IR"
           },
           "details": {
             "fantasyStatus": {
               "description": "IR",
               "abbreviation": "IR"
             },
-            "type": "Undisclosed",
+            "type": "Lower Body",
             "returnDate": "2026-12-02"
           }
         },
@@ -55597,7 +55619,7 @@
               "description": "Day-To-Day",
               "abbreviation": "Day-To-Day"
             },
-            "type": "Undisclosed",
+            "type": "Upper Body",
             "returnDate": "2026-11-25"
           }
         },
