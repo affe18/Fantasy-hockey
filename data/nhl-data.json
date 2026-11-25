@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T03:59:12.979370+00:00",
+  "updatedAt": "2026-11-25T05:12:05.543588+00:00",
   "season": "current",
   "sourceStatus": {
     "nhlStats": false,
@@ -68,7 +68,7 @@
           }
         }
       ],
-      "gameState": "FINAL",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "awayTeam": {
         "id": 54,
@@ -87,10 +87,14 @@
         },
         "abbrev": "EDM",
         "score": 3,
-        "sog": 23,
+        "sog": 24,
         "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg"
       },
       "gameCenterLink": "/gamecenter/vgk-vs-edm/2026/11/24/2026020385",
+      "threeMinRecap": "/video/vgk-at-edm-recap-6408853929112",
+      "threeMinRecapFr": "/fr/video/vgk-vs-edm-24-11-2026-resume-6408853748112",
+      "condensedGame": "/video/vgk-at-edm-condensed-game-6408853435112",
+      "condensedGameFr": "/fr/video/match-condense-knights-oilers-24-11-2026-6408852952112",
       "clock": {
         "timeRemaining": "00:00",
         "secondsRemaining": 0,
@@ -538,7 +542,7 @@
           }
         }
       ],
-      "gameState": "FINAL",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "awayTeam": {
         "id": 54,
@@ -557,10 +561,14 @@
         },
         "abbrev": "EDM",
         "score": 3,
-        "sog": 23,
+        "sog": 24,
         "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg"
       },
       "gameCenterLink": "/gamecenter/vgk-vs-edm/2026/11/24/2026020385",
+      "threeMinRecap": "/video/vgk-at-edm-recap-6408853929112",
+      "threeMinRecapFr": "/fr/video/vgk-vs-edm-24-11-2026-resume-6408853748112",
+      "condensedGame": "/video/vgk-at-edm-condensed-game-6408853435112",
+      "condensedGameFr": "/fr/video/match-condense-knights-oilers-24-11-2026-6408852952112",
       "clock": {
         "timeRemaining": "00:00",
         "secondsRemaining": 0,
@@ -3901,6 +3909,20 @@
   ],
   "news": [
     {
+      "headline": "Connelly, Eichel power the Golden Knights past the Oilers 5-3 as Edmonton skid continues",
+      "description": "— Trevor Connelly had two goals and an assist, Jack Eichel also scored twice, and the Vegas Golden Knights beat the Edmonton Oilers 5-3 on Tuesday night in a battle between the top two teams in the Pacific Division.",
+      "published": "2026-11-25T04:17:32Z",
+      "url": "http://www.espn.com/nhl/recap?gameId=401892780",
+      "source": "ESPN"
+    },
+    {
+      "headline": "Vegas Golden Knights vs. Edmonton Oilers: Game Highlights",
+      "description": "Vegas Golden Knights vs. Edmonton Oilers: Game Highlights",
+      "published": "2026-11-25T04:04:40Z",
+      "url": "https://www.espn.com/video/clip/_/id/50589542/game-highlights",
+      "source": "ESPN"
+    },
+    {
       "headline": "Joel Hofer supplants Jordan Binnington as Blues' starting goaltender",
       "description": "Jordan Binnington backstopped the St. Louis Blues to the Stanley Cup in 2019 and ",
       "published": "2026-11-24T22:12:58Z",
@@ -3926,20 +3948,6 @@
       "description": "Find game previews, betting intel, broadcast information, stats and highlights here.",
       "published": "2026-11-24T17:43:44Z",
       "url": "https://www.espn.com/nhl/story/_/id/50575154/nhl-2026-27-tonight-games-schedule-matchups-stats-top-players-betting",
-      "source": "ESPN"
-    },
-    {
-      "headline": "A mystery no more? How movement tracking could shed new light on NHL goaltenders",
-      "description": "As teams seek to gain every possible advantage, could a new wave of tracking movement data result in improved scouting of the position?",
-      "published": "2026-11-24T11:01:57Z",
-      "url": "https://www.espn.com/nhl/story/_/id/50576360/nhl-2026-27-goalies-mystery-movement-butterfly-tracking-technology",
-      "source": "ESPN"
-    },
-    {
-      "headline": "Which NHL coaches have the most wins in history?",
-      "description": "Scotty Bowman leads all NHL coaches in wins all-time. Find out who else makes the list.",
-      "published": "2026-11-24T06:39:27Z",
-      "url": "https://www.espn.com/nhl/story/_/id/48431082/which-nhl-coaches-most-wins-history",
       "source": "ESPN"
     }
   ],
