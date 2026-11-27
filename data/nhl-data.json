@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T00:26:18.372716+00:00",
+  "updatedAt": "2026-11-27T01:55:16.992286+00:00",
   "season": "current",
   "sourceStatus": {
     "nhlStats": false,
@@ -14170,11 +14170,11 @@
       "displayName": "Colorado Avalanche",
       "injuries": [
         {
-          "id": "600550",
-          "longComment": "out",
-          "shortComment": "out",
-          "status": "Out",
-          "date": "2026-11-21T20:47Z",
+          "id": "601256",
+          "longComment": "ir",
+          "shortComment": "ir",
+          "status": "Injured Reserve",
+          "date": "2026-11-27T01:27Z",
           "athlete": {
             "firstName": "Gavin",
             "lastName": "Brindley",
@@ -14732,6 +14732,17 @@
             "notes": {
               "items": [
                 {
+                  "id": "601256",
+                  "type": "news",
+                  "date": "2026-11-27T01:27Z",
+                  "headline": "ir",
+                  "text": "ir",
+                  "source": "RotoWire",
+                  "injury": {
+                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/5136614/injuries/601256?lang=en&region=us"
+                  }
+                },
+                {
                   "id": "600550",
                   "type": "news",
                   "date": "2026-11-21T20:47Z",
@@ -14801,15 +14812,15 @@
             "state": "basic"
           },
           "type": {
-            "id": "4",
-            "name": "INJURY_STATUS_OUT",
-            "description": "out",
-            "abbreviation": "O"
+            "id": "5",
+            "name": "INJURY_STATUS_IR",
+            "description": "Injured Reserve",
+            "abbreviation": "IR"
           },
           "details": {
             "fantasyStatus": {
-              "description": "OUT",
-              "abbreviation": "OUT"
+              "description": "IR",
+              "abbreviation": "IR"
             },
             "type": "Concussion",
             "returnDate": "2026-12-08"
