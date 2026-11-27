@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T17:08:17.284825+00:00",
+  "updatedAt": "2026-11-27T18:05:16.558417+00:00",
   "season": "current",
   "sourceStatus": {
     "nhlStats": false,
@@ -48,7 +48,7 @@
           "sequenceNumber": 418
         }
       ],
-      "gameState": "FUT",
+      "gameState": "LIVE",
       "gameScheduleState": "OK",
       "awayTeam": {
         "id": 10,
@@ -56,34 +56,9 @@
           "default": "Maple Leafs"
         },
         "abbrev": "TOR",
-        "record": "9-14-3",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
-        "odds": [
-          {
-            "providerId": 3,
-            "value": "2.31"
-          },
-          {
-            "providerId": 6,
-            "value": "1.59"
-          },
-          {
-            "providerId": 7,
-            "value": "+128"
-          },
-          {
-            "providerId": 9,
-            "value": "+130"
-          },
-          {
-            "providerId": 8,
-            "value": "+129"
-          },
-          {
-            "providerId": 10,
-            "value": "3.10"
-          }
-        ]
+        "score": 0,
+        "sog": 0,
+        "logo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg"
       },
       "homeTeam": {
         "id": 6,
@@ -91,40 +66,25 @@
           "default": "Bruins"
         },
         "abbrev": "BOS",
-        "record": "15-8-1",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg",
-        "odds": [
-          {
-            "providerId": 3,
-            "value": "1.64"
-          },
-          {
-            "providerId": 6,
-            "value": "2.35"
-          },
-          {
-            "providerId": 7,
-            "value": "-154"
-          },
-          {
-            "providerId": 9,
-            "value": "-155"
-          },
-          {
-            "providerId": 8,
-            "value": "-159"
-          },
-          {
-            "providerId": 10,
-            "value": "2.05"
-          }
-        ]
+        "score": 0,
+        "sog": 0,
+        "logo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg"
       },
       "gameCenterLink": "/gamecenter/tor-vs-bos/2026/11/27/2026020400",
+      "clock": {
+        "timeRemaining": "20:00",
+        "secondsRemaining": 1200,
+        "running": false,
+        "inIntermission": false
+      },
       "neutralSite": false,
       "venueTimezone": "US/Eastern",
-      "ticketsLink": "https://www.ticketmaster.com/event/010064EDC52C7AD3?brand=nhl&wt.mc_id=NHL_LEAGUE_BOS_SCORES_PG_GM15&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_BOS&utm_content=SCORES_PG_GM15",
-      "ticketsLinkFr": "https://www.ticketmaster.com/event/010064EDC52C7AD3?brand=nhl&wt.mc_id=NHL_LEAGUE_BOS_SCORES_PG_GM15&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_BOS&utm_content=SCORES_PG_GM15",
+      "period": 1,
+      "periodDescriptor": {
+        "number": 1,
+        "periodType": "REG",
+        "maxRegulationPeriods": 3
+      },
       "teamLeaders": [
         {
           "id": 8479318,
@@ -220,7 +180,8 @@
           "category": "wins",
           "value": 11
         }
-      ]
+      ],
+      "goals": []
     },
     {
       "id": 2026020401,
@@ -255,7 +216,7 @@
           "sequenceNumber": 424
         }
       ],
-      "gameState": "FUT",
+      "gameState": "PRE",
       "gameScheduleState": "OK",
       "awayTeam": {
         "id": 20,
@@ -268,7 +229,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "2.98"
+            "value": "2.94"
           },
           {
             "providerId": 6,
@@ -276,19 +237,19 @@
           },
           {
             "providerId": 7,
-            "value": "+202"
+            "value": "+195"
           },
           {
             "providerId": 9,
-            "value": "+210"
+            "value": "+195"
           },
           {
             "providerId": 8,
-            "value": "+206"
+            "value": "+196"
           },
           {
             "providerId": 10,
-            "value": "4.30"
+            "value": "4.05"
           }
         ]
       },
@@ -303,7 +264,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "1.40"
+            "value": "1.41"
           },
           {
             "providerId": 6,
@@ -311,19 +272,19 @@
           },
           {
             "providerId": 7,
-            "value": "-250"
+            "value": "-240"
           },
           {
             "providerId": 9,
-            "value": "-258"
+            "value": "-238"
           },
           {
             "providerId": 8,
-            "value": "-259"
+            "value": "-244"
           },
           {
             "providerId": 10,
-            "value": "1.70"
+            "value": "1.65"
           }
         ]
       },
@@ -459,7 +420,7 @@
           "sequenceNumber": 657
         }
       ],
-      "gameState": "FUT",
+      "gameState": "PRE",
       "gameScheduleState": "OK",
       "awayTeam": {
         "id": 68,
@@ -472,7 +433,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "1.88"
+            "value": "1.84"
           },
           {
             "providerId": 6,
@@ -488,7 +449,7 @@
           },
           {
             "providerId": 8,
-            "value": "-119"
+            "value": "-121"
           }
         ]
       },
@@ -503,7 +464,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "1.96"
+            "value": "2.01"
           },
           {
             "providerId": 6,
@@ -519,7 +480,7 @@
           },
           {
             "providerId": 8,
-            "value": "-103"
+            "value": "-101"
           }
         ]
       },
@@ -690,7 +651,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "1.74"
+            "value": "1.77"
           },
           {
             "providerId": 6,
@@ -698,19 +659,19 @@
           },
           {
             "providerId": 7,
-            "value": "-140"
+            "value": "-130"
           },
           {
             "providerId": 9,
-            "value": "-142"
+            "value": "-135"
           },
           {
             "providerId": 8,
-            "value": "-142"
+            "value": "-135"
           },
           {
             "providerId": 10,
-            "value": "2.20"
+            "value": "2.25"
           }
         ]
       },
@@ -725,7 +686,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "2.14"
+            "value": "2.09"
           },
           {
             "providerId": 6,
@@ -733,19 +694,19 @@
           },
           {
             "providerId": 7,
-            "value": "+116"
+            "value": "+108"
           },
           {
             "providerId": 9,
-            "value": "+120"
+            "value": "+114"
           },
           {
             "providerId": 8,
-            "value": "+116"
+            "value": "+111"
           },
           {
             "providerId": 10,
-            "value": "2.90"
+            "value": "2.80"
           }
         ]
       },
@@ -895,7 +856,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "2.17"
+            "value": "2.19"
           },
           {
             "providerId": 6,
@@ -903,7 +864,7 @@
           },
           {
             "providerId": 7,
-            "value": "+115"
+            "value": "+114"
           },
           {
             "providerId": 9,
@@ -915,7 +876,7 @@
           },
           {
             "providerId": 10,
-            "value": "2.90"
+            "value": "2.95"
           }
         ]
       },
@@ -930,7 +891,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "1.72"
+            "value": "1.71"
           },
           {
             "providerId": 6,
@@ -938,7 +899,7 @@
           },
           {
             "providerId": 7,
-            "value": "-138"
+            "value": "-137"
           },
           {
             "providerId": 9,
@@ -1116,7 +1077,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "2.95"
+            "value": "2.94"
           },
           {
             "providerId": 6,
@@ -1124,7 +1085,7 @@
           },
           {
             "providerId": 7,
-            "value": "+198"
+            "value": "+184"
           },
           {
             "providerId": 9,
@@ -1132,11 +1093,11 @@
           },
           {
             "providerId": 8,
-            "value": "+200"
+            "value": "+193"
           },
           {
             "providerId": 10,
-            "value": "4.20"
+            "value": "4.10"
           }
         ]
       },
@@ -1159,7 +1120,7 @@
           },
           {
             "providerId": 7,
-            "value": "-245"
+            "value": "-225"
           },
           {
             "providerId": 9,
@@ -1167,11 +1128,11 @@
           },
           {
             "providerId": 8,
-            "value": "-251"
+            "value": "-242"
           },
           {
             "providerId": 10,
-            "value": "1.70"
+            "value": "1.73"
           }
         ]
       },
@@ -1322,7 +1283,7 @@
           },
           {
             "providerId": 6,
-            "value": "2.00"
+            "value": "1.95"
           },
           {
             "providerId": 7,
@@ -1357,7 +1318,7 @@
           },
           {
             "providerId": 6,
-            "value": "1.81"
+            "value": "1.85"
           },
           {
             "providerId": 7,
@@ -1526,7 +1487,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "2.09"
+            "value": "2.11"
           },
           {
             "providerId": 6,
@@ -1542,7 +1503,7 @@
           },
           {
             "providerId": 8,
-            "value": "+110"
+            "value": "+111"
           },
           {
             "providerId": 10,
@@ -1561,7 +1522,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "1.77"
+            "value": "1.76"
           },
           {
             "providerId": 6,
@@ -1741,7 +1702,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "2.04"
+            "value": "2.01"
           },
           {
             "providerId": 6,
@@ -1749,7 +1710,7 @@
           },
           {
             "providerId": 7,
-            "value": "+105"
+            "value": "+100"
           },
           {
             "providerId": 9,
@@ -1757,11 +1718,11 @@
           },
           {
             "providerId": 8,
-            "value": "+106"
+            "value": "+102"
           },
           {
             "providerId": 10,
-            "value": "2.70"
+            "value": "2.65"
           }
         ]
       },
@@ -1776,7 +1737,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "1.81"
+            "value": "1.83"
           },
           {
             "providerId": 6,
@@ -1784,7 +1745,7 @@
           },
           {
             "providerId": 7,
-            "value": "-126"
+            "value": "-120"
           },
           {
             "providerId": 9,
@@ -1792,7 +1753,7 @@
           },
           {
             "providerId": 8,
-            "value": "-128"
+            "value": "-124"
           },
           {
             "providerId": 10,
@@ -1945,7 +1906,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "1.88"
+            "value": "1.87"
           },
           {
             "providerId": 6,
@@ -1980,7 +1941,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "1.96"
+            "value": "1.97"
           },
           {
             "providerId": 6,
@@ -2214,7 +2175,7 @@
           },
           {
             "providerId": 10,
-            "value": "3.80"
+            "value": "3.75"
           }
         ]
       },
@@ -2427,7 +2388,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "2.42"
+            "value": "2.43"
           },
           {
             "providerId": 6,
@@ -2589,7 +2550,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "2.01"
+            "value": "2.03"
           },
           {
             "providerId": 6,
@@ -2624,7 +2585,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "1.83"
+            "value": "1.82"
           },
           {
             "providerId": 6,
@@ -2834,27 +2795,27 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "2.19"
+            "value": "2.17"
           },
           {
             "providerId": 6,
-            "value": "1.64"
+            "value": "1.71"
           },
           {
             "providerId": 7,
-            "value": "+116"
+            "value": "+112"
           },
           {
             "providerId": 9,
-            "value": "+120"
+            "value": "+114"
           },
           {
             "providerId": 8,
-            "value": "+120"
+            "value": "+114"
           },
           {
             "providerId": 10,
-            "value": "3.00"
+            "value": "2.95"
           }
         ]
       },
@@ -2869,27 +2830,27 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "1.70"
+            "value": "1.71"
           },
           {
             "providerId": 6,
-            "value": "2.27"
+            "value": "2.14"
           },
           {
             "providerId": 7,
-            "value": "-140"
+            "value": "-134"
           },
           {
             "providerId": 9,
-            "value": "-142"
+            "value": "-135"
           },
           {
             "providerId": 8,
-            "value": "-147"
+            "value": "-138"
           },
           {
             "providerId": 10,
-            "value": "2.13"
+            "value": "2.15"
           }
         ]
       },
@@ -3242,7 +3203,7 @@
           "sequenceNumber": 418
         }
       ],
-      "gameState": "FUT",
+      "gameState": "LIVE",
       "gameScheduleState": "OK",
       "awayTeam": {
         "id": 10,
@@ -3250,34 +3211,9 @@
           "default": "Maple Leafs"
         },
         "abbrev": "TOR",
-        "record": "9-14-3",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
-        "odds": [
-          {
-            "providerId": 3,
-            "value": "2.31"
-          },
-          {
-            "providerId": 6,
-            "value": "1.59"
-          },
-          {
-            "providerId": 7,
-            "value": "+128"
-          },
-          {
-            "providerId": 9,
-            "value": "+130"
-          },
-          {
-            "providerId": 8,
-            "value": "+129"
-          },
-          {
-            "providerId": 10,
-            "value": "3.10"
-          }
-        ]
+        "score": 0,
+        "sog": 0,
+        "logo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg"
       },
       "homeTeam": {
         "id": 6,
@@ -3285,40 +3221,25 @@
           "default": "Bruins"
         },
         "abbrev": "BOS",
-        "record": "15-8-1",
-        "logo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg",
-        "odds": [
-          {
-            "providerId": 3,
-            "value": "1.64"
-          },
-          {
-            "providerId": 6,
-            "value": "2.35"
-          },
-          {
-            "providerId": 7,
-            "value": "-154"
-          },
-          {
-            "providerId": 9,
-            "value": "-155"
-          },
-          {
-            "providerId": 8,
-            "value": "-159"
-          },
-          {
-            "providerId": 10,
-            "value": "2.05"
-          }
-        ]
+        "score": 0,
+        "sog": 0,
+        "logo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg"
       },
       "gameCenterLink": "/gamecenter/tor-vs-bos/2026/11/27/2026020400",
+      "clock": {
+        "timeRemaining": "20:00",
+        "secondsRemaining": 1200,
+        "running": false,
+        "inIntermission": false
+      },
       "neutralSite": false,
       "venueTimezone": "US/Eastern",
-      "ticketsLink": "https://www.ticketmaster.com/event/010064EDC52C7AD3?brand=nhl&wt.mc_id=NHL_LEAGUE_BOS_SCORES_PG_GM15&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_BOS&utm_content=SCORES_PG_GM15",
-      "ticketsLinkFr": "https://www.ticketmaster.com/event/010064EDC52C7AD3?brand=nhl&wt.mc_id=NHL_LEAGUE_BOS_SCORES_PG_GM15&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_BOS&utm_content=SCORES_PG_GM15",
+      "period": 1,
+      "periodDescriptor": {
+        "number": 1,
+        "periodType": "REG",
+        "maxRegulationPeriods": 3
+      },
       "teamLeaders": [
         {
           "id": 8479318,
@@ -3414,7 +3335,8 @@
           "category": "wins",
           "value": 11
         }
-      ]
+      ],
+      "goals": []
     },
     {
       "id": 2026020401,
@@ -3449,7 +3371,7 @@
           "sequenceNumber": 424
         }
       ],
-      "gameState": "FUT",
+      "gameState": "PRE",
       "gameScheduleState": "OK",
       "awayTeam": {
         "id": 20,
@@ -3462,7 +3384,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "2.98"
+            "value": "2.94"
           },
           {
             "providerId": 6,
@@ -3470,19 +3392,19 @@
           },
           {
             "providerId": 7,
-            "value": "+202"
+            "value": "+195"
           },
           {
             "providerId": 9,
-            "value": "+210"
+            "value": "+195"
           },
           {
             "providerId": 8,
-            "value": "+206"
+            "value": "+196"
           },
           {
             "providerId": 10,
-            "value": "4.30"
+            "value": "4.05"
           }
         ]
       },
@@ -3497,7 +3419,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "1.40"
+            "value": "1.41"
           },
           {
             "providerId": 6,
@@ -3505,19 +3427,19 @@
           },
           {
             "providerId": 7,
-            "value": "-250"
+            "value": "-240"
           },
           {
             "providerId": 9,
-            "value": "-258"
+            "value": "-238"
           },
           {
             "providerId": 8,
-            "value": "-259"
+            "value": "-244"
           },
           {
             "providerId": 10,
-            "value": "1.70"
+            "value": "1.65"
           }
         ]
       },
@@ -3653,7 +3575,7 @@
           "sequenceNumber": 657
         }
       ],
-      "gameState": "FUT",
+      "gameState": "PRE",
       "gameScheduleState": "OK",
       "awayTeam": {
         "id": 68,
@@ -3666,7 +3588,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "1.88"
+            "value": "1.84"
           },
           {
             "providerId": 6,
@@ -3682,7 +3604,7 @@
           },
           {
             "providerId": 8,
-            "value": "-119"
+            "value": "-121"
           }
         ]
       },
@@ -3697,7 +3619,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "1.96"
+            "value": "2.01"
           },
           {
             "providerId": 6,
@@ -3713,7 +3635,7 @@
           },
           {
             "providerId": 8,
-            "value": "-103"
+            "value": "-101"
           }
         ]
       },
@@ -3884,7 +3806,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "1.74"
+            "value": "1.77"
           },
           {
             "providerId": 6,
@@ -3892,19 +3814,19 @@
           },
           {
             "providerId": 7,
-            "value": "-140"
+            "value": "-130"
           },
           {
             "providerId": 9,
-            "value": "-142"
+            "value": "-135"
           },
           {
             "providerId": 8,
-            "value": "-142"
+            "value": "-135"
           },
           {
             "providerId": 10,
-            "value": "2.20"
+            "value": "2.25"
           }
         ]
       },
@@ -3919,7 +3841,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "2.14"
+            "value": "2.09"
           },
           {
             "providerId": 6,
@@ -3927,19 +3849,19 @@
           },
           {
             "providerId": 7,
-            "value": "+116"
+            "value": "+108"
           },
           {
             "providerId": 9,
-            "value": "+120"
+            "value": "+114"
           },
           {
             "providerId": 8,
-            "value": "+116"
+            "value": "+111"
           },
           {
             "providerId": 10,
-            "value": "2.90"
+            "value": "2.80"
           }
         ]
       },
@@ -4089,7 +4011,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "2.17"
+            "value": "2.19"
           },
           {
             "providerId": 6,
@@ -4097,7 +4019,7 @@
           },
           {
             "providerId": 7,
-            "value": "+115"
+            "value": "+114"
           },
           {
             "providerId": 9,
@@ -4109,7 +4031,7 @@
           },
           {
             "providerId": 10,
-            "value": "2.90"
+            "value": "2.95"
           }
         ]
       },
@@ -4124,7 +4046,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "1.72"
+            "value": "1.71"
           },
           {
             "providerId": 6,
@@ -4132,7 +4054,7 @@
           },
           {
             "providerId": 7,
-            "value": "-138"
+            "value": "-137"
           },
           {
             "providerId": 9,
@@ -4310,7 +4232,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "2.95"
+            "value": "2.94"
           },
           {
             "providerId": 6,
@@ -4318,7 +4240,7 @@
           },
           {
             "providerId": 7,
-            "value": "+198"
+            "value": "+184"
           },
           {
             "providerId": 9,
@@ -4326,11 +4248,11 @@
           },
           {
             "providerId": 8,
-            "value": "+200"
+            "value": "+193"
           },
           {
             "providerId": 10,
-            "value": "4.20"
+            "value": "4.10"
           }
         ]
       },
@@ -4353,7 +4275,7 @@
           },
           {
             "providerId": 7,
-            "value": "-245"
+            "value": "-225"
           },
           {
             "providerId": 9,
@@ -4361,11 +4283,11 @@
           },
           {
             "providerId": 8,
-            "value": "-251"
+            "value": "-242"
           },
           {
             "providerId": 10,
-            "value": "1.70"
+            "value": "1.73"
           }
         ]
       },
@@ -4516,7 +4438,7 @@
           },
           {
             "providerId": 6,
-            "value": "2.00"
+            "value": "1.95"
           },
           {
             "providerId": 7,
@@ -4551,7 +4473,7 @@
           },
           {
             "providerId": 6,
-            "value": "1.81"
+            "value": "1.85"
           },
           {
             "providerId": 7,
@@ -4720,7 +4642,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "2.09"
+            "value": "2.11"
           },
           {
             "providerId": 6,
@@ -4736,7 +4658,7 @@
           },
           {
             "providerId": 8,
-            "value": "+110"
+            "value": "+111"
           },
           {
             "providerId": 10,
@@ -4755,7 +4677,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "1.77"
+            "value": "1.76"
           },
           {
             "providerId": 6,
@@ -4935,7 +4857,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "2.04"
+            "value": "2.01"
           },
           {
             "providerId": 6,
@@ -4943,7 +4865,7 @@
           },
           {
             "providerId": 7,
-            "value": "+105"
+            "value": "+100"
           },
           {
             "providerId": 9,
@@ -4951,11 +4873,11 @@
           },
           {
             "providerId": 8,
-            "value": "+106"
+            "value": "+102"
           },
           {
             "providerId": 10,
-            "value": "2.70"
+            "value": "2.65"
           }
         ]
       },
@@ -4970,7 +4892,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "1.81"
+            "value": "1.83"
           },
           {
             "providerId": 6,
@@ -4978,7 +4900,7 @@
           },
           {
             "providerId": 7,
-            "value": "-126"
+            "value": "-120"
           },
           {
             "providerId": 9,
@@ -4986,7 +4908,7 @@
           },
           {
             "providerId": 8,
-            "value": "-128"
+            "value": "-124"
           },
           {
             "providerId": 10,
@@ -5139,7 +5061,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "1.88"
+            "value": "1.87"
           },
           {
             "providerId": 6,
@@ -5174,7 +5096,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "1.96"
+            "value": "1.97"
           },
           {
             "providerId": 6,
@@ -5408,7 +5330,7 @@
           },
           {
             "providerId": 10,
-            "value": "3.80"
+            "value": "3.75"
           }
         ]
       },
@@ -5621,7 +5543,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "2.42"
+            "value": "2.43"
           },
           {
             "providerId": 6,
@@ -5783,7 +5705,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "2.01"
+            "value": "2.03"
           },
           {
             "providerId": 6,
@@ -5818,7 +5740,7 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "1.83"
+            "value": "1.82"
           },
           {
             "providerId": 6,
@@ -6028,27 +5950,27 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "2.19"
+            "value": "2.17"
           },
           {
             "providerId": 6,
-            "value": "1.64"
+            "value": "1.71"
           },
           {
             "providerId": 7,
-            "value": "+116"
+            "value": "+112"
           },
           {
             "providerId": 9,
-            "value": "+120"
+            "value": "+114"
           },
           {
             "providerId": 8,
-            "value": "+120"
+            "value": "+114"
           },
           {
             "providerId": 10,
-            "value": "3.00"
+            "value": "2.95"
           }
         ]
       },
@@ -6063,27 +5985,27 @@
         "odds": [
           {
             "providerId": 3,
-            "value": "1.70"
+            "value": "1.71"
           },
           {
             "providerId": 6,
-            "value": "2.27"
+            "value": "2.14"
           },
           {
             "providerId": 7,
-            "value": "-140"
+            "value": "-134"
           },
           {
             "providerId": 9,
-            "value": "-142"
+            "value": "-135"
           },
           {
             "providerId": 8,
-            "value": "-147"
+            "value": "-138"
           },
           {
             "providerId": 10,
-            "value": "2.13"
+            "value": "2.15"
           }
         ]
       },
@@ -9351,7 +9273,7 @@
     {
       "headline": "Islanders forward Kyle Palmieri (ACL, meniscus) out 6-8 months",
       "description": "Islanders forward Kyle Palmieri will miss the next six to eight months after suffering a torn ACL and meniscus in his right knee, the team announced Friday.",
-      "published": "2026-11-27T16:37:20Z",
+      "published": "2026-11-27T17:38:42Z",
       "url": "https://www.espn.com/nhl/story/_/id/50612273/islanders-kyle-palmieri-acl-meniscus-6-8-months",
       "source": "ESPN"
     },
@@ -9397,11 +9319,11 @@
       "displayName": "Anaheim Ducks",
       "injuries": [
         {
-          "id": "601170",
-          "longComment": "day-to-day",
-          "shortComment": "day-to-day",
-          "status": "Day-To-Day",
-          "date": "2026-11-26T14:08Z",
+          "id": "601287",
+          "longComment": "ir",
+          "shortComment": "ir",
+          "status": "Injured Reserve",
+          "date": "2026-11-27T17:05Z",
           "athlete": {
             "firstName": "Leo",
             "lastName": "Carlsson",
@@ -9959,6 +9881,17 @@
             "notes": {
               "items": [
                 {
+                  "id": "601287",
+                  "type": "news",
+                  "date": "2026-11-27T17:05Z",
+                  "headline": "ir",
+                  "text": "ir",
+                  "source": "RotoWire",
+                  "injury": {
+                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/5149153/injuries/601287?lang=en&region=us"
+                  }
+                },
+                {
                   "id": "601170",
                   "type": "news",
                   "date": "2026-11-26T14:08Z",
@@ -10039,18 +9972,18 @@
             "state": "basic"
           },
           "type": {
-            "id": "6",
-            "name": "INJURY_STATUS_DAYTODAY",
-            "description": "day-to-day",
-            "abbreviation": "DD"
+            "id": "5",
+            "name": "INJURY_STATUS_IR",
+            "description": "Injured Reserve",
+            "abbreviation": "IR"
           },
           "details": {
             "fantasyStatus": {
-              "description": "Day-To-Day",
-              "abbreviation": "Day-To-Day"
+              "description": "IR",
+              "abbreviation": "IR"
             },
             "type": "Upper Body",
-            "returnDate": "2026-11-27"
+            "returnDate": "2026-12-01"
           }
         },
         {
@@ -14951,652 +14884,6 @@
       "displayName": "Calgary Flames",
       "injuries": [
         {
-          "id": "601165",
-          "longComment": "day-to-day",
-          "shortComment": "day-to-day",
-          "status": "Day-To-Day",
-          "date": "2026-11-26T14:08Z",
-          "athlete": {
-            "firstName": "Morgan",
-            "lastName": "Frost",
-            "displayName": "Morgan Frost",
-            "shortName": "M. Frost",
-            "links": [
-              {
-                "language": "en-US",
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nhl/player/_/id/4233685",
-                "text": "Player Card",
-                "shortText": "Player Card",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "stats",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nhl/player/stats/_/id/4233685/morgan-frost",
-                "text": "Stats",
-                "shortText": "Stats",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "stats",
-                  "sportscenter",
-                  "app",
-                  "athlete"
-                ],
-                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4233685&section=stats",
-                "text": "Stats",
-                "shortText": "Stats",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "splits",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nhl/player/splits/_/id/4233685/morgan-frost",
-                "text": "Splits",
-                "shortText": "Splits",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "gamelog",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nhl/player/gamelog/_/id/4233685/morgan-frost",
-                "text": "Game Log",
-                "shortText": "Game Log",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "gamelog",
-                  "sportscenter",
-                  "app",
-                  "athlete"
-                ],
-                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4233685&section=gamelog",
-                "text": "Game Log",
-                "shortText": "Game Log",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "news",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nhl/player/news/_/id/4233685/morgan-frost",
-                "text": "News",
-                "shortText": "News",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "news",
-                  "sportscenter",
-                  "app",
-                  "athlete"
-                ],
-                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4233685&section=news",
-                "text": "News",
-                "shortText": "News",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bio",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nhl/player/bio/_/id/4233685/morgan-frost",
-                "text": "Bio",
-                "shortText": "Bio",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bio",
-                  "sportscenter",
-                  "app",
-                  "athlete"
-                ],
-                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4233685&section=bio",
-                "text": "Bio",
-                "shortText": "Bio",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "overview",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nhl/player/_/id/4233685/morgan-frost",
-                "text": "Overview",
-                "shortText": "Overview",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "overview",
-                  "sportscenter",
-                  "app",
-                  "athlete"
-                ],
-                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4233685",
-                "text": "Overview",
-                "shortText": "Overview",
-                "isExternal": false,
-                "isPremium": false
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nhl/players/full/4233685.png",
-              "alt": "Morgan Frost"
-            },
-            "position": {
-              "id": "1",
-              "name": "Center",
-              "displayName": "Center",
-              "abbreviation": "C",
-              "leaf": true
-            },
-            "team": {
-              "id": "3",
-              "uid": "s:70~l:90~t:3",
-              "slug": "calgary-flames",
-              "name": "Flames",
-              "abbreviation": "CGY",
-              "displayName": "Calgary Flames",
-              "logos": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500/cgy.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2024-07-02T15:51Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500-dark/cgy.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "dark"
-                  ],
-                  "lastUpdated": "2024-07-02T15:46Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/cgy.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard"
-                  ],
-                  "lastUpdated": "2024-07-02T15:51Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500-dark/scoreboard/cgy.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard",
-                    "dark"
-                  ],
-                  "lastUpdated": "2024-07-02T15:46Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/1b1346bb-9cad-dd44-4de5-91724595e92b/logos/primary_logo_on_white_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_white_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/1b1346bb-9cad-dd44-4de5-91724595e92b/logos/primary_logo_on_black_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_black_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/1b1346bb-9cad-dd44-4de5-91724595e92b/logos/primary_logo_on_primary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_primary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/1b1346bb-9cad-dd44-4de5-91724595e92b/logos/primary_logo_on_secondary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_secondary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/1b1346bb-9cad-dd44-4de5-91724595e92b/logos/primary_logo_black.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_black"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/1b1346bb-9cad-dd44-4de5-91724595e92b/logos/primary_logo_white.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_white"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/1b1346bb-9cad-dd44-4de5-91724595e92b/logos/secondary_logo_on_white_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_white_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/1b1346bb-9cad-dd44-4de5-91724595e92b/logos/secondary_logo_on_black_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_black_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/1b1346bb-9cad-dd44-4de5-91724595e92b/logos/secondary_logo_on_primary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_primary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/1b1346bb-9cad-dd44-4de5-91724595e92b/logos/secondary_logo_on_secondary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_secondary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/1b1346bb-9cad-dd44-4de5-91724595e92b/logos/secondary_logo_black.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_black"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/1b1346bb-9cad-dd44-4de5-91724595e92b/logos/secondary_logo_white.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_white"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                }
-              ],
-              "links": [
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "clubhouse",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/_/name/cgy/calgary-flames",
-                  "text": "Clubhouse",
-                  "shortText": "Clubhouse",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "clubhouse",
-                    "mobile",
-                    "team"
-                  ],
-                  "href": "https://m.espn.com/nhl/clubhouse?teamId=3",
-                  "text": "Clubhouse",
-                  "shortText": "Clubhouse",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "roster",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/roster/_/name/cgy/calgary-flames",
-                  "text": "Roster",
-                  "shortText": "Roster",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "roster",
-                    "sportscenter",
-                    "app",
-                    "team"
-                  ],
-                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:3&section=roster",
-                  "text": "Roster",
-                  "shortText": "Roster",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "stats",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/stats/_/name/cgy/calgary-flames",
-                  "text": "Statistics",
-                  "shortText": "Statistics",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "stats",
-                    "sportscenter",
-                    "app",
-                    "team"
-                  ],
-                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:3&section=stats",
-                  "text": "Statistics",
-                  "shortText": "Statistics",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "schedule",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/schedule/_/name/cgy",
-                  "text": "Schedule",
-                  "shortText": "Schedule",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "schedule",
-                    "sportscenter",
-                    "app",
-                    "team"
-                  ],
-                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:3&section=scores",
-                  "text": "Schedule",
-                  "shortText": "Schedule",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "photos",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/photos/_/name/cgy",
-                  "text": "photos",
-                  "shortText": "photos",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "tickets",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.vividseats.com/calgary-flames-tickets--sports-nhl-hockey/performer/136?wsUser=717",
-                  "text": "Tickets",
-                  "shortText": "Tickets",
-                  "isExternal": true,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "transactions",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/transactions/_/name/cgy",
-                  "text": "Transactions",
-                  "shortText": "Transactions",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "injuries",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/injuries/_/name/cgy",
-                  "text": "Injuries",
-                  "shortText": "Injuries",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "depthchart",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/line-combo/_/name/cgy",
-                  "text": "Line Combo",
-                  "shortText": "Line Combo",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "depthchart",
-                    "sportscenter",
-                    "app",
-                    "team"
-                  ],
-                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:3&section=depthchart",
-                  "text": "Line Combo",
-                  "shortText": "Line Combo",
-                  "isExternal": false,
-                  "isPremium": false
-                }
-              ]
-            },
-            "notes": {
-              "items": [
-                {
-                  "id": "601165",
-                  "type": "news",
-                  "date": "2026-11-26T14:08Z",
-                  "headline": "day-to-day",
-                  "text": "day-to-day",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/4233685/injuries/601165?lang=en&region=us"
-                  }
-                },
-                {
-                  "id": "601035",
-                  "type": "news",
-                  "date": "2026-11-25T16:36Z",
-                  "headline": "out",
-                  "text": "out",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/4233685/injuries/601035?lang=en&region=us"
-                  }
-                },
-                {
-                  "id": "601036",
-                  "type": "news",
-                  "date": "2026-11-25T16:35Z",
-                  "headline": "Frost (upper body) has been ruled out for Wednesday's game against the Penguins, Eric Francis of Sportsnet reports.",
-                  "text": "Frost skated with the team during Wednesday's morning skate, but he's considered day-to-day after exiting Monday's loss to the Senators following a hard hit in the second period. Ben Jones will likely enter the lineup after being called up earlier Wednesday, while Frost's next opportunity to return will be Friday against New Jersey.",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/4233685/injuries/601036?lang=en&region=us"
-                  }
-                },
-                {
-                  "id": "600903",
-                  "type": "news",
-                  "date": "2026-11-24T04:24Z",
-                  "headline": "Frost sustained an upper-body injury during Monday's 2-1 loss to the Senators, and head coach Ryan Huska did not have an update on the center's status after the game, Flames TV host Brendan Parker reports.",
-                  "text": "Frost was on the receiving end of a big hit from Ottawa's Tyler Kleven in the middle frame. Frost managed a couple of shifts after briefly going to the locker room following the hit, but he ultimately couldn't finish the game. Since there was no update on the 27-year-old's status, he can be considered day-to-day for now. Calgary will continue its five-game road trip in Pittsburgh on Wednesday.",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/4233685/injuries/600903?lang=en&region=us"
-                  }
-                },
-                {
-                  "id": "600900",
-                  "type": "news",
-                  "date": "2026-11-24T04:17Z",
-                  "headline": "day-to-day",
-                  "text": "day-to-day",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/4233685/injuries/600900?lang=en&region=us"
-                  }
-                }
-              ]
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "source": {
-            "id": "1",
-            "description": "basic/manual",
-            "state": "basic"
-          },
-          "type": {
-            "id": "6",
-            "name": "INJURY_STATUS_DAYTODAY",
-            "description": "day-to-day",
-            "abbreviation": "DD"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "Day-To-Day",
-              "abbreviation": "Day-To-Day"
-            },
-            "type": "Upper Body",
-            "returnDate": "2026-11-27"
-          }
-        },
-        {
           "id": "600844",
           "longComment": "After leaving Saturday's 4-3 overtime loss to Chicago late in the second period with an upper-body injury, Pospisil won't play against Ottawa on Monday. It's unclear when he will be ready to return, but he could be out for a while. Pospisil has a concussion history, and the Flames may take a cautious approach with his recovery.",
           "shortComment": "Pospisil (upper body) didn't travel with his teammates for the start of Calgary's five-game road trip, per Eric Francis of Sportsnet on Monday.",
@@ -16795,10 +16082,10 @@
               "items": []
             },
             "status": {
-              "id": "4",
-              "name": "Minors",
-              "type": "minors",
-              "abbreviation": "Minors"
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
             }
           },
           "source": {
@@ -28483,7 +27770,8 @@
               "description": "Day-To-Day",
               "abbreviation": "Day-To-Day"
             },
-            "type": "Lower Body",
+            "type": "Knee",
+            "detail": "Sprain",
             "returnDate": "2026-11-27"
           }
         },
@@ -47257,663 +46545,6 @@
       "displayName": "Ottawa Senators",
       "injuries": [
         {
-          "id": "600993",
-          "longComment": "ir",
-          "shortComment": "ir",
-          "status": "Injured Reserve",
-          "date": "2026-11-24T20:28Z",
-          "athlete": {
-            "firstName": "Hayden",
-            "lastName": "Hodgson",
-            "displayName": "Hayden Hodgson",
-            "shortName": "H. Hodgson",
-            "links": [
-              {
-                "language": "en-US",
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nhl/player/_/id/3150479",
-                "text": "Player Card",
-                "shortText": "Player Card",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "stats",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nhl/player/stats/_/id/3150479/hayden-hodgson",
-                "text": "Stats",
-                "shortText": "Stats",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "stats",
-                  "sportscenter",
-                  "app",
-                  "athlete"
-                ],
-                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:3150479&section=stats",
-                "text": "Stats",
-                "shortText": "Stats",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "splits",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nhl/player/splits/_/id/3150479/hayden-hodgson",
-                "text": "Splits",
-                "shortText": "Splits",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "gamelog",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nhl/player/gamelog/_/id/3150479/hayden-hodgson",
-                "text": "Game Log",
-                "shortText": "Game Log",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "gamelog",
-                  "sportscenter",
-                  "app",
-                  "athlete"
-                ],
-                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:3150479&section=gamelog",
-                "text": "Game Log",
-                "shortText": "Game Log",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "news",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nhl/player/news/_/id/3150479/hayden-hodgson",
-                "text": "News",
-                "shortText": "News",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "news",
-                  "sportscenter",
-                  "app",
-                  "athlete"
-                ],
-                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:3150479&section=news",
-                "text": "News",
-                "shortText": "News",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bio",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nhl/player/bio/_/id/3150479/hayden-hodgson",
-                "text": "Bio",
-                "shortText": "Bio",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bio",
-                  "sportscenter",
-                  "app",
-                  "athlete"
-                ],
-                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:3150479&section=bio",
-                "text": "Bio",
-                "shortText": "Bio",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "overview",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nhl/player/_/id/3150479/hayden-hodgson",
-                "text": "Overview",
-                "shortText": "Overview",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "overview",
-                  "sportscenter",
-                  "app",
-                  "athlete"
-                ],
-                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:3150479",
-                "text": "Overview",
-                "shortText": "Overview",
-                "isExternal": false,
-                "isPremium": false
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nhl/players/full/3150479.png",
-              "alt": "Hayden Hodgson"
-            },
-            "position": {
-              "id": "3",
-              "name": "Right Wing",
-              "displayName": "Right Wing",
-              "abbreviation": "RW",
-              "leaf": true
-            },
-            "team": {
-              "id": "14",
-              "uid": "s:70~l:90~t:14",
-              "slug": "ottawa-senators",
-              "name": "Senators",
-              "abbreviation": "OTT",
-              "displayName": "Ottawa Senators",
-              "logos": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500/ott.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2024-07-02T15:51Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500-dark/ott.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "dark"
-                  ],
-                  "lastUpdated": "2024-07-02T15:46Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/ott.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard"
-                  ],
-                  "lastUpdated": "2024-07-02T15:51Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500-dark/scoreboard/ott.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard",
-                    "dark"
-                  ],
-                  "lastUpdated": "2024-07-02T15:46Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/3edd2776-99a9-c0bb-6a73-863b428e25ef/logos/primary_logo_on_white_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_white_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/3edd2776-99a9-c0bb-6a73-863b428e25ef/logos/primary_logo_on_black_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_black_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/3edd2776-99a9-c0bb-6a73-863b428e25ef/logos/primary_logo_on_primary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_primary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/3edd2776-99a9-c0bb-6a73-863b428e25ef/logos/primary_logo_on_secondary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_secondary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/3edd2776-99a9-c0bb-6a73-863b428e25ef/logos/primary_logo_black.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_black"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/3edd2776-99a9-c0bb-6a73-863b428e25ef/logos/primary_logo_white.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_white"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/3edd2776-99a9-c0bb-6a73-863b428e25ef/logos/secondary_logo_on_white_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_white_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/3edd2776-99a9-c0bb-6a73-863b428e25ef/logos/secondary_logo_on_black_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_black_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/3edd2776-99a9-c0bb-6a73-863b428e25ef/logos/secondary_logo_on_primary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_primary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/3edd2776-99a9-c0bb-6a73-863b428e25ef/logos/secondary_logo_on_secondary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_secondary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/3edd2776-99a9-c0bb-6a73-863b428e25ef/logos/secondary_logo_black.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_black"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/3edd2776-99a9-c0bb-6a73-863b428e25ef/logos/secondary_logo_white.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_white"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                }
-              ],
-              "links": [
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "clubhouse",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/_/name/ott/ottawa-senators",
-                  "text": "Clubhouse",
-                  "shortText": "Clubhouse",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "clubhouse",
-                    "mobile",
-                    "team"
-                  ],
-                  "href": "https://m.espn.com/nhl/clubhouse?teamId=14",
-                  "text": "Clubhouse",
-                  "shortText": "Clubhouse",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "roster",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/roster/_/name/ott/ottawa-senators",
-                  "text": "Roster",
-                  "shortText": "Roster",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "roster",
-                    "sportscenter",
-                    "app",
-                    "team"
-                  ],
-                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:14&section=roster",
-                  "text": "Roster",
-                  "shortText": "Roster",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "stats",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/stats/_/name/ott/ottawa-senators",
-                  "text": "Statistics",
-                  "shortText": "Statistics",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "stats",
-                    "sportscenter",
-                    "app",
-                    "team"
-                  ],
-                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:14&section=stats",
-                  "text": "Statistics",
-                  "shortText": "Statistics",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "schedule",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/schedule/_/name/ott",
-                  "text": "Schedule",
-                  "shortText": "Schedule",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "schedule",
-                    "sportscenter",
-                    "app",
-                    "team"
-                  ],
-                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:14&section=scores",
-                  "text": "Schedule",
-                  "shortText": "Schedule",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "photos",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/photos/_/name/ott",
-                  "text": "photos",
-                  "shortText": "photos",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "tickets",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.vividseats.com/ottawa-senators-tickets--sports-nhl-hockey/performer/639?wsUser=717",
-                  "text": "Tickets",
-                  "shortText": "Tickets",
-                  "isExternal": true,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "transactions",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/transactions/_/name/ott",
-                  "text": "Transactions",
-                  "shortText": "Transactions",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "injuries",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/injuries/_/name/ott",
-                  "text": "Injuries",
-                  "shortText": "Injuries",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "depthchart",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/line-combo/_/name/ott",
-                  "text": "Line Combo",
-                  "shortText": "Line Combo",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "depthchart",
-                    "sportscenter",
-                    "app",
-                    "team"
-                  ],
-                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:14&section=depthchart",
-                  "text": "Line Combo",
-                  "shortText": "Line Combo",
-                  "isExternal": false,
-                  "isPremium": false
-                }
-              ]
-            },
-            "notes": {
-              "items": [
-                {
-                  "id": "600993",
-                  "type": "news",
-                  "date": "2026-11-24T20:28Z",
-                  "headline": "ir",
-                  "text": "ir",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/3150479/injuries/600993?lang=en&region=us"
-                  }
-                },
-                {
-                  "id": "600824",
-                  "type": "news",
-                  "date": "2026-11-23T15:48Z",
-                  "headline": "Hodgson (groin) has no timeline in place for his return to the lineup, per Bruce Garrioch of Postmedia on Nov. 14.",
-                  "text": "Hodgson hasn't been skating and is expected to miss his fourth straight game against Calgary on Monday with a groin injury. has contributed one goal, three shots on net, 20 hits and 24 PIM in 10 appearances this season.",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/3150479/injuries/600824?lang=en&region=us"
-                  }
-                },
-                {
-                  "id": "600831",
-                  "type": "news",
-                  "date": "2026-11-23T15:44Z",
-                  "headline": "out",
-                  "text": "out",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/3150479/injuries/600831?lang=en&region=us"
-                  }
-                },
-                {
-                  "id": "600690",
-                  "type": "news",
-                  "date": "2026-11-22T13:40Z",
-                  "headline": "day-to-day",
-                  "text": "day-to-day",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/3150479/injuries/600690?lang=en&region=us"
-                  }
-                },
-                {
-                  "id": "600565",
-                  "type": "news",
-                  "date": "2026-11-22T00:00Z",
-                  "headline": "out",
-                  "text": "out",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/3150479/injuries/600565?lang=en&region=us"
-                  }
-                },
-                {
-                  "id": "600405",
-                  "type": "news",
-                  "date": "2026-11-20T14:41Z",
-                  "headline": "day-to-day",
-                  "text": "day-to-day",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/3150479/injuries/600405?lang=en&region=us"
-                  }
-                }
-              ]
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "source": {
-            "id": "1",
-            "description": "basic/manual",
-            "state": "basic"
-          },
-          "type": {
-            "id": "5",
-            "name": "INJURY_STATUS_IR",
-            "description": "Injured Reserve",
-            "abbreviation": "IR"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "IR",
-              "abbreviation": "IR"
-            },
-            "type": "Groin",
-            "returnDate": "2026-11-28"
-          }
-        },
-        {
           "id": "599971",
           "longComment": "Foegele has been sidelined since late October, and he initially carried a return timetable of 3-4 weeks. While he hasn't yet entered that window, the fact that he hasn't yet resumed skating suggests that he isn't particularly close to returning to game action. A better idea of the 30-year-old's timetable to return will likely come into focus once he's cleared to return to the ice.",
           "shortComment": "Head coach Travis Green said Monday that Foegele (knee) hasn't yet resumed skating, Bruce Garrioch of Postmedia reports.",
@@ -56888,6 +55519,687 @@
       "displayName": "St. Louis Blues",
       "injuries": [
         {
+          "id": "601297",
+          "longComment": "ir",
+          "shortComment": "ir",
+          "status": "Injured Reserve",
+          "date": "2026-11-27T17:51Z",
+          "athlete": {
+            "firstName": "Jimmy",
+            "lastName": "Snuggerud",
+            "displayName": "Jimmy Snuggerud",
+            "shortName": "J. Snuggerud",
+            "links": [
+              {
+                "language": "en-US",
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nhl/player/_/id/5080171",
+                "text": "Player Card",
+                "shortText": "Player Card",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "stats",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nhl/player/stats/_/id/5080171/jimmy-snuggerud",
+                "text": "Stats",
+                "shortText": "Stats",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "stats",
+                  "sportscenter",
+                  "app",
+                  "athlete"
+                ],
+                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:5080171&section=stats",
+                "text": "Stats",
+                "shortText": "Stats",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "splits",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nhl/player/splits/_/id/5080171/jimmy-snuggerud",
+                "text": "Splits",
+                "shortText": "Splits",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "gamelog",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nhl/player/gamelog/_/id/5080171/jimmy-snuggerud",
+                "text": "Game Log",
+                "shortText": "Game Log",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "gamelog",
+                  "sportscenter",
+                  "app",
+                  "athlete"
+                ],
+                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:5080171&section=gamelog",
+                "text": "Game Log",
+                "shortText": "Game Log",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "news",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nhl/player/news/_/id/5080171/jimmy-snuggerud",
+                "text": "News",
+                "shortText": "News",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "news",
+                  "sportscenter",
+                  "app",
+                  "athlete"
+                ],
+                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:5080171&section=news",
+                "text": "News",
+                "shortText": "News",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "bio",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nhl/player/bio/_/id/5080171/jimmy-snuggerud",
+                "text": "Bio",
+                "shortText": "Bio",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "bio",
+                  "sportscenter",
+                  "app",
+                  "athlete"
+                ],
+                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:5080171&section=bio",
+                "text": "Bio",
+                "shortText": "Bio",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "overview",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nhl/player/_/id/5080171/jimmy-snuggerud",
+                "text": "Overview",
+                "shortText": "Overview",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "overview",
+                  "sportscenter",
+                  "app",
+                  "athlete"
+                ],
+                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:5080171",
+                "text": "Overview",
+                "shortText": "Overview",
+                "isExternal": false,
+                "isPremium": false
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nhl/players/full/5080171.png",
+              "alt": "Jimmy Snuggerud"
+            },
+            "position": {
+              "id": "3",
+              "name": "Right Wing",
+              "displayName": "Right Wing",
+              "abbreviation": "RW",
+              "leaf": true
+            },
+            "team": {
+              "id": "19",
+              "uid": "s:70~l:90~t:19",
+              "slug": "st-louis-blues",
+              "name": "Blues",
+              "abbreviation": "STL",
+              "displayName": "St. Louis Blues",
+              "logos": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500/stl.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2025-09-25T18:13Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500-dark/stl.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "dark"
+                  ],
+                  "lastUpdated": "2025-09-25T18:11Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/stl.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard"
+                  ],
+                  "lastUpdated": "2025-09-25T18:13Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500-dark/scoreboard/stl.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard",
+                    "dark"
+                  ],
+                  "lastUpdated": "2025-09-25T18:12Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/primary_logo_on_white_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_white_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/primary_logo_on_black_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_black_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/primary_logo_on_primary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_primary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/primary_logo_on_secondary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_secondary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/primary_logo_black.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_black"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/primary_logo_white.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_white"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/secondary_logo_on_white_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_white_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/secondary_logo_on_black_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_black_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/secondary_logo_on_primary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_primary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/secondary_logo_on_secondary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_secondary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/secondary_logo_black.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_black"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/secondary_logo_white.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_white"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                }
+              ],
+              "links": [
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/_/name/stl/st-louis-blues",
+                  "text": "Clubhouse",
+                  "shortText": "Clubhouse",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "clubhouse",
+                    "mobile",
+                    "team"
+                  ],
+                  "href": "https://m.espn.com/nhl/clubhouse?teamId=19",
+                  "text": "Clubhouse",
+                  "shortText": "Clubhouse",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "roster",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/roster/_/name/stl/st-louis-blues",
+                  "text": "Roster",
+                  "shortText": "Roster",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "roster",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:19&section=roster",
+                  "text": "Roster",
+                  "shortText": "Roster",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "stats",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/stats/_/name/stl/st-louis-blues",
+                  "text": "Statistics",
+                  "shortText": "Statistics",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "stats",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:19&section=stats",
+                  "text": "Statistics",
+                  "shortText": "Statistics",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "schedule",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/schedule/_/name/stl",
+                  "text": "Schedule",
+                  "shortText": "Schedule",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "schedule",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:19&section=scores",
+                  "text": "Schedule",
+                  "shortText": "Schedule",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "photos",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/photos/_/name/stl",
+                  "text": "photos",
+                  "shortText": "photos",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "tickets",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.vividseats.com/st-louis-blues-tickets--sports-nhl-hockey/performer/806?wsUser=717",
+                  "text": "Tickets",
+                  "shortText": "Tickets",
+                  "isExternal": true,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "transactions",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/transactions/_/name/stl",
+                  "text": "Transactions",
+                  "shortText": "Transactions",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "injuries",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/injuries/_/name/stl",
+                  "text": "Injuries",
+                  "shortText": "Injuries",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "depthchart",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/line-combo/_/name/stl",
+                  "text": "Line Combo",
+                  "shortText": "Line Combo",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "depthchart",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:19&section=depthchart",
+                  "text": "Line Combo",
+                  "shortText": "Line Combo",
+                  "isExternal": false,
+                  "isPremium": false
+                }
+              ]
+            },
+            "notes": {
+              "items": [
+                {
+                  "id": "601297",
+                  "type": "news",
+                  "date": "2026-11-27T17:51Z",
+                  "headline": "ir",
+                  "text": "ir",
+                  "source": "RotoWire",
+                  "injury": {
+                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/5080171/injuries/601297?lang=en&region=us"
+                  }
+                },
+                {
+                  "id": "601168",
+                  "type": "news",
+                  "date": "2026-11-26T14:08Z",
+                  "headline": "day-to-day",
+                  "text": "day-to-day",
+                  "source": "RotoWire",
+                  "injury": {
+                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/5080171/injuries/601168?lang=en&region=us"
+                  }
+                },
+                {
+                  "id": "601057",
+                  "type": "news",
+                  "date": "2026-11-25T18:59Z",
+                  "headline": "out",
+                  "text": "out",
+                  "source": "RotoWire",
+                  "injury": {
+                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/5080171/injuries/601057?lang=en&region=us"
+                  }
+                },
+                {
+                  "id": "601056",
+                  "type": "news",
+                  "date": "2026-11-25T18:58Z",
+                  "headline": "Snuggerud (upper body) didn't travel to Long Island for Wednesday's clash with the Islanders, Brandon Kiley of ESPN St. Louis reports.",
+                  "text": "Snuggerud was riding a three-game goal streak, during which he racked up four goals on seven shots and one assist. With the 22-year-old winger on the shelf, both Dylan Holloway and Dalibor Dvorsky could be in contention for a first-line role alongside Robert Thomas.",
+                  "source": "RotoWire",
+                  "injury": {
+                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/5080171/injuries/601056?lang=en&region=us"
+                  }
+                },
+                {
+                  "id": "600979",
+                  "type": "news",
+                  "date": "2026-11-24T18:31Z",
+                  "headline": "Snuggerud (undisclosed) is questionable for Wednesday's game against the Islanders, per Lou Korac of NHL.com.",
+                  "text": "Snuggerud didn't participate in Tuesday's practice because of a soft-tissue injury. He has heated up, posting four goals and two assists over his current four-game point streak. Snuggerud has registered 14 goals, 20 points, 53 shots on net and 17 hits in 24 appearances this season.",
+                  "source": "RotoWire",
+                  "injury": {
+                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/5080171/injuries/600979?lang=en&region=us"
+                  }
+                },
+                {
+                  "id": "600978",
+                  "type": "news",
+                  "date": "2026-11-24T18:29Z",
+                  "headline": "day-to-day",
+                  "text": "day-to-day",
+                  "source": "RotoWire",
+                  "injury": {
+                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/5080171/injuries/600978?lang=en&region=us"
+                  }
+                },
+                {
+                  "id": "600796",
+                  "type": "news",
+                  "date": "2026-11-23T06:00Z",
+                  "headline": "Snuggerud scored a goal, dished an assist and added two PIM in Sunday's 5-4 shootout win over the Oilers.",
+                  "text": "Snuggerud has four goals and two assists during his four-game point streak, which is his longest of the season. The 22-year-old winger continues to play on the Blues' top line, giving him a good chance to sustain his offense. He's up to 14 goals, six helpers, 53 shots on net, 17 hits and a plus-9 rating through 24 appearances.",
+                  "source": "RotoWire"
+                },
+                {
+                  "id": "600754",
+                  "type": "news",
+                  "date": "2026-11-22T19:23Z",
+                  "headline": "Snuggerud scored a power-play goal on two shots and went plus-2 in Saturday's 9-6 win over the Devils.",
+                  "text": "Snuggerud has five goals and two helpers over his last seven contests. He was able to chip in during this high-scoring game, though the top-line winger didn't play a leading role. For the season, he's up to 13 goals, five assists, 52 shots on net, 17 hits and a plus-8 rating across 23 appearances. Snuggerud's assists should bounce back eventually, though he's also shooting 25 percent, a number that's likely to regress.",
+                  "source": "RotoWire"
+                },
+                {
+                  "id": "600405",
+                  "type": "news",
+                  "date": "2026-11-20T15:02Z",
+                  "headline": "Snuggerud scored two goals, one the game-winner, in Thursday's 5-2 victory over the Penguins.",
+                  "text": "The 22-year-old winger potted the Blues' third and fourth goals on the night, both times banging home the puck from close range. It was Snuggerud's second multi-goal effort of the season, but he's been a consistent producer overall and has yet to go more than three games in a row without lighting the lamp this season. Through 22 contests, Snuggerud has delivered 12 goals and 17 points, including three goals and an assist on the power play.",
+                  "source": "RotoWire"
+                }
+              ]
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "source": {
+            "id": "1",
+            "description": "basic/manual",
+            "state": "basic"
+          },
+          "type": {
+            "id": "5",
+            "name": "INJURY_STATUS_IR",
+            "description": "Injured Reserve",
+            "abbreviation": "IR"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "IR",
+              "abbreviation": "IR"
+            },
+            "type": "Upper Body",
+            "returnDate": "2026-12-02"
+          }
+        },
+        {
           "id": "601161",
           "longComment": "day-to-day",
           "shortComment": "day-to-day",
@@ -57536,1344 +56848,6 @@
             },
             "type": "Upper Body",
             "returnDate": "2026-11-27"
-          }
-        },
-        {
-          "id": "601168",
-          "longComment": "day-to-day",
-          "shortComment": "day-to-day",
-          "status": "Day-To-Day",
-          "date": "2026-11-26T14:08Z",
-          "athlete": {
-            "firstName": "Jimmy",
-            "lastName": "Snuggerud",
-            "displayName": "Jimmy Snuggerud",
-            "shortName": "J. Snuggerud",
-            "links": [
-              {
-                "language": "en-US",
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nhl/player/_/id/5080171",
-                "text": "Player Card",
-                "shortText": "Player Card",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "stats",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nhl/player/stats/_/id/5080171/jimmy-snuggerud",
-                "text": "Stats",
-                "shortText": "Stats",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "stats",
-                  "sportscenter",
-                  "app",
-                  "athlete"
-                ],
-                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:5080171&section=stats",
-                "text": "Stats",
-                "shortText": "Stats",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "splits",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nhl/player/splits/_/id/5080171/jimmy-snuggerud",
-                "text": "Splits",
-                "shortText": "Splits",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "gamelog",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nhl/player/gamelog/_/id/5080171/jimmy-snuggerud",
-                "text": "Game Log",
-                "shortText": "Game Log",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "gamelog",
-                  "sportscenter",
-                  "app",
-                  "athlete"
-                ],
-                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:5080171&section=gamelog",
-                "text": "Game Log",
-                "shortText": "Game Log",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "news",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nhl/player/news/_/id/5080171/jimmy-snuggerud",
-                "text": "News",
-                "shortText": "News",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "news",
-                  "sportscenter",
-                  "app",
-                  "athlete"
-                ],
-                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:5080171&section=news",
-                "text": "News",
-                "shortText": "News",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bio",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nhl/player/bio/_/id/5080171/jimmy-snuggerud",
-                "text": "Bio",
-                "shortText": "Bio",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bio",
-                  "sportscenter",
-                  "app",
-                  "athlete"
-                ],
-                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:5080171&section=bio",
-                "text": "Bio",
-                "shortText": "Bio",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "overview",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nhl/player/_/id/5080171/jimmy-snuggerud",
-                "text": "Overview",
-                "shortText": "Overview",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "overview",
-                  "sportscenter",
-                  "app",
-                  "athlete"
-                ],
-                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:5080171",
-                "text": "Overview",
-                "shortText": "Overview",
-                "isExternal": false,
-                "isPremium": false
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nhl/players/full/5080171.png",
-              "alt": "Jimmy Snuggerud"
-            },
-            "position": {
-              "id": "3",
-              "name": "Right Wing",
-              "displayName": "Right Wing",
-              "abbreviation": "RW",
-              "leaf": true
-            },
-            "team": {
-              "id": "19",
-              "uid": "s:70~l:90~t:19",
-              "slug": "st-louis-blues",
-              "name": "Blues",
-              "abbreviation": "STL",
-              "displayName": "St. Louis Blues",
-              "logos": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500/stl.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2025-09-25T18:13Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500-dark/stl.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "dark"
-                  ],
-                  "lastUpdated": "2025-09-25T18:11Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/stl.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard"
-                  ],
-                  "lastUpdated": "2025-09-25T18:13Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500-dark/scoreboard/stl.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard",
-                    "dark"
-                  ],
-                  "lastUpdated": "2025-09-25T18:12Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/primary_logo_on_white_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_white_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/primary_logo_on_black_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_black_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/primary_logo_on_primary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_primary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/primary_logo_on_secondary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_secondary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/primary_logo_black.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_black"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/primary_logo_white.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_white"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/secondary_logo_on_white_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_white_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/secondary_logo_on_black_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_black_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/secondary_logo_on_primary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_primary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/secondary_logo_on_secondary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_secondary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/secondary_logo_black.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_black"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/secondary_logo_white.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_white"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                }
-              ],
-              "links": [
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "clubhouse",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/_/name/stl/st-louis-blues",
-                  "text": "Clubhouse",
-                  "shortText": "Clubhouse",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "clubhouse",
-                    "mobile",
-                    "team"
-                  ],
-                  "href": "https://m.espn.com/nhl/clubhouse?teamId=19",
-                  "text": "Clubhouse",
-                  "shortText": "Clubhouse",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "roster",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/roster/_/name/stl/st-louis-blues",
-                  "text": "Roster",
-                  "shortText": "Roster",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "roster",
-                    "sportscenter",
-                    "app",
-                    "team"
-                  ],
-                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:19&section=roster",
-                  "text": "Roster",
-                  "shortText": "Roster",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "stats",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/stats/_/name/stl/st-louis-blues",
-                  "text": "Statistics",
-                  "shortText": "Statistics",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "stats",
-                    "sportscenter",
-                    "app",
-                    "team"
-                  ],
-                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:19&section=stats",
-                  "text": "Statistics",
-                  "shortText": "Statistics",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "schedule",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/schedule/_/name/stl",
-                  "text": "Schedule",
-                  "shortText": "Schedule",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "schedule",
-                    "sportscenter",
-                    "app",
-                    "team"
-                  ],
-                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:19&section=scores",
-                  "text": "Schedule",
-                  "shortText": "Schedule",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "photos",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/photos/_/name/stl",
-                  "text": "photos",
-                  "shortText": "photos",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "tickets",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.vividseats.com/st-louis-blues-tickets--sports-nhl-hockey/performer/806?wsUser=717",
-                  "text": "Tickets",
-                  "shortText": "Tickets",
-                  "isExternal": true,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "transactions",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/transactions/_/name/stl",
-                  "text": "Transactions",
-                  "shortText": "Transactions",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "injuries",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/injuries/_/name/stl",
-                  "text": "Injuries",
-                  "shortText": "Injuries",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "depthchart",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/line-combo/_/name/stl",
-                  "text": "Line Combo",
-                  "shortText": "Line Combo",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "depthchart",
-                    "sportscenter",
-                    "app",
-                    "team"
-                  ],
-                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:19&section=depthchart",
-                  "text": "Line Combo",
-                  "shortText": "Line Combo",
-                  "isExternal": false,
-                  "isPremium": false
-                }
-              ]
-            },
-            "notes": {
-              "items": [
-                {
-                  "id": "601168",
-                  "type": "news",
-                  "date": "2026-11-26T14:08Z",
-                  "headline": "day-to-day",
-                  "text": "day-to-day",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/5080171/injuries/601168?lang=en&region=us"
-                  }
-                },
-                {
-                  "id": "601057",
-                  "type": "news",
-                  "date": "2026-11-25T18:59Z",
-                  "headline": "out",
-                  "text": "out",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/5080171/injuries/601057?lang=en&region=us"
-                  }
-                },
-                {
-                  "id": "601056",
-                  "type": "news",
-                  "date": "2026-11-25T18:58Z",
-                  "headline": "Snuggerud (upper body) didn't travel to Long Island for Wednesday's clash with the Islanders, Brandon Kiley of ESPN St. Louis reports.",
-                  "text": "Snuggerud was riding a three-game goal streak, during which he racked up four goals on seven shots and one assist. With the 22-year-old winger on the shelf, both Dylan Holloway and Dalibor Dvorsky could be in contention for a first-line role alongside Robert Thomas.",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/5080171/injuries/601056?lang=en&region=us"
-                  }
-                },
-                {
-                  "id": "600979",
-                  "type": "news",
-                  "date": "2026-11-24T18:31Z",
-                  "headline": "Snuggerud (undisclosed) is questionable for Wednesday's game against the Islanders, per Lou Korac of NHL.com.",
-                  "text": "Snuggerud didn't participate in Tuesday's practice because of a soft-tissue injury. He has heated up, posting four goals and two assists over his current four-game point streak. Snuggerud has registered 14 goals, 20 points, 53 shots on net and 17 hits in 24 appearances this season.",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/5080171/injuries/600979?lang=en&region=us"
-                  }
-                },
-                {
-                  "id": "600978",
-                  "type": "news",
-                  "date": "2026-11-24T18:29Z",
-                  "headline": "day-to-day",
-                  "text": "day-to-day",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/5080171/injuries/600978?lang=en&region=us"
-                  }
-                },
-                {
-                  "id": "600796",
-                  "type": "news",
-                  "date": "2026-11-23T06:00Z",
-                  "headline": "Snuggerud scored a goal, dished an assist and added two PIM in Sunday's 5-4 shootout win over the Oilers.",
-                  "text": "Snuggerud has four goals and two assists during his four-game point streak, which is his longest of the season. The 22-year-old winger continues to play on the Blues' top line, giving him a good chance to sustain his offense. He's up to 14 goals, six helpers, 53 shots on net, 17 hits and a plus-9 rating through 24 appearances.",
-                  "source": "RotoWire"
-                },
-                {
-                  "id": "600754",
-                  "type": "news",
-                  "date": "2026-11-22T19:23Z",
-                  "headline": "Snuggerud scored a power-play goal on two shots and went plus-2 in Saturday's 9-6 win over the Devils.",
-                  "text": "Snuggerud has five goals and two helpers over his last seven contests. He was able to chip in during this high-scoring game, though the top-line winger didn't play a leading role. For the season, he's up to 13 goals, five assists, 52 shots on net, 17 hits and a plus-8 rating across 23 appearances. Snuggerud's assists should bounce back eventually, though he's also shooting 25 percent, a number that's likely to regress.",
-                  "source": "RotoWire"
-                },
-                {
-                  "id": "600405",
-                  "type": "news",
-                  "date": "2026-11-20T15:02Z",
-                  "headline": "Snuggerud scored two goals, one the game-winner, in Thursday's 5-2 victory over the Penguins.",
-                  "text": "The 22-year-old winger potted the Blues' third and fourth goals on the night, both times banging home the puck from close range. It was Snuggerud's second multi-goal effort of the season, but he's been a consistent producer overall and has yet to go more than three games in a row without lighting the lamp this season. Through 22 contests, Snuggerud has delivered 12 goals and 17 points, including three goals and an assist on the power play.",
-                  "source": "RotoWire"
-                }
-              ]
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "source": {
-            "id": "1",
-            "description": "basic/manual",
-            "state": "basic"
-          },
-          "type": {
-            "id": "6",
-            "name": "INJURY_STATUS_DAYTODAY",
-            "description": "day-to-day",
-            "abbreviation": "DD"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "Day-To-Day",
-              "abbreviation": "Day-To-Day"
-            },
-            "type": "Upper Body",
-            "returnDate": "2026-11-27"
-          }
-        },
-        {
-          "id": "600997",
-          "longComment": "ir",
-          "shortComment": "ir",
-          "status": "Injured Reserve",
-          "date": "2026-11-24T22:30Z",
-          "athlete": {
-            "firstName": "Connor",
-            "lastName": "McMichael",
-            "displayName": "Connor McMichael",
-            "shortName": "C. McMichael",
-            "links": [
-              {
-                "language": "en-US",
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nhl/player/_/id/4565246",
-                "text": "Player Card",
-                "shortText": "Player Card",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "stats",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nhl/player/stats/_/id/4565246/connor-mcmichael",
-                "text": "Stats",
-                "shortText": "Stats",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "stats",
-                  "sportscenter",
-                  "app",
-                  "athlete"
-                ],
-                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4565246&section=stats",
-                "text": "Stats",
-                "shortText": "Stats",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "splits",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nhl/player/splits/_/id/4565246/connor-mcmichael",
-                "text": "Splits",
-                "shortText": "Splits",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "gamelog",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nhl/player/gamelog/_/id/4565246/connor-mcmichael",
-                "text": "Game Log",
-                "shortText": "Game Log",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "gamelog",
-                  "sportscenter",
-                  "app",
-                  "athlete"
-                ],
-                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4565246&section=gamelog",
-                "text": "Game Log",
-                "shortText": "Game Log",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "news",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nhl/player/news/_/id/4565246/connor-mcmichael",
-                "text": "News",
-                "shortText": "News",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "news",
-                  "sportscenter",
-                  "app",
-                  "athlete"
-                ],
-                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4565246&section=news",
-                "text": "News",
-                "shortText": "News",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bio",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nhl/player/bio/_/id/4565246/connor-mcmichael",
-                "text": "Bio",
-                "shortText": "Bio",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bio",
-                  "sportscenter",
-                  "app",
-                  "athlete"
-                ],
-                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4565246&section=bio",
-                "text": "Bio",
-                "shortText": "Bio",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "overview",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nhl/player/_/id/4565246/connor-mcmichael",
-                "text": "Overview",
-                "shortText": "Overview",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "overview",
-                  "sportscenter",
-                  "app",
-                  "athlete"
-                ],
-                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4565246",
-                "text": "Overview",
-                "shortText": "Overview",
-                "isExternal": false,
-                "isPremium": false
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nhl/players/full/4565246.png",
-              "alt": "Connor McMichael"
-            },
-            "position": {
-              "id": "2",
-              "name": "Left Wing",
-              "displayName": "Left Wing",
-              "abbreviation": "LW",
-              "leaf": true
-            },
-            "team": {
-              "id": "19",
-              "uid": "s:70~l:90~t:19",
-              "slug": "st-louis-blues",
-              "name": "Blues",
-              "abbreviation": "STL",
-              "displayName": "St. Louis Blues",
-              "logos": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500/stl.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2025-09-25T18:13Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500-dark/stl.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "dark"
-                  ],
-                  "lastUpdated": "2025-09-25T18:11Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/stl.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard"
-                  ],
-                  "lastUpdated": "2025-09-25T18:13Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500-dark/scoreboard/stl.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard",
-                    "dark"
-                  ],
-                  "lastUpdated": "2025-09-25T18:12Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/primary_logo_on_white_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_white_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/primary_logo_on_black_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_black_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/primary_logo_on_primary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_primary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/primary_logo_on_secondary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_secondary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/primary_logo_black.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_black"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/primary_logo_white.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_white"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/secondary_logo_on_white_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_white_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/secondary_logo_on_black_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_black_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/secondary_logo_on_primary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_primary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/secondary_logo_on_secondary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_secondary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/secondary_logo_black.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_black"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/9d2d39d0-ed26-32e1-dcdf-d48e2cef3c90/logos/secondary_logo_white.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_white"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                }
-              ],
-              "links": [
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "clubhouse",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/_/name/stl/st-louis-blues",
-                  "text": "Clubhouse",
-                  "shortText": "Clubhouse",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "clubhouse",
-                    "mobile",
-                    "team"
-                  ],
-                  "href": "https://m.espn.com/nhl/clubhouse?teamId=19",
-                  "text": "Clubhouse",
-                  "shortText": "Clubhouse",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "roster",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/roster/_/name/stl/st-louis-blues",
-                  "text": "Roster",
-                  "shortText": "Roster",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "roster",
-                    "sportscenter",
-                    "app",
-                    "team"
-                  ],
-                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:19&section=roster",
-                  "text": "Roster",
-                  "shortText": "Roster",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "stats",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/stats/_/name/stl/st-louis-blues",
-                  "text": "Statistics",
-                  "shortText": "Statistics",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "stats",
-                    "sportscenter",
-                    "app",
-                    "team"
-                  ],
-                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:19&section=stats",
-                  "text": "Statistics",
-                  "shortText": "Statistics",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "schedule",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/schedule/_/name/stl",
-                  "text": "Schedule",
-                  "shortText": "Schedule",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "schedule",
-                    "sportscenter",
-                    "app",
-                    "team"
-                  ],
-                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:19&section=scores",
-                  "text": "Schedule",
-                  "shortText": "Schedule",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "photos",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/photos/_/name/stl",
-                  "text": "photos",
-                  "shortText": "photos",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "tickets",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.vividseats.com/st-louis-blues-tickets--sports-nhl-hockey/performer/806?wsUser=717",
-                  "text": "Tickets",
-                  "shortText": "Tickets",
-                  "isExternal": true,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "transactions",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/transactions/_/name/stl",
-                  "text": "Transactions",
-                  "shortText": "Transactions",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "injuries",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/injuries/_/name/stl",
-                  "text": "Injuries",
-                  "shortText": "Injuries",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "depthchart",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/line-combo/_/name/stl",
-                  "text": "Line Combo",
-                  "shortText": "Line Combo",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "depthchart",
-                    "sportscenter",
-                    "app",
-                    "team"
-                  ],
-                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:19&section=depthchart",
-                  "text": "Line Combo",
-                  "shortText": "Line Combo",
-                  "isExternal": false,
-                  "isPremium": false
-                }
-              ]
-            },
-            "notes": {
-              "items": [
-                {
-                  "id": "600997",
-                  "type": "news",
-                  "date": "2026-11-24T22:30Z",
-                  "headline": "ir",
-                  "text": "ir",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/4565246/injuries/600997?lang=en&region=us"
-                  }
-                },
-                {
-                  "id": "600983",
-                  "type": "news",
-                  "date": "2026-11-24T18:41Z",
-                  "headline": "McMichael (lower body) isn't expected to play against the Islanders on Wednesday, according to Lou Korac of NHL.com.",
-                  "text": "McMichael skated before Tuesday's practice, but he didn't join his teammates for the main on-ice session. He will likely miss his third straight game with a lower-body injury. He has contributed three goals, 11 points, 32 shots on net and 15 hits in 22 appearances this season.",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/4565246/injuries/600983?lang=en&region=us"
-                  }
-                },
-                {
-                  "id": "600981",
-                  "type": "news",
-                  "date": "2026-11-24T18:37Z",
-                  "headline": "out",
-                  "text": "out",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/4565246/injuries/600981?lang=en&region=us"
-                  }
-                },
-                {
-                  "id": "600827",
-                  "type": "news",
-                  "date": "2026-11-23T14:10Z",
-                  "headline": "day-to-day",
-                  "text": "day-to-day",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/4565246/injuries/600827?lang=en&region=us"
-                  }
-                },
-                {
-                  "id": "600778",
-                  "type": "news",
-                  "date": "2026-11-22T22:49Z",
-                  "headline": "out",
-                  "text": "out",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/4565246/injuries/600778?lang=en&region=us"
-                  }
-                },
-                {
-                  "id": "600694",
-                  "type": "news",
-                  "date": "2026-11-22T13:40Z",
-                  "headline": "day-to-day",
-                  "text": "day-to-day",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/4565246/injuries/600694?lang=en&region=us"
-                  }
-                },
-                {
-                  "id": "600436",
-                  "type": "news",
-                  "date": "2026-11-20T18:15Z",
-                  "headline": "out",
-                  "text": "out",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/4565246/injuries/600436?lang=en&region=us"
-                  }
-                }
-              ]
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "source": {
-            "id": "1",
-            "description": "basic/manual",
-            "state": "basic"
-          },
-          "type": {
-            "id": "5",
-            "name": "INJURY_STATUS_IR",
-            "description": "Injured Reserve",
-            "abbreviation": "IR"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "IR",
-              "abbreviation": "IR"
-            },
-            "type": "Lower Body",
-            "returnDate": "2026-12-02"
           }
         },
         {
@@ -63744,6 +61718,616 @@
       "id": "21",
       "displayName": "Toronto Maple Leafs",
       "injuries": [
+        {
+          "id": "601294",
+          "longComment": "out",
+          "shortComment": "out",
+          "status": "Out",
+          "date": "2026-11-27T17:39Z",
+          "athlete": {
+            "firstName": "Dakota",
+            "lastName": "Joshua",
+            "displayName": "Dakota Joshua",
+            "shortName": "D. Joshua",
+            "links": [
+              {
+                "language": "en-US",
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nhl/player/_/id/4588638",
+                "text": "Player Card",
+                "shortText": "Player Card",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "stats",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nhl/player/stats/_/id/4588638/dakota-joshua",
+                "text": "Stats",
+                "shortText": "Stats",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "stats",
+                  "sportscenter",
+                  "app",
+                  "athlete"
+                ],
+                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4588638&section=stats",
+                "text": "Stats",
+                "shortText": "Stats",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "splits",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nhl/player/splits/_/id/4588638/dakota-joshua",
+                "text": "Splits",
+                "shortText": "Splits",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "gamelog",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nhl/player/gamelog/_/id/4588638/dakota-joshua",
+                "text": "Game Log",
+                "shortText": "Game Log",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "gamelog",
+                  "sportscenter",
+                  "app",
+                  "athlete"
+                ],
+                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4588638&section=gamelog",
+                "text": "Game Log",
+                "shortText": "Game Log",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "news",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nhl/player/news/_/id/4588638/dakota-joshua",
+                "text": "News",
+                "shortText": "News",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "news",
+                  "sportscenter",
+                  "app",
+                  "athlete"
+                ],
+                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4588638&section=news",
+                "text": "News",
+                "shortText": "News",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "bio",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nhl/player/bio/_/id/4588638/dakota-joshua",
+                "text": "Bio",
+                "shortText": "Bio",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "bio",
+                  "sportscenter",
+                  "app",
+                  "athlete"
+                ],
+                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4588638&section=bio",
+                "text": "Bio",
+                "shortText": "Bio",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "overview",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nhl/player/_/id/4588638/dakota-joshua",
+                "text": "Overview",
+                "shortText": "Overview",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "overview",
+                  "sportscenter",
+                  "app",
+                  "athlete"
+                ],
+                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4588638",
+                "text": "Overview",
+                "shortText": "Overview",
+                "isExternal": false,
+                "isPremium": false
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nhl/players/full/4588638.png",
+              "alt": "Dakota Joshua"
+            },
+            "position": {
+              "id": "1",
+              "name": "Center",
+              "displayName": "Center",
+              "abbreviation": "C",
+              "leaf": true
+            },
+            "team": {
+              "id": "21",
+              "uid": "s:70~l:90~t:21",
+              "slug": "toronto-maple-leafs",
+              "name": "Maple Leafs",
+              "abbreviation": "TOR",
+              "displayName": "Toronto Maple Leafs",
+              "logos": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500/tor.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2024-07-03T19:49Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500-dark/tor.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "dark"
+                  ],
+                  "lastUpdated": "2024-07-02T15:46Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard"
+                  ],
+                  "lastUpdated": "2024-07-03T19:49Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500-dark/scoreboard/tor.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard",
+                    "dark"
+                  ],
+                  "lastUpdated": "2024-07-02T15:46Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/5aa11fc5-b122-f21a-1ddb-a63c5b3dddee/logos/primary_logo_on_white_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_white_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/5aa11fc5-b122-f21a-1ddb-a63c5b3dddee/logos/primary_logo_on_black_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_black_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/5aa11fc5-b122-f21a-1ddb-a63c5b3dddee/logos/primary_logo_on_primary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_primary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/5aa11fc5-b122-f21a-1ddb-a63c5b3dddee/logos/primary_logo_on_secondary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_secondary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/5aa11fc5-b122-f21a-1ddb-a63c5b3dddee/logos/primary_logo_black.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_black"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/5aa11fc5-b122-f21a-1ddb-a63c5b3dddee/logos/primary_logo_white.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_white"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/5aa11fc5-b122-f21a-1ddb-a63c5b3dddee/logos/secondary_logo_on_white_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_white_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/5aa11fc5-b122-f21a-1ddb-a63c5b3dddee/logos/secondary_logo_on_black_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_black_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/5aa11fc5-b122-f21a-1ddb-a63c5b3dddee/logos/secondary_logo_on_primary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_primary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/5aa11fc5-b122-f21a-1ddb-a63c5b3dddee/logos/secondary_logo_on_secondary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_secondary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/5aa11fc5-b122-f21a-1ddb-a63c5b3dddee/logos/secondary_logo_black.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_black"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/5aa11fc5-b122-f21a-1ddb-a63c5b3dddee/logos/secondary_logo_white.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_white"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                }
+              ],
+              "links": [
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/_/name/tor/toronto-maple-leafs",
+                  "text": "Clubhouse",
+                  "shortText": "Clubhouse",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "clubhouse",
+                    "mobile",
+                    "team"
+                  ],
+                  "href": "https://m.espn.com/nhl/clubhouse?teamId=21",
+                  "text": "Clubhouse",
+                  "shortText": "Clubhouse",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "roster",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/roster/_/name/tor/toronto-maple-leafs",
+                  "text": "Roster",
+                  "shortText": "Roster",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "roster",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:21&section=roster",
+                  "text": "Roster",
+                  "shortText": "Roster",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "stats",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/stats/_/name/tor/toronto-maple-leafs",
+                  "text": "Statistics",
+                  "shortText": "Statistics",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "stats",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:21&section=stats",
+                  "text": "Statistics",
+                  "shortText": "Statistics",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "schedule",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/schedule/_/name/tor",
+                  "text": "Schedule",
+                  "shortText": "Schedule",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "schedule",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:21&section=scores",
+                  "text": "Schedule",
+                  "shortText": "Schedule",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "photos",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/photos/_/name/tor",
+                  "text": "photos",
+                  "shortText": "photos",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "tickets",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.vividseats.com/toronto-maple-leafs-tickets--sports-nhl-hockey/performer/878?wsUser=717",
+                  "text": "Tickets",
+                  "shortText": "Tickets",
+                  "isExternal": true,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "transactions",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/transactions/_/name/tor",
+                  "text": "Transactions",
+                  "shortText": "Transactions",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "injuries",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/injuries/_/name/tor",
+                  "text": "Injuries",
+                  "shortText": "Injuries",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "depthchart",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/line-combo/_/name/tor",
+                  "text": "Line Combo",
+                  "shortText": "Line Combo",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "depthchart",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:21&section=depthchart",
+                  "text": "Line Combo",
+                  "shortText": "Line Combo",
+                  "isExternal": false,
+                  "isPremium": false
+                }
+              ]
+            },
+            "notes": {
+              "items": [
+                {
+                  "id": "601294",
+                  "type": "news",
+                  "date": "2026-11-27T17:39Z",
+                  "headline": "out",
+                  "text": "out",
+                  "source": "RotoWire",
+                  "injury": {
+                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/4588638/injuries/601294?lang=en&region=us"
+                  }
+                },
+                {
+                  "id": "600967",
+                  "type": "news",
+                  "date": "2026-11-24T18:14Z",
+                  "headline": "Joshua scored a goal on two shots, added three hits and blocked two shots in Monday's 4-2 win over the Islanders.",
+                  "text": "Joshua has two goals over his last three contests. An abdominal injury kept him out of action for the first month of the campaign, but he looks to be getting up to speed. Over 11 games, he has three points, 11 shots, 38 hits and an even plus-minus rating while filling a bottom-six role.",
+                  "source": "RotoWire"
+                }
+              ]
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "source": {
+            "id": "1",
+            "description": "basic/manual",
+            "state": "basic"
+          },
+          "type": {
+            "id": "4",
+            "name": "INJURY_STATUS_OUT",
+            "description": "out",
+            "abbreviation": "O"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "OUT",
+              "abbreviation": "OUT"
+            },
+            "type": "Illness",
+            "returnDate": "2026-11-28"
+          }
+        },
         {
           "id": "601217",
           "longComment": "Roslovic is in line to miss his second consecutive game after sustaining his upper-body injury in Saturday's 4-3 loss to the Blue Jackets. Prior to going down, the 29-year-old winger posted nine goals, 23 points, a plus-2 rating, 61 shots on net, 18 hits and 10 blocked shots over 24 appearances this season. If the Maple Leafs aren't able to activate either Kirill Marchenko (lower body) or Colton Sissons (lower body) from injured reserve prior to Friday's game, Toronto will likely have to call up an additional forward for the road test in Boston.",
