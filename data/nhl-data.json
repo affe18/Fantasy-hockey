@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T14:52:43.450014+00:00",
+  "updatedAt": "2026-11-27T15:57:49.557353+00:00",
   "season": "current",
   "sourceStatus": {
     "nhlStats": false,
@@ -5464,7 +5464,7 @@
               "abbreviation": "IR"
             },
             "type": "Back",
-            "returnDate": "2026-11-27"
+            "returnDate": "2026-11-29"
           }
         }
       ]
@@ -14138,7 +14138,7 @@
               "abbreviation": "IR"
             },
             "type": "Upper Body",
-            "returnDate": "2026-11-27"
+            "returnDate": "2026-11-30"
           }
         }
       ]
@@ -33460,11 +33460,11 @@
       "displayName": "New York Islanders",
       "injuries": [
         {
-          "id": "600990",
-          "longComment": "ir",
-          "shortComment": "ir",
+          "id": "601266",
+          "longComment": "Palmieri is done for the season based on that timetable. If the Islanders have a very deep playoff run, there might be a small chance of Palmieri participating towards the end of it, but even in that scenario, it's more likely that he won't play again until the 2027-28 campaign. The 35-year-old has four goals and nine points in 23 appearances this campaign. He has now finished with 25 or fewer games played in two straight regular seasons.",
+          "shortComment": "Palmieri is expected to miss the next 6-8 months with a torn ACL and meniscus in his right knee, the team announced Friday.",
           "status": "Injured Reserve",
-          "date": "2026-11-24T20:00Z",
+          "date": "2026-11-27T15:49Z",
           "athlete": {
             "firstName": "Kyle",
             "lastName": "Palmieri",
@@ -34022,6 +34022,17 @@
             "notes": {
               "items": [
                 {
+                  "id": "601266",
+                  "type": "news",
+                  "date": "2026-11-27T15:49Z",
+                  "headline": "Palmieri is expected to miss the next 6-8 months with a torn ACL and meniscus in his right knee, the team announced Friday.",
+                  "text": "Palmieri is done for the season based on that timetable. If the Islanders have a very deep playoff run, there might be a small chance of Palmieri participating towards the end of it, but even in that scenario, it's more likely that he won't play again until the 2027-28 campaign. The 35-year-old has four goals and nine points in 23 appearances this campaign. He has now finished with 25 or fewer games played in two straight regular seasons.",
+                  "source": "RotoWire",
+                  "injury": {
+                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/5517/injuries/601266?lang=en&region=us"
+                  }
+                },
+                {
                   "id": "600990",
                   "type": "news",
                   "date": "2026-11-24T20:00Z",
@@ -34087,9 +34098,9 @@
               "description": "IR",
               "abbreviation": "IR"
             },
-            "type": "Lower Body",
+            "type": "Knee",
             "side": "Right",
-            "returnDate": "2026-12-01"
+            "returnDate": "2027-06-01"
           }
         },
         {
@@ -36581,7 +36592,7 @@
               "abbreviation": "IR"
             },
             "type": "Lower Body",
-            "returnDate": "2026-11-27"
+            "returnDate": "2026-11-28"
           }
         },
         {
@@ -52425,7 +52436,7 @@
               "abbreviation": "IR"
             },
             "type": "Lower Body",
-            "returnDate": "2026-11-27"
+            "returnDate": "2026-12-02"
           }
         },
         {
@@ -60402,7 +60413,7 @@
               "abbreviation": "IR"
             },
             "type": "Upper Body",
-            "returnDate": "2026-11-27"
+            "returnDate": "2026-11-30"
           }
         },
         {
@@ -68226,7 +68237,7 @@
               "abbreviation": "IR"
             },
             "type": "Lower Body",
-            "returnDate": "2026-11-27"
+            "returnDate": "2026-12-01"
           }
         },
         {
@@ -70615,16 +70626,16 @@
       "displayName": "Washington Capitals",
       "injuries": [
         {
-          "id": "601028",
-          "longComment": "Desharnais has been upgraded to day-to-day after fully participating in Tuesday's practice session, but he skated with the scratches during Wednesday's morning skate, signaling that he'll be unavailable for a 13th consecutive game. The 30-year-old's next opportunity to return to game action will be Friday against the Panthers.",
-          "shortComment": "Desharnais (appendectomy) is slated to miss Wednesday's game against the Flyers, Tarik El-Bashir of Monumental Sports Network reports.",
+          "id": "601263",
+          "longComment": "Kyrou has five goals and 14 points in 21 appearances this season. He hasn't played since last Saturday due to the injury. Kyrou is expected to resume serving in a middle-six capacity with power-play ice time once he's healthy.",
+          "shortComment": "Kyrou (upper body) was put on injured reserve Friday.",
           "status": "Injured Reserve",
-          "date": "2026-11-25T16:03Z",
+          "date": "2026-11-27T15:11Z",
           "athlete": {
-            "firstName": "Vincent",
-            "lastName": "Desharnais",
-            "displayName": "Vincent Desharnais",
-            "shortName": "V. Desharnais",
+            "firstName": "Jordan",
+            "lastName": "Kyrou",
+            "displayName": "Jordan Kyrou",
+            "shortName": "J. Kyrou",
             "links": [
               {
                 "language": "en-US",
@@ -70633,7 +70644,7 @@
                   "desktop",
                   "athlete"
                 ],
-                "href": "https://www.espn.com/nhl/player/_/id/4392260",
+                "href": "https://www.espn.com/nhl/player/_/id/4062251",
                 "text": "Player Card",
                 "shortText": "Player Card",
                 "isExternal": false,
@@ -70646,7 +70657,7 @@
                   "desktop",
                   "athlete"
                 ],
-                "href": "https://www.espn.com/nhl/player/stats/_/id/4392260/vincent-desharnais",
+                "href": "https://www.espn.com/nhl/player/stats/_/id/4062251/jordan-kyrou",
                 "text": "Stats",
                 "shortText": "Stats",
                 "isExternal": false,
@@ -70660,7 +70671,7 @@
                   "app",
                   "athlete"
                 ],
-                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4392260&section=stats",
+                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4062251&section=stats",
                 "text": "Stats",
                 "shortText": "Stats",
                 "isExternal": false,
@@ -70673,7 +70684,7 @@
                   "desktop",
                   "athlete"
                 ],
-                "href": "https://www.espn.com/nhl/player/splits/_/id/4392260/vincent-desharnais",
+                "href": "https://www.espn.com/nhl/player/splits/_/id/4062251/jordan-kyrou",
                 "text": "Splits",
                 "shortText": "Splits",
                 "isExternal": false,
@@ -70686,7 +70697,7 @@
                   "desktop",
                   "athlete"
                 ],
-                "href": "https://www.espn.com/nhl/player/gamelog/_/id/4392260/vincent-desharnais",
+                "href": "https://www.espn.com/nhl/player/gamelog/_/id/4062251/jordan-kyrou",
                 "text": "Game Log",
                 "shortText": "Game Log",
                 "isExternal": false,
@@ -70700,7 +70711,7 @@
                   "app",
                   "athlete"
                 ],
-                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4392260&section=gamelog",
+                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4062251&section=gamelog",
                 "text": "Game Log",
                 "shortText": "Game Log",
                 "isExternal": false,
@@ -70713,7 +70724,7 @@
                   "desktop",
                   "athlete"
                 ],
-                "href": "https://www.espn.com/nhl/player/news/_/id/4392260/vincent-desharnais",
+                "href": "https://www.espn.com/nhl/player/news/_/id/4062251/jordan-kyrou",
                 "text": "News",
                 "shortText": "News",
                 "isExternal": false,
@@ -70727,7 +70738,7 @@
                   "app",
                   "athlete"
                 ],
-                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4392260&section=news",
+                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4062251&section=news",
                 "text": "News",
                 "shortText": "News",
                 "isExternal": false,
@@ -70740,7 +70751,7 @@
                   "desktop",
                   "athlete"
                 ],
-                "href": "https://www.espn.com/nhl/player/bio/_/id/4392260/vincent-desharnais",
+                "href": "https://www.espn.com/nhl/player/bio/_/id/4062251/jordan-kyrou",
                 "text": "Bio",
                 "shortText": "Bio",
                 "isExternal": false,
@@ -70754,7 +70765,7 @@
                   "app",
                   "athlete"
                 ],
-                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4392260&section=bio",
+                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4062251&section=bio",
                 "text": "Bio",
                 "shortText": "Bio",
                 "isExternal": false,
@@ -70767,7 +70778,7 @@
                   "desktop",
                   "athlete"
                 ],
-                "href": "https://www.espn.com/nhl/player/_/id/4392260/vincent-desharnais",
+                "href": "https://www.espn.com/nhl/player/_/id/4062251/jordan-kyrou",
                 "text": "Overview",
                 "shortText": "Overview",
                 "isExternal": false,
@@ -70781,7 +70792,7 @@
                   "app",
                   "athlete"
                 ],
-                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4392260",
+                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4062251",
                 "text": "Overview",
                 "shortText": "Overview",
                 "isExternal": false,
@@ -70789,14 +70800,14 @@
               }
             ],
             "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nhl/players/full/4392260.png",
-              "alt": "Vincent Desharnais"
+              "href": "https://a.espncdn.com/i/headshots/nhl/players/full/4062251.png",
+              "alt": "Jordan Kyrou"
             },
             "position": {
-              "id": "4",
-              "name": "Defense",
-              "displayName": "Defense",
-              "abbreviation": "D",
+              "id": "3",
+              "name": "Right Wing",
+              "displayName": "Right Wing",
+              "abbreviation": "RW",
               "leaf": true
             },
             "team": {
@@ -71177,36 +71188,58 @@
             "notes": {
               "items": [
                 {
-                  "id": "601028",
+                  "id": "601263",
                   "type": "news",
-                  "date": "2026-11-25T16:03Z",
-                  "headline": "Desharnais (appendectomy) is slated to miss Wednesday's game against the Flyers, Tarik El-Bashir of Monumental Sports Network reports.",
-                  "text": "Desharnais has been upgraded to day-to-day after fully participating in Tuesday's practice session, but he skated with the scratches during Wednesday's morning skate, signaling that he'll be unavailable for a 13th consecutive game. The 30-year-old's next opportunity to return to game action will be Friday against the Panthers.",
+                  "date": "2026-11-27T15:11Z",
+                  "headline": "Kyrou (upper body) was put on injured reserve Friday.",
+                  "text": "Kyrou has five goals and 14 points in 21 appearances this season. He hasn't played since last Saturday due to the injury. Kyrou is expected to resume serving in a middle-six capacity with power-play ice time once he's healthy.",
                   "source": "RotoWire",
                   "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/4392260/injuries/601028?lang=en&region=us"
+                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/4062251/injuries/601263?lang=en&region=us"
                   }
                 },
                 {
-                  "id": "600959",
+                  "id": "601261",
                   "type": "news",
-                  "date": "2026-11-24T17:30Z",
-                  "headline": "Desharnais (appendectomy) was a full participant in Tuesday's practice and has been upgraded to day-to-day, Tarik El-Bashir of Monumental Sports Network reports.",
-                  "text": "Desharnais could be ready to return as early as Wednesday's matchup against Philadelphia. The Capitals expect to know more about the 30-year-old defenseman's availability after Wednesday's morning skate. He has missed the last 12 games after having appendectomy surgery Oct. 22.",
+                  "date": "2026-11-27T15:09Z",
+                  "headline": "ir",
+                  "text": "ir",
                   "source": "RotoWire",
                   "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/4392260/injuries/600959?lang=en&region=us"
+                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/4062251/injuries/601261?lang=en&region=us"
                   }
                 },
                 {
-                  "id": "600415",
+                  "id": "600849",
                   "type": "news",
-                  "date": "2026-11-20T16:03Z",
-                  "headline": "Desharnais (abdomen) has been cleared for contact, Sammi Silber of The District Standard reports Friday.",
-                  "text": "It seems unlikely Desharnais will immediately return to the lineup against the Bruins on Saturday, though he seems to be making progress in his recovery. The 30-year-old blueliner has been sidelined for the Caps' last 11 games. Prior to getting hurt, Desharnais failed to score a goal in nine outings while chipping in three assists, three shots and 22 hits.",
+                  "date": "2026-11-23T17:14Z",
+                  "headline": "out",
+                  "text": "out",
                   "source": "RotoWire",
                   "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/4392260/injuries/600415?lang=en&region=us"
+                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/4062251/injuries/600849?lang=en&region=us"
+                  }
+                },
+                {
+                  "id": "600830",
+                  "type": "news",
+                  "date": "2026-11-23T15:30Z",
+                  "headline": "day-to-day",
+                  "text": "day-to-day",
+                  "source": "RotoWire",
+                  "injury": {
+                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/4062251/injuries/600830?lang=en&region=us"
+                  }
+                },
+                {
+                  "id": "600822",
+                  "type": "news",
+                  "date": "2026-11-23T15:29Z",
+                  "headline": "The Capitals announced Monday that Kyrou is dealing with an upper-body injury, Sammi Silber of The District Standard reports.",
+                  "text": "While a timetable for the 28-year-old's return isn't yet clear, head coach Spencer Carbery is slated to speak to the media later Monday, which could provide better insight into Kyrou's status. It's not yet clear whether Kyrou will have a chance to suit up Wednesday against the Flyers, but Ethen Frank and Anthony Beauvillier are candidates to enter the lineup if Kyrou is sidelined.",
+                  "source": "RotoWire",
+                  "injury": {
+                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/4062251/injuries/600822?lang=en&region=us"
                   }
                 }
               ]
@@ -71234,10 +71267,10 @@
               "description": "IR",
               "abbreviation": "IR"
             },
-            "type": "Abdomen",
-            "detail": "Surgery",
+            "type": "Upper Body",
+            "detail": "Not Specified",
             "side": "Not Specified",
-            "returnDate": "2026-11-27"
+            "returnDate": "2026-12-01"
           }
         },
         {
@@ -71842,632 +71875,6 @@
             "detail": "Surgery",
             "side": "Right",
             "returnDate": "2026-12-15"
-          }
-        },
-        {
-          "id": "600849",
-          "longComment": "out",
-          "shortComment": "out",
-          "status": "Out",
-          "date": "2026-11-23T17:14Z",
-          "athlete": {
-            "firstName": "Jordan",
-            "lastName": "Kyrou",
-            "displayName": "Jordan Kyrou",
-            "shortName": "J. Kyrou",
-            "links": [
-              {
-                "language": "en-US",
-                "rel": [
-                  "playercard",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nhl/player/_/id/4062251",
-                "text": "Player Card",
-                "shortText": "Player Card",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "stats",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nhl/player/stats/_/id/4062251/jordan-kyrou",
-                "text": "Stats",
-                "shortText": "Stats",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "stats",
-                  "sportscenter",
-                  "app",
-                  "athlete"
-                ],
-                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4062251&section=stats",
-                "text": "Stats",
-                "shortText": "Stats",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "splits",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nhl/player/splits/_/id/4062251/jordan-kyrou",
-                "text": "Splits",
-                "shortText": "Splits",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "gamelog",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nhl/player/gamelog/_/id/4062251/jordan-kyrou",
-                "text": "Game Log",
-                "shortText": "Game Log",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "gamelog",
-                  "sportscenter",
-                  "app",
-                  "athlete"
-                ],
-                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4062251&section=gamelog",
-                "text": "Game Log",
-                "shortText": "Game Log",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "news",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nhl/player/news/_/id/4062251/jordan-kyrou",
-                "text": "News",
-                "shortText": "News",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "news",
-                  "sportscenter",
-                  "app",
-                  "athlete"
-                ],
-                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4062251&section=news",
-                "text": "News",
-                "shortText": "News",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bio",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nhl/player/bio/_/id/4062251/jordan-kyrou",
-                "text": "Bio",
-                "shortText": "Bio",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "bio",
-                  "sportscenter",
-                  "app",
-                  "athlete"
-                ],
-                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4062251&section=bio",
-                "text": "Bio",
-                "shortText": "Bio",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "overview",
-                  "desktop",
-                  "athlete"
-                ],
-                "href": "https://www.espn.com/nhl/player/_/id/4062251/jordan-kyrou",
-                "text": "Overview",
-                "shortText": "Overview",
-                "isExternal": false,
-                "isPremium": false
-              },
-              {
-                "language": "en-US",
-                "rel": [
-                  "overview",
-                  "sportscenter",
-                  "app",
-                  "athlete"
-                ],
-                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:4062251",
-                "text": "Overview",
-                "shortText": "Overview",
-                "isExternal": false,
-                "isPremium": false
-              }
-            ],
-            "headshot": {
-              "href": "https://a.espncdn.com/i/headshots/nhl/players/full/4062251.png",
-              "alt": "Jordan Kyrou"
-            },
-            "position": {
-              "id": "3",
-              "name": "Right Wing",
-              "displayName": "Right Wing",
-              "abbreviation": "RW",
-              "leaf": true
-            },
-            "team": {
-              "id": "23",
-              "uid": "s:70~l:90~t:23",
-              "slug": "washington-capitals",
-              "name": "Capitals",
-              "abbreviation": "WSH",
-              "displayName": "Washington Capitals",
-              "logos": [
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500/wsh.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "default"
-                  ],
-                  "lastUpdated": "2025-12-10T22:54Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500-dark/wsh.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "dark"
-                  ],
-                  "lastUpdated": "2025-12-10T22:54Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/wsh.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard"
-                  ],
-                  "lastUpdated": "2025-12-10T22:54Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500-dark/scoreboard/wsh.png",
-                  "width": 500,
-                  "height": 500,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "scoreboard",
-                    "dark"
-                  ],
-                  "lastUpdated": "2025-12-10T22:54Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/cbe677ee-361e-91b4-5cae-6c4c30044743/logos/primary_logo_on_white_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_white_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/cbe677ee-361e-91b4-5cae-6c4c30044743/logos/primary_logo_on_black_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_black_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/cbe677ee-361e-91b4-5cae-6c4c30044743/logos/primary_logo_on_primary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_primary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/cbe677ee-361e-91b4-5cae-6c4c30044743/logos/primary_logo_on_secondary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_on_secondary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/cbe677ee-361e-91b4-5cae-6c4c30044743/logos/primary_logo_black.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_black"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/cbe677ee-361e-91b4-5cae-6c4c30044743/logos/primary_logo_white.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "primary_logo_white"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/cbe677ee-361e-91b4-5cae-6c4c30044743/logos/secondary_logo_on_white_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_white_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/cbe677ee-361e-91b4-5cae-6c4c30044743/logos/secondary_logo_on_black_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_black_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/cbe677ee-361e-91b4-5cae-6c4c30044743/logos/secondary_logo_on_primary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_primary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/cbe677ee-361e-91b4-5cae-6c4c30044743/logos/secondary_logo_on_secondary_color.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_on_secondary_color"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/cbe677ee-361e-91b4-5cae-6c4c30044743/logos/secondary_logo_black.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_black"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                },
-                {
-                  "href": "https://a.espncdn.com/guid/cbe677ee-361e-91b4-5cae-6c4c30044743/logos/secondary_logo_white.png",
-                  "width": 4096,
-                  "height": 4096,
-                  "alt": "",
-                  "rel": [
-                    "full",
-                    "secondary_logo_white"
-                  ],
-                  "lastUpdated": "2026-07-22T20:31Z"
-                }
-              ],
-              "links": [
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "clubhouse",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/_/name/wsh/washington-capitals",
-                  "text": "Clubhouse",
-                  "shortText": "Clubhouse",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "clubhouse",
-                    "mobile",
-                    "team"
-                  ],
-                  "href": "https://m.espn.com/nhl/clubhouse?teamId=23",
-                  "text": "Clubhouse",
-                  "shortText": "Clubhouse",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "roster",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/roster/_/name/wsh/washington-capitals",
-                  "text": "Roster",
-                  "shortText": "Roster",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "roster",
-                    "sportscenter",
-                    "app",
-                    "team"
-                  ],
-                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:23&section=roster",
-                  "text": "Roster",
-                  "shortText": "Roster",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "stats",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/stats/_/name/wsh/washington-capitals",
-                  "text": "Statistics",
-                  "shortText": "Statistics",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "stats",
-                    "sportscenter",
-                    "app",
-                    "team"
-                  ],
-                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:23&section=stats",
-                  "text": "Statistics",
-                  "shortText": "Statistics",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "schedule",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/schedule/_/name/wsh",
-                  "text": "Schedule",
-                  "shortText": "Schedule",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "schedule",
-                    "sportscenter",
-                    "app",
-                    "team"
-                  ],
-                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:23&section=scores",
-                  "text": "Schedule",
-                  "shortText": "Schedule",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "photos",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/photos/_/name/wsh",
-                  "text": "photos",
-                  "shortText": "photos",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "tickets",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.vividseats.com/washington-capitals-tickets--sports-nhl-hockey/performer/923?wsUser=717",
-                  "text": "Tickets",
-                  "shortText": "Tickets",
-                  "isExternal": true,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "transactions",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/transactions/_/name/wsh",
-                  "text": "Transactions",
-                  "shortText": "Transactions",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "injuries",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/injuries/_/name/wsh",
-                  "text": "Injuries",
-                  "shortText": "Injuries",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "depthchart",
-                    "desktop",
-                    "team"
-                  ],
-                  "href": "https://www.espn.com/nhl/team/line-combo/_/name/wsh",
-                  "text": "Line Combo",
-                  "shortText": "Line Combo",
-                  "isExternal": false,
-                  "isPremium": false
-                },
-                {
-                  "language": "en-US",
-                  "rel": [
-                    "depthchart",
-                    "sportscenter",
-                    "app",
-                    "team"
-                  ],
-                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:23&section=depthchart",
-                  "text": "Line Combo",
-                  "shortText": "Line Combo",
-                  "isExternal": false,
-                  "isPremium": false
-                }
-              ]
-            },
-            "notes": {
-              "items": [
-                {
-                  "id": "600849",
-                  "type": "news",
-                  "date": "2026-11-23T17:14Z",
-                  "headline": "out",
-                  "text": "out",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/4062251/injuries/600849?lang=en&region=us"
-                  }
-                },
-                {
-                  "id": "600830",
-                  "type": "news",
-                  "date": "2026-11-23T15:30Z",
-                  "headline": "day-to-day",
-                  "text": "day-to-day",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/4062251/injuries/600830?lang=en&region=us"
-                  }
-                },
-                {
-                  "id": "600822",
-                  "type": "news",
-                  "date": "2026-11-23T15:29Z",
-                  "headline": "The Capitals announced Monday that Kyrou is dealing with an upper-body injury, Sammi Silber of The District Standard reports.",
-                  "text": "While a timetable for the 28-year-old's return isn't yet clear, head coach Spencer Carbery is slated to speak to the media later Monday, which could provide better insight into Kyrou's status. It's not yet clear whether Kyrou will have a chance to suit up Wednesday against the Flyers, but Ethen Frank and Anthony Beauvillier are candidates to enter the lineup if Kyrou is sidelined.",
-                  "source": "RotoWire",
-                  "injury": {
-                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/4062251/injuries/600822?lang=en&region=us"
-                  }
-                }
-              ]
-            },
-            "status": {
-              "id": "1",
-              "name": "Active",
-              "type": "active",
-              "abbreviation": "Active"
-            }
-          },
-          "source": {
-            "id": "1",
-            "description": "basic/manual",
-            "state": "basic"
-          },
-          "type": {
-            "id": "4",
-            "name": "INJURY_STATUS_OUT",
-            "description": "out",
-            "abbreviation": "O"
-          },
-          "details": {
-            "fantasyStatus": {
-              "description": "OUT",
-              "abbreviation": "OUT"
-            },
-            "type": "Upper Body",
-            "detail": "Not Specified",
-            "side": "Not Specified",
-            "returnDate": "2026-12-01"
           }
         }
       ]
@@ -73653,7 +73060,7 @@
               "abbreviation": "IR"
             },
             "type": "Undisclosed",
-            "returnDate": "2026-11-27"
+            "returnDate": "2026-11-30"
           }
         },
         {
