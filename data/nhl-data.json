@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T03:54:07.267276+00:00",
+  "updatedAt": "2026-11-28T04:57:49.408473+00:00",
   "season": "current",
   "sourceStatus": {
     "nhlStats": false,
@@ -4940,7 +4940,7 @@
           }
         }
       ],
-      "gameState": "CRIT",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "awayTeam": {
         "id": 5,
@@ -4949,7 +4949,7 @@
         },
         "abbrev": "PIT",
         "score": 6,
-        "sog": 28,
+        "sog": 29,
         "logo": "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg"
       },
       "homeTeam": {
@@ -4959,14 +4959,18 @@
         },
         "abbrev": "BUF",
         "score": 3,
-        "sog": 22,
+        "sog": 23,
         "logo": "https://assets.nhle.com/logos/nhl/svg/BUF_light.svg"
       },
       "gameCenterLink": "/gamecenter/pit-vs-buf/2026/11/27/2026020413",
+      "threeMinRecap": "/video/pit-at-buf-recap-6408975667112",
+      "threeMinRecapFr": "/fr/video/pit-vs-buf-27-11-2026-resume-6408975562112",
+      "condensedGame": "/video/pit-at-buf-condensed-game-6408976736112",
+      "condensedGameFr": "/fr/video/match-condense-penguins-sabres-27-11-2026-6408975495112",
       "clock": {
-        "timeRemaining": "00:07",
-        "secondsRemaining": 7,
-        "running": true,
+        "timeRemaining": "00:00",
+        "secondsRemaining": 0,
+        "running": false,
         "inIntermission": false
       },
       "neutralSite": false,
@@ -4976,6 +4980,9 @@
         "number": 3,
         "periodType": "REG",
         "maxRegulationPeriods": 3
+      },
+      "gameOutcome": {
+        "lastPeriodType": "REG"
       },
       "goals": [
         {
@@ -5378,7 +5385,13 @@
           "goalsToDate": 8,
           "awayScore": 6,
           "homeScore": 3,
-          "strength": "ev"
+          "strength": "ev",
+          "highlightClipSharingUrl": "https://nhl.com/video/pit-buf-malkin-scores-empty-net-goal-6408976732112",
+          "highlightClipSharingUrlFr": "https://nhl.com/fr/video/pit-buf-malkin-pit-marque-un-but-dans-un-filet-desert-6408975359112",
+          "highlightClip": 6408976732112,
+          "highlightClipFr": 6408975359112,
+          "discreteClip": 6408976455112,
+          "discreteClipFr": 6408974995112
         }
       ]
     },
@@ -5421,7 +5434,7 @@
           "sequenceNumber": 654
         }
       ],
-      "gameState": "FINAL",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "awayTeam": {
         "id": 55,
@@ -5430,7 +5443,7 @@
         },
         "abbrev": "SEA",
         "score": 4,
-        "sog": 31,
+        "sog": 32,
         "logo": "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg"
       },
       "homeTeam": {
@@ -5444,6 +5457,9 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg"
       },
       "gameCenterLink": "/gamecenter/sea-vs-edm/2026/11/27/2026020414",
+      "threeMinRecap": "/video/sea-at-edm-recap-6408976255112",
+      "threeMinRecapFr": "/fr/video/sea-vs-edm-27-11-2026-resume-6408977325112",
+      "condensedGame": "/video/sea-at-edm-condensed-game-6408975664112",
       "clock": {
         "timeRemaining": "00:00",
         "secondsRemaining": 0,
@@ -5726,6 +5742,7 @@
           "highlightClipSharingUrlFr": "https://nhl.com/fr/video/sea-edm-dunn-sea-marque-un-but-dans-un-filet-desert-6408975255112",
           "highlightClip": 6408977026112,
           "highlightClipFr": 6408975255112,
+          "discreteClip": 6408976341112,
           "discreteClipFr": 6408976724112
         }
       ]
@@ -10662,7 +10679,7 @@
           }
         }
       ],
-      "gameState": "CRIT",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "awayTeam": {
         "id": 5,
@@ -10671,7 +10688,7 @@
         },
         "abbrev": "PIT",
         "score": 6,
-        "sog": 28,
+        "sog": 29,
         "logo": "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg"
       },
       "homeTeam": {
@@ -10681,14 +10698,18 @@
         },
         "abbrev": "BUF",
         "score": 3,
-        "sog": 22,
+        "sog": 23,
         "logo": "https://assets.nhle.com/logos/nhl/svg/BUF_light.svg"
       },
       "gameCenterLink": "/gamecenter/pit-vs-buf/2026/11/27/2026020413",
+      "threeMinRecap": "/video/pit-at-buf-recap-6408975667112",
+      "threeMinRecapFr": "/fr/video/pit-vs-buf-27-11-2026-resume-6408975562112",
+      "condensedGame": "/video/pit-at-buf-condensed-game-6408976736112",
+      "condensedGameFr": "/fr/video/match-condense-penguins-sabres-27-11-2026-6408975495112",
       "clock": {
-        "timeRemaining": "00:07",
-        "secondsRemaining": 7,
-        "running": true,
+        "timeRemaining": "00:00",
+        "secondsRemaining": 0,
+        "running": false,
         "inIntermission": false
       },
       "neutralSite": false,
@@ -10698,6 +10719,9 @@
         "number": 3,
         "periodType": "REG",
         "maxRegulationPeriods": 3
+      },
+      "gameOutcome": {
+        "lastPeriodType": "REG"
       },
       "goals": [
         {
@@ -11100,7 +11124,13 @@
           "goalsToDate": 8,
           "awayScore": 6,
           "homeScore": 3,
-          "strength": "ev"
+          "strength": "ev",
+          "highlightClipSharingUrl": "https://nhl.com/video/pit-buf-malkin-scores-empty-net-goal-6408976732112",
+          "highlightClipSharingUrlFr": "https://nhl.com/fr/video/pit-buf-malkin-pit-marque-un-but-dans-un-filet-desert-6408975359112",
+          "highlightClip": 6408976732112,
+          "highlightClipFr": 6408975359112,
+          "discreteClip": 6408976455112,
+          "discreteClipFr": 6408974995112
         }
       ]
     },
@@ -11143,7 +11173,7 @@
           "sequenceNumber": 654
         }
       ],
-      "gameState": "FINAL",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "awayTeam": {
         "id": 55,
@@ -11152,7 +11182,7 @@
         },
         "abbrev": "SEA",
         "score": 4,
-        "sog": 31,
+        "sog": 32,
         "logo": "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg"
       },
       "homeTeam": {
@@ -11166,6 +11196,9 @@
         "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg"
       },
       "gameCenterLink": "/gamecenter/sea-vs-edm/2026/11/27/2026020414",
+      "threeMinRecap": "/video/sea-at-edm-recap-6408976255112",
+      "threeMinRecapFr": "/fr/video/sea-vs-edm-27-11-2026-resume-6408977325112",
+      "condensedGame": "/video/sea-at-edm-condensed-game-6408975664112",
       "clock": {
         "timeRemaining": "00:00",
         "secondsRemaining": 0,
@@ -11448,6 +11481,7 @@
           "highlightClipSharingUrlFr": "https://nhl.com/fr/video/sea-edm-dunn-sea-marque-un-but-dans-un-filet-desert-6408975255112",
           "highlightClip": 6408977026112,
           "highlightClipFr": 6408975255112,
+          "discreteClip": 6408976341112,
           "discreteClipFr": 6408976724112
         }
       ]
@@ -12472,14 +12506,14 @@
     {
       "conferenceAbbrev": "E",
       "conferenceHomeSequence": 11,
-      "conferenceL10Sequence": 11,
+      "conferenceL10Sequence": 10,
       "conferenceName": "Eastern",
       "conferenceRoadSequence": 2,
       "conferenceSequence": 6,
       "date": "2026-11-27",
       "divisionAbbrev": "A",
       "divisionHomeSequence": 5,
-      "divisionL10Sequence": 6,
+      "divisionL10Sequence": 5,
       "divisionName": "Atlantic",
       "divisionRoadSequence": 1,
       "divisionSequence": 4,
@@ -12513,7 +12547,7 @@
       "l10Ties": 0,
       "l10Wins": 4,
       "leagueHomeSequence": 24,
-      "leagueL10Sequence": 24,
+      "leagueL10Sequence": 23,
       "leagueRoadSequence": 4,
       "leagueSequence": 12,
       "losses": 8,
@@ -13116,29 +13150,29 @@
     {
       "conferenceAbbrev": "E",
       "conferenceHomeSequence": 14,
-      "conferenceL10Sequence": 10,
+      "conferenceL10Sequence": 11,
       "conferenceName": "Eastern",
       "conferenceRoadSequence": 5,
       "conferenceSequence": 10,
       "date": "2026-11-27",
       "divisionAbbrev": "A",
       "divisionHomeSequence": 7,
-      "divisionL10Sequence": 5,
+      "divisionL10Sequence": 6,
       "divisionName": "Atlantic",
       "divisionRoadSequence": 4,
       "divisionSequence": 6,
       "gameTypeId": 2,
-      "gamesPlayed": 25,
-      "goalDifferential": -6,
-      "goalDifferentialPctg": -0.24,
-      "goalAgainst": 84,
-      "goalFor": 78,
-      "goalsForPctg": 3.12,
-      "homeGamesPlayed": 11,
-      "homeGoalDifferential": -7,
-      "homeGoalsAgainst": 36,
-      "homeGoalsFor": 29,
-      "homeLosses": 6,
+      "gamesPlayed": 26,
+      "goalDifferential": -9,
+      "goalDifferentialPctg": -0.346154,
+      "goalAgainst": 90,
+      "goalFor": 81,
+      "goalsForPctg": 3.115385,
+      "homeGamesPlayed": 12,
+      "homeGoalDifferential": -10,
+      "homeGoalsAgainst": 42,
+      "homeGoalsFor": 32,
+      "homeLosses": 7,
       "homeOtLosses": 0,
       "homePoints": 10,
       "homeRegulationPlusOtWins": 5,
@@ -13146,30 +13180,30 @@
       "homeTies": 0,
       "homeWins": 5,
       "l10GamesPlayed": 10,
-      "l10GoalDifferential": 1,
-      "l10GoalsAgainst": 33,
-      "l10GoalsFor": 34,
-      "l10Losses": 5,
+      "l10GoalDifferential": -5,
+      "l10GoalsAgainst": 37,
+      "l10GoalsFor": 32,
+      "l10Losses": 6,
       "l10OtLosses": 1,
-      "l10Points": 9,
-      "l10RegulationPlusOtWins": 4,
-      "l10RegulationWins": 4,
+      "l10Points": 7,
+      "l10RegulationPlusOtWins": 3,
+      "l10RegulationWins": 3,
       "l10Ties": 0,
-      "l10Wins": 4,
+      "l10Wins": 3,
       "leagueHomeSequence": 28,
-      "leagueL10Sequence": 22,
+      "leagueL10Sequence": 25,
       "leagueRoadSequence": 11,
       "leagueSequence": 19,
-      "losses": 10,
+      "losses": 11,
       "otLosses": 4,
       "placeName": {
         "default": "Buffalo"
       },
-      "pointPctg": 0.52,
+      "pointPctg": 0.5,
       "points": 26,
-      "regulationPlusOtWinPctg": 0.44,
+      "regulationPlusOtWinPctg": 0.423077,
       "regulationPlusOtWins": 11,
-      "regulationWinPctg": 0.36,
+      "regulationWinPctg": 0.346154,
       "regulationWins": 9,
       "roadGamesPlayed": 14,
       "roadGoalDifferential": 1,
@@ -13185,8 +13219,8 @@
       "seasonId": 20262027,
       "shootoutLosses": 1,
       "shootoutWins": 0,
-      "streakCode": "W",
-      "streakCount": 2,
+      "streakCode": "L",
+      "streakCount": 1,
       "teamName": {
         "default": "Buffalo Sabres",
         "fr": "Sabres de Buffalo"
@@ -13202,7 +13236,7 @@
       "ties": 0,
       "waiversSequence": 13,
       "wildcardSequence": 4,
-      "winPctg": 0.44,
+      "winPctg": 0.423077,
       "wins": 11
     },
     {
@@ -13434,7 +13468,7 @@
       "l10Ties": 0,
       "l10Wins": 4,
       "leagueHomeSequence": 20,
-      "leagueL10Sequence": 25,
+      "leagueL10Sequence": 24,
       "leagueRoadSequence": 24,
       "leagueSequence": 22,
       "losses": 10,
@@ -13618,7 +13652,7 @@
       "l10Ties": 0,
       "l10Wins": 4,
       "leagueHomeSequence": 22,
-      "leagueL10Sequence": 23,
+      "leagueL10Sequence": 22,
       "leagueRoadSequence": 26,
       "leagueSequence": 24,
       "losses": 14,
@@ -13761,7 +13795,7 @@
     {
       "conferenceAbbrev": "E",
       "conferenceHomeSequence": 15,
-      "conferenceL10Sequence": 14,
+      "conferenceL10Sequence": 15,
       "conferenceName": "Eastern",
       "conferenceRoadSequence": 9,
       "conferenceSequence": 13,
@@ -13802,7 +13836,7 @@
       "l10Ties": 0,
       "l10Wins": 2,
       "leagueHomeSequence": 29,
-      "leagueL10Sequence": 30,
+      "leagueL10Sequence": 31,
       "leagueRoadSequence": 18,
       "leagueSequence": 26,
       "losses": 14,
@@ -13987,7 +14021,7 @@
       "l10Wins": 6,
       "leagueHomeSequence": 16,
       "leagueL10Sequence": 11,
-      "leagueRoadSequence": 29,
+      "leagueRoadSequence": 30,
       "leagueSequence": 28,
       "losses": 14,
       "otLosses": 2,
@@ -14129,14 +14163,14 @@
     {
       "conferenceAbbrev": "E",
       "conferenceHomeSequence": 12,
-      "conferenceL10Sequence": 15,
+      "conferenceL10Sequence": 16,
       "conferenceName": "Eastern",
       "conferenceRoadSequence": 16,
       "conferenceSequence": 15,
       "date": "2026-11-27",
       "divisionAbbrev": "M",
       "divisionHomeSequence": 7,
-      "divisionL10Sequence": 7,
+      "divisionL10Sequence": 8,
       "divisionName": "Metropolitan",
       "divisionRoadSequence": 8,
       "divisionSequence": 7,
@@ -14170,7 +14204,7 @@
       "l10Ties": 0,
       "l10Wins": 2,
       "leagueHomeSequence": 25,
-      "leagueL10Sequence": 31,
+      "leagueL10Sequence": 32,
       "leagueRoadSequence": 32,
       "leagueSequence": 30,
       "losses": 14,
@@ -14221,24 +14255,24 @@
     {
       "conferenceAbbrev": "E",
       "conferenceHomeSequence": 16,
-      "conferenceL10Sequence": 16,
+      "conferenceL10Sequence": 14,
       "conferenceName": "Eastern",
       "conferenceRoadSequence": 14,
       "conferenceSequence": 16,
       "date": "2026-11-27",
       "divisionAbbrev": "M",
       "divisionHomeSequence": 8,
-      "divisionL10Sequence": 8,
+      "divisionL10Sequence": 7,
       "divisionName": "Metropolitan",
       "divisionRoadSequence": 6,
       "divisionSequence": 8,
       "gameTypeId": 2,
-      "gamesPlayed": 24,
-      "goalDifferential": -17,
-      "goalDifferentialPctg": -0.708333,
-      "goalAgainst": 87,
-      "goalFor": 70,
-      "goalsForPctg": 2.916667,
+      "gamesPlayed": 25,
+      "goalDifferential": -14,
+      "goalDifferentialPctg": -0.56,
+      "goalAgainst": 90,
+      "goalFor": 76,
+      "goalsForPctg": 3.04,
       "homeGamesPlayed": 11,
       "homeGoalDifferential": -9,
       "homeGoalsAgainst": 39,
@@ -14251,47 +14285,47 @@
       "homeTies": 0,
       "homeWins": 4,
       "l10GamesPlayed": 10,
-      "l10GoalDifferential": -15,
+      "l10GoalDifferential": -11,
       "l10GoalsAgainst": 38,
-      "l10GoalsFor": 23,
-      "l10Losses": 8,
+      "l10GoalsFor": 27,
+      "l10Losses": 7,
       "l10OtLosses": 0,
-      "l10Points": 4,
-      "l10RegulationPlusOtWins": 1,
-      "l10RegulationWins": 1,
+      "l10Points": 6,
+      "l10RegulationPlusOtWins": 2,
+      "l10RegulationWins": 2,
       "l10Ties": 0,
-      "l10Wins": 2,
+      "l10Wins": 3,
       "leagueHomeSequence": 30,
-      "leagueL10Sequence": 32,
-      "leagueRoadSequence": 30,
+      "leagueL10Sequence": 29,
+      "leagueRoadSequence": 28,
       "leagueSequence": 31,
       "losses": 15,
       "otLosses": 2,
       "placeName": {
         "default": "Pittsburgh"
       },
-      "pointPctg": 0.333333,
-      "points": 16,
-      "regulationPlusOtWinPctg": 0.208333,
-      "regulationPlusOtWins": 5,
-      "regulationWinPctg": 0.125,
-      "regulationWins": 3,
-      "roadGamesPlayed": 13,
-      "roadGoalDifferential": -8,
-      "roadGoalsAgainst": 48,
-      "roadGoalsFor": 40,
+      "pointPctg": 0.36,
+      "points": 18,
+      "regulationPlusOtWinPctg": 0.24,
+      "regulationPlusOtWins": 6,
+      "regulationWinPctg": 0.16,
+      "regulationWins": 4,
+      "roadGamesPlayed": 14,
+      "roadGoalDifferential": -5,
+      "roadGoalsAgainst": 51,
+      "roadGoalsFor": 46,
       "roadLosses": 9,
       "roadOtLosses": 1,
-      "roadPoints": 7,
-      "roadRegulationPlusOtWins": 2,
-      "roadRegulationWins": 2,
+      "roadPoints": 9,
+      "roadRegulationPlusOtWins": 3,
+      "roadRegulationWins": 3,
       "roadTies": 0,
-      "roadWins": 3,
+      "roadWins": 4,
       "seasonId": 20262027,
       "shootoutLosses": 1,
       "shootoutWins": 2,
-      "streakCode": "L",
-      "streakCount": 5,
+      "streakCode": "W",
+      "streakCount": 1,
       "teamName": {
         "default": "Pittsburgh Penguins",
         "fr": "Penguins de Pittsburgh"
@@ -14307,8 +14341,8 @@
       "ties": 0,
       "waiversSequence": 2,
       "wildcardSequence": 10,
-      "winPctg": 0.291667,
-      "wins": 7
+      "winPctg": 0.32,
+      "wins": 8
     },
     {
       "conferenceAbbrev": "W",
@@ -14354,8 +14388,8 @@
       "l10Ties": 0,
       "l10Wins": 3,
       "leagueHomeSequence": 32,
-      "leagueL10Sequence": 29,
-      "leagueRoadSequence": 28,
+      "leagueL10Sequence": 30,
+      "leagueRoadSequence": 29,
       "leagueSequence": 32,
       "losses": 21,
       "otLosses": 1,
@@ -14405,6 +14439,34 @@
   ],
   "news": [
     {
+      "headline": "Kakko scores twice in 3rd as Kraken hand Oilers their 5th straight loss",
+      "description": "— Kaapo Kakko scored twice in a two-minute span in the third period and the Seattle Kraken beat Edmonton 4-2 on Friday night, handing the Oilers their fifth straight loss in the opener the home-and-home set.",
+      "published": "2026-11-28T04:17:32Z",
+      "url": "http://www.espn.com/nhl/recap?gameId=401892809",
+      "source": "ESPN"
+    },
+    {
+      "headline": "Penguins snap a 5-game skid with a 6-3 victory over the Sabres",
+      "description": "— Ben Kindel, Rutger McGroarty, Ville Koivunen and Evgeni Malkin each had a goal and an assist, and the Pittsburgh Penguins beat the Buffalo Sabres 6-3 on Friday night to snap a five-game losing streak.",
+      "published": "2026-11-28T04:06:33Z",
+      "url": "http://www.espn.com/nhl/recap?gameId=401892808",
+      "source": "ESPN"
+    },
+    {
+      "headline": "Pittsburgh Penguins vs. Buffalo Sabres: Game Highlights",
+      "description": "Pittsburgh Penguins vs. Buffalo Sabres: Game Highlights",
+      "published": "2026-11-28T04:04:38Z",
+      "url": "https://www.espn.com/video/clip/_/id/50618429/game-highlights",
+      "source": "ESPN"
+    },
+    {
+      "headline": "Seattle Kraken vs. Edmonton Oilers: Game Highlights",
+      "description": "Seattle Kraken vs. Edmonton Oilers: Game Highlights",
+      "published": "2026-11-28T03:56:35Z",
+      "url": "https://www.espn.com/video/clip/_/id/50618356/game-highlights",
+      "source": "ESPN"
+    },
+    {
       "headline": "Winnipeg Jets vs. New York Islanders: Game Highlights",
       "description": "Winnipeg Jets vs. New York Islanders: Game Highlights",
       "published": "2026-11-28T03:16:05Z",
@@ -14416,34 +14478,6 @@
       "description": "— Kyle Connor had two goals and an assist and the Winnipeg Jets extended their winning streak to three games with a 3-1 victory over the New York Islanders on Friday night.",
       "published": "2026-11-28T03:13:33Z",
       "url": "http://www.espn.com/nhl/recap?gameId=401892807",
-      "source": "ESPN"
-    },
-    {
-      "headline": "Mangiapane scores twice, Knight makes 30 saves to help Blackhawks edge Rangers 2-1",
-      "description": "— Andrew Mangiapane scored two power-play goals in the first period, Spencer Knight made 30 saves and the Chicago Blackhawks held off the New York Rangers 2-1 on Friday night for their fourth straight victory.",
-      "published": "2026-11-28T01:24:32Z",
-      "url": "http://www.espn.com/nhl/recap?gameId=401892806",
-      "source": "ESPN"
-    },
-    {
-      "headline": "New York Rangers vs. Chicago Blackhawks: Game Highlights",
-      "description": "New York Rangers vs. Chicago Blackhawks: Game Highlights",
-      "published": "2026-11-28T01:15:27Z",
-      "url": "https://www.espn.com/video/clip/_/id/50616895/game-highlights",
-      "source": "ESPN"
-    },
-    {
-      "headline": "Makar gets shootout winner as Avalanche overcome 3-goal, 3rd-period deficit to beat Wild 4-3",
-      "description": "— Cale Makar was the lone scorer in the shootout, and the Colorado Avalanche rallied from a three-goal deficit in the third period for a 4-3 victory over the Minnesota Wild on Friday.",
-      "published": "2026-11-28T00:18:33Z",
-      "url": "http://www.espn.com/nhl/recap?gameId=401892803",
-      "source": "ESPN"
-    },
-    {
-      "headline": "Cale Makar's wrister wins it for Avs in shootout",
-      "description": "Cale Makar's wrister wins it for Avs in shootout",
-      "published": "2026-11-28T00:30:56Z",
-      "url": "https://www.espn.com/video/clip/_/id/50616340/cale-makar-wrister-wins-avs-shootout",
       "source": "ESPN"
     }
   ],
@@ -17548,11 +17582,11 @@
       "displayName": "Buffalo Sabres",
       "injuries": [
         {
-          "id": "601321",
-          "longComment": "Ostlund surfaced on injured reserve around the same time Tyler Kozak (undisclosed) was also placed on IR. Across 25 outings this season, the 22-year-old Ostlund has posted five goals, 15 points, 47 shots on net and nine blocked shots. In his absence, Josh Norris and Jiri Kulich will likely center the top two lines for Friday's clash against the Penguins.",
-          "shortComment": "Ostlund (undisclosed) was placed on injured reserve Friday, per the NHL Media Site.",
+          "id": "601392",
+          "longComment": "Ostlund's absence will have a ripple effect around the lineup, as he's been seeing top-six minutes this season. Ryan McLeod got the first chance to fill the void Friday, but Josh Norris could also get some looks in Ostlund's second-line spot. Don't expect Ostlund to be back before the start of January, given this update to his timeline.",
+          "shortComment": "Ostlund (undisclosed) will miss at least one more and likely more time than that, Mike Harrington of The Buffalo News reports.",
           "status": "Injured Reserve",
-          "date": "2026-11-27T19:45Z",
+          "date": "2026-11-28T04:27Z",
           "athlete": {
             "firstName": "Noah",
             "lastName": "Ostlund",
@@ -18110,6 +18144,17 @@
             "notes": {
               "items": [
                 {
+                  "id": "601392",
+                  "type": "news",
+                  "date": "2026-11-28T04:27Z",
+                  "headline": "Ostlund (undisclosed) will miss at least one more and likely more time than that, Mike Harrington of The Buffalo News reports.",
+                  "text": "Ostlund's absence will have a ripple effect around the lineup, as he's been seeing top-six minutes this season. Ryan McLeod got the first chance to fill the void Friday, but Josh Norris could also get some looks in Ostlund's second-line spot. Don't expect Ostlund to be back before the start of January, given this update to his timeline.",
+                  "source": "RotoWire",
+                  "injury": {
+                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/5080160/injuries/601392?lang=en&region=us"
+                  }
+                },
+                {
                   "id": "601320",
                   "type": "news",
                   "date": "2026-11-27T19:47Z",
@@ -18188,7 +18233,7 @@
             },
             "type": "Undisclosed",
             "side": "Left",
-            "returnDate": "2026-12-01"
+            "returnDate": "2027-01-02"
           }
         },
         {
