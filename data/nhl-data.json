@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T02:50:04.079886+00:00",
+  "updatedAt": "2026-11-28T03:54:07.267276+00:00",
   "season": "current",
   "sourceStatus": {
     "nhlStats": false,
@@ -4633,7 +4633,7 @@
           "sequenceNumber": 424
         }
       ],
-      "gameState": "LIVE",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "awayTeam": {
         "id": 52,
@@ -4642,7 +4642,7 @@
         },
         "abbrev": "WPG",
         "score": 3,
-        "sog": 32,
+        "sog": 37,
         "logo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg"
       },
       "homeTeam": {
@@ -4652,13 +4652,16 @@
         },
         "abbrev": "NYI",
         "score": 1,
-        "sog": 24,
+        "sog": 27,
         "logo": "https://assets.nhle.com/logos/nhl/svg/NYI_light.svg"
       },
       "gameCenterLink": "/gamecenter/wpg-vs-nyi/2026/11/27/2026020412",
+      "threeMinRecap": "/video/wpg-at-nyi-recap-6408975228112",
+      "threeMinRecapFr": "/fr/video/wpg-vs-nyi-27-11-2026-resume-6408976022112",
+      "condensedGame": "/video/wpg-at-nyi-condensed-game-6408976213112",
       "clock": {
-        "timeRemaining": "08:27",
-        "secondsRemaining": 507,
+        "timeRemaining": "00:00",
+        "secondsRemaining": 0,
         "running": false,
         "inIntermission": false
       },
@@ -4669,6 +4672,9 @@
         "number": 3,
         "periodType": "REG",
         "maxRegulationPeriods": 3
+      },
+      "gameOutcome": {
+        "lastPeriodType": "REG"
       },
       "goals": [
         {
@@ -4857,6 +4863,10 @@
           "awayScore": 3,
           "homeScore": 1,
           "strength": "ev",
+          "highlightClipSharingUrl": "https://nhl.com/video/wpg-nyi-stanley-scores-goal-against-stuart-skinner-6408973460112",
+          "highlightClipSharingUrlFr": "https://nhl.com/fr/video/wpg-nyi-stanley-marque-un-but-contre-stuart-skinner-6408974423112",
+          "highlightClip": 6408973460112,
+          "highlightClipFr": 6408974423112,
           "discreteClip": 6408973350112,
           "discreteClipFr": 6408974915112
         }
@@ -4930,7 +4940,7 @@
           }
         }
       ],
-      "gameState": "LIVE",
+      "gameState": "CRIT",
       "gameScheduleState": "OK",
       "awayTeam": {
         "id": 5,
@@ -4938,8 +4948,8 @@
           "default": "Penguins"
         },
         "abbrev": "PIT",
-        "score": 4,
-        "sog": 17,
+        "score": 6,
+        "sog": 28,
         "logo": "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg"
       },
       "homeTeam": {
@@ -4949,21 +4959,21 @@
         },
         "abbrev": "BUF",
         "score": 3,
-        "sog": 18,
+        "sog": 22,
         "logo": "https://assets.nhle.com/logos/nhl/svg/BUF_light.svg"
       },
       "gameCenterLink": "/gamecenter/pit-vs-buf/2026/11/27/2026020413",
       "clock": {
-        "timeRemaining": "01:30",
-        "secondsRemaining": 90,
-        "running": false,
+        "timeRemaining": "00:07",
+        "secondsRemaining": 7,
+        "running": true,
         "inIntermission": false
       },
       "neutralSite": false,
       "venueTimezone": "America/New_York",
-      "period": 2,
+      "period": 3,
       "periodDescriptor": {
-        "number": 2,
+        "number": 3,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
@@ -5283,6 +5293,91 @@
           "goalsToDate": 6,
           "awayScore": 4,
           "homeScore": 3,
+          "strength": "ev",
+          "highlightClipSharingUrl": "https://nhl.com/video/pit-buf-norris-scores-goal-against-sergey-murashov-6408975019112",
+          "highlightClipSharingUrlFr": "https://nhl.com/fr/video/pit-buf-norris-marque-un-but-contre-sergey-murashov-6408974520112",
+          "highlightClip": 6408975019112,
+          "highlightClipFr": 6408974520112,
+          "discreteClip": 6408973455112,
+          "discreteClipFr": 6408974628112
+        },
+        {
+          "period": 2,
+          "periodDescriptor": {
+            "number": 2,
+            "periodType": "REG",
+            "maxRegulationPeriods": 3
+          },
+          "timeInPeriod": "18:44",
+          "playerId": 8482758,
+          "name": {
+            "default": "V. Koivunen"
+          },
+          "firstName": {
+            "default": "Ville"
+          },
+          "lastName": {
+            "default": "Koivunen"
+          },
+          "goalModifier": "none",
+          "assists": [
+            {
+              "playerId": 8483487,
+              "name": {
+                "default": "R. McGroarty"
+              },
+              "assistsToDate": 2
+            }
+          ],
+          "mugshot": "https://assets.nhle.com/mugs/nhl/20262027/PIT/8482758.png",
+          "teamAbbrev": "PIT",
+          "goalsToDate": 3,
+          "awayScore": 5,
+          "homeScore": 3,
+          "strength": "ev",
+          "highlightClipSharingUrl": "https://nhl.com/video/pit-buf-koivunen-scores-goal-against-alex-lyon-6408974358112",
+          "highlightClipSharingUrlFr": "https://nhl.com/fr/video/pit-buf-koivunen-marque-un-but-contre-alex-lyon-6408974148112",
+          "highlightClip": 6408974358112,
+          "highlightClipFr": 6408974148112,
+          "discreteClip": 6408973674112,
+          "discreteClipFr": 6408975313112
+        },
+        {
+          "period": 3,
+          "periodDescriptor": {
+            "number": 3,
+            "periodType": "REG",
+            "maxRegulationPeriods": 3
+          },
+          "timeInPeriod": "17:59",
+          "playerId": 8471215,
+          "name": {
+            "default": "E. Malkin"
+          },
+          "firstName": {
+            "default": "Evgeni",
+            "cs": "Jevgenij",
+            "fi": "Jevgeni",
+            "sk": "Jevgenij"
+          },
+          "lastName": {
+            "default": "Malkin"
+          },
+          "goalModifier": "empty-net",
+          "assists": [
+            {
+              "playerId": 8483398,
+              "name": {
+                "default": "D. Carlile"
+              },
+              "assistsToDate": 4
+            }
+          ],
+          "mugshot": "https://assets.nhle.com/mugs/nhl/20262027/PIT/8471215.png",
+          "teamAbbrev": "PIT",
+          "goalsToDate": 8,
+          "awayScore": 6,
+          "homeScore": 3,
           "strength": "ev"
         }
       ]
@@ -5326,7 +5421,7 @@
           "sequenceNumber": 654
         }
       ],
-      "gameState": "LIVE",
+      "gameState": "FINAL",
       "gameScheduleState": "OK",
       "awayTeam": {
         "id": 55,
@@ -5334,8 +5429,8 @@
           "default": "Kraken"
         },
         "abbrev": "SEA",
-        "score": 1,
-        "sog": 18,
+        "score": 4,
+        "sog": 31,
         "logo": "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg"
       },
       "homeTeam": {
@@ -5345,39 +5440,26 @@
         },
         "abbrev": "EDM",
         "score": 2,
-        "sog": 18,
+        "sog": 27,
         "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg"
       },
       "gameCenterLink": "/gamecenter/sea-vs-edm/2026/11/27/2026020414",
       "clock": {
-        "timeRemaining": "13:11",
-        "secondsRemaining": 791,
+        "timeRemaining": "00:00",
+        "secondsRemaining": 0,
         "running": false,
-        "inIntermission": true
+        "inIntermission": false
       },
       "neutralSite": false,
       "venueTimezone": "America/Edmonton",
-      "period": 2,
+      "period": 3,
       "periodDescriptor": {
-        "number": 2,
+        "number": 3,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "situation": {
-        "homeTeam": {
-          "abbrev": "EDM",
-          "strength": 4
-        },
-        "awayTeam": {
-          "abbrev": "SEA",
-          "situationDescriptions": [
-            "PP"
-          ],
-          "strength": 5
-        },
-        "situationCode": "1541",
-        "timeRemaining": "01:37",
-        "secondsRemaining": 97
+      "gameOutcome": {
+        "lastPeriodType": "REG"
       },
       "goals": [
         {
@@ -5508,6 +5590,143 @@
           "highlightClipFr": 6408972956112,
           "discreteClip": 6408973744112,
           "discreteClipFr": 6408974624112
+        },
+        {
+          "period": 3,
+          "periodDescriptor": {
+            "number": 3,
+            "periodType": "REG",
+            "maxRegulationPeriods": 3
+          },
+          "timeInPeriod": "12:48",
+          "playerId": 8481554,
+          "name": {
+            "default": "K. Kakko"
+          },
+          "firstName": {
+            "default": "Kaapo"
+          },
+          "lastName": {
+            "default": "Kakko"
+          },
+          "goalModifier": "none",
+          "assists": [
+            {
+              "playerId": 8482713,
+              "name": {
+                "default": "M. Samoskevich"
+              },
+              "assistsToDate": 10
+            },
+            {
+              "playerId": 8482665,
+              "name": {
+                "default": "M. Beniers"
+              },
+              "assistsToDate": 8
+            }
+          ],
+          "mugshot": "https://assets.nhle.com/mugs/nhl/20262027/SEA/8481554.png",
+          "teamAbbrev": "SEA",
+          "goalsToDate": 5,
+          "awayScore": 2,
+          "homeScore": 2,
+          "strength": "ev",
+          "highlightClipSharingUrl": "https://nhl.com/video/sea-edm-kakko-scores-goal-against-tristan-jarry-6408974473112",
+          "highlightClipSharingUrlFr": "https://nhl.com/fr/video/sea-edm-kakko-marque-un-but-contre-tristan-jarry-6408974876112",
+          "highlightClip": 6408974473112,
+          "highlightClipFr": 6408974876112,
+          "discreteClip": 6408976629112,
+          "discreteClipFr": 6408975937112
+        },
+        {
+          "period": 3,
+          "periodDescriptor": {
+            "number": 3,
+            "periodType": "REG",
+            "maxRegulationPeriods": 3
+          },
+          "timeInPeriod": "14:48",
+          "playerId": 8481554,
+          "name": {
+            "default": "K. Kakko"
+          },
+          "firstName": {
+            "default": "Kaapo"
+          },
+          "lastName": {
+            "default": "Kakko"
+          },
+          "goalModifier": "none",
+          "assists": [
+            {
+              "playerId": 8482665,
+              "name": {
+                "default": "M. Beniers"
+              },
+              "assistsToDate": 9
+            }
+          ],
+          "mugshot": "https://assets.nhle.com/mugs/nhl/20262027/SEA/8481554.png",
+          "teamAbbrev": "SEA",
+          "goalsToDate": 6,
+          "goalInGame": 2,
+          "awayScore": 3,
+          "homeScore": 2,
+          "strength": "ev",
+          "highlightClipSharingUrl": "https://nhl.com/video/sea-edm-kakko-scores-goal-against-tristan-jarry-6408976718112",
+          "highlightClipSharingUrlFr": "https://nhl.com/fr/video/sea-edm-kakko-marque-un-but-contre-tristan-jarry-6408976146112",
+          "highlightClip": 6408976718112,
+          "highlightClipFr": 6408976146112,
+          "discreteClip": 6408976331112,
+          "discreteClipFr": 6408975352112
+        },
+        {
+          "period": 3,
+          "periodDescriptor": {
+            "number": 3,
+            "periodType": "REG",
+            "maxRegulationPeriods": 3
+          },
+          "timeInPeriod": "18:38",
+          "playerId": 8478407,
+          "name": {
+            "default": "V. Dunn"
+          },
+          "firstName": {
+            "default": "Vince"
+          },
+          "lastName": {
+            "default": "Dunn"
+          },
+          "goalModifier": "empty-net",
+          "assists": [
+            {
+              "playerId": 8477919,
+              "name": {
+                "default": "F. Gaudreau"
+              },
+              "assistsToDate": 5
+            },
+            {
+              "playerId": 8476905,
+              "name": {
+                "default": "C. Stephenson"
+              },
+              "assistsToDate": 12
+            }
+          ],
+          "mugshot": "https://assets.nhle.com/mugs/nhl/20262027/SEA/8478407.png",
+          "teamAbbrev": "SEA",
+          "goalsToDate": 5,
+          "awayScore": 4,
+          "homeScore": 2,
+          "strength": "ev",
+          "highlightClipSharingUrl": "https://nhl.com/video/sea-edm-dunn-scores-empty-net-goal-6408977026112",
+          "highlightClipSharingUrlFr": "https://nhl.com/fr/video/sea-edm-dunn-sea-marque-un-but-dans-un-filet-desert-6408975255112",
+          "highlightClip": 6408977026112,
+          "highlightClipFr": 6408975255112,
+          "discreteClipFr": 6408976724112
         }
       ]
     }
@@ -10136,7 +10355,7 @@
           "sequenceNumber": 424
         }
       ],
-      "gameState": "LIVE",
+      "gameState": "OFF",
       "gameScheduleState": "OK",
       "awayTeam": {
         "id": 52,
@@ -10145,7 +10364,7 @@
         },
         "abbrev": "WPG",
         "score": 3,
-        "sog": 32,
+        "sog": 37,
         "logo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg"
       },
       "homeTeam": {
@@ -10155,13 +10374,16 @@
         },
         "abbrev": "NYI",
         "score": 1,
-        "sog": 24,
+        "sog": 27,
         "logo": "https://assets.nhle.com/logos/nhl/svg/NYI_light.svg"
       },
       "gameCenterLink": "/gamecenter/wpg-vs-nyi/2026/11/27/2026020412",
+      "threeMinRecap": "/video/wpg-at-nyi-recap-6408975228112",
+      "threeMinRecapFr": "/fr/video/wpg-vs-nyi-27-11-2026-resume-6408976022112",
+      "condensedGame": "/video/wpg-at-nyi-condensed-game-6408976213112",
       "clock": {
-        "timeRemaining": "08:27",
-        "secondsRemaining": 507,
+        "timeRemaining": "00:00",
+        "secondsRemaining": 0,
         "running": false,
         "inIntermission": false
       },
@@ -10172,6 +10394,9 @@
         "number": 3,
         "periodType": "REG",
         "maxRegulationPeriods": 3
+      },
+      "gameOutcome": {
+        "lastPeriodType": "REG"
       },
       "goals": [
         {
@@ -10360,6 +10585,10 @@
           "awayScore": 3,
           "homeScore": 1,
           "strength": "ev",
+          "highlightClipSharingUrl": "https://nhl.com/video/wpg-nyi-stanley-scores-goal-against-stuart-skinner-6408973460112",
+          "highlightClipSharingUrlFr": "https://nhl.com/fr/video/wpg-nyi-stanley-marque-un-but-contre-stuart-skinner-6408974423112",
+          "highlightClip": 6408973460112,
+          "highlightClipFr": 6408974423112,
           "discreteClip": 6408973350112,
           "discreteClipFr": 6408974915112
         }
@@ -10433,7 +10662,7 @@
           }
         }
       ],
-      "gameState": "LIVE",
+      "gameState": "CRIT",
       "gameScheduleState": "OK",
       "awayTeam": {
         "id": 5,
@@ -10441,8 +10670,8 @@
           "default": "Penguins"
         },
         "abbrev": "PIT",
-        "score": 4,
-        "sog": 17,
+        "score": 6,
+        "sog": 28,
         "logo": "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg"
       },
       "homeTeam": {
@@ -10452,21 +10681,21 @@
         },
         "abbrev": "BUF",
         "score": 3,
-        "sog": 18,
+        "sog": 22,
         "logo": "https://assets.nhle.com/logos/nhl/svg/BUF_light.svg"
       },
       "gameCenterLink": "/gamecenter/pit-vs-buf/2026/11/27/2026020413",
       "clock": {
-        "timeRemaining": "01:30",
-        "secondsRemaining": 90,
-        "running": false,
+        "timeRemaining": "00:07",
+        "secondsRemaining": 7,
+        "running": true,
         "inIntermission": false
       },
       "neutralSite": false,
       "venueTimezone": "America/New_York",
-      "period": 2,
+      "period": 3,
       "periodDescriptor": {
-        "number": 2,
+        "number": 3,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
@@ -10786,6 +11015,91 @@
           "goalsToDate": 6,
           "awayScore": 4,
           "homeScore": 3,
+          "strength": "ev",
+          "highlightClipSharingUrl": "https://nhl.com/video/pit-buf-norris-scores-goal-against-sergey-murashov-6408975019112",
+          "highlightClipSharingUrlFr": "https://nhl.com/fr/video/pit-buf-norris-marque-un-but-contre-sergey-murashov-6408974520112",
+          "highlightClip": 6408975019112,
+          "highlightClipFr": 6408974520112,
+          "discreteClip": 6408973455112,
+          "discreteClipFr": 6408974628112
+        },
+        {
+          "period": 2,
+          "periodDescriptor": {
+            "number": 2,
+            "periodType": "REG",
+            "maxRegulationPeriods": 3
+          },
+          "timeInPeriod": "18:44",
+          "playerId": 8482758,
+          "name": {
+            "default": "V. Koivunen"
+          },
+          "firstName": {
+            "default": "Ville"
+          },
+          "lastName": {
+            "default": "Koivunen"
+          },
+          "goalModifier": "none",
+          "assists": [
+            {
+              "playerId": 8483487,
+              "name": {
+                "default": "R. McGroarty"
+              },
+              "assistsToDate": 2
+            }
+          ],
+          "mugshot": "https://assets.nhle.com/mugs/nhl/20262027/PIT/8482758.png",
+          "teamAbbrev": "PIT",
+          "goalsToDate": 3,
+          "awayScore": 5,
+          "homeScore": 3,
+          "strength": "ev",
+          "highlightClipSharingUrl": "https://nhl.com/video/pit-buf-koivunen-scores-goal-against-alex-lyon-6408974358112",
+          "highlightClipSharingUrlFr": "https://nhl.com/fr/video/pit-buf-koivunen-marque-un-but-contre-alex-lyon-6408974148112",
+          "highlightClip": 6408974358112,
+          "highlightClipFr": 6408974148112,
+          "discreteClip": 6408973674112,
+          "discreteClipFr": 6408975313112
+        },
+        {
+          "period": 3,
+          "periodDescriptor": {
+            "number": 3,
+            "periodType": "REG",
+            "maxRegulationPeriods": 3
+          },
+          "timeInPeriod": "17:59",
+          "playerId": 8471215,
+          "name": {
+            "default": "E. Malkin"
+          },
+          "firstName": {
+            "default": "Evgeni",
+            "cs": "Jevgenij",
+            "fi": "Jevgeni",
+            "sk": "Jevgenij"
+          },
+          "lastName": {
+            "default": "Malkin"
+          },
+          "goalModifier": "empty-net",
+          "assists": [
+            {
+              "playerId": 8483398,
+              "name": {
+                "default": "D. Carlile"
+              },
+              "assistsToDate": 4
+            }
+          ],
+          "mugshot": "https://assets.nhle.com/mugs/nhl/20262027/PIT/8471215.png",
+          "teamAbbrev": "PIT",
+          "goalsToDate": 8,
+          "awayScore": 6,
+          "homeScore": 3,
           "strength": "ev"
         }
       ]
@@ -10829,7 +11143,7 @@
           "sequenceNumber": 654
         }
       ],
-      "gameState": "LIVE",
+      "gameState": "FINAL",
       "gameScheduleState": "OK",
       "awayTeam": {
         "id": 55,
@@ -10837,8 +11151,8 @@
           "default": "Kraken"
         },
         "abbrev": "SEA",
-        "score": 1,
-        "sog": 18,
+        "score": 4,
+        "sog": 31,
         "logo": "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg"
       },
       "homeTeam": {
@@ -10848,39 +11162,26 @@
         },
         "abbrev": "EDM",
         "score": 2,
-        "sog": 18,
+        "sog": 27,
         "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg"
       },
       "gameCenterLink": "/gamecenter/sea-vs-edm/2026/11/27/2026020414",
       "clock": {
-        "timeRemaining": "13:11",
-        "secondsRemaining": 791,
+        "timeRemaining": "00:00",
+        "secondsRemaining": 0,
         "running": false,
-        "inIntermission": true
+        "inIntermission": false
       },
       "neutralSite": false,
       "venueTimezone": "America/Edmonton",
-      "period": 2,
+      "period": 3,
       "periodDescriptor": {
-        "number": 2,
+        "number": 3,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "situation": {
-        "homeTeam": {
-          "abbrev": "EDM",
-          "strength": 4
-        },
-        "awayTeam": {
-          "abbrev": "SEA",
-          "situationDescriptions": [
-            "PP"
-          ],
-          "strength": 5
-        },
-        "situationCode": "1541",
-        "timeRemaining": "01:37",
-        "secondsRemaining": 97
+      "gameOutcome": {
+        "lastPeriodType": "REG"
       },
       "goals": [
         {
@@ -11011,6 +11312,143 @@
           "highlightClipFr": 6408972956112,
           "discreteClip": 6408973744112,
           "discreteClipFr": 6408974624112
+        },
+        {
+          "period": 3,
+          "periodDescriptor": {
+            "number": 3,
+            "periodType": "REG",
+            "maxRegulationPeriods": 3
+          },
+          "timeInPeriod": "12:48",
+          "playerId": 8481554,
+          "name": {
+            "default": "K. Kakko"
+          },
+          "firstName": {
+            "default": "Kaapo"
+          },
+          "lastName": {
+            "default": "Kakko"
+          },
+          "goalModifier": "none",
+          "assists": [
+            {
+              "playerId": 8482713,
+              "name": {
+                "default": "M. Samoskevich"
+              },
+              "assistsToDate": 10
+            },
+            {
+              "playerId": 8482665,
+              "name": {
+                "default": "M. Beniers"
+              },
+              "assistsToDate": 8
+            }
+          ],
+          "mugshot": "https://assets.nhle.com/mugs/nhl/20262027/SEA/8481554.png",
+          "teamAbbrev": "SEA",
+          "goalsToDate": 5,
+          "awayScore": 2,
+          "homeScore": 2,
+          "strength": "ev",
+          "highlightClipSharingUrl": "https://nhl.com/video/sea-edm-kakko-scores-goal-against-tristan-jarry-6408974473112",
+          "highlightClipSharingUrlFr": "https://nhl.com/fr/video/sea-edm-kakko-marque-un-but-contre-tristan-jarry-6408974876112",
+          "highlightClip": 6408974473112,
+          "highlightClipFr": 6408974876112,
+          "discreteClip": 6408976629112,
+          "discreteClipFr": 6408975937112
+        },
+        {
+          "period": 3,
+          "periodDescriptor": {
+            "number": 3,
+            "periodType": "REG",
+            "maxRegulationPeriods": 3
+          },
+          "timeInPeriod": "14:48",
+          "playerId": 8481554,
+          "name": {
+            "default": "K. Kakko"
+          },
+          "firstName": {
+            "default": "Kaapo"
+          },
+          "lastName": {
+            "default": "Kakko"
+          },
+          "goalModifier": "none",
+          "assists": [
+            {
+              "playerId": 8482665,
+              "name": {
+                "default": "M. Beniers"
+              },
+              "assistsToDate": 9
+            }
+          ],
+          "mugshot": "https://assets.nhle.com/mugs/nhl/20262027/SEA/8481554.png",
+          "teamAbbrev": "SEA",
+          "goalsToDate": 6,
+          "goalInGame": 2,
+          "awayScore": 3,
+          "homeScore": 2,
+          "strength": "ev",
+          "highlightClipSharingUrl": "https://nhl.com/video/sea-edm-kakko-scores-goal-against-tristan-jarry-6408976718112",
+          "highlightClipSharingUrlFr": "https://nhl.com/fr/video/sea-edm-kakko-marque-un-but-contre-tristan-jarry-6408976146112",
+          "highlightClip": 6408976718112,
+          "highlightClipFr": 6408976146112,
+          "discreteClip": 6408976331112,
+          "discreteClipFr": 6408975352112
+        },
+        {
+          "period": 3,
+          "periodDescriptor": {
+            "number": 3,
+            "periodType": "REG",
+            "maxRegulationPeriods": 3
+          },
+          "timeInPeriod": "18:38",
+          "playerId": 8478407,
+          "name": {
+            "default": "V. Dunn"
+          },
+          "firstName": {
+            "default": "Vince"
+          },
+          "lastName": {
+            "default": "Dunn"
+          },
+          "goalModifier": "empty-net",
+          "assists": [
+            {
+              "playerId": 8477919,
+              "name": {
+                "default": "F. Gaudreau"
+              },
+              "assistsToDate": 5
+            },
+            {
+              "playerId": 8476905,
+              "name": {
+                "default": "C. Stephenson"
+              },
+              "assistsToDate": 12
+            }
+          ],
+          "mugshot": "https://assets.nhle.com/mugs/nhl/20262027/SEA/8478407.png",
+          "teamAbbrev": "SEA",
+          "goalsToDate": 5,
+          "awayScore": 4,
+          "homeScore": 2,
+          "strength": "ev",
+          "highlightClipSharingUrl": "https://nhl.com/video/sea-edm-dunn-scores-empty-net-goal-6408977026112",
+          "highlightClipSharingUrlFr": "https://nhl.com/fr/video/sea-edm-dunn-sea-marque-un-but-dans-un-filet-desert-6408975255112",
+          "highlightClip": 6408977026112,
+          "highlightClipFr": 6408975255112,
+          "discreteClipFr": 6408976724112
         }
       ]
     }
@@ -11203,30 +11641,30 @@
     },
     {
       "conferenceAbbrev": "W",
-      "conferenceHomeSequence": 6,
-      "conferenceL10Sequence": 6,
+      "conferenceHomeSequence": 7,
+      "conferenceL10Sequence": 9,
       "conferenceName": "Western",
       "conferenceRoadSequence": 2,
       "conferenceSequence": 2,
       "date": "2026-11-27",
       "divisionAbbrev": "P",
       "divisionHomeSequence": 2,
-      "divisionL10Sequence": 1,
+      "divisionL10Sequence": 2,
       "divisionName": "Pacific",
       "divisionRoadSequence": 1,
       "divisionSequence": 1,
       "gameTypeId": 2,
-      "gamesPlayed": 27,
-      "goalDifferential": 22,
-      "goalDifferentialPctg": 0.814815,
-      "goalAgainst": 82,
-      "goalFor": 104,
-      "goalsForPctg": 3.851852,
-      "homeGamesPlayed": 13,
-      "homeGoalDifferential": 1,
-      "homeGoalsAgainst": 45,
-      "homeGoalsFor": 46,
-      "homeLosses": 4,
+      "gamesPlayed": 28,
+      "goalDifferential": 20,
+      "goalDifferentialPctg": 0.714286,
+      "goalAgainst": 86,
+      "goalFor": 106,
+      "goalsForPctg": 3.785714,
+      "homeGamesPlayed": 14,
+      "homeGoalDifferential": -1,
+      "homeGoalsAgainst": 49,
+      "homeGoalsFor": 48,
+      "homeLosses": 5,
       "homeOtLosses": 2,
       "homePoints": 16,
       "homeRegulationPlusOtWins": 6,
@@ -11234,30 +11672,30 @@
       "homeTies": 0,
       "homeWins": 7,
       "l10GamesPlayed": 10,
-      "l10GoalDifferential": 4,
-      "l10GoalsAgainst": 29,
-      "l10GoalsFor": 33,
-      "l10Losses": 3,
+      "l10GoalDifferential": 0,
+      "l10GoalsAgainst": 31,
+      "l10GoalsFor": 31,
+      "l10Losses": 4,
       "l10OtLosses": 1,
-      "l10Points": 13,
-      "l10RegulationPlusOtWins": 6,
-      "l10RegulationWins": 5,
+      "l10Points": 11,
+      "l10RegulationPlusOtWins": 5,
+      "l10RegulationWins": 4,
       "l10Ties": 0,
-      "l10Wins": 6,
-      "leagueHomeSequence": 12,
-      "leagueL10Sequence": 11,
+      "l10Wins": 5,
+      "leagueHomeSequence": 13,
+      "leagueL10Sequence": 16,
       "leagueRoadSequence": 3,
       "leagueSequence": 3,
-      "losses": 6,
+      "losses": 7,
       "otLosses": 4,
       "placeName": {
         "default": "Edmonton"
       },
-      "pointPctg": 0.703704,
+      "pointPctg": 0.678571,
       "points": 38,
-      "regulationPlusOtWinPctg": 0.592593,
+      "regulationPlusOtWinPctg": 0.571429,
       "regulationPlusOtWins": 16,
-      "regulationWinPctg": 0.518519,
+      "regulationWinPctg": 0.5,
       "regulationWins": 14,
       "roadGamesPlayed": 14,
       "roadGoalDifferential": 21,
@@ -11274,7 +11712,7 @@
       "shootoutLosses": 3,
       "shootoutWins": 1,
       "streakCode": "L",
-      "streakCount": 1,
+      "streakCount": 2,
       "teamName": {
         "default": "Edmonton Oilers",
         "fr": "Oilers d'Edmonton"
@@ -11288,9 +11726,9 @@
       "teamLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
       "teamLogoDark": "https://assets.nhle.com/logos/nhl/svg/EDM_dark.svg",
       "ties": 0,
-      "waiversSequence": 30,
+      "waiversSequence": 28,
       "wildcardSequence": 0,
-      "winPctg": 0.62963,
+      "winPctg": 0.607143,
       "wins": 17
     },
     {
@@ -11381,7 +11819,7 @@
       "teamLogo": "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
       "teamLogoDark": "https://assets.nhle.com/logos/nhl/svg/OTT_dark.svg",
       "ties": 0,
-      "waiversSequence": 28,
+      "waiversSequence": 29,
       "wildcardSequence": 0,
       "winPctg": 0.62963,
       "wins": 17
@@ -11431,7 +11869,7 @@
       "l10Wins": 7,
       "leagueHomeSequence": 1,
       "leagueL10Sequence": 7,
-      "leagueRoadSequence": 14,
+      "leagueRoadSequence": 15,
       "leagueSequence": 5,
       "losses": 8,
       "otLosses": 0,
@@ -11473,7 +11911,7 @@
       "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
       "teamLogoDark": "https://assets.nhle.com/logos/nhl/svg/NJD_dark.svg",
       "ties": 0,
-      "waiversSequence": 29,
+      "waiversSequence": 30,
       "wildcardSequence": 0,
       "winPctg": 0.692308,
       "wins": 18
@@ -11481,14 +11919,14 @@
     {
       "conferenceAbbrev": "W",
       "conferenceHomeSequence": 5,
-      "conferenceL10Sequence": 8,
+      "conferenceL10Sequence": 7,
       "conferenceName": "Western",
       "conferenceRoadSequence": 3,
       "conferenceSequence": 3,
       "date": "2026-11-27",
       "divisionAbbrev": "P",
       "divisionHomeSequence": 1,
-      "divisionL10Sequence": 2,
+      "divisionL10Sequence": 1,
       "divisionName": "Pacific",
       "divisionRoadSequence": 2,
       "divisionSequence": 2,
@@ -11522,7 +11960,7 @@
       "l10Ties": 0,
       "l10Wins": 5,
       "leagueHomeSequence": 11,
-      "leagueL10Sequence": 14,
+      "leagueL10Sequence": 13,
       "leagueRoadSequence": 6,
       "leagueSequence": 6,
       "losses": 7,
@@ -11852,14 +12290,14 @@
       "conferenceHomeSequence": 4,
       "conferenceL10Sequence": 2,
       "conferenceName": "Western",
-      "conferenceRoadSequence": 6,
+      "conferenceRoadSequence": 7,
       "conferenceSequence": 5,
       "date": "2026-11-27",
       "divisionAbbrev": "C",
       "divisionHomeSequence": 4,
       "divisionL10Sequence": 2,
       "divisionName": "Central",
-      "divisionRoadSequence": 3,
+      "divisionRoadSequence": 4,
       "divisionSequence": 3,
       "gameTypeId": 2,
       "gamesPlayed": 25,
@@ -11892,7 +12330,7 @@
       "l10Wins": 7,
       "leagueHomeSequence": 10,
       "leagueL10Sequence": 4,
-      "leagueRoadSequence": 12,
+      "leagueRoadSequence": 13,
       "leagueSequence": 10,
       "losses": 6,
       "otLosses": 6,
@@ -11942,16 +12380,16 @@
     {
       "conferenceAbbrev": "W",
       "conferenceHomeSequence": 3,
-      "conferenceL10Sequence": 9,
+      "conferenceL10Sequence": 8,
       "conferenceName": "Western",
-      "conferenceRoadSequence": 7,
+      "conferenceRoadSequence": 8,
       "conferenceSequence": 6,
       "date": "2026-11-27",
       "divisionAbbrev": "C",
       "divisionHomeSequence": 3,
       "divisionL10Sequence": 7,
       "divisionName": "Central",
-      "divisionRoadSequence": 4,
+      "divisionRoadSequence": 5,
       "divisionSequence": 4,
       "gameTypeId": 2,
       "gamesPlayed": 25,
@@ -11983,8 +12421,8 @@
       "l10Ties": 0,
       "l10Wins": 6,
       "leagueHomeSequence": 9,
-      "leagueL10Sequence": 15,
-      "leagueRoadSequence": 13,
+      "leagueL10Sequence": 14,
+      "leagueRoadSequence": 14,
       "leagueSequence": 11,
       "losses": 8,
       "otLosses": 2,
@@ -12124,6 +12562,98 @@
       "wins": 14
     },
     {
+      "conferenceAbbrev": "W",
+      "conferenceHomeSequence": 6,
+      "conferenceL10Sequence": 1,
+      "conferenceName": "Western",
+      "conferenceRoadSequence": 6,
+      "conferenceSequence": 7,
+      "date": "2026-11-27",
+      "divisionAbbrev": "C",
+      "divisionHomeSequence": 5,
+      "divisionL10Sequence": 1,
+      "divisionName": "Central",
+      "divisionRoadSequence": 3,
+      "divisionSequence": 5,
+      "gameTypeId": 2,
+      "gamesPlayed": 27,
+      "goalDifferential": -1,
+      "goalDifferentialPctg": -0.037037,
+      "goalAgainst": 87,
+      "goalFor": 86,
+      "goalsForPctg": 3.185185,
+      "homeGamesPlayed": 14,
+      "homeGoalDifferential": 1,
+      "homeGoalsAgainst": 42,
+      "homeGoalsFor": 43,
+      "homeLosses": 5,
+      "homeOtLosses": 2,
+      "homePoints": 16,
+      "homeRegulationPlusOtWins": 7,
+      "homeRegulationWins": 6,
+      "homeTies": 0,
+      "homeWins": 7,
+      "l10GamesPlayed": 10,
+      "l10GoalDifferential": 14,
+      "l10GoalsAgainst": 27,
+      "l10GoalsFor": 41,
+      "l10Losses": 1,
+      "l10OtLosses": 1,
+      "l10Points": 17,
+      "l10RegulationPlusOtWins": 7,
+      "l10RegulationWins": 6,
+      "l10Ties": 0,
+      "l10Wins": 8,
+      "leagueHomeSequence": 12,
+      "leagueL10Sequence": 2,
+      "leagueRoadSequence": 10,
+      "leagueSequence": 13,
+      "losses": 9,
+      "otLosses": 4,
+      "placeName": {
+        "default": "Winnipeg"
+      },
+      "pointPctg": 0.592593,
+      "points": 32,
+      "regulationPlusOtWinPctg": 0.481481,
+      "regulationPlusOtWins": 13,
+      "regulationWinPctg": 0.407407,
+      "regulationWins": 11,
+      "roadGamesPlayed": 13,
+      "roadGoalDifferential": -2,
+      "roadGoalsAgainst": 45,
+      "roadGoalsFor": 43,
+      "roadLosses": 4,
+      "roadOtLosses": 2,
+      "roadPoints": 16,
+      "roadRegulationPlusOtWins": 6,
+      "roadRegulationWins": 5,
+      "roadTies": 0,
+      "roadWins": 7,
+      "seasonId": 20262027,
+      "shootoutLosses": 1,
+      "shootoutWins": 1,
+      "streakCode": "W",
+      "streakCount": 3,
+      "teamName": {
+        "default": "Winnipeg Jets",
+        "fr": "Jets de Winnipeg"
+      },
+      "teamCommonName": {
+        "default": "Jets"
+      },
+      "teamAbbrev": {
+        "default": "WPG"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+      "teamLogoDark": "https://assets.nhle.com/logos/nhl/svg/WPG_dark.svg",
+      "ties": 0,
+      "waiversSequence": 18,
+      "wildcardSequence": 2,
+      "winPctg": 0.518519,
+      "wins": 14
+    },
+    {
       "conferenceAbbrev": "E",
       "conferenceHomeSequence": 6,
       "conferenceL10Sequence": 9,
@@ -12169,7 +12699,7 @@
       "leagueHomeSequence": 8,
       "leagueL10Sequence": 20,
       "leagueRoadSequence": 17,
-      "leagueSequence": 13,
+      "leagueSequence": 14,
       "losses": 9,
       "otLosses": 1,
       "placeName": {
@@ -12221,14 +12751,14 @@
       "conferenceL10Sequence": 4,
       "conferenceName": "Western",
       "conferenceRoadSequence": 11,
-      "conferenceSequence": 7,
+      "conferenceSequence": 8,
       "date": "2026-11-27",
       "divisionAbbrev": "C",
       "divisionHomeSequence": 2,
       "divisionL10Sequence": 4,
       "divisionName": "Central",
       "divisionRoadSequence": 7,
-      "divisionSequence": 5,
+      "divisionSequence": 6,
       "gameTypeId": 2,
       "gamesPlayed": 26,
       "goalDifferential": 6,
@@ -12261,7 +12791,7 @@
       "leagueHomeSequence": 5,
       "leagueL10Sequence": 6,
       "leagueRoadSequence": 23,
-      "leagueSequence": 14,
+      "leagueSequence": 15,
       "losses": 9,
       "otLosses": 3,
       "placeName": {
@@ -12302,8 +12832,8 @@
       "teamLogo": "https://assets.nhle.com/logos/nhl/svg/STL_light.svg",
       "teamLogoDark": "https://assets.nhle.com/logos/nhl/svg/STL_dark.svg",
       "ties": 0,
-      "waiversSequence": 18,
-      "wildcardSequence": 2,
+      "waiversSequence": 19,
+      "wildcardSequence": 3,
       "winPctg": 0.538462,
       "wins": 14
     },
@@ -12313,14 +12843,14 @@
       "conferenceL10Sequence": 12,
       "conferenceName": "Western",
       "conferenceRoadSequence": 4,
-      "conferenceSequence": 8,
+      "conferenceSequence": 9,
       "date": "2026-11-27",
       "divisionAbbrev": "C",
       "divisionHomeSequence": 8,
       "divisionL10Sequence": 8,
       "divisionName": "Central",
       "divisionRoadSequence": 2,
-      "divisionSequence": 6,
+      "divisionSequence": 7,
       "gameTypeId": 2,
       "gamesPlayed": 27,
       "goalDifferential": -1,
@@ -12353,7 +12883,7 @@
       "leagueHomeSequence": 19,
       "leagueL10Sequence": 21,
       "leagueRoadSequence": 8,
-      "leagueSequence": 15,
+      "leagueSequence": 16,
       "losses": 10,
       "otLosses": 3,
       "placeName": {
@@ -12395,101 +12925,9 @@
       "teamLogoDark": "https://assets.nhle.com/logos/nhl/svg/UTA_dark.svg",
       "ties": 0,
       "waiversSequence": 16,
-      "wildcardSequence": 3,
+      "wildcardSequence": 4,
       "winPctg": 0.518519,
       "wins": 14
-    },
-    {
-      "conferenceAbbrev": "W",
-      "conferenceHomeSequence": 7,
-      "conferenceL10Sequence": 1,
-      "conferenceName": "Western",
-      "conferenceRoadSequence": 8,
-      "conferenceSequence": 9,
-      "date": "2026-11-27",
-      "divisionAbbrev": "C",
-      "divisionHomeSequence": 5,
-      "divisionL10Sequence": 1,
-      "divisionName": "Central",
-      "divisionRoadSequence": 5,
-      "divisionSequence": 7,
-      "gameTypeId": 2,
-      "gamesPlayed": 26,
-      "goalDifferential": -3,
-      "goalDifferentialPctg": -0.115385,
-      "goalAgainst": 86,
-      "goalFor": 83,
-      "goalsForPctg": 3.192308,
-      "homeGamesPlayed": 14,
-      "homeGoalDifferential": 1,
-      "homeGoalsAgainst": 42,
-      "homeGoalsFor": 43,
-      "homeLosses": 5,
-      "homeOtLosses": 2,
-      "homePoints": 16,
-      "homeRegulationPlusOtWins": 7,
-      "homeRegulationWins": 6,
-      "homeTies": 0,
-      "homeWins": 7,
-      "l10GamesPlayed": 10,
-      "l10GoalDifferential": 16,
-      "l10GoalsAgainst": 28,
-      "l10GoalsFor": 44,
-      "l10Losses": 1,
-      "l10OtLosses": 1,
-      "l10Points": 17,
-      "l10RegulationPlusOtWins": 7,
-      "l10RegulationWins": 6,
-      "l10Ties": 0,
-      "l10Wins": 8,
-      "leagueHomeSequence": 13,
-      "leagueL10Sequence": 2,
-      "leagueRoadSequence": 15,
-      "leagueSequence": 16,
-      "losses": 9,
-      "otLosses": 4,
-      "placeName": {
-        "default": "Winnipeg"
-      },
-      "pointPctg": 0.576923,
-      "points": 30,
-      "regulationPlusOtWinPctg": 0.461538,
-      "regulationPlusOtWins": 12,
-      "regulationWinPctg": 0.384615,
-      "regulationWins": 10,
-      "roadGamesPlayed": 12,
-      "roadGoalDifferential": -4,
-      "roadGoalsAgainst": 44,
-      "roadGoalsFor": 40,
-      "roadLosses": 4,
-      "roadOtLosses": 2,
-      "roadPoints": 14,
-      "roadRegulationPlusOtWins": 5,
-      "roadRegulationWins": 4,
-      "roadTies": 0,
-      "roadWins": 6,
-      "seasonId": 20262027,
-      "shootoutLosses": 1,
-      "shootoutWins": 1,
-      "streakCode": "W",
-      "streakCount": 2,
-      "teamName": {
-        "default": "Winnipeg Jets",
-        "fr": "Jets de Winnipeg"
-      },
-      "teamCommonName": {
-        "default": "Jets"
-      },
-      "teamAbbrev": {
-        "default": "WPG"
-      },
-      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
-      "teamLogoDark": "https://assets.nhle.com/logos/nhl/svg/WPG_dark.svg",
-      "ties": 0,
-      "waiversSequence": 17,
-      "wildcardSequence": 4,
-      "winPctg": 0.5,
-      "wins": 13
     },
     {
       "conferenceAbbrev": "E",
@@ -12506,17 +12944,17 @@
       "divisionRoadSequence": 2,
       "divisionSequence": 3,
       "gameTypeId": 2,
-      "gamesPlayed": 24,
-      "goalDifferential": 7,
-      "goalDifferentialPctg": 0.291667,
-      "goalAgainst": 69,
-      "goalFor": 76,
-      "goalsForPctg": 3.166667,
-      "homeGamesPlayed": 12,
-      "homeGoalDifferential": 4,
-      "homeGoalsAgainst": 34,
-      "homeGoalsFor": 38,
-      "homeLosses": 4,
+      "gamesPlayed": 25,
+      "goalDifferential": 5,
+      "goalDifferentialPctg": 0.2,
+      "goalAgainst": 72,
+      "goalFor": 77,
+      "goalsForPctg": 3.08,
+      "homeGamesPlayed": 13,
+      "homeGoalDifferential": 2,
+      "homeGoalsAgainst": 37,
+      "homeGoalsFor": 39,
+      "homeLosses": 5,
       "homeOtLosses": 2,
       "homePoints": 14,
       "homeRegulationPlusOtWins": 5,
@@ -12525,8 +12963,8 @@
       "homeWins": 6,
       "l10GamesPlayed": 10,
       "l10GoalDifferential": 6,
-      "l10GoalsAgainst": 30,
-      "l10GoalsFor": 36,
+      "l10GoalsAgainst": 28,
+      "l10GoalsFor": 34,
       "l10Losses": 2,
       "l10OtLosses": 3,
       "l10Points": 13,
@@ -12535,19 +12973,19 @@
       "l10Ties": 0,
       "l10Wins": 5,
       "leagueHomeSequence": 21,
-      "leagueL10Sequence": 13,
-      "leagueRoadSequence": 11,
+      "leagueL10Sequence": 12,
+      "leagueRoadSequence": 12,
       "leagueSequence": 17,
-      "losses": 7,
+      "losses": 8,
       "otLosses": 5,
       "placeName": {
         "default": "NY Islanders"
       },
-      "pointPctg": 0.604167,
+      "pointPctg": 0.58,
       "points": 29,
-      "regulationPlusOtWinPctg": 0.416667,
+      "regulationPlusOtWinPctg": 0.4,
       "regulationPlusOtWins": 10,
-      "regulationWinPctg": 0.375,
+      "regulationWinPctg": 0.36,
       "regulationWins": 9,
       "roadGamesPlayed": 12,
       "roadGoalDifferential": 3,
@@ -12563,7 +13001,7 @@
       "seasonId": 20262027,
       "shootoutLosses": 2,
       "shootoutWins": 2,
-      "streakCode": "W",
+      "streakCode": "L",
       "streakCount": 1,
       "teamName": {
         "default": "New York Islanders",
@@ -12578,9 +13016,9 @@
       "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NYI_light.svg",
       "teamLogoDark": "https://assets.nhle.com/logos/nhl/svg/NYI_dark.svg",
       "ties": 0,
-      "waiversSequence": 19,
+      "waiversSequence": 17,
       "wildcardSequence": 0,
-      "winPctg": 0.5,
+      "winPctg": 0.48,
       "wins": 12
     },
     {
@@ -12627,7 +13065,7 @@
       "l10Ties": 0,
       "l10Wins": 6,
       "leagueHomeSequence": 7,
-      "leagueL10Sequence": 16,
+      "leagueL10Sequence": 15,
       "leagueRoadSequence": 27,
       "leagueSequence": 18,
       "losses": 11,
@@ -12670,7 +13108,7 @@
       "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg",
       "teamLogoDark": "https://assets.nhle.com/logos/nhl/svg/NYR_dark.svg",
       "ties": 0,
-      "waiversSequence": 15,
+      "waiversSequence": 14,
       "wildcardSequence": 3,
       "winPctg": 0.52,
       "wins": 13
@@ -12720,7 +13158,7 @@
       "l10Wins": 4,
       "leagueHomeSequence": 28,
       "leagueL10Sequence": 22,
-      "leagueRoadSequence": 10,
+      "leagueRoadSequence": 11,
       "leagueSequence": 19,
       "losses": 10,
       "otLosses": 4,
@@ -12865,14 +13303,14 @@
       "conferenceHomeSequence": 10,
       "conferenceL10Sequence": 10,
       "conferenceName": "Western",
-      "conferenceRoadSequence": 12,
+      "conferenceRoadSequence": 13,
       "conferenceSequence": 10,
       "date": "2026-11-27",
       "divisionAbbrev": "P",
       "divisionHomeSequence": 3,
       "divisionL10Sequence": 3,
       "divisionName": "Pacific",
-      "divisionRoadSequence": 5,
+      "divisionRoadSequence": 6,
       "divisionSequence": 3,
       "gameTypeId": 2,
       "gamesPlayed": 28,
@@ -12905,7 +13343,7 @@
       "l10Wins": 5,
       "leagueHomeSequence": 17,
       "leagueL10Sequence": 17,
-      "leagueRoadSequence": 24,
+      "leagueRoadSequence": 25,
       "leagueSequence": 21,
       "losses": 14,
       "otLosses": 2,
@@ -12954,18 +13392,110 @@
     },
     {
       "conferenceAbbrev": "W",
+      "conferenceHomeSequence": 12,
+      "conferenceL10Sequence": 14,
+      "conferenceName": "Western",
+      "conferenceRoadSequence": 12,
+      "conferenceSequence": 11,
+      "date": "2026-11-27",
+      "divisionAbbrev": "P",
+      "divisionHomeSequence": 4,
+      "divisionL10Sequence": 6,
+      "divisionName": "Pacific",
+      "divisionRoadSequence": 5,
+      "divisionSequence": 4,
+      "gameTypeId": 2,
+      "gamesPlayed": 23,
+      "goalDifferential": -3,
+      "goalDifferentialPctg": -0.130435,
+      "goalAgainst": 78,
+      "goalFor": 75,
+      "goalsForPctg": 3.26087,
+      "homeGamesPlayed": 12,
+      "homeGoalDifferential": 1,
+      "homeGoalsAgainst": 37,
+      "homeGoalsFor": 38,
+      "homeLosses": 5,
+      "homeOtLosses": 0,
+      "homePoints": 14,
+      "homeRegulationPlusOtWins": 6,
+      "homeRegulationWins": 5,
+      "homeTies": 0,
+      "homeWins": 7,
+      "l10GamesPlayed": 10,
+      "l10GoalDifferential": -7,
+      "l10GoalsAgainst": 32,
+      "l10GoalsFor": 25,
+      "l10Losses": 6,
+      "l10OtLosses": 0,
+      "l10Points": 8,
+      "l10RegulationPlusOtWins": 4,
+      "l10RegulationWins": 3,
+      "l10Ties": 0,
+      "l10Wins": 4,
+      "leagueHomeSequence": 20,
+      "leagueL10Sequence": 25,
+      "leagueRoadSequence": 24,
+      "leagueSequence": 22,
+      "losses": 10,
+      "otLosses": 1,
+      "placeName": {
+        "default": "Seattle"
+      },
+      "pointPctg": 0.543478,
+      "points": 25,
+      "regulationPlusOtWinPctg": 0.434783,
+      "regulationPlusOtWins": 10,
+      "regulationWinPctg": 0.391304,
+      "regulationWins": 9,
+      "roadGamesPlayed": 11,
+      "roadGoalDifferential": -4,
+      "roadGoalsAgainst": 41,
+      "roadGoalsFor": 37,
+      "roadLosses": 5,
+      "roadOtLosses": 1,
+      "roadPoints": 11,
+      "roadRegulationPlusOtWins": 4,
+      "roadRegulationWins": 4,
+      "roadTies": 0,
+      "roadWins": 5,
+      "seasonId": 20262027,
+      "shootoutLosses": 0,
+      "shootoutWins": 2,
+      "streakCode": "W",
+      "streakCount": 1,
+      "teamName": {
+        "default": "Seattle Kraken",
+        "fr": "Kraken de Seattle"
+      },
+      "teamCommonName": {
+        "default": "Kraken"
+      },
+      "teamAbbrev": {
+        "default": "SEA"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg",
+      "teamLogoDark": "https://assets.nhle.com/logos/nhl/svg/SEA_dark.svg",
+      "ties": 0,
+      "waiversSequence": 15,
+      "wildcardSequence": 5,
+      "winPctg": 0.521739,
+      "wins": 12
+    },
+    {
+      "conferenceAbbrev": "W",
       "conferenceHomeSequence": 14,
       "conferenceL10Sequence": 15,
       "conferenceName": "Western",
       "conferenceRoadSequence": 9,
-      "conferenceSequence": 11,
+      "conferenceSequence": 12,
       "date": "2026-11-27",
       "divisionAbbrev": "P",
       "divisionHomeSequence": 6,
       "divisionL10Sequence": 7,
       "divisionName": "Pacific",
       "divisionRoadSequence": 4,
-      "divisionSequence": 4,
+      "divisionSequence": 5,
       "gameTypeId": 2,
       "gamesPlayed": 27,
       "goalDifferential": -1,
@@ -12998,7 +13528,7 @@
       "leagueHomeSequence": 26,
       "leagueL10Sequence": 26,
       "leagueRoadSequence": 16,
-      "leagueSequence": 22,
+      "leagueSequence": 23,
       "losses": 14,
       "otLosses": 1,
       "placeName": {
@@ -13040,7 +13570,7 @@
       "teamLogoDark": "https://assets.nhle.com/logos/nhl/svg/ANA_dark.svg",
       "ties": 0,
       "waiversSequence": 9,
-      "wildcardSequence": 5,
+      "wildcardSequence": 6,
       "winPctg": 0.444444,
       "wins": 12
     },
@@ -13049,15 +13579,15 @@
       "conferenceHomeSequence": 13,
       "conferenceL10Sequence": 13,
       "conferenceName": "Western",
-      "conferenceRoadSequence": 13,
-      "conferenceSequence": 12,
+      "conferenceRoadSequence": 14,
+      "conferenceSequence": 13,
       "date": "2026-11-27",
       "divisionAbbrev": "P",
       "divisionHomeSequence": 5,
       "divisionL10Sequence": 5,
       "divisionName": "Pacific",
-      "divisionRoadSequence": 6,
-      "divisionSequence": 5,
+      "divisionRoadSequence": 7,
+      "divisionSequence": 6,
       "gameTypeId": 2,
       "gamesPlayed": 27,
       "goalDifferential": -24,
@@ -13089,8 +13619,8 @@
       "l10Wins": 4,
       "leagueHomeSequence": 22,
       "leagueL10Sequence": 23,
-      "leagueRoadSequence": 25,
-      "leagueSequence": 23,
+      "leagueRoadSequence": 26,
+      "leagueSequence": 24,
       "losses": 14,
       "otLosses": 2,
       "placeName": {
@@ -13132,100 +13662,8 @@
       "teamLogoDark": "https://assets.nhle.com/logos/nhl/svg/CGY_dark.svg",
       "ties": 0,
       "waiversSequence": 7,
-      "wildcardSequence": 6,
-      "winPctg": 0.407407,
-      "wins": 11
-    },
-    {
-      "conferenceAbbrev": "W",
-      "conferenceHomeSequence": 12,
-      "conferenceL10Sequence": 14,
-      "conferenceName": "Western",
-      "conferenceRoadSequence": 14,
-      "conferenceSequence": 13,
-      "date": "2026-11-27",
-      "divisionAbbrev": "P",
-      "divisionHomeSequence": 4,
-      "divisionL10Sequence": 6,
-      "divisionName": "Pacific",
-      "divisionRoadSequence": 7,
-      "divisionSequence": 6,
-      "gameTypeId": 2,
-      "gamesPlayed": 22,
-      "goalDifferential": -5,
-      "goalDifferentialPctg": -0.227273,
-      "goalAgainst": 76,
-      "goalFor": 71,
-      "goalsForPctg": 3.227273,
-      "homeGamesPlayed": 12,
-      "homeGoalDifferential": 1,
-      "homeGoalsAgainst": 37,
-      "homeGoalsFor": 38,
-      "homeLosses": 5,
-      "homeOtLosses": 0,
-      "homePoints": 14,
-      "homeRegulationPlusOtWins": 6,
-      "homeRegulationWins": 5,
-      "homeTies": 0,
-      "homeWins": 7,
-      "l10GamesPlayed": 10,
-      "l10GoalDifferential": -8,
-      "l10GoalsAgainst": 34,
-      "l10GoalsFor": 26,
-      "l10Losses": 6,
-      "l10OtLosses": 0,
-      "l10Points": 8,
-      "l10RegulationPlusOtWins": 4,
-      "l10RegulationWins": 3,
-      "l10Ties": 0,
-      "l10Wins": 4,
-      "leagueHomeSequence": 20,
-      "leagueL10Sequence": 25,
-      "leagueRoadSequence": 26,
-      "leagueSequence": 24,
-      "losses": 10,
-      "otLosses": 1,
-      "placeName": {
-        "default": "Seattle"
-      },
-      "pointPctg": 0.522727,
-      "points": 23,
-      "regulationPlusOtWinPctg": 0.409091,
-      "regulationPlusOtWins": 9,
-      "regulationWinPctg": 0.363636,
-      "regulationWins": 8,
-      "roadGamesPlayed": 10,
-      "roadGoalDifferential": -6,
-      "roadGoalsAgainst": 39,
-      "roadGoalsFor": 33,
-      "roadLosses": 5,
-      "roadOtLosses": 1,
-      "roadPoints": 9,
-      "roadRegulationPlusOtWins": 3,
-      "roadRegulationWins": 3,
-      "roadTies": 0,
-      "roadWins": 4,
-      "seasonId": 20262027,
-      "shootoutLosses": 0,
-      "shootoutWins": 2,
-      "streakCode": "L",
-      "streakCount": 1,
-      "teamName": {
-        "default": "Seattle Kraken",
-        "fr": "Kraken de Seattle"
-      },
-      "teamCommonName": {
-        "default": "Kraken"
-      },
-      "teamAbbrev": {
-        "default": "SEA"
-      },
-      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg",
-      "teamLogoDark": "https://assets.nhle.com/logos/nhl/svg/SEA_dark.svg",
-      "ties": 0,
-      "waiversSequence": 14,
       "wildcardSequence": 7,
-      "winPctg": 0.5,
+      "winPctg": 0.407407,
       "wins": 11
     },
     {
@@ -13507,7 +13945,7 @@
     {
       "conferenceAbbrev": "W",
       "conferenceHomeSequence": 9,
-      "conferenceL10Sequence": 7,
+      "conferenceL10Sequence": 6,
       "conferenceName": "Western",
       "conferenceRoadSequence": 16,
       "conferenceSequence": 14,
@@ -13548,7 +13986,7 @@
       "l10Ties": 0,
       "l10Wins": 6,
       "leagueHomeSequence": 16,
-      "leagueL10Sequence": 12,
+      "leagueL10Sequence": 11,
       "leagueRoadSequence": 29,
       "leagueSequence": 28,
       "losses": 14,
@@ -13967,6 +14405,20 @@
   ],
   "news": [
     {
+      "headline": "Winnipeg Jets vs. New York Islanders: Game Highlights",
+      "description": "Winnipeg Jets vs. New York Islanders: Game Highlights",
+      "published": "2026-11-28T03:16:05Z",
+      "url": "https://www.espn.com/video/clip/_/id/50617909/game-highlights",
+      "source": "ESPN"
+    },
+    {
+      "headline": "Connor scores twice and the Jets beat the Islanders 3-1 for 3rd straight win",
+      "description": "— Kyle Connor had two goals and an assist and the Winnipeg Jets extended their winning streak to three games with a 3-1 victory over the New York Islanders on Friday night.",
+      "published": "2026-11-28T03:13:33Z",
+      "url": "http://www.espn.com/nhl/recap?gameId=401892807",
+      "source": "ESPN"
+    },
+    {
       "headline": "Mangiapane scores twice, Knight makes 30 saves to help Blackhawks edge Rangers 2-1",
       "description": "— Andrew Mangiapane scored two power-play goals in the first period, Spencer Knight made 30 saves and the Chicago Blackhawks held off the New York Rangers 2-1 on Friday night for their fourth straight victory.",
       "published": "2026-11-28T01:24:32Z",
@@ -13992,20 +14444,6 @@
       "description": "Cale Makar's wrister wins it for Avs in shootout",
       "published": "2026-11-28T00:30:56Z",
       "url": "https://www.espn.com/video/clip/_/id/50616340/cale-makar-wrister-wins-avs-shootout",
-      "source": "ESPN"
-    },
-    {
-      "headline": "Sharks beat Vegas 4-1 for franchise’s first regulation win over Golden Knights at SAP Center",
-      "description": "— Yaroslav Askarov made 27 saves and the San Jose Sharks beat Vegas 4-1 on Friday for the franchise’s first regulation victory over the Golden Knights at SAP Center.",
-      "published": "2026-11-28T00:03:34Z",
-      "url": "http://www.espn.com/nhl/recap?gameId=401892805",
-      "source": "ESPN"
-    },
-    {
-      "headline": "Mats Zuccarello, Andre Lee lead LA Kings past Ducks 5-3 in first Freeway Faceoff of season",
-      "description": "— Mats Zuccarello scored two goals, Andre Lee got the tiebreaking goal early in the third period and the Los Angeles Kings beat the Anaheim Ducks 5-3 Friday in the first Freeway Faceoff rivalry game of the season.",
-      "published": "2026-11-27T23:57:32Z",
-      "url": "http://www.espn.com/nhl/recap?gameId=401892804",
       "source": "ESPN"
     }
   ],
@@ -62832,6 +63270,632 @@
       "id": "124292",
       "displayName": "Seattle Kraken",
       "injuries": [
+        {
+          "id": "601370",
+          "longComment": "day-to-day",
+          "shortComment": "day-to-day",
+          "status": "Day-To-Day",
+          "date": "2026-11-28T03:10Z",
+          "athlete": {
+            "firstName": "Philipp",
+            "lastName": "Grubauer",
+            "displayName": "Philipp Grubauer",
+            "shortName": "P. Grubauer",
+            "links": [
+              {
+                "language": "en-US",
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nhl/player/_/id/5657",
+                "text": "Player Card",
+                "shortText": "Player Card",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "stats",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nhl/player/stats/_/id/5657/philipp-grubauer",
+                "text": "Stats",
+                "shortText": "Stats",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "stats",
+                  "sportscenter",
+                  "app",
+                  "athlete"
+                ],
+                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:5657&section=stats",
+                "text": "Stats",
+                "shortText": "Stats",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "splits",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nhl/player/splits/_/id/5657/philipp-grubauer",
+                "text": "Splits",
+                "shortText": "Splits",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "gamelog",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nhl/player/gamelog/_/id/5657/philipp-grubauer",
+                "text": "Game Log",
+                "shortText": "Game Log",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "gamelog",
+                  "sportscenter",
+                  "app",
+                  "athlete"
+                ],
+                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:5657&section=gamelog",
+                "text": "Game Log",
+                "shortText": "Game Log",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "news",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nhl/player/news/_/id/5657/philipp-grubauer",
+                "text": "News",
+                "shortText": "News",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "news",
+                  "sportscenter",
+                  "app",
+                  "athlete"
+                ],
+                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:5657&section=news",
+                "text": "News",
+                "shortText": "News",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "bio",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nhl/player/bio/_/id/5657/philipp-grubauer",
+                "text": "Bio",
+                "shortText": "Bio",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "bio",
+                  "sportscenter",
+                  "app",
+                  "athlete"
+                ],
+                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:5657&section=bio",
+                "text": "Bio",
+                "shortText": "Bio",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "overview",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nhl/player/_/id/5657/philipp-grubauer",
+                "text": "Overview",
+                "shortText": "Overview",
+                "isExternal": false,
+                "isPremium": false
+              },
+              {
+                "language": "en-US",
+                "rel": [
+                  "overview",
+                  "sportscenter",
+                  "app",
+                  "athlete"
+                ],
+                "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~a:5657",
+                "text": "Overview",
+                "shortText": "Overview",
+                "isExternal": false,
+                "isPremium": false
+              }
+            ],
+            "headshot": {
+              "href": "https://a.espncdn.com/i/headshots/nhl/players/full/5657.png",
+              "alt": "Philipp Grubauer"
+            },
+            "position": {
+              "id": "5",
+              "name": "Goaltender",
+              "displayName": "Goaltender",
+              "abbreviation": "G",
+              "leaf": false
+            },
+            "team": {
+              "id": "124292",
+              "uid": "s:70~l:90~t:124292",
+              "slug": "seattle-kraken",
+              "name": "Kraken",
+              "abbreviation": "SEA",
+              "displayName": "Seattle Kraken",
+              "logos": [
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500/sea.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "default"
+                  ],
+                  "lastUpdated": "2024-07-02T15:51Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500-dark/sea.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "dark"
+                  ],
+                  "lastUpdated": "2024-07-02T15:46Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sea.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard"
+                  ],
+                  "lastUpdated": "2024-07-02T15:51Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/i/teamlogos/nhl/500-dark/scoreboard/sea.png",
+                  "width": 500,
+                  "height": 500,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "scoreboard",
+                    "dark"
+                  ],
+                  "lastUpdated": "2024-07-02T15:46Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/ca912ee8-d2a3-3e84-831e-1a0ca38e7c3f/logos/primary_logo_on_white_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_white_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/ca912ee8-d2a3-3e84-831e-1a0ca38e7c3f/logos/primary_logo_on_black_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_black_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/ca912ee8-d2a3-3e84-831e-1a0ca38e7c3f/logos/primary_logo_on_primary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_primary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/ca912ee8-d2a3-3e84-831e-1a0ca38e7c3f/logos/primary_logo_on_secondary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_on_secondary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/ca912ee8-d2a3-3e84-831e-1a0ca38e7c3f/logos/primary_logo_black.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_black"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/ca912ee8-d2a3-3e84-831e-1a0ca38e7c3f/logos/primary_logo_white.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "primary_logo_white"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/ca912ee8-d2a3-3e84-831e-1a0ca38e7c3f/logos/secondary_logo_on_white_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_white_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/ca912ee8-d2a3-3e84-831e-1a0ca38e7c3f/logos/secondary_logo_on_black_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_black_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/ca912ee8-d2a3-3e84-831e-1a0ca38e7c3f/logos/secondary_logo_on_primary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_primary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/ca912ee8-d2a3-3e84-831e-1a0ca38e7c3f/logos/secondary_logo_on_secondary_color.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_on_secondary_color"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/ca912ee8-d2a3-3e84-831e-1a0ca38e7c3f/logos/secondary_logo_black.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_black"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                },
+                {
+                  "href": "https://a.espncdn.com/guid/ca912ee8-d2a3-3e84-831e-1a0ca38e7c3f/logos/secondary_logo_white.png",
+                  "width": 4096,
+                  "height": 4096,
+                  "alt": "",
+                  "rel": [
+                    "full",
+                    "secondary_logo_white"
+                  ],
+                  "lastUpdated": "2026-07-22T20:31Z"
+                }
+              ],
+              "links": [
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "clubhouse",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/_/name/sea/seattle-kraken",
+                  "text": "Clubhouse",
+                  "shortText": "Clubhouse",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "clubhouse",
+                    "mobile",
+                    "team"
+                  ],
+                  "href": "https://m.espn.com/nhl/clubhouse?teamId=124292",
+                  "text": "Clubhouse",
+                  "shortText": "Clubhouse",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "roster",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/roster/_/name/sea/seattle-kraken",
+                  "text": "Roster",
+                  "shortText": "Roster",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "roster",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:124292&section=roster",
+                  "text": "Roster",
+                  "shortText": "Roster",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "stats",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/stats/_/name/sea/seattle-kraken",
+                  "text": "Statistics",
+                  "shortText": "Statistics",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "stats",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:124292&section=stats",
+                  "text": "Statistics",
+                  "shortText": "Statistics",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "schedule",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/schedule/_/name/sea",
+                  "text": "Schedule",
+                  "shortText": "Schedule",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "schedule",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:124292&section=scores",
+                  "text": "Schedule",
+                  "shortText": "Schedule",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "photos",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/photos/_/name/sea",
+                  "text": "photos",
+                  "shortText": "photos",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "tickets",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.vividseats.com/seattle-kraken-tickets--sports-nhl-hockey/performer/129459?wsUser=717",
+                  "text": "Tickets",
+                  "shortText": "Tickets",
+                  "isExternal": true,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "transactions",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/transactions/_/name/sea",
+                  "text": "Transactions",
+                  "shortText": "Transactions",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "injuries",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/injuries/_/name/sea",
+                  "text": "Injuries",
+                  "shortText": "Injuries",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "depthchart",
+                    "desktop",
+                    "team"
+                  ],
+                  "href": "https://www.espn.com/nhl/team/line-combo/_/name/sea",
+                  "text": "Line Combo",
+                  "shortText": "Line Combo",
+                  "isExternal": false,
+                  "isPremium": false
+                },
+                {
+                  "language": "en-US",
+                  "rel": [
+                    "depthchart",
+                    "sportscenter",
+                    "app",
+                    "team"
+                  ],
+                  "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:124292&section=depthchart",
+                  "text": "Line Combo",
+                  "shortText": "Line Combo",
+                  "isExternal": false,
+                  "isPremium": false
+                }
+              ]
+            },
+            "notes": {
+              "items": [
+                {
+                  "id": "601370",
+                  "type": "news",
+                  "date": "2026-11-28T03:10Z",
+                  "headline": "day-to-day",
+                  "text": "day-to-day",
+                  "source": "RotoWire",
+                  "injury": {
+                    "$ref": "http://sports.core.api.espn.pvt/v2/sports/hockey/leagues/nhl/seasons/2027/athletes/5657/injuries/601370?lang=en&region=us"
+                  }
+                },
+                {
+                  "id": "601309",
+                  "type": "news",
+                  "date": "2026-11-27T18:53Z",
+                  "headline": "Grubauer will defend the road net in Friday's clash against the Oilers, per Mike Benton of the Kraken Audio Network.",
+                  "text": "Grubauer will make his first appearance Friday since Saturday's 4-3 road loss to the Sharks. Overall, the 35-year-old backstop has posted a 6-5-1 record, a 3.02 GAA and an .894 save percentage over 14 appearances this season. He should continue to rotate opportunities in the crease with Joey Daccord moving forward, which gives the former a decent floor in deep fantasy leagues. However, Grubauer will face a tough test Friday against the Oilers, who rank third in the NHL with 3.81 goals per game, making the veteran netminder a tough option to trust in fantasy.",
+                  "source": "RotoWire"
+                },
+                {
+                  "id": "600664",
+                  "type": "news",
+                  "date": "2026-11-22T07:51Z",
+                  "headline": "Grubauer stopped 25 of 29 shots in Saturday's 4-3 loss to the Sharks.",
+                  "text": "Grubauer wasn't able to build off his win from Thursday. He's allowed either four goals or one tally in each of his last seven outings, which makes for an unpredictable experience with fantasy managers trying to get some value out of the 34-year-old. On the season, he's posted a 6-5-1 record with a 3.02 GAA and an .894 save percentage across 14 outings. Despite the ups and downs, he still has more trust from the coaching staff than the struggling Joey Daccord. The Kraken are set to host the Ducks on Monday.",
+                  "source": "RotoWire"
+                },
+                {
+                  "id": "600584",
+                  "type": "news",
+                  "date": "2026-11-22T02:36Z",
+                  "headline": "Grubauer will protect the road goal versus the Sharks on Saturday, Max Miller of NHL.com reports.",
+                  "text": "Grubauer is coming off a 22-save performance in Thursday's win over the Canucks. The 34-year-old netminder will face a slightly tougher opponent Saturday as he makes his second consecutive start and fifth straight appearance.",
+                  "source": "RotoWire"
+                }
+              ]
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          },
+          "source": {
+            "id": "1",
+            "description": "basic/manual",
+            "state": "basic"
+          },
+          "type": {
+            "id": "6",
+            "name": "INJURY_STATUS_DAYTODAY",
+            "description": "day-to-day",
+            "abbreviation": "DD"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "Day-To-Day",
+              "abbreviation": "Day-To-Day"
+            },
+            "type": "Upper Body",
+            "returnDate": "2026-11-28"
+          }
+        },
         {
           "id": "600307",
           "longComment": "O'Brien has been on non-roster injured reserve since the start of the regular season, but he's been with the team in Seattle and has been skating off to the side recently. Despite the 19-year-old's recent on-ice activity, it doesn't appear as though he's particularly close to being cleared for game action.",
